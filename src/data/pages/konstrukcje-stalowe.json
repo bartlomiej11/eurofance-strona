@@ -1,0 +1,295 @@
+{
+  "slug": "konstrukcje-stalowe",
+  "kind": "offer",
+  "title": "Konstrukcje stalowe od {konstrukcja_kg} | Eurofance",
+  "metaDescription": "Konstrukcje stalowe, hale i wiaty na wymiar. Wycena od {konstrukcja_kg} za kg, dokumentacja do sprawdzenia, malowanie proszkowe i montaż Eurofance. Wycena i montaż w całej.",
+  "h1": "Konstrukcje stalowe",
+  "answer": "Konstrukcje stalowe Eurofance obejmują hale, wiaty, zadaszenia i elementy wykonywane na podstawie wymiarów lub projektu. Wycena konstrukcji zaczyna się od {konstrukcja_kg} za kg, hali od {hala_stalowa_m2} za m², a wiaty od {wiata_stalowa_m2} za m². Przed realizacją analizujemy 3 kluczowe dane: wymiary, przeznaczenie i dokumentację klienta.",
+  "category": "",
+  "heroImage": "/images/premium/przemyslowe.jpg",
+  "heroCta": "Wycena konstrukcji stalowej",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Firma",
+      "url": null
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Zakres:</strong> hale, wiaty, zadaszenia i stalowe elementy na wymiar.",
+        "<strong>Punkt wyjścia:</strong> rysunek, wymiary albo opis przeznaczenia konstrukcji.",
+        "<strong>Cena:</strong> konstrukcja od {konstrukcja_kg} za kg, hala od {hala_stalowa_m2} za m².",
+        "<strong>Powłoka:</strong> ocynkowanie i malowanie proszkowe ustalamy zgodnie z warunkami użytkowania.",
+        "<strong>Dokumentacja:</strong> norma EN 1090 i znak CE mogą być wymaganiem dla danego wyrobu lub inwestycji."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Konstrukcje stalowe na wymiar",
+      "intro": "Nie prowadzimy gotowych kart produktu dla konstrukcji projektowych. Poniższe pozycje wyceniamy po analizie wymiarów, obciążeń i zakresu montażu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Hala stalowa",
+          "desc": "Konstrukcja nośna hali dobierana do wymiarów, przeznaczenia i przekazanego projektu.",
+          "price": "od {hala_stalowa_m2}",
+          "priceNote": "za m² konstrukcji",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Hala stalowa na wymiar",
+          "quoteLabel": "Wycena hali"
+        },
+        {
+          "name": "Wiata stalowa",
+          "desc": "Wiata przy domu, firmie albo magazynie, z konstrukcją dopasowaną do rozpiętości.",
+          "price": "od {wiata_stalowa_m2}",
+          "priceNote": "za m² konstrukcji",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Wiata stalowa na wymiar",
+          "quoteLabel": "Wycena wiaty"
+        },
+        {
+          "name": "Konstrukcja z profili",
+          "desc": "Słupy, rygle, ramy i wsporniki wykonane według przekroju z projektu lub pomiaru.",
+          "price": "od {konstrukcja_kg}",
+          "priceNote": "za kg stali",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Konstrukcja stalowa z profili",
+          "quoteLabel": "Wycena konstrukcji"
+        }
+      ],
+      "note": "Cena „od” jest punktem orientacyjnym. Na wycenę wpływają przekroje, liczba połączeń, powłoka, transport i montaż.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Orientacyjne ceny konstrukcji stalowych",
+      "intro": "Podajemy stawki orientacyjne, aby ułatwić wstępne planowanie. Dokładną wycenę przygotowujemy po otrzymaniu rysunku albo wymiarów.",
+      "head": [
+        "Zakres",
+        "Jednostka",
+        "Cena od",
+        "Co ustalamy"
+      ],
+      "rows": [
+        [
+          "Konstrukcja z profili",
+          "1 kg stali",
+          "od {konstrukcja_kg}",
+          "przekrój, długości, spawanie i powłokę"
+        ],
+        [
+          "Hala stalowa",
+          "1 m²",
+          "od {hala_stalowa_m2}",
+          "rozpiętość, wysokość, obudowę i fundamenty"
+        ],
+        [
+          "Wiata stalowa",
+          "1 m²",
+          "od {wiata_stalowa_m2}",
+          "wymiary, pokrycie i sposób kotwienia"
+        ],
+        [
+          "Malowanie proszkowe",
+          "1 m²",
+          "od {malowanie_m2}",
+          "kod RAL i powierzchnię elementów"
+        ],
+        [
+          "Piaskowanie",
+          "1 m²",
+          "od {piaskowanie_m2}",
+          "zakres oczyszczenia przed powłoką"
+        ]
+      ],
+      "note": "Stawka nie zastępuje projektu technicznego ani doboru fundamentów. Wymagania inwestycji dotyczące EN 1090 i znaku CE potwierdza się dla konkretnego zakresu.",
+      "ctaText": "Wyślij rysunek lub wymiary konstrukcji",
+      "ctaDesc": "Dołącz 3 informacje: długość, szerokość i przeznaczenie. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Dane potrzebne do wyceny konstrukcji",
+      "intro": "Komplet danych skraca czas wyceny i pozwala porównać warianty konstrukcji bez niejasności w zakresie.",
+      "head": [
+        "Dane",
+        "Hala",
+        "Wiata lub zadaszenie",
+        "Konstrukcja z profili"
+      ],
+      "rows": [
+        [
+          "Wymiary",
+          "długość, szerokość, wysokość",
+          "długość, szerokość, wysokość",
+          "długości elementów i przekroje"
+        ],
+        [
+          "Przeznaczenie",
+          "magazyn, produkcja, garaż",
+          "auta, sprzęt, wejście",
+          "rama, wspornik, słup albo detal"
+        ],
+        [
+          "Podłoże",
+          "fundamenty lub płyta",
+          "stopy albo istniejące podłoże",
+          "miejsce kotwienia"
+        ],
+        [
+          "Powłoka",
+          "ocynk, RAL, inne wymagania",
+          "ocynk, RAL, inne wymagania",
+          "ocynk, RAL, inne wymagania"
+        ],
+        [
+          "Dokumentacja",
+          "projekt albo założenia",
+          "szkic albo projekt",
+          "rysunek, zdjęcie albo wzór"
+        ],
+        [
+          "Montaż",
+          "lokalizacja i termin",
+          "lokalizacja i termin",
+          "odbiór własny albo montaż"
+        ]
+      ],
+      "note": "Projektant odpowiada za obliczenia i wymagania formalne inwestycji. Eurofance wycenia zakres wykonawczy na podstawie przekazanych danych."
+    },
+    {
+      "type": "text",
+      "title": "Norma EN 1090 i znak CE przy konstrukcjach",
+      "html": "<p>EN 1090 oraz znak CE mogą być wymagane dla określonych wyrobów konstrukcyjnych i inwestycji. Nie są uniwersalnym opisem każdej wiaty, zadaszenia czy detalu stalowego, dlatego przed zleceniem trzeba sprawdzić wymagania projektu, inwestora i przepisów dla konkretnego obiektu.</p><p>Eurofance na etapie wyceny zbiera przeznaczenie konstrukcji, wymiary i dokumentację. To pozwala ustalić zakres wykonania, powłokę oraz sposób montażu zamiast przypisywać wymagania bez analizy projektu.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Proces wyceny konstrukcji stalowej",
+      "items": [
+        {
+          "name": "Zapytanie",
+          "desc": "Przesyłasz projekt, szkic lub wymiary i opis zastosowania.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Analiza zakresu",
+          "desc": "Ustalamy profile, powłokę, transport i montaż oraz brakujące dane.",
+          "time": "indywidualnie"
+        },
+        {
+          "name": "Produkcja",
+          "desc": "Wykonujemy elementy zgodnie z zaakceptowanym zakresem.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż lub odbiór",
+          "desc": "Ustalamy termin dostawy, montażu albo odbioru elementów.",
+          "time": "zgodnie z wyceną"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Przykładowe realizacje stalowe",
+      "items": [
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Maków Mazowiecki, konstrukcja stalowa, RAL 7016, elementy dla obiektu firmowego",
+          "alt": "Konstrukcja stalowa w Makowie Mazowieckim, RAL 7016",
+          "tags": [
+            "konstrukcje-stalowe",
+            "przemyslowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-1.jpg",
+          "caption": "Legionowo, zadaszenie stalowe, RAL 9005, konstrukcja przy wjeździe",
+          "alt": "Zadaszenie stalowe w Legionowie, RAL 9005",
+          "tags": [
+            "konstrukcje-stalowe",
+            "zadaszenia"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Ciechanów, słupy i rama stalowa bramy 4 m, RAL 7016",
+          "alt": "Stalowa rama bramy 4 m w Ciechanowie",
+          "tags": [
+            "konstrukcje-stalowe",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-07.jpg",
+          "caption": "Przasnysz, profile stalowe malowane RAL 8017, elementy frontu",
+          "alt": "Profile stalowe RAL 8017 w Przasnyszu",
+          "tags": [
+            "konstrukcje-stalowe",
+            "frontowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Konstrukcje stalowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje konstrukcja stalowa?",
+          "a": "Wstępna cena konstrukcji zaczyna się od {konstrukcja_kg} za kg stali. Ostateczna wycena zależy od przekrojów, liczby połączeń, powłoki, transportu i montażu."
+        },
+        {
+          "q": "Ile kosztuje hala stalowa za m²?",
+          "a": "Punkt orientacyjny dla hali stalowej to od {hala_stalowa_m2} za m². Rozpiętość, wysokość, obudowa, fundamenty i obciążenia wymagają osobnego ustalenia."
+        },
+        {
+          "q": "Ile kosztuje wiata stalowa?",
+          "a": "Cena wiaty zaczyna się od {wiata_stalowa_m2} za m² konstrukcji. Do wyceny potrzebujemy co najmniej długości, szerokości, wysokości oraz informacji o pokryciu."
+        },
+        {
+          "q": "Czy konstrukcja wymaga EN 1090 i znaku CE?",
+          "a": "Wymaganie zależy od rodzaju wyrobu, projektu i inwestycji. EN 1090 oraz znak CE mogą być wymagane rynkowo, dlatego przed realizacją warto potwierdzić je z projektantem lub inwestorem."
+        },
+        {
+          "q": "Czy można zamówić malowanie RAL 7016?",
+          "a": "Tak. Powłokę ustalamy w wycenie, a malowanie proszkowe zaczyna się od {malowanie_m2} za m². Popularny RAL 7016 można zastosować na profilach, ramach i słupach."
+        },
+        {
+          "q": "Ile trwa wykonanie konstrukcji?",
+          "a": "Termin zależy od zakresu, dokumentacji i wielkości konstrukcji. Standardowy czas produkcji Eurofance to {czas_produkcji}, lecz dla projektu stalowego potwierdzamy termin w ofercie."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Zobacz proces wytyczenia, osadzania słupków i montażu elementów stalowych."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena konstrukcji stalowej",
+      "category": "",
+      "place": "konstrukcje-stalowe-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

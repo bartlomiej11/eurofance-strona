@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+import '../styles/fonts.css';
+import site from '../data/site.json';
+import heroVariants from '../data/hero-variants.json';
+import { absolute } from '../lib/content.js';
+import { graph, organization, website } from '../lib/jsonld.js';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MobileBar from '../components/MobileBar.astro';
+import CookieBanner from '../components/CookieBanner.astro';
+
+const {
+  title,
+  description,
+  path = '/',
+  jsonld = [],
+  noindex = false,
+  ogImage = '/images/og-default.jpg',
+  ogType = 'website',
+  bodyClass = '',
+  heroVariantKey = null,
+} = Astro.props;
+
+const canonical = absolute(path);
+const nodes = [organization(), website(), ...jsonld];
+const robots = noindex || site.noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+const variantConfig = heroVariantKey ? { key: heroVariantKey, map: heroVariants.variants } : null;
+---
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={robots} />
+    <meta name="theme-color" content="#0c0f11" />
+    <meta name="format-detection" content="telephone=yes" />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={absolute(ogImage)} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={absolute(ogImage)} />
+
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-16.png" sizes="16x16" type="image/png" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <link rel="preload" href="/fonts/inter-700-latin-ext.woff2" as="font" type="font/woff2" crossorigin />
+
+    <script is:inline>
+      // Google Tag Manager, ID z src/data/site.json (tracking.gtm)
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+    </script>
+    <script is:inline async src={`https://www.googletagmanager.com/gtm.js?id=${site.tracking.gtm}`}></script>
+
+    <script is:inline>
+      // Zapis zrodla ruchu przy pierwszym wejsciu. Trzymane w sesji, doklejane do kazdego formularza.
+      (function () {
+        var KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid', 'msclkid'];
+        try {
+          var q = new URLSearchParams(window.location.search);
+          var store = JSON.parse(sessionStorage.getItem('ef_source') || '{}');
+          if (!store.landing) store.landing = window.location.pathname;
+          if (!store.referrer) store.referrer = document.referrer || 'bezposrednie';
+          KEYS.forEach(function (k) {
+            if (q.get(k)) store[k] = q.get(k);
+          });
+          store.last = window.location.pathname;
+          sessionStorage.setItem('ef_source', JSON.stringify(store));
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json" set:html={graph(nodes)} />
+    {variantConfig && (
+      <script type="application/json" id="hero-variants" set:html={JSON.stringify(variantConfig)} />
+    )}
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <MobileBar />
+    <CookieBanner />
+    <script>
+      import '../scripts/site.js';
+    </script>
+  </body>
+</html>

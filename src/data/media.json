@@ -1,0 +1,281 @@
+{
+  "_opis": "Jedno źródło filmów i rolek. Każdy wpis generuje: stronę /wideo/<slug>, dane strukturalne VideoObject, wpis w mapie witryny i kafelek w sekcji rolek. Pliki wideo leżą w public/media/wideo (poziome) i public/media/rolki (pionowe), miniatury obok w formacie JPG.",
+  "_pola": {
+    "slug": "adres strony bez ukośników, np. montaz-palisady-legionowo (bez polskich znaków)",
+    "name": "tytuł filmu, widoczny jako H1 na stronie filmu",
+    "description": "jedno lub dwa zdania opisu, trafiają do VideoObject i do meta description",
+    "kind": "wideo albo rolka",
+    "city": "miejscowość realizacji, np. Legionowo",
+    "system": "system ogrodzenia, np. Ogrodzenia palisadowe",
+    "color": "kolor, np. RAL 7016",
+    "dimensions": "wymiary, np. 153 cm, 44 mb",
+    "uploadDate": "data publikacji w formacie RRRR-MM-DD",
+    "duration": "czas trwania w formacie ISO 8601, np. PT1M12S (1 minuta 12 sekund)",
+    "width": "szerokość w pikselach, np. 1920",
+    "height": "wysokość w pikselach, np. 1080",
+    "poster": "ścieżka do miniatury JPG 16:9 dla wideo i 9:16 dla rolek",
+    "sources": "lista plików wideo: { src, type } - MP4 obowiązkowo, WebM opcjonalnie",
+    "captions": "opcjonalny plik napisów WebVTT (.vtt)",
+    "youtube": "opcjonalne ID filmu na YouTube - jeśli podane, odtwarzacz użyje YouTube (tryb bez ciasteczek)",
+    "keyMoments": "kluczowe momenty: { label, startOffset } - startOffset w sekundach",
+    "transcript": "transkrypcja jako HTML, widoczna na stronie i indeksowana przez wyszukiwarki",
+    "tags": "słowa kluczowe do filtrowania i powiązanych filmów",
+    "seoTitle": "opcjonalny krotszy tytul strony (do 65 znakow); gdy brak, skladamy go z nazwy i marki"
+  },
+  "_przyklad_wideo": {
+    "slug": "montaz-palisady-legionowo",
+    "kind": "wideo",
+    "name": "Montaż palisady w Legionowie",
+    "description": "Palisada pionowa 153 cm w kolorze RAL 7016, 44 mb ogrodzenia zamontowane w jeden dzień.",
+    "city": "Legionowo",
+    "system": "Ogrodzenia palisadowe",
+    "color": "RAL 7016",
+    "dimensions": "153 cm, 44 mb",
+    "uploadDate": "2026-10-12",
+    "duration": "PT1M12S",
+    "width": 1920,
+    "height": 1080,
+    "poster": "/media/wideo/montaz-palisady-legionowo.jpg",
+    "sources": [
+      {
+        "src": "/media/wideo/montaz-palisady-legionowo.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "captions": "",
+    "youtube": "",
+    "keyMoments": [
+      {
+        "label": "Wytyczenie linii ogrodzenia",
+        "startOffset": 0
+      },
+      {
+        "label": "Montaż słupków",
+        "startOffset": 24
+      },
+      {
+        "label": "Montaż przęseł",
+        "startOffset": 48
+      }
+    ],
+    "transcript": "<p>Przyjechaliśmy na gotową podmurówkę 250x25. Wytyczyliśmy linię, ustawiliśmy słupki i zamontowaliśmy przęsła palisadowe 153 cm w kolorze RAL 7016. Całość zajęła jeden dzień roboczy.</p>",
+    "tags": [
+      "palisadowe",
+      "legionowo"
+    ]
+  },
+  "videos": [
+    {
+      "slug": "ogrodzenie-frontowe-grzebieniowe",
+      "kind": "wideo",
+      "name": "Ogrodzenie frontowe grzebieniowe z bramą wjazdową",
+      "description": "Poziome profile grzebieniowe w czerni między słupkami z kamienia, brama wjazdowa i furtka w jednej linii ogrodzenia.",
+      "system": "Ogrodzenia frontowe",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M48S",
+      "width": 1024,
+      "height": 576,
+      "poster": "/media/wideo/ogrodzenie-frontowe-grzebieniowe.jpg",
+      "sources": [
+        {
+          "src": "/media/wideo/ogrodzenie-frontowe-grzebieniowe.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe",
+        "bramy-przesuwne"
+      ],
+      "seoTitle": "Ogrodzenie frontowe grzebieniowe z bramą | Eurofance"
+    },
+    {
+      "slug": "ogrodzenie-frontowe-zaluzjowe",
+      "kind": "wideo",
+      "name": "Ogrodzenie frontowe żaluzjowe ze słupkami z kamienia",
+      "description": "Przęsła żaluzjowe w antracycie między słupkami z kamienia łupanego, z bramą i furtką, na gotowej podmurówce.",
+      "system": "Ogrodzenia frontowe",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M29S",
+      "width": 1024,
+      "height": 576,
+      "poster": "/media/wideo/ogrodzenie-frontowe-zaluzjowe.jpg",
+      "sources": [
+        {
+          "src": "/media/wideo/ogrodzenie-frontowe-zaluzjowe.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe"
+      ],
+      "seoTitle": "Ogrodzenie frontowe żaluzjowe w antracycie | Eurofance"
+    },
+    {
+      "slug": "ogrodzenie-frontowe-slupki-tynkowane",
+      "kind": "wideo",
+      "name": "Ogrodzenie frontowe ze słupkami tynkowanymi",
+      "description": "Słupki i murki frontowe tynkowane na biało, przygotowane pod bramę wjazdową i furtkę.",
+      "system": "Ogrodzenia frontowe",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M28S",
+      "width": 1024,
+      "height": 576,
+      "poster": "/media/wideo/ogrodzenie-frontowe-slupki-tynkowane.jpg",
+      "sources": [
+        {
+          "src": "/media/wideo/ogrodzenie-frontowe-slupki-tynkowane.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe"
+      ],
+      "seoTitle": "Ogrodzenie frontowe ze słupkami tynkowanymi | Eurofance"
+    },
+    {
+      "slug": "slupki-frontowe-domofon",
+      "kind": "wideo",
+      "name": "Słupek frontowy z domofonem i skrzynką na listy",
+      "description": "Murowany słupek frontowy wykończony tynkiem, z domofonem i skrzynką na listy obok furtki.",
+      "system": "Ogrodzenia frontowe",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M13S",
+      "width": 1024,
+      "height": 576,
+      "poster": "/media/wideo/slupki-frontowe-domofon.jpg",
+      "sources": [
+        {
+          "src": "/media/wideo/slupki-frontowe-domofon.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe",
+        "furtki"
+      ],
+      "seoTitle": "Słupek frontowy z domofonem i skrzynką | Eurofance"
+    }
+  ],
+  "reels": [
+    {
+      "slug": "inspektor-ogrodzen-o-realizacji",
+      "kind": "rolka",
+      "name": "Arkadiusz Wrzosek, inspektor ds. ogrodzeń, o realizacji na budowie",
+      "description": "Nasz inspektor ds. ogrodzeń pokazuje na budowie, jak wygląda realizacja ogrodzenia i na co zwracamy uwagę przy montażu.",
+      "seoTitle": "Inspektor ogrodzeń o montażu | Eurofance",
+      "system": "Ogrodzenia i bramy",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M22S",
+      "width": 1080,
+      "height": 1920,
+      "poster": "/media/rolki/inspektor-ogrodzen-o-realizacji.jpg",
+      "sources": [
+        {
+          "src": "/media/rolki/inspektor-ogrodzen-o-realizacji.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "slug": "cena-i-jakosc-ogrodzen",
+      "kind": "rolka",
+      "name": "Cena i jakość ogrodzeń: o czym warto pamiętać",
+      "description": "Krótko o tym, jak wygląda nasza oferta i co składa się na jakość ogrodzenia poza samą ceną.",
+      "seoTitle": "Cena i jakość ogrodzeń | Eurofance",
+      "system": "Ogrodzenia i bramy",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M19S",
+      "width": 1080,
+      "height": 1920,
+      "poster": "/media/rolki/cena-i-jakosc-ogrodzen.jpg",
+      "sources": [
+        {
+          "src": "/media/rolki/cena-i-jakosc-ogrodzen.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "slug": "kompleksowa-realizacja-ogrodzen",
+      "kind": "rolka",
+      "name": "Kompleksowa realizacja ogrodzeń w Eurofance",
+      "description": "Ogrodzenia, bramy, furtki i montaż w jednym miejscu, z własnej produkcji i własną malarnią proszkową.",
+      "seoTitle": "Kompleksowa realizacja ogrodzeń | Eurofance",
+      "system": "Ogrodzenia i bramy",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M18S",
+      "width": 1080,
+      "height": 1920,
+      "poster": "/media/rolki/kompleksowa-realizacja-ogrodzen.jpg",
+      "sources": [
+        {
+          "src": "/media/rolki/kompleksowa-realizacja-ogrodzen.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "slug": "szybka-wycena-i-terminy",
+      "kind": "rolka",
+      "name": "Szybka wycena i dostępne terminy montażu",
+      "description": "Jak szybko dostajesz wycenę z montażem i na kiedy możemy zaplanować realizację.",
+      "seoTitle": "Szybka wycena i terminy montażu | Eurofance",
+      "system": "Ogrodzenia i bramy",
+      "uploadDate": "2026-10-13",
+      "duration": "PT0M20S",
+      "width": 1080,
+      "height": 1920,
+      "poster": "/media/rolki/szybka-wycena-i-terminy.jpg",
+      "sources": [
+        {
+          "src": "/media/rolki/szybka-wycena-i-terminy.mp4",
+          "type": "video/mp4"
+        }
+      ],
+      "captions": "",
+      "youtube": "",
+      "keyMoments": [],
+      "transcript": "",
+      "tags": [
+        "panelowe"
+      ]
+    }
+  ]
+}

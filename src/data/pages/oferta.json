@@ -1,0 +1,335 @@
+{
+  "slug": "oferta",
+  "kind": "offer",
+  "title": "Oferta: ogrodzenia, bramy, furtki i malowanie proszkowe | Eurofance",
+  "metaDescription": "Oferta Eurofance: ogrodzenia, bramy, furtki, podmurówki i malowanie proszkowe. Własna produkcja, ceny od {panel_2d_mb} za mb i montaż w całej Polsce.",
+  "h1": "Oferta Eurofance",
+  "answer": "Eurofance produkuje i montuje ogrodzenia panelowe, palisadowe, frontowe i przemysłowe, a także bramy, furtki oraz podmurówki. Ceny ogrodzeń z montażem zaczynają się od {panel_2d_mb} za mb. Mamy własną malarnię proszkową {miasto_produkcji_w}, dlatego cały zestaw możemy przygotować w wybranym kolorze RAL.",
+  "heroImage": "/images/premium/realizacja-1.jpg",
+  "heroCta": "Bezpłatna wycena",
+  "heroForm": true,
+  "blocks": [
+    {
+      "type": "tiles",
+      "title": "Ogrodzenia",
+      "intro": "System dobieramy do funkcji działki, wysokości, wjazdu i oczekiwanego wyglądu. Ceny od dotyczą wskazanego zakresu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Ogrodzenia panelowe",
+          "url": "/ogrodzenia-panelowe",
+          "meta": "2D i 3D, od {panel_2d_mb} za mb z montażem"
+        },
+        {
+          "name": "Ogrodzenia frontowe",
+          "url": "/ogrodzenia-frontowe",
+          "meta": "Zestawy z bramą i furtką, od {front_zestaw_3d}"
+        },
+        {
+          "name": "Ogrodzenia palisadowe",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Pionowe i poziome, od {palisada_pion_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe",
+          "meta": "Profil pionowy, od {grzebien_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia żaluzjowe",
+          "url": "/ogrodzenia-zaluzjowe",
+          "meta": "Profile pod kątem, od {zaluzja_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia nowoczesne",
+          "url": "/ogrodzenia-nowoczesne",
+          "meta": "Panele i palisady, od {panel_2d_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia metalowe",
+          "url": "/ogrodzenia-metalowe",
+          "meta": "Stal malowana proszkowo, od {konstrukcja_kg} za kg"
+        },
+        {
+          "name": "Ogrodzenia aluminiowe",
+          "url": "/ogrodzenia-aluminiowe",
+          "meta": "Bez rdzy i konserwacji, od {aluminium_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia budowlane",
+          "url": "/ogrodzenia-budowlane",
+          "meta": "Tymczasowe i docelowe, od {ogrodzenie_budowlane_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia przemysłowe",
+          "url": "/bramy-i-ogrodzenia-przemyslowe",
+          "meta": "Panele 8/6/8, od {panel_2d_8_6_8_mb} za mb"
+        }
+      ],
+      "eyebrow": "Oferta"
+    },
+    {
+      "type": "tiles",
+      "eyebrow": "Oferta",
+      "title": "Bramy i furtki",
+      "intro": "Bramy produkujemy pod konkretny wjazd i przygotowujemy do montażu napędu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Bramy wjazdowe",
+          "url": "/bramy-wjazdowe",
+          "meta": "Przesuwne i skrzydłowe, od {brama_skrzydlowa_4m}"
+        },
+        {
+          "name": "Bramy przesuwne",
+          "url": "/bramy-wjazdowe-przesuwne",
+          "meta": "Wjazdy od 4 m, od {brama_przesuwna_4m}"
+        },
+        {
+          "name": "Bramy skrzydłowe",
+          "url": "/bramy-wjazdowe-skrzydlowe",
+          "meta": "Jedno i dwuskrzydłowe, od {brama_jednoskrzydlowa_3m}"
+        },
+        {
+          "name": "Furtki",
+          "url": "/furtki-panelowe",
+          "meta": "Furtki panelowe, od {furtka_panelowa}"
+        },
+        {
+          "name": "Automatyka do bram",
+          "url": "/automatyka-do-bram",
+          "meta": "Napędy do bram przesuwnych, od {naped_przesuwna}"
+        }
+      ]
+    },
+    {
+      "type": "tiles",
+      "eyebrow": "Oferta",
+      "title": "Sklep z elementami",
+      "intro": "Kup elementy systemu oddzielnie albo zleć nam kompletny montaż.",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Panele ogrodzeniowe",
+          "url": "/panele-ogrodzeniowe",
+          "meta": "Panele 2D i 3D, od {panel_2d_szt} za sztukę"
+        },
+        {
+          "name": "Przęsła ogrodzeniowe",
+          "url": "/przesla-ogrodzeniowe",
+          "meta": "Przęsła palisadowe, od {przeslo_palisada_szt} za sztukę"
+        },
+        {
+          "name": "Słupki ogrodzeniowe",
+          "url": "/slupki-ogrodzeniowe",
+          "meta": "Słupki do paneli, od {slupek_panel} za sztukę"
+        },
+        {
+          "name": "Podmurówki betonowe",
+          "url": "/podmurowki-betonowe",
+          "meta": "Elementy 250x20 i wyższe, od {podmurowka_250x20} za mb"
+        }
+      ]
+    },
+    {
+      "type": "tiles",
+      "eyebrow": "Oferta",
+      "title": "Firma",
+      "intro": "Zobacz możliwości produkcji, kolorów, realizacji i kontaktu z zespołem Eurofance.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Malarnia proszkowa",
+          "url": "/malarnia-proszkowa",
+          "meta": "Malowanie stali, od {malowanie_m2} za m²"
+        },
+        {
+          "name": "Paleta RAL",
+          "url": "/paleta-ral",
+          "meta": "Malowanie w kolorze RAL, od {malowanie_m2} za m²"
+        },
+        {
+          "name": "Konstrukcje stalowe",
+          "url": "/konstrukcje-stalowe",
+          "meta": "Konstrukcje na wymiar, od {konstrukcja_kg} za kg"
+        },
+        {
+          "name": "Realizacje",
+          "url": "/realizacje",
+          "meta": "Wycena podobnego zakresu, od {pomiar}"
+        },
+        {
+          "name": "Blog",
+          "url": "/blog/",
+          "meta": "Poradniki przed zakupem, pomiar od {pomiar}"
+        },
+        {
+          "name": "Kontakt",
+          "url": "/kontakt",
+          "meta": "Pomiar i wycena, od {pomiar}"
+        }
+      ]
+    },
+    {
+      "type": "priceTable",
+      "title": "Cennik skrótowy 2026",
+      "intro": "Ceny orientacyjne od za materiał i montaż, jeśli w wierszu nie zaznaczono inaczej. Dokładny zakres potwierdzamy po długości, gruncie i miejscowości.",
+      "head": [
+        "Produkt lub usługa",
+        "Cena od",
+        "Zakres"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie panelowe 2D",
+          "od {panel_2d_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Ogrodzenie panelowe 3D",
+          "od {panel_3d_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Ogrodzenie palisadowe pionowe",
+          "od {palisada_pion_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Ogrodzenie palisadowe poziome",
+          "od {palisada_poz_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Ogrodzenie grzebieniowe",
+          "od {grzebien_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Ogrodzenie żaluzjowe",
+          "od {zaluzja_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Brama przesuwna 4 m",
+          "od {brama_przesuwna_4m}",
+          "brama przygotowana pod napęd"
+        ],
+        [
+          "Brama dwuskrzydłowa 4 m",
+          "od {brama_skrzydlowa_4m}",
+          "brama do wjazdu"
+        ],
+        [
+          "Furtka panelowa",
+          "od {furtka_panelowa}",
+          "furtka z zamkiem"
+        ],
+        [
+          "Podmurówka betonowa 250x25",
+          "od {podmurowka_250x25}",
+          "za mb, element systemowy"
+        ]
+      ],
+      "note": "Ceny aktualne na {aktualizacja}. Ceny od nie obejmują nietypowego gruntu, dodatkowej ławy ani indywidualnych zmian konstrukcji.",
+      "ctaText": "Policzymy ofertę dla Twojej działki",
+      "ctaDesc": "Podaj długość, system, miejscowość i bramę. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "ctaPlace": "oferta-cennik",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Co produkujemy sami",
+      "html": "<p>W {miasto_produkcji} produkujemy panele, przęsła, słupki, bramy, furtki i konstrukcje stalowe. Dzięki temu uzgadniasz jeden komplet elementów zamiast dobierać części z kilku źródeł.</p><p>Własna malarnia proszkowa pozwala przygotować ogrodzenie, bramę i furtkę w tym samym kolorze RAL. Przed produkcją potwierdzamy wysokość, długość, kierunek otwierania, podmurówkę i zakres montażu.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Od wyboru systemu do montażu",
+      "items": [
+        {
+          "name": "Opisujesz potrzeby",
+          "desc": "Podaj rodzaj ogrodzenia, długość, wysokość, bramę, furtkę i miejscowość.",
+          "time": "od razu"
+        },
+        {
+          "name": "Otrzymujesz wycenę",
+          "desc": "Wysyłamy zakres materiału i montażu z cenami od oraz proponowanym terminem.",
+          "time": "{czas_odpowiedzi} w dni robocze"
+        },
+        {
+          "name": "Mierzymy i produkujemy",
+          "desc": "Przy pomiarze ustalamy linię, grunt i wjazd. Następnie produkujemy oraz malujemy elementy.",
+          "time": "pomiar w {czas_pomiaru}, produkcja {czas_produkcji}"
+        },
+        {
+          "name": "Montujemy i odbieramy",
+          "desc": "Ekipa montuje kompletny zestaw i sprawdza bramę, furtkę oraz mocowania na miejscu.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "faq",
+      "title": "Oferta Eurofance, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Jakie ogrodzenia produkuje Eurofance?",
+          "a": "Produkujemy ogrodzenia panelowe 2D i 3D, palisadowe, frontowe, grzebieniowe, żaluzjowe, metalowe, budowlane i przemysłowe. Dobieramy do nich bramy, furtki oraz podmurówki."
+        },
+        {
+          "q": "Ile kosztuje ogrodzenie z montażem?",
+          "a": "Ogrodzenie panelowe 2D z montażem kosztuje od {panel_2d_mb} za mb, a panelowe 3D od {panel_3d_mb} za mb. Dokładna cena zależy od długości, wysokości, podmurówki, bramy i gruntu."
+        },
+        {
+          "q": "Czy produkujecie bramy i furtki?",
+          "a": "Tak. Produkujemy bramy przesuwne i skrzydłowe oraz furtki, dopasowane do systemu ogrodzenia, szerokości wjazdu i kierunku otwierania."
+        },
+        {
+          "q": "Czy malujecie ogrodzenia proszkowo?",
+          "a": "Tak. Mamy własną malarnię proszkową {miasto_produkcji_w}. Malujemy elementy zestawu w tym samym uzgodnionym kolorze RAL."
+        },
+        {
+          "q": "Czy montujecie w całej Polsce?",
+          "a": "Tak, montujemy w całej Polsce. W wycenie uwzględniamy miejscowość, trasę ekipy i zakres transportu."
+        },
+        {
+          "q": "Jak szybko otrzymam wycenę?",
+          "a": "Na kompletne zgłoszenie odpowiadamy w {czas_odpowiedzi} w dni robocze. Do sprawnego liczenia potrzebujemy długości, systemu, miejscowości oraz informacji o bramie, furtce i podmurówce."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Przydatne strony przed wyborem",
+      "items": [
+        {
+          "label": "Kalkulator ogrodzenia",
+          "url": "/kalkulator-ogrodzenia",
+          "desc": "Policz orientacyjny przedział kosztów z montażem."
+        },
+        {
+          "label": "Realizacje ogrodzeń",
+          "url": "/realizacje",
+          "desc": "Porównaj systemy, kolory RAL i wymiary na zdjęciach."
+        },
+        {
+          "label": "Bezpłatna wycena",
+          "url": "/bezplatna-wycena",
+          "desc": "Wyślij zakres, a przygotujemy ofertę dla Twojej działki."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Poproś o wycenę oferty Eurofance",
+      "category": "",
+      "place": "oferta"
+    }
+  ]
+}

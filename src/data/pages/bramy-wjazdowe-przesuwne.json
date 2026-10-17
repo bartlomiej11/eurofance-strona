@@ -1,0 +1,275 @@
+{
+  "slug": "bramy-wjazdowe-przesuwne",
+  "kind": "offer",
+  "title": "Brama przesuwna od producenta | panelowa, palisadowa, od {brama_przesuwna_4m} | Eurofance",
+  "metaDescription": "Bramy przesuwne od producenta: panelowe, palisadowe i teleskopowe, szerokości 3,5 do 6 m, przygotowane pod napęd 24 V. Cena od {brama_przesuwna_4m} z montażem.",
+  "h1": "Bramy przesuwne",
+  "answer": "Brama przesuwna jeździ wzdłuż ogrodzenia po szynie, więc nie potrzebuje miejsca na podjeździe. W Eurofance brama przesuwna 4 m w wersji panelowej kosztuje od {brama_przesuwna_4m}, a w palisadowej od {brama_przesuwna_palisada_4m}, z materiałem i montażem. Każdą przygotowujemy pod napęd 24 V i malujemy proszkowo na dowolny kolor RAL.",
+  "category": "brama-przesuwna",
+  "heroImage": "/images/realizacje/hero-bramy.jpg",
+  "heroCta": "Wycena bramy przesuwnej",
+  "variantKey": "brama-przesuwna",
+  "crumbs": [
+    {
+      "name": "Bramy i furtki",
+      "url": "/bramy-wjazdowe"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> skrzydło jeżdżące po szynie wzdłuż ogrodzenia, z prowadzeniem górnym lub dolnym.",
+        "<strong>Szerokości:</strong> 3, 3,5, 4, 4,5, 5 i 6 m, wypełnienie z paneli 2D i 3D, palisady, grzebienia.",
+        "<strong>Cena:</strong> panelowa 4 m od {brama_przesuwna_4m}, palisadowa 4 m od {brama_przesuwna_palisada_4m}.",
+        "<strong>Miejsce:</strong> około 1,5 x szerokość wjazdu wzdłuż ogrodzenia, przy 4 m wjazdu to 6 m.",
+        "<strong>Napęd:</strong> przygotowana pod napęd 24 V, napęd od {naped_przesuwna}."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Bramy przesuwne z montażem",
+      "intro": "Ceny brutto z materiałem, transportem i montażem. Napęd, fotokomórki i lampa ostrzegawcza wyceniane osobno.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Brama przesuwna panelowa 4 m",
+          "desc": "Wypełnienie z paneli 3D 153 cm, słupki bramowe 100 x 100 mm.",
+          "price": "od {brama_przesuwna_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg",
+          "quote": "Brama przesuwna panelowa 4 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama przesuwna palisadowa 4 m",
+          "desc": "Palisada pionowa 85 x 20 mm, konstrukcja wzmocniona pod napęd.",
+          "price": "od {brama_przesuwna_palisada_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Brama przesuwna palisadowa 4 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama przesuwna panelowa 5 m",
+          "desc": "Do szerokich wjazdów i posesji z przyczepą, mocniejszy napęd.",
+          "price": "od {brama_przesuwna_5m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Brama przesuwna 5 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama teleskopowa 4 m",
+          "desc": "Dzielone skrzydło, o połowę mniej miejsca na cofnięcie.",
+          "price": "od {brama_teleskopowa_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Brama teleskopowa 4 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama przesuwna z furtką 1 m",
+          "desc": "Komplet na front: brama 4 m i furtka w tym samym kolorze.",
+          "price": "od {brama_przesuwna_4m}",
+          "priceNote": "plus furtka od {furtka_panelowa}",
+          "image": "/images/premium/band-front.jpg",
+          "quote": "Brama przesuwna z furtką",
+          "quoteLabel": "Wycena kompletu"
+        },
+        {
+          "name": "Napęd 24 V do bramy przesuwnej",
+          "desc": "Dwa piloty, fotokomórki, centrala z miękkim startem, montaż i konfiguracja.",
+          "price": "od {naped_przesuwna}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Napęd do bramy przesuwnej",
+          "quoteLabel": "Wycena z napędem"
+        }
+      ],
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny bram przesuwnych",
+      "intro": "Cena zależy od szerokości skrzydła i wypełnienia. Im szersze skrzydło, tym mocniejsza konstrukcja i mocniejszy napęd.",
+      "head": [
+        "Szerokość",
+        "Panel 3D",
+        "Panel 2D",
+        "Palisada pionowa"
+      ],
+      "rows": [
+        [
+          "3,5 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_palisada_4m}"
+        ],
+        [
+          "4,0 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_palisada_4m}"
+        ],
+        [
+          "4,5 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_palisada_4m}"
+        ],
+        [
+          "5,0 m",
+          "od {brama_przesuwna_5m}",
+          "od {brama_przesuwna_5m}",
+          "wycena indywidualna"
+        ],
+        [
+          "6,0 m",
+          "od {brama_przesuwna_5m}",
+          "od {brama_przesuwna_5m}",
+          "wycena indywidualna"
+        ]
+      ],
+      "note": "Ceny brutto z montażem, bez napędu. Napęd do przesuwnej od {naped_przesuwna}, pilot dodatkowy od {pilot}.",
+      "ctaText": "Policzymy bramę pod Twój wjazd",
+      "ctaDesc": "Podaj szerokość wjazdu, rodzaj wypełnienia i miejscowość. Wycena w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Brama przesuwna 5 m",
+      "html": "<p>Brama przesuwna 5 m to najczęstszy wybór przy wjazdach dla auta z przyczepą, kampera i dostawczaka. Cena zaczyna się od {brama_przesuwna_5m} z montażem. Przy tej szerokości skrzydło waży ponad 160 kg, dlatego stosujemy słupki 100 x 100 mm z blachy 3 mm i mocniejszy napęd 24 V.</p><p>Do bramy 5 m potrzebujesz około 7,5 m wolnej linii ogrodzenia na cofnięcie skrzydła. Jeśli tego miejsca brakuje, alternatywą jest brama teleskopowa, która dzieli skrzydło na dwie części i potrzebuje około 3 m.</p><p>Przy wjeździe 5 m warto zaplanować utwardzony podjazd i odwodnienie wzdłuż szyny. Woda stojąca przy szynie to najczęstsza przyczyna korozji rolek.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama przesuwna z furtką",
+      "html": "<p>Najczęstszy komplet na front działki to brama przesuwna 4 m i furtka 1 m, wykonane w tym samym systemie i kolorze. Furtkę montujemy na osobnym słupku, żeby nie przenosiła drgań z bramy, a elektrozaczep i samozamykacz zakładamy na życzenie.</p><p>Brama z furtką to także wygoda w codziennym użytkowaniu: wjazd autem obsługujesz pilotem, a wejście pieszo kluczem albo elektrozaczepem sterowanym z domu. Zestaw liczymy razem z podmurówką i słupkami, w jednej wycenie.</p><p>Ceny: brama od {brama_przesuwna_4m}, furtka od {furtka_panelowa}, elektrozaczep od {elektrozaczep}, samozamykacz od {samozamykacz}.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama przesuwna bez przeciwwagi",
+      "html": "<p>Brama przesuwna bez przeciwwagi to rozwiązanie, w którym skrzydło nie ma dodatkowego balastu wyrównującego poza światłem wjazdu. Taki układ stosuje się przy krótkich ogrodzeniach i wąskich frontach, gdzie nie ma miejsca na klasyczne cofnięcie skrzydła.</p><p>Bez przeciwwagi skrzydło musi być lżejsze i sztywniejsze, dlatego wykonujemy je z paneli 2D albo lekkiej palisady, a prowadzenie dolne montujemy na betonowej ławie. Taka brama wymaga napędu o mniejszym udźwigu, ale bardzo precyzyjnego ustawienia rolek.</p><p>Jeśli front ma mniej niż 6 m wolnej linii, proponujemy zamiast tego bramę skrzydłową albo teleskopową. Wycenę obu wariantów przygotujemy w jednym zgłoszeniu.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama teleskopowa",
+      "html": "<p>Brama teleskopowa działa jak przesuwna, ale skrzydło dzieli się na dwie części, które wjeżdżają jedna na drugą. Dzięki temu potrzebuje o około połowę mniej miejsca wzdłuż ogrodzenia: przy wjeździe 4 m wystarczy 3 m wolnej linii, a nie 6 m.</p><p>Cena bramy teleskopowej 4 m zaczyna się od {brama_teleskopowa_4m} z montażem, czyli jest wyższa od klasycznej przesuwnej o około 1 400 zł. Różnicę zwraca się wtedy, gdy działka jest wąska i nie ma gdzie cofnąć skrzydła.</p><p>Brama teleskopowa wymaga solidnej ławy betonowej pod szynę i starannego wypoziomowania. Montujemy je razem z napędem 24 V i fotokomórkami.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama przesuwna z napędem",
+      "html": "<p>Napęd do bramy przesuwnej montujemy na listwie zębatce i centrali 24 V. W zestawie są dwa piloty, fotokomórki i miękki start, który chroni mechanizm przy starcie. Cena z montażem i konfiguracją od {naped_przesuwna}.</p><p>Bramę przygotowujemy pod napęd już w produkcji: wzmacniamy konstrukcję, wiercimy otwory pod wsporniki i prowadzimy peszel na kable. Dzięki temu nie ma później wiercenia w pomalowanej bramie i poprawek lakieru.</p><p>Dodatkowo montujemy lampę ostrzegawczą, klawiaturę kodową, moduł Wi-Fi do sterowania z telefonu oraz fotokomórki w drugiej linii, jeśli posesja ma małe dzieci albo psa.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Ile miejsca potrzebuje brama przesuwna",
+      "head": [
+        "Szerokość wjazdu",
+        "Miejsce na cofnięcie, brama klasyczna",
+        "Miejsce na cofnięcie, brama teleskopowa",
+        "Długość szyny"
+      ],
+      "rows": [
+        [
+          "3,0 m",
+          "ok. 4,5 m",
+          "ok. 2,3 m",
+          "6,0 m"
+        ],
+        [
+          "4,0 m",
+          "ok. 6,0 m",
+          "ok. 3,0 m",
+          "8,0 m"
+        ],
+        [
+          "4,5 m",
+          "ok. 6,8 m",
+          "ok. 3,4 m",
+          "8,5 m"
+        ],
+        [
+          "5,0 m",
+          "ok. 7,5 m",
+          "ok. 3,8 m",
+          "9,5 m"
+        ],
+        [
+          "6,0 m",
+          "ok. 9,0 m",
+          "ok. 4,5 m",
+          "11,5 m"
+        ]
+      ],
+      "note": "Miejsce liczone wzdłuż linii ogrodzenia, po stronie, w którą cofa się skrzydło. Dodaj 0,3 m zapasu na słupek bramowy."
+    },
+    {
+      "type": "faq",
+      "title": "Bramy przesuwne, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje brama przesuwna 4 m z montażem?",
+          "a": "Brama przesuwna 4 m w wersji panelowej kosztuje od {brama_przesuwna_4m}, a w palisadowej od {brama_przesuwna_palisada_4m} z materiałem i montażem. Napęd 24 V z pilotami i fotokomórkami to dodatkowe od {naped_przesuwna}."
+        },
+        {
+          "q": "Ile miejsca potrzebuje brama przesuwna?",
+          "a": "Około 1,5 x szerokość wjazdu wzdłuż ogrodzenia. Przy wjeździe 4 m potrzebujesz 6 m wolnej linii plus 0,3 m zapasu. Brama teleskopowa potrzebuje o połowę mniej, około 3 m."
+        },
+        {
+          "q": "Czy brama przesuwna wymaga fundamentu?",
+          "a": "Tak, pod szynę wylewamy ławę betonową o szerokości 25 do 30 cm i głębokości 40 cm, zbrojoną prętami. Słupki bramowe osadzamy na 80 do 100 cm w betonie B-25."
+        },
+        {
+          "q": "Jaka brama przesuwna do wjazdu 5 m?",
+          "a": "Przy wjeździe 5 m stosujemy skrzydło 5 m ze słupkami 100 x 100 mm i mocniejszy napęd. Cena zaczyna się od {brama_przesuwna_5m} z montażem, plus miejsce na cofnięcie około 7,5 m."
+        },
+        {
+          "q": "Czy napęd działa przy braku prądu?",
+          "a": "Tak, każdy napęd ma awaryjne odblokowanie i można otworzyć bramę ręcznie kluczem. Przy dłuższych przerwach w zasilaniu warto zamówić zasilanie awaryjne z akumulatorem."
+        },
+        {
+          "q": "Jak szeroka powinna być szyna bramy przesuwnej?",
+          "a": "Szynę liczymy jako dwa razy szerokość skrzydła plus 0,5 m. Dla bramy 4 m to 8,5 m szyny, z czego część prowadzi poza światłem wjazdu."
+        },
+        {
+          "q": "Czy brama przesuwna hałasuje?",
+          "a": "Prawidłowo ustawione rolki i szyna pracują cicho. Najczęstsze źródła hałasu to zanieczyszczona szyna i zużyte rolki, dlatego stosujemy rolki z zamkniętymi łożyskami kulkowymi od {rolka} za sztukę."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o bramach przesuwnych",
+      "items": [
+        {
+          "label": "Brama przesuwna czy skrzydłowa? Porównanie wad i zalet",
+          "url": "/blog/brama-przesuwna-czy-uchylna-wady-i-zalety/",
+          "desc": "Miejsce, koszt i wygoda użytkowania"
+        },
+        {
+          "label": "Napęd do bramy przesuwnej, jaki wybrać",
+          "url": "/blog/naped-do-bramy-przesuwnej-jaki-wybrac/",
+          "desc": "Udźwig, fotokomórki i sterowanie"
+        },
+        {
+          "label": "Rodzaje bram wjazdowych",
+          "url": "/blog/rodzaje-bram-wjazdowych/",
+          "desc": "Przesuwne, skrzydłowe, teleskopowe"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena bramy przesuwnej",
+      "category": "brama-przesuwna",
+      "place": "przesuwne-wycena"
+    }
+  ]
+}

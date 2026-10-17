@@ -1,0 +1,14 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [] } = Astro.props;
+const trail = [{ name: 'Strona główna', url: '/' }, ...items];
+---
+<nav class="breadcrumbs container" aria-label="Ścieżka nawigacji">
+  <ol>
+    {trail.map((item, i) => (
+      <li>
+        {i === trail.length - 1 ? <span aria-current="page">{tk(item.name)}</span> : <a href={item.url}>{tk(item.name)}</a>}
+      </li>
+    ))}
+  </ol>
+</nav>

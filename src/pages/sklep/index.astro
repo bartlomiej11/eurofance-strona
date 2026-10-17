@@ -1,0 +1,121 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import Blocks from '../../components/Blocks.astro';
+import { products } from '../../lib/content.js';
+import { tk } from '../../lib/tk.js';
+import * as LD from '../../lib/jsonld.js';
+
+const sorted = [...products].sort((a, b) => a.priceValue - b.priceValue);
+const cards = sorted.map((product) => ({
+  name: tk(product.name),
+  desc: tk(product.description),
+  category: product.categoryName,
+  priceValue: product.priceValue,
+  price: tk(product.price),
+  priceNote: product.unit,
+  image: product.image,
+  imageAlt: tk(product.imageAlt || product.name),
+  url: `/sklep/${product.slug}`,
+  quote: tk(product.name),
+  quoteLabel: 'Zapytaj o wycenę',
+  slug: product.slug,
+  addToCart: true,
+}));
+
+const listaKategorii = [...new Set(products.map((p) => p.categoryName))].sort((a, b) => a.localeCompare(b, 'pl'));
+
+const kategorie = [
+  { name: 'Panele ogrodzeniowe', url: '/panele-ogrodzeniowe', desc: 'Panele 2D i 3D w wysokościach 123, 153, 173 i 203 cm, drut 4 i 5 mm.' },
+  { name: 'Przęsła ogrodzeniowe', url: '/przesla-ogrodzeniowe', desc: 'Przęsła palisadowe pionowe i poziome, grzebieniowe oraz żaluzjowe.' },
+  { name: 'Słupki ogrodzeniowe', url: '/slupki-ogrodzeniowe', desc: 'Słupki do paneli, bram i furtek, daszki oraz obejmy.' },
+  { name: 'Podmurówki betonowe', url: '/podmurowki-betonowe', desc: 'Podmurówki 250x20, 250x25, 250x30 i 250x50, także obudowane panelami.' },
+  { name: 'Bramy i furtki', url: '/bramy-wjazdowe', desc: 'Bramy przesuwne i skrzydłowe, furtki z zamkiem i elektrozaczepem.' },
+  { name: 'Automatyka do bram', url: '/automatyka-do-bram', desc: 'Napędy 24 V, piloty, fotokomórki, zawiasy, rolki i zasuwy.' },
+];
+
+const nodes = [
+  LD.breadcrumbs([{ name: 'Strona główna', url: '/' }, { name: 'Sklep z elementami', url: '/sklep' }]),
+  LD.itemList('Sklep z elementami ogrodzeniowymi', cards),
+];
+---
+<Base
+  title={tk('Sklep z elementami ogrodzeniowymi | ceny za sztukę | Eurofance')}
+  description={tk('Sklep z elementami ogrodzeniowymi od producenta: panele 2D i 3D, przęsła, słupki, podmurówki, bramy i automatyka. Ceny za sztukę, wysyłka {czas_dostawy}.')}
+  path="/sklep"
+  jsonld={nodes}
+  heroVariantKey="panelowe"
+>
+  <Breadcrumbs items={[{ name: 'Sklep z elementami' }]} />
+
+  <section class="section">
+    <div class="container narrow">
+      <h1>Sklep z elementami ogrodzeniowymi</h1>
+      <p class="answer">{tk('Sprzedajemy pojedyncze elementy: panele, przęsła, słupki, podmurówki, bramy, furtki i automatykę. Ceny podajemy za sztukę albo za metr bieżący, a przy zamówieniach powyżej 100 mb stosujemy ceny hurtowe. Elementy wysyłamy w {czas_dostawy}, montaż wyceniamy osobno.')}</p>
+      <p class="muted">{tk('Nie wiesz, ile elementów potrzebujesz? Zadzwoń: {telefon_short}')} albo zamów <a href="/bezplatna-wycena">bezpłatną wycenę</a>.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Kategorie elementów</h2>
+      <ul class="tile-list">
+        {kategorie.map((kategoria) => (
+          <li class="tile">
+            <a href={kategoria.url}>{kategoria.name}</a>
+            <p>{kategoria.desc}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Wszystkie elementy w sklepie</h2>
+      <p class="muted">Ceny brutto. Transport liczymy według odległości, montaż wyceniamy osobno.</p>
+      <form class="filter-bar" data-shop-filter>
+        <div class="filter-bar__row">
+          <label class="filter-field filter-field--search">
+            <span>Szukaj elementu</span>
+            <input type="search" placeholder="np. panel 3D, podmurówka, napęd" data-filter-q autocomplete="off" />
+          </label>
+          <label class="filter-field">
+            <span>Kategoria</span>
+            <select data-filter-category>
+              <option value="">Wszystkie kategorie</option>
+              {listaKategorii.map((nazwa) => <option value={nazwa}>{nazwa}</option>)}
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Cena za sztukę</span>
+            <select data-filter-price>
+              <option value="">Każda cena</option>
+              <option value="0-200">do 200 zł</option>
+              <option value="200-500">200 - 500 zł</option>
+              <option value="500-1500">500 - 1 500 zł</option>
+              <option value="1500-99999">powyżej 1 500 zł</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Sortowanie</span>
+            <select data-filter-sort>
+              <option value="cena-rosnaco">Cena: od najniższej</option>
+              <option value="cena-malejaco">Cena: od najwyższej</option>
+              <option value="nazwa">Nazwa: A - Z</option>
+            </select>
+          </label>
+          <button type="button" class="btn btn--outline filter-bar__reset" data-filter-reset>Wyczyść</button>
+        </div>
+        <p class="filter-bar__count" data-filter-count>{cards.length} elementów dostępnych w sklepie</p>
+      </form>
+      <ProductGrid items={cards} columns={3} place="sklep" id="lista-produktow" />
+      <p class="filter-empty" data-filter-empty hidden>Nie ma elementów dla takiego filtrowania. Wyczyść filtry albo <a href="/bezplatna-wycena">poproś o wycenę</a>  - dobierzemy elementy za Ciebie.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <Blocks blocks={[{ type: 'callback', title: 'Zadzwoń albo zostaw numer' }]} category="" place="sklep-koniec" />
+  </div>
+</Base>

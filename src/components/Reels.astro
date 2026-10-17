@@ -1,0 +1,62 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Rolki z realizacji', ctaText = 'Chcę takie ogrodzenie: wycena', url = '/bezplatna-wycena', eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section section--dark" aria-labelledby="rolki-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="rolki-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  <div class="reels">
+    {items.map((item) => (
+      <figure class="reel" data-reel>
+        <div class="reel__media">
+          <img
+            src={item.poster}
+            alt={tk(item.name)}
+            width="540"
+            height="960"
+            loading="lazy"
+            decoding="async"
+            data-reel-poster
+          />
+          <video
+            class="reel__video"
+            controls
+            playsinline
+            preload="none"
+            poster={item.poster}
+            width="540"
+            height="960"
+            data-src={item.video}
+            hidden></video>
+          <span class="reel__play">
+            {item.video ? (
+              <button type="button" class="btn btn--red" data-reel-play data-cta="rolka">Odtwórz</button>
+            ) : (
+              <span>Wkrótce</span>
+            )}
+          </span>
+        </div>
+        <figcaption>
+          <strong>{tk(item.name)}</strong>
+          {item.description && <span style="display:block">{tk(item.description)}</span>}
+          {item.url && <a class="reel__link" href={item.url}>Opis rolki i szczegóły</a>}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+  <div class="btn-row">
+    <a class="btn btn--red" href={url} data-cta="rolki">{tk(ctaText)}</a>
+  </div>
+</section>
+
+<div class="reel-modal" data-reel-modal hidden>
+  <button type="button" class="reel-modal__backdrop" data-reel-close aria-label="Zamknij odtwarzacz"></button>
+  <div class="reel-modal__box" role="dialog" aria-modal="true" aria-label="Odtwarzacz rolki">
+    <video controls playsinline preload="none" data-reel-modal-video></video>
+    <button type="button" class="reel-modal__close" data-reel-close aria-label="Zamknij">&#215;</button>
+    <p class="reel-modal__meta" data-reel-modal-meta></p>
+  </div>
+</div>

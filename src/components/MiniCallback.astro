@@ -1,0 +1,42 @@
+---
+import site from '../data/site.json';
+import { tk } from '../lib/tk.js';
+const { title = 'Oddzwońcie do mnie', place = 'oddzwon', category = '' } = Astro.props;
+const id = `mini-${place}`;
+---
+<form class="form" id={id} data-lead-form data-mode="oddzwon" data-place={place} data-endpoint={site.forms.endpoint} data-thanks={site.forms.thanksUrl} data-last-step="1" novalidate>
+  <h3 style="font-size:1.05rem">{tk(title)}</h3>
+  <div class="form__hp" aria-hidden="true">
+    <label>Nie wypełniaj tego pola <input type="text" name="firma_x" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <input type="hidden" name="formularz" value="oddzwon" />
+  <input type="hidden" name="kategoria" value={category} data-category-input />
+  <input type="hidden" name="strona_wyslania" value="" data-page-input />
+  <input type="hidden" name="strona_wejscia" value="" data-landing-input />
+  <input type="hidden" name="utm_source" value="" data-utm="utm_source" />
+  <input type="hidden" name="utm_medium" value="" data-utm="utm_medium" />
+  <input type="hidden" name="utm_campaign" value="" data-utm="utm_campaign" />
+  <input type="hidden" name="utm_term" value="" data-utm="utm_term" />
+  <input type="hidden" name="gclid" value="" data-utm="gclid" />
+  <div class="field">
+    <label for={`${id}-imie`}>Imię</label>
+    <input id={`${id}-imie`} name="imie" type="text" autocomplete="given-name" data-required />
+    <span class="field__error">Podaj imię.</span>
+  </div>
+  <div class="field">
+    <label for={`${id}-telefon`}>Telefon</label>
+    <input id={`${id}-telefon`} name="telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="np. 579 775 729" data-required data-phone />
+    <span class="field__error">Podaj numer telefonu, min. 9 cyfr.</span>
+  </div>
+  <div class="form__consent">
+    <label>
+      <input type="checkbox" name="rodo" data-required-checkbox />
+      <span>Zgadzam się na kontakt telefoniczny w sprawie wyceny. <a href={site.forms.privacyUrl}>Polityka prywatności</a>.</span>
+    </label>
+    <span class="field__error">Bez tej zgody nie możemy oddzwonić.</span>
+  </div>
+  <button type="submit" class="btn btn--red btn--wide" data-submit>Oddzwońcie do mnie</button>
+  <p class="form__note">Odpowiadamy w {site.stats.responseTime} w dni robocze. Bez zobowiązań.</p>
+  <div class="form__ok" data-form-ok hidden>Dziękujemy. Oddzwonimy w ciągu {site.stats.responseTime} w dni robocze.</div>
+  <div class="form__err" data-form-err hidden>Nie udało się wysłać. Zadzwoń: {site.phone.short}.</div>
+</form>

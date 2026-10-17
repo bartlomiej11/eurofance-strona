@@ -1,0 +1,212 @@
+{
+  "slug": "malarnia-proszkowa",
+  "kind": "malarnia",
+  "city": "Maków Mazowiecki",
+  "title": "Malowanie proszkowe i lakiernia | cennik | Maków Mazowiecki | Eurofance",
+  "metaDescription": "Malowanie proszkowe i lakiernia proszkowa w Makowie Mazowieckim. Cennik od {malowanie_m2} za m2, piaskowanie, maksymalne wymiary elementów, dowolny kolor RAL.",
+  "h1": "Malarnia i lakiernia proszkowa",
+  "answer": "Malarnia proszkowa Eurofance maluje elementy stalowe w Makowie Mazowieckim i okolicach: od pojedynczych ram po konstrukcje do 6 m długości. Cena malowania zaczyna się od {malowanie_m2} za m2 albo od {malowanie_kg} za kilogram, minimum zamówienia {malowanie_min}. Piaskowanie elementów kosztuje od {piaskowanie_m2} za m2, a realizacja zajmuje zwykle 3 do 5 dni roboczych.",
+  "category": "malowanie",
+  "heroImage": "/images/premium/malarnia.jpg",
+  "heroCta": "Wycena malowania",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Firma"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co robimy:</strong> malowanie proszkowe elementów stalowych, piaskowanie i śrutowanie, przygotowanie powierzchni.",
+        "<strong>Cena:</strong> od {malowanie_m2} za m2 lub od {malowanie_kg} za kilogram, minimum zamówienia {malowanie_min}.",
+        "<strong>Maksymalne wymiary:</strong> elementy do 6 m długości, 1,8 m szerokości i 1,6 m wysokości.",
+        "<strong>Kolory:</strong> pełna paleta RAL, wersje gładkie i strukturalne, także połysk i mat.",
+        "<strong>Czas realizacji:</strong> 3 do 5 dni roboczych od dostarczenia elementów."
+      ]
+    },
+    {
+      "type": "priceTable",
+      "title": "Cennik malowania proszkowego",
+      "intro": "Ceny netto za usługę, bez transportu. Rozliczamy według powierzchni malowanej albo wagi elementów, w zależności od kształtu.",
+      "head": [
+        "Usługa",
+        "Jednostka",
+        "Cena od",
+        "Uwagi"
+      ],
+      "rows": [
+        [
+          "Malowanie proszkowe elementów prostych",
+          "m2",
+          "od {malowanie_m2}",
+          "profile, ramy, panele"
+        ],
+        [
+          "Malowanie proszkowe według wagi",
+          "kg",
+          "od {malowanie_kg}",
+          "elementy o dużym zagęszczeniu"
+        ],
+        [
+          "Piaskowanie",
+          "m2",
+          "od {piaskowanie_m2}",
+          "usuwanie rdzy i starej powłoki"
+        ],
+        [
+          "Śrutowanie",
+          "m2",
+          "wycena indywidualna",
+          "elementy grubsze i konstrukcje"
+        ],
+        [
+          "Malowanie w kolorze strukturalnym",
+          "m2",
+          "od {malowanie_m2} plus 12 procent",
+          "mniej widocznych zarysowań"
+        ],
+        [
+          "Minimum zamówienia",
+          "zlecenie",
+          "{malowanie_min}",
+          "dotyczy zleceń jednorazowych"
+        ]
+      ],
+      "note": "Ceny orientacyjne. Ostateczną cenę podajemy po obejrzeniu elementów albo zdjęć. Faktura VAT, termin płatności do ustalenia.",
+      "ctaText": "Przyślij zdjęcia elementów, policzymy malowanie",
+      "ctaDesc": "Do formularza możesz dodać zdjęcia i wymiary. Wycenę wyślemy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Piaskowanie i śrutowanie",
+      "html": "<p>Przed malowaniem powierzchnia musi być czysta i chropowata, inaczej farba proszkowa nie zwiąże się ze stalą. Piaskowanie usuwamy rdzy, zgorzeliny i stare powłoki, a śrutowanie stosujemy do grubszych elementów i konstrukcji, gdzie potrzebna jest większa głębokość profilu chropowatości.</p><p>Piaskowanie kosztuje od {piaskowanie_m2} za m2 i jest obowiązkowe przy elementach, które były malowane wcześniej lub są skorodowane. Elementy nowe, czyste i ocynkowane wystarczy odtłuścić i wypiaskować punktowo na spawach.</p><p>Po piaskowaniu elementy są odtłuszczane, a następnie nakładamy farbę proszkową elektrostatycznie i wypalamy w piecu w temperaturze 180 do 200 stopni Celsjusza. Powłoka ma zwykle 60 do 80 mikrometrów grubości.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Maksymalne wymiary elementów",
+      "head": [
+        "Parametr",
+        "Wartość",
+        "Uwagi"
+      ],
+      "rows": [
+        [
+          "Maksymalna długość elementu",
+          "6,0 m",
+          "dłuższe elementy malowanie w dwóch częściach"
+        ],
+        [
+          "Maksymalna szerokość",
+          "1,8 m",
+          "ograniczenie komory malarskiej"
+        ],
+        [
+          "Maksymalna wysokość",
+          "1,6 m",
+          "ograniczenie wózka transportowego"
+        ],
+        [
+          "Maksymalna waga elementu",
+          "500 kg",
+          "powyżej wycena indywidualna"
+        ],
+        [
+          "Grubość powłoki",
+          "60 do 80 mikrometrów",
+          "zgodnie z kartą techniczną farby"
+        ],
+        [
+          "Temperatura wypalania",
+          "180 do 200 stopni Celsjusza",
+          "czas zgodny z kartą farby"
+        ]
+      ],
+      "note": "Elementy dłuższe niż 6 m malowanie w dwóch etapach, ze łączeniem w miejscu montażu. Wymaga to osobnej wyceny."
+    },
+    {
+      "type": "text",
+      "title": "Kolory RAL i struktury",
+      "html": "<p>Malujemy na dowolny kolor z palety RAL, także na kolory z palety RAL Design, jeśli karta farby jest dostępna. Najczęściej zamawiane kolory w malarni to RAL 7016 antracyt, RAL 9005 czarny, RAL 7035 szary i RAL 8017 brąz.</p><p>Powłoka może być gładka albo strukturalna. Gładka wygląda bardziej jednolicie, strukturalna jest mniej podatna na odciski palców, drobne zarysowania i ślady po montażu. Struktura to dopłata około 12 procent do ceny malowania.</p><p>Dostępne są też wersje połysk, półmat i mat. Do elementów zewnętrznych zalecamy półmat albo strukturę, bo na połysku widać każde odkształcenie blachy. Paleta z przykładami realizacji jest na stronie <a href=\"/paleta-ral\">paleta RAL</a>.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Jak przygotować elementy",
+      "html": "<p>Trzy rzeczy, które przyspieszają wycenę i malowanie:</p><ul class=\"list-check\"><li><strong>Wymiary i liczba elementów.</strong> Podaj długość, szerokość, wysokość i liczbę sztuk. Przy elementach o złożonym kształcie wystarczy zdjęcie z miarą.</li><li><strong>Kolor i wykończenie.</strong> Podaj numer RAL i informację, czy ma być gładki, strukturalny, matowy czy w połysku.</li><li><strong>Informacja o powierzchni.</strong> Napisz, czy element jest nowy, ocynkowany, malowany wcześniej albo skorodowany. Od tego zależy, czy potrzebne jest piaskowanie.</li></ul><p>Elementy dostarczasz do malarni {miasto_produkcji_w} albo wysyłasz kurierem. Odbierasz pomalowane, zabezpieczone pianką na narożnikach. Transport organizujemy także po naszej stronie, po ustaleniu adresu i terminu.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Czas realizacji",
+      "html": "<p>Standardowy czas malowania to 3 do 5 dni roboczych od dostarczenia elementów. W tym czasie wykonujemy piaskowanie, odtłuszczanie, malowanie i wypalanie powłoki. Termin liczymy od dnia, w którym elementy są na miejscu w malarni.</p><p>Zlecenia pilne realizujemy w 2 dni robocze, przy dopłacie 20 procent. Dotyczy to elementów do 20 m2 powierzchni malowanej.</p><p>Przy konstrukcjach stalowych i dużych partii elementów termin ustalamy indywidualnie, zwykle 5 do 10 dni roboczych, bo malowanie idzie partiami, żeby zachować jednolity odcień w całej partii.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Malowanie proszkowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje malowanie proszkowe za m2?",
+          "a": "Malowanie proszkowe elementów prostych kosztuje od {malowanie_m2} za m2, a rozliczenie według wagi od {malowanie_kg} za kilogram. Minimum zamówienia to {malowanie_min}. Kolor strukturalny to dopłata około 12 procent."
+        },
+        {
+          "q": "Czy piaskowanie jest konieczne?",
+          "a": "Przy elementach skorodowanych i wcześniej malowanych tak, bo stara powłoka i rdza uniemożliwiają dobre związanie farby. Piaskowanie kosztuje od {piaskowanie_m2} za m2. Elementy nowe, czyste wystarczy odtłuścić."
+        },
+        {
+          "q": "Jakie największe elementy możecie pomalować?",
+          "a": "Elementy do 6 m długości, 1,8 m szerokości, 1,6 m wysokości i 500 kg wagi. Dłuższe elementy malujemy w dwóch częściach, co wymaga osobnej wyceny i łączenia na budowie."
+        },
+        {
+          "q": "Jak długo trwa malowanie proszkowe?",
+          "a": "Standardowo 3 do 5 dni roboczych od dostarczenia elementów do malarni. Zlecenia pilne realizujemy w 2 dni robocze z dopłatą 20 procent, przy powierzchni do 20 m2."
+        },
+        {
+          "q": "Czy można zamówić kolor spoza palety RAL?",
+          "a": "Malujemy na kolory z palety RAL i RAL Design, jeśli dostępna jest karta farby. Kolor niestandardowy wymaga zamówienia farby w proszku, co wydłuża termin o około 5 dni roboczych."
+        },
+        {
+          "q": "Czy malowanie proszkowe jest odporne na zimę i sól?",
+          "a": "Powłoka proszkowa wypalana w 180 do 200 stopniach jest odporna na warunki atmosferyczne i sól drogową. Przy elementach narażonych na uszkodzenia mechaniczne zalecamy wersję strukturalną i grubszą powłokę."
+        },
+        {
+          "q": "Czy malarnia przyjmuje elementy od klientów indywidualnych?",
+          "a": "Tak, malujemy elementy dla klientów indywidualnych, firm i wykonawców. Minimum zamówienia to {malowanie_min} netto. Elementy można dostarczyć osobiście albo kurierem."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Zobacz także",
+      "items": [
+        {
+          "label": "Paleta RAL",
+          "url": "/paleta-ral",
+          "desc": "Najpopularniejsze kolory ogrodzeń i przykłady realizacji"
+        },
+        {
+          "label": "Konstrukcje stalowe",
+          "url": "/konstrukcje-stalowe",
+          "desc": "Hale i wiaty stalowe, norma EN 1090"
+        },
+        {
+          "label": "Jak dbać o ogrodzenie malowane proszkowo",
+          "url": "/blog/jak-dbac-o-ogrodzenie-malowane-proszkowo/",
+          "desc": "Czyszczenie i konserwacja powłoki"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "malowanie",
+      "variant": "full",
+      "title": "Wycena malowania proszkowego",
+      "category": "malowanie",
+      "place": "malarnia-wycena"
+    }
+  ]
+}

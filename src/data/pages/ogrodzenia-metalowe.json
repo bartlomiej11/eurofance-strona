@@ -1,0 +1,346 @@
+{
+  "slug": "ogrodzenia-metalowe",
+  "kind": "offer",
+  "title": "Ogrodzenia metalowe od producenta | wzory i ceny | Eurofance",
+  "metaDescription": "Ogrodzenia metalowe panelowe, palisadowe i z profili. Ocynk i malowanie proszkowe, montaż w całej Polsce. Cena od {panel_3d_mb} za mb z montażem. Wycena i montaż w.",
+  "h1": "Ogrodzenia metalowe",
+  "answer": "Ogrodzenie metalowe może być wykonane z panelu 2D lub 3D, palisady albo profili ustawionych pionowo i poziomo. Eurofance wycenia system panelowy od {panel_3d_mb} za mb z montażem, a palisadę od {palisada_pion_mb} za mb. Wysokość 153 cm i przęsło 250 cm to najczęstszy punkt wyjścia dla domu.",
+  "category": "metalowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena ogrodzenia metalowego",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Rodzaje:</strong> panele 2D i 3D, palisada pionowa i pozioma oraz profil grzebieniowy.",
+        "<strong>Wymiary:</strong> przęsła mają zwykle 250 cm szerokości i wysokość od 123 do 203 cm.",
+        "<strong>Cena:</strong> ogrodzenie panelowe od {panel_3d_mb}, palisadowe od {palisada_pion_mb} za mb z montażem.",
+        "<strong>Powłoka:</strong> ocynkowanie i malowanie proszkowe w RAL 7016 lub innym wybranym kolorze.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Rodzaje ogrodzeń metalowych",
+      "intro": "Wybierz system według oczekiwanego prześwitu, wyglądu frontu i budżetu. Ceny dotyczą metra bieżącego z montażem.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Ogrodzenie panelowe 3D",
+          "desc": "Stalowy panel 250 cm, drut 5 mm i pionowe przetłoczenia. Praktyczny wybór na boki działki.",
+          "price": "od {panel_3d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/hero-panelowe.jpg",
+          "url": "/sklep/panel-ogrodzeniowy-3d-153-7016",
+          "quote": "Ogrodzenie metalowe panelowe 3D",
+          "quoteLabel": "Wycena tego systemu"
+        },
+        {
+          "name": "Ogrodzenie panelowe 2D",
+          "desc": "Płaskie przęsło metalowe bez przetłoczeń, dobre do prostych i dłuższych linii.",
+          "price": "od {panel_2d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-01.jpg",
+          "url": "/sklep/panel-ogrodzeniowy-2d-153-7016",
+          "quote": "Ogrodzenie metalowe panelowe 2D",
+          "quoteLabel": "Wycena tego systemu"
+        },
+        {
+          "name": "Palisada pionowa",
+          "desc": "Przęsło z profili 85 x 20 mm, prześwit 10 mm i nowoczesny efekt frontu.",
+          "price": "od {palisada_pion_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-08.jpg",
+          "url": "/sklep/przeslo-palisadowe-pionowe-153",
+          "quote": "Ogrodzenie palisadowe pionowe",
+          "quoteLabel": "Wycena palisady"
+        },
+        {
+          "name": "Palisada pozioma",
+          "desc": "Profile 85 x 20 mm w układzie poziomym do prostych, nowoczesnych elewacji.",
+          "price": "od {palisada_poz_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-09.jpg",
+          "url": "/sklep/przeslo-palisadowe-poziome-153",
+          "quote": "Ogrodzenie palisadowe poziome",
+          "quoteLabel": "Wycena palisady"
+        },
+        {
+          "name": "Ogrodzenie grzebieniowe",
+          "desc": "Gęsto ustawione profile na sztorc, więcej prywatności i wyraźny pionowy rytm.",
+          "price": "od {grzebien_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/frontowe/frontowe-01.jpg",
+          "url": "/sklep/przeslo-grzebieniowe-153",
+          "quote": "Ogrodzenie grzebieniowe",
+          "quoteLabel": "Wycena grzebienia"
+        },
+        {
+          "name": "Ogrodzenie z podmurówką",
+          "desc": "Panel lub palisada na betonowej podmurówce 250 x 25 cm dla równej linii przy gruncie.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "podmurówka za mb",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x25",
+          "quote": "Ogrodzenie metalowe z podmurówką",
+          "quoteLabel": "Wycena kompletu"
+        }
+      ],
+      "note": "Ceny „od” brutto. Dokładny koszt zależy od długości, wysokości, liczby narożników, bramy, furtki i warunków montażu.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń metalowych z montażem",
+      "intro": "Porównaj najczęściej wybierane systemy. Stawki są za metr bieżący ogrodzenia, bez bramy i furtki.",
+      "head": [
+        "System",
+        "Wysokość",
+        "Cena od",
+        "Zastosowanie"
+      ],
+      "rows": [
+        [
+          "Panel 2D",
+          "153 cm",
+          "od {panel_2d_mb}",
+          "boki i tył działki"
+        ],
+        [
+          "Panel 3D",
+          "153 cm",
+          "od {panel_3d_mb}",
+          "domy, firmy, ogrodzenia systemowe"
+        ],
+        [
+          "Panel 2D 8/6/8",
+          "173 cm",
+          "od {panel_2d_8_6_8_mb}",
+          "tereny firmowe i place"
+        ],
+        [
+          "Palisada pionowa",
+          "153 cm",
+          "od {palisada_pion_mb}",
+          "front posesji"
+        ],
+        [
+          "Palisada pozioma",
+          "153 cm",
+          "od {palisada_poz_mb}",
+          "nowoczesny front"
+        ],
+        [
+          "Grzebień",
+          "153 cm",
+          "od {grzebien_mb}",
+          "gęste wypełnienie frontowe"
+        ],
+        [
+          "Podmurówka 250 x 25",
+          "25 cm",
+          "od {podmurowka_250x25}",
+          "cokół pod system metalowy"
+        ]
+      ],
+      "note": "Montaż samego ogrodzenia liczymy od {montaz_mb} za mb. Gdy zamawiasz materiał z montażem, cena systemu zawiera oba zakresy.",
+      "ctaText": "Porównamy systemy dla Twojej działki",
+      "ctaDesc": "Podaj długość, wysokość i miejscowość. Dokładną wycenę wyślemy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Parametry systemów metalowych",
+      "intro": "Różnice w profilu, prześwicie i grubości drutu pomagają wybrać ogrodzenie do funkcji działki.",
+      "head": [
+        "Parametr",
+        "Panel 3D",
+        "Palisada",
+        "Grzebień"
+      ],
+      "rows": [
+        [
+          "Szerokość przęsła",
+          "250 cm",
+          "250 cm",
+          "250 cm"
+        ],
+        [
+          "Standardowa wysokość",
+          "123, 153, 173, 203 cm",
+          "153 cm",
+          "153 cm"
+        ],
+        [
+          "Element nośny",
+          "drut 5 mm",
+          "profil 85 x 20 mm",
+          "profil 85 x 20 mm na sztorc"
+        ],
+        [
+          "Prześwit",
+          "oczko 50 x 200 mm",
+          "około 10 mm",
+          "około 20 mm"
+        ],
+        [
+          "Powłoka",
+          "ocynk i proszek",
+          "ocynk i proszek",
+          "ocynk i proszek"
+        ],
+        [
+          "Kolor",
+          "RAL 7016 lub inny RAL",
+          "RAL 7016 lub inny RAL",
+          "RAL 7016 lub inny RAL"
+        ]
+      ],
+      "note": "Parametry końcowe ustalamy w wycenie dla konkretnej wysokości i rodzaju podłoża."
+    },
+    {
+      "type": "text",
+      "title": "Stal ocynkowana i malowana proszkowo",
+      "html": "<p>Ogrodzenie metalowe pracuje na zewnątrz przez cały rok, dlatego konstrukcję zabezpiecza się ocynkowaniem i malowaniem proszkowym. Ocynk ogranicza korozję, a powłoka proszkowa daje kolor i chroni stal przed wilgocią.</p><p>Eurofance może pomalować przęsła, bramę, furtkę i słupki tym samym kodem RAL. Malowanie zaczyna się od {malowanie_m2} za m², a RAL 7016 jest najczęściej wybierany do ogrodzeń o wysokości 153 cm.</p>"
+    },
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia metalowego",
+      "desc": "Wybierz system, długość, wysokość, podmurówkę, bramę i furtkę. Zobaczysz orientacyjny przedział, a dokładną wycenę przygotujemy po pomiarze.",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "steps",
+      "title": "Od wyceny do montażu",
+      "items": [
+        {
+          "name": "Wycena",
+          "desc": "Podajesz długość, system, wysokość oraz miejscowość montażu.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Pomiar",
+          "desc": "Sprawdzamy teren, narożniki, bramę i furtkę.",
+          "time": "{czas_pomiaru}"
+        },
+        {
+          "name": "Produkcja",
+          "desc": "Wykonujemy elementy oraz malowanie w uzgodnionym RAL.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż",
+          "desc": "Betonujemy słupki, montujemy przęsła i regulujemy bramę lub furtkę.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Realizacje ogrodzeń metalowych",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Siedlce, panel 3D 153 cm, RAL 7016, długość 45 mb",
+          "alt": "Ogrodzenie metalowe z paneli 3D w Siedlcach",
+          "tags": [
+            "metalowe",
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-08.jpg",
+          "caption": "Legionowo, palisada pionowa 153 cm, RAL 7016, front posesji",
+          "alt": "Metalowa palisada pionowa w Legionowie",
+          "tags": [
+            "metalowe",
+            "palisadowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-12.jpg",
+          "caption": "Ciechanów, ogrodzenie grzebieniowe 153 cm, RAL 9005, front 18 mb",
+          "alt": "Ogrodzenie metalowe grzebieniowe w Ciechanowie",
+          "tags": [
+            "metalowe",
+            "grzebien"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Przasnysz, metalowa brama przesuwna 4 m, RAL 7016, panel 3D",
+          "alt": "Metalowa brama przesuwna 4 m w Przasnyszu",
+          "tags": [
+            "metalowe",
+            "bramy-przesuwne"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia metalowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie metalowe?",
+          "a": "Panelowe ogrodzenie metalowe 3D kosztuje od {panel_3d_mb} za mb z montażem. Palisada pionowa zaczyna się od {palisada_pion_mb} za mb, a cena zależy od długości i wysokości."
+        },
+        {
+          "q": "Panel 2D czy 3D do ogrodzenia metalowego?",
+          "a": "Panel 2D jest płaski i lżejszy, a 3D ma przetłoczenia oraz drut 5 mm. Dla domu najczęściej wybierany jest panel 3D 153 cm, dla firmy panel 2D 8/6/8 o wysokości 173 cm."
+        },
+        {
+          "q": "Jaka wysokość ogrodzenia metalowego jest najczęstsza?",
+          "a": "Najczęściej montujemy 153 cm. Z podmurówką 25 cm całkowita linia ma około 178 cm, a do firmy wybierane są warianty 173 albo 203 cm."
+        },
+        {
+          "q": "Czy ogrodzenie metalowe rdzewieje?",
+          "a": "Stal zabezpieczamy ocynkowaniem i malowaniem proszkowym. Dzięki temu konstrukcja ma dwie warstwy ochrony, a Eurofance daje gwarancję {gwarancja}."
+        },
+        {
+          "q": "Ile kosztuje podmurówka pod ogrodzenie metalowe?",
+          "a": "Podmurówka betonowa 250 x 25 cm kosztuje od {podmurowka_250x25} za mb. Dobieramy jej wysokość od 20 do 50 cm do gruntu i spadku działki."
+        },
+        {
+          "q": "Ile trwa montaż 40 mb ogrodzenia metalowego?",
+          "a": "Montaż 40 mb ogrodzenia bez bramy zwykle zajmuje 1 dzień. Z bramą, furtką i podmurówką prace mogą zająć 2 dni, a produkcja trwa {czas_produkcji}."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie, betonowanie słupków i montaż metalowych paneli."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia metalowego",
+      "category": "metalowe",
+      "place": "ogrodzenia-metalowe-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

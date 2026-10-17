@@ -1,0 +1,105 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import DataTable from '../../components/DataTable.astro';
+import LeadForm from '../../components/LeadForm.astro';
+import Faq from '../../components/Faq.astro';
+import CtaBar from '../../components/CtaBar.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import { products, getPage, getProductsByCategory } from '../../lib/content.js';
+import site from '../../data/site.json';
+import * as LD from '../../lib/jsonld.js';
+import { tk } from '../../lib/tk.js';
+
+export function getStaticPaths() {
+  return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+
+const { product } = Astro.props;
+const url = `/sklep/${product.slug}`;
+const categoryPage = getPage(product.category);
+const related = getProductsByCategory(product.category).filter((p) => p.slug !== product.slug).slice(0, 3);
+
+const nodes = [
+  LD.breadcrumbs([
+    ...(categoryPage ? [{ name: categoryPage.h1, url: `/${categoryPage.slug}` }] : []),
+    { name: product.name, url },
+  ]),
+  LD.product(product),
+];
+if (product.faq && product.faq.length > 0) nodes.push(LD.faq(product.faq));
+---
+<Base
+  title={tk(product.title || `${product.name} | cena i wymiary | Eurofance`)}
+  description={tk(product.metaDescription || product.description)}
+  path={url}
+  jsonld={nodes}
+  ogImage={product.image}
+>
+  <Breadcrumbs
+    items={[
+      ...(categoryPage ? [{ name: categoryPage.h1, url: `/${categoryPage.slug}` }] : []),
+      { name: product.name },
+    ]}
+  />
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <h1>{tk(product.name)}</h1>
+          <p class="answer">{tk(product.description)}</p>
+          <img src={product.image} alt={tk(product.imageAlt || product.name)} width="900" height="675" loading="eager" decoding="async" style="border-radius:10px;border:1px solid #e3e5e8" />
+
+          <p class="card__price" style="font-size:1.3rem;margin-top:16px">
+            {tk(product.price)} <span>{product.unit}</span>
+          </p>
+          <div class="btn-row">
+            <button type="button" class="btn btn--dark" data-add-to-cart={tk(product.name)} data-price={product.priceValue}>Do koszyka</button>
+            <a class="btn btn--red" href={`/bezplatna-wycena?produkt=${encodeURIComponent(product.name)}`} data-cta="karta-produktu">Zapytaj o wycenę z montażem</a>
+            <a class="btn btn--outline" href={`tel:${site.phone.tel}`} data-cta="karta-produktu">Zadzwoń: {site.phone.short}</a>
+          </div>
+          <p class="table-note">
+            Wysyłka {site.stats.deliveryDays}. Płatność: przelew, karta, za pobraniem. Faktura VAT.
+            Przy zamówieniach powyżej 50 sztuk dzwoń po cenę hurtową.
+          </p>
+
+          {product.params && product.params.length > 0 && (
+            <section class="section">
+              <h2>Parametry i wymiary</h2>
+              <DataTable head={['Parametr', 'Wartość']} rows={product.params} />
+            </section>
+          )}
+
+          {product.faq && product.faq.length > 0 && <Faq items={product.faq} title="Pytania o ten produkt" />}
+
+          <CtaBar place="karta-produktu" category={product.category} />
+        </div>
+
+        <aside>
+          <LeadForm
+            variant="quick"
+            mode="standard"
+            title="Wycena z montażem"
+            category={product.category}
+            product={product.name}
+            place={`sklep-${product.slug}`}
+            compact={true}
+          />
+          <div class="sidebar-cta" style="margin-top:16px">
+            <h3 style="font-size:1rem">Potrzebujesz więcej elementów?</h3>
+            <p class="muted">Kompletne ogrodzenie z montażem policzymy z metra bieżącego.</p>
+            {categoryPage && <p><a href={`/${categoryPage.slug}`}>Zobacz {categoryPage.h1.toLowerCase()}</a></p>}
+            <p><a href="/kalkulator-ogrodzenia">Kalkulator ogrodzenia</a></p>
+          </div>
+        </aside>
+      </div>
+
+      {related.length > 0 && (
+        <section class="section">
+          <h2>Podobne produkty</h2>
+          <ProductGrid items={related.map((p) => ({ name: p.name, desc: p.description, price: p.price, priceNote: p.unit, image: p.image, url: `/sklep/${p.slug}`, quoteLabel: 'Zapytaj o wycenę' }))} columns={3} place="podobne" />
+        </section>
+      )}
+    </div>
+  </section>
+</Base>

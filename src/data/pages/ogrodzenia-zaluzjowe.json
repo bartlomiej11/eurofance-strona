@@ -1,0 +1,248 @@
+{
+  "slug": "ogrodzenia-zaluzjowe",
+  "kind": "offer",
+  "title": "Ogrodzenia żaluzjowe od producenta | prywatność i przewiew | Eurofance",
+  "metaDescription": "Ogrodzenia żaluzjowe z profili 100 x 20 mm ustawionych pod kątem. Więcej prywatności niż palisada, przewiew lepszy niż pełna ściana. Cena od {zaluzja_mb} za mb.",
+  "h1": "Ogrodzenia żaluzjowe",
+  "answer": "Ogrodzenie żaluzjowe Eurofance ma profile 100 x 20 mm ustawione pod kątem, dlatego ogranicza widok z ulicy, a jednocześnie przepuszcza powietrze. Cena systemu z montażem zaczyna się od {zaluzja_mb} za mb, a standardowe przęsło 153 cm ma szerokość 250 cm. To rozwiązanie daje więcej prywatności niż palisada i bardziej zamknięty efekt niż grzebień.",
+  "category": "palisadowe",
+  "heroImage": "/images/frontowe/frontowe-03.jpg",
+  "heroCta": "Wycena ogrodzenia żaluzjowego",
+  "variantKey": "frontowe",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Konstrukcja:</strong> profile stalowe 100 x 20 mm ustawione pod kątem.",
+        "<strong>Prywatność:</strong> z drogi widać głównie zarys posesji, a nie wnętrze działki.",
+        "<strong>Przewiew:</strong> układ pod kątem przepuszcza powietrze lepiej niż pełny panel.",
+        "<strong>Cena:</strong> od {zaluzja_mb} za mb z materiałem i montażem.",
+        "<strong>Standard:</strong> przęsło ma 250 x 153 cm, malowanie w RAL 7016 lub innym kolorze RAL."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Przęsło żaluzjowe",
+      "intro": "Kup gotowe przęsło na sztuki albo zamów kompletny front z bramą, furtką i montażem.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Przęsło żaluzjowe 153 cm",
+          "desc": "Profile 100 x 20 mm pod kątem, szerokość 250 cm i kolor RAL 7016.",
+          "price": "od {przeslo_palisada_poz_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/frontowe/frontowe-04.jpg",
+          "quote": "Przęsło żaluzjowe 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/przeslo-zaluzjowe-153"
+        }
+      ],
+      "note": "Cena przęsła dotyczy sprzedaży na sztuki. Kompletne ogrodzenie żaluzjowe z montażem liczymy od {zaluzja_mb} za mb.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń żaluzjowych",
+      "intro": "Eurofance wycenia ogrodzenie żaluzjowe po długości linii. Cena zależy od wysokości, liczby narożników, podmurówki i bramy.",
+      "head": [
+        "Zakres",
+        "Wysokość",
+        "Cena od",
+        "Co obejmuje"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie żaluzjowe",
+          "153 cm",
+          "od {zaluzja_mb} za mb",
+          "profile, słupki i montaż"
+        ],
+        [
+          "Przęsło żaluzjowe",
+          "250 x 153 cm",
+          "od {przeslo_palisada_poz_szt} za sztukę",
+          "samo przęsło"
+        ],
+        [
+          "Podmurówka pod żaluzję",
+          "250 x 25 cm",
+          "od {podmurowka_250x25} za mb",
+          "element betonowy, osobno od przęseł"
+        ],
+        [
+          "Brama przesuwna do frontu",
+          "4 m",
+          "od {brama_przesuwna_palisada_4m}",
+          "brama z montażem"
+        ]
+      ],
+      "note": "Przy froncie 20 mb z bramą i furtką przygotowujemy indywidualny zestaw. Pomiary i kolor RAL potwierdzamy przed produkcją.",
+      "ctaText": "Wyślij zdjęcie frontu i długość ogrodzenia",
+      "ctaDesc": "Dobierzemy wysokość, podmurówkę i kierunek żaluzji. Wycena wraca w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Żaluzja, palisada czy grzebień",
+      "intro": "Każdy system ma inny efekt od strony ulicy. Porównanie pomaga dopasować prywatność do potrzeb posesji.",
+      "head": [
+        "System",
+        "Układ profili",
+        "Prywatność",
+        "Efekt od ulicy"
+      ],
+      "rows": [
+        [
+          "Żaluzja",
+          "100 x 20 mm pod kątem",
+          "wysoka",
+          "spokojna, warstwowa linia"
+        ],
+        [
+          "Palisada pionowa",
+          "85 x 20 mm pionowo, prześwit 10 mm",
+          "średnia",
+          "wyraźne pionowe profile"
+        ],
+        [
+          "Palisada pozioma",
+          "85 x 20 mm poziomo, prześwit 12 mm",
+          "średnia",
+          "szeroki poziomy rysunek"
+        ],
+        [
+          "Grzebień",
+          "85 x 20 mm na sztorc, prześwit 20 mm",
+          "średnia do wysokiej",
+          "lekki, rytmiczny wzór"
+        ]
+      ],
+      "note": "Żaluzja jest właściwym wyborem, jeśli kluczowe jest ograniczenie widoku z ulicy bez budowania pełnej, nieprzewiewnej ściany."
+    },
+    {
+      "type": "text",
+      "title": "Prywatność bez pełnej ściany",
+      "html": "<p>Profile żaluzjowe są ustawione pod kątem, dlatego osoba idąca ulicą nie patrzy wprost na taras lub podjazd. Jednocześnie szczeliny między profilami przepuszczają powietrze. To ważne przy froncie, gdzie pełne wypełnienie może zwiększać parcie wiatru.</p><p>W porównaniu z palisadą żaluzja mocniej zasłania posesję. W porównaniu z grzebieniem ma mniej widocznych prześwitów w normalnym kierunku patrzenia. Eurofance dobiera rozstaw i mocowanie do wysokości 153 cm, długości frontu oraz bramy.</p>"
+    },
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia żaluzjowego",
+      "desc": "Wybierz długość frontu, podmurówkę, bramę i furtkę. Zobaczysz orientacyjny przedział dla ogrodzenia od {zaluzja_mb} za mb.",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "gallery",
+      "title": "Ogrodzenia żaluzjowe w realizacjach",
+      "items": [
+        {
+          "image": "/images/realizacje/foto-13.jpg",
+          "caption": "Warszawa, ogrodzenie żaluzjowe 153 cm, RAL 7016",
+          "alt": "Ogrodzenie żaluzjowe 153 cm w Warszawie",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "caption": "Legionowo, front żaluzjowy z bramą przesuwną 4 m",
+          "alt": "Front żaluzjowy z bramą przesuwną w Legionowie",
+          "tags": [
+            "frontowe",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/premium/bramy.jpg",
+          "caption": "Ciechanów, furtka 1 m dopasowana do ogrodzenia żaluzjowego",
+          "alt": "Furtka przy ogrodzeniu żaluzjowym w Ciechanowie",
+          "tags": [
+            "furtki",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-1.jpg",
+          "caption": "Siedlce, front 22 mb z żaluzją i podmurówką 250 x 25 cm",
+          "alt": "Ogrodzenie żaluzjowe z podmurówką w Siedlcach",
+          "tags": [
+            "frontowe",
+            "podmurowki"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia żaluzjowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie żaluzjowe?",
+          "a": "Ogrodzenie żaluzjowe Eurofance kosztuje od {zaluzja_mb} za mb z materiałem i montażem. Cena obejmuje profile i słupki, a podmurówka, brama oraz furtka są liczone osobno."
+        },
+        {
+          "q": "Jaka jest szerokość przęsła żaluzjowego?",
+          "a": "Standardowe przęsło ma szerokość 250 cm i wysokość 153 cm. Profile 100 x 20 mm są ustawione pod kątem."
+        },
+        {
+          "q": "Czy żaluzja daje pełną prywatność?",
+          "a": "Żaluzja mocno ogranicza widok z ulicy, ale nie jest szczelną ścianą. Profile pod kątem pozwalają zachować przewiew i zmniejszyć parcie wiatru."
+        },
+        {
+          "q": "Żaluzja czy palisada, co lepiej zasłania?",
+          "a": "Żaluzja zasłania mocniej, ponieważ profile są ustawione pod kątem. Palisada pionowa ma prześwit 10 mm, a pozioma 12 mm, więc jest bardziej ażurowa."
+        },
+        {
+          "q": "Żaluzja czy grzebień, co wybrać?",
+          "a": "Grzebień ma profile 85 x 20 mm na sztorc z prześwitem 20 mm i daje lżejszy rysunek. Żaluzja ma profile 100 x 20 mm pod kątem, dlatego jest lepsza przy ruchliwej ulicy."
+        },
+        {
+          "q": "Czy do żaluzji można zamówić bramę przesuwną?",
+          "a": "Tak. Brama przesuwna 4 m może mieć wypełnienie dopasowane do frontu i kosztuje od {brama_przesuwna_palisada_4m} z montażem. Potrzebuje około 6 m miejsca na cofnięcie."
+        },
+        {
+          "q": "Ile trwa montaż frontu żaluzjowego 20 mb?",
+          "a": "Front 20 mb z bramą i furtką montujemy zwykle w {czas_montazu}, po produkcji trwającej {czas_produkcji}. Termin zależy od podłoża i liczby narożników."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o montażu ogrodzeń",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy ogrodzeniu żaluzjowym."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia żaluzjowego",
+      "category": "palisadowe",
+      "place": "ogrodzenia-zaluzjowe-wycena"
+    }
+  ]
+}

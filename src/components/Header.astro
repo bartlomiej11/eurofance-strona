@@ -1,0 +1,51 @@
+---
+import site from '../data/site.json';
+import nav from '../data/nav.json';
+import { tk } from '../lib/tk.js';
+const phoneHref = `tel:${site.phone.tel}`;
+---
+<header class="site-header">
+  <div class="container site-header__in">
+    <a class="logo" href="/" aria-label="Eurofance, strona główna">
+      <img src="/images/logo.png" alt="Eurofance, producent ogrodzeń" width="300" height="113" />
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-glowna" data-nav-toggle>
+      <span aria-hidden="true">☰</span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+
+    <nav class="nav" id="nav-glowna" aria-label="Menu główne">
+      {nav.groups.map((group) => (
+        <div class="nav__group">
+          {group.url ? (
+            <a href={group.url}>{group.label}</a>
+          ) : (
+            <span tabindex="0">{group.label}</span>
+          )}
+          <ul>
+            {group.items.map((item) => (
+              <li><a href={item.url}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <div class="nav__quick">
+        <a class="btn btn--red btn--wide" href={phoneHref} data-cta="menu-mobile">{site.phone.label}: {site.phone.short}</a>
+        <a class="btn btn--outline btn--wide" href="/bezplatna-wycena" data-cta="menu-mobile">Bezpłatna wycena</a>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-cart" href="/koszyk" data-cart-link aria-label="Koszyk">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h3l2.6 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+        <span class="header-cart__count" data-cart-count hidden>0</span>
+      </a>
+      <a class="header-phone" href={phoneHref} data-cta="header">
+        <strong>{site.phone.display}</strong>
+        <small>{tk('{godziny}')}</small>
+      </a>
+      <a class="btn btn--red header-cta" href="/bezplatna-wycena" data-cta="header">Bezpłatna wycena</a>
+    </div>
+  </div>
+</header>

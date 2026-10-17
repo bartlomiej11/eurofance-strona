@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Blocks from '../components/Blocks.astro';
+import { getPage } from '../lib/content.js';
+import * as LD from '../lib/jsonld.js';
+import { tk } from '../lib/tk.js';
+
+const page = getPage('');
+const faqBlock = page.blocks.find((block) => block.type === 'faq');
+const tilesBlock = page.blocks.find((block) => block.type === 'tiles');
+
+const nodes = [];
+if (faqBlock) nodes.push(LD.faq(faqBlock.items));
+if (tilesBlock) nodes.push(LD.itemList('Kategorie ogrodzeń i bram', tilesBlock.items));
+---
+<Base
+  title={tk(page.title)}
+  description={tk(page.metaDescription)}
+  path="/"
+  jsonld={nodes}
+  ogImage={page.heroImage}
+  heroVariantKey={page.variantKey}
+>
+  <Hero
+    h1={page.h1}
+    answer={page.answer}
+    image={page.heroImage}
+    ctaSecondary={page.heroCta}
+    showForm={true}
+    variantKey={page.variantKey}
+    eyebrow={page.heroEyebrow}
+  />
+
+  <Blocks blocks={page.blocks} place="home" />
+</Base>

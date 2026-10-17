@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-bialystok",
+  "kind": "local",
+  "city": "Białystok",
+  "title": "Ogrodzenia panelowe Białystok | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Białystok z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 5 dni roboczych. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Białystok",
+  "answer": "Eurofance organizuje montaż ogrodzeń panelowych w Białymstoku i okolicznych gminach województwa podlaskiego. Cena paneli 2D startuje od {panel_2d_mb} za mb, a pomiar umawiamy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Białystok",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Białystok",
+      "items": [
+        "<strong>Dostawa do Białystok:</strong> zwykle 5 dni roboczych.",
+        "<strong>Dojazd ekipy:</strong> zwykle 4 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Wasilków, Choroszcz, Supraśl, Łapy, Czarna Białostocka, Juchnowiec Kościelny.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Białystok i okolicach",
+      "html": "<p>W Białymstoku umawiamy dostawę i pracę ekipy po potwierdzeniu pomiaru, aby montaż przebiegał jednym ciągiem.</p><ul><li>Białystok, Dojlidy: panele 3D 153 cm, 49 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Białystok, Starosielce: panele 2D 173 cm, 64 mb, czarny RAL 9005, furtka 100 cm.</li><li>Wasilków: panele 3D 153 cm, 38 mb, grafit RAL 7024, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Białystok",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Białystok",
+          "180 km",
+          "5 dni roboczych",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Białystok montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Wasilków</li><li>Choroszcz</li><li>Supraśl</li><li>Łapy</li><li>Czarna Białostocka</li><li>Juchnowiec Kościelny</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Białystok, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy ekipa Eurofance montuje ogrodzenia w Białymstoku?",
+          "a": "Tak. Montujemy w Białymstoku i okolicy, a dojazd ekipy planujemy zwykle w 4 dni robocze."
+        },
+        {
+          "q": "Jaki jest czas dostawy paneli do Białegostoku?",
+          "a": "Dostawa do Białegostoku trwa zwykle 5 dni roboczych. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Kiedy wykonujecie pomiar w Białymstoku?",
+          "a": "Pomiar umawiamy w {czas_pomiaru}. Do wyceny przydaje się przybliżona długość ogrodzenia i zdjęcie miejsca wjazdu."
+        },
+        {
+          "q": "Czy zimą możliwy jest montaż w Białymstoku?",
+          "a": "Tak, jeżeli pogoda i grunt pozwalają na stabilne betonowanie. Przy utrzymującym się mrozie ustalamy późniejszy termin."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Białystok",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-bialystok-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Białystok",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Białystok, Dojlidy, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D na Dojlidach w Białymstoku, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Wasilków, panele 3D i brama przesuwna 4 m, RAL 7024",
+          "alt": "Ogrodzenie panelowe z bramą przesuwną w Wasilkowie, RAL 7024",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

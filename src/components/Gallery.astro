@@ -1,0 +1,42 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Realizacje', filters = [], showQuote = true, eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section" aria-labelledby="galeria-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="galeria-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  {filters.length > 0 && (
+    <div class="filters" data-gallery-filters>
+      <button type="button" class="is-active" data-filter="wszystkie">Wszystkie</button>
+      {filters.map((f) => (
+        <button type="button" data-filter={f.slug}>{tk(f.name)}</button>
+      ))}
+    </div>
+  )}
+  <div class="gallery" data-gallery>
+    {items.map((item) => (
+      <figure data-tags={(item.tags || []).join(' ')}>
+        <img
+          src={item.image}
+          alt={tk(item.alt || item.caption)}
+          width="600"
+          height="450"
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption>
+          {tk(item.caption)}
+          {showQuote && (
+            <>
+              <br />
+              <a href={`/bezplatna-wycena?produkt=${encodeURIComponent(tk(item.caption))}`} data-cta="galeria">Wycena podobnego ogrodzenia</a>
+            </>
+          )}
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+</section>

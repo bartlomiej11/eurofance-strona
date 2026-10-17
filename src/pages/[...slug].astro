@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Hero from '../components/Hero.astro';
+import Blocks from '../components/Blocks.astro';
+import { pages } from '../lib/content.js';
+import * as LD from '../lib/jsonld.js';
+import { tk } from '../lib/tk.js';
+import galleryData from '../data/gallery.json';
+
+export function getStaticPaths() {
+  return pages
+    .filter((page) => page.slug !== '' && !page.noRoute)
+    .map((page) => ({ params: { slug: page.slug }, props: { page } }));
+}
+
+const { page } = Astro.props;
+
+const faqBlock = (page.blocks || []).find((block) => block.type === 'faq');
+const productsBlock = (page.blocks || []).find((block) => block.type === 'products');
+const galleryBlock = (page.blocks || []).find((block) => block.type === 'gallery');
+
+const nodes = [LD.breadcrumbs(page.crumbs ? [{ name: 'Strona główna', url: '/' }, ...page.crumbs, { name: page.h1, url: `/${page.slug}` }] : [{ name: page.h1, url: `/${page.slug}` }])];
+
+if (faqBlock) nodes.push(LD.faq(faqBlock.items));
+if (productsBlock) nodes.push(LD.itemList(page.h1, productsBlock.items));
+if (page.kind === 'local' && page.city) {
+  nodes.push(LD.service(`Ogrodzenia panelowe ${page.city}`, page.metaDescription, page.city));
+}
+if (page.kind === 'malarnia') {
+  nodes.push(LD.service('Malowanie proszkowe i lakiernia proszkowa', page.metaDescription, page.city || 'Maków Mazowiecki'));
+  nodes.push(LD.localBusinessMalarnia());
+}
+if (page.kind === 'gallery') {
+  nodes.push({
+    '@type': 'ImageGallery',
+    name: tk(page.h1),
+    image: (galleryBlock?.items || galleryData.items).slice(0, 12).map((item) => `https://eurofance.pl${item.image}`),
+  });
+}
+if (page.kind === 'contact') nodes.push(LD.contactPage());
+
+const crumbs = page.crumbs ? [...page.crumbs, { name: page.h1 }] : [{ name: page.h1 }];
+---
+<Base
+  title={tk(page.title)}
+  description={tk(page.metaDescription)}
+  path={`/${page.slug}`}
+  jsonld={nodes}
+  noindex={page.noindex}
+  ogImage={page.heroImage}
+  heroVariantKey={page.variantKey}
+>
+  <Breadcrumbs items={crumbs} />
+
+  {page.hero !== false ? (
+    <Hero
+      h1={page.h1}
+      answer={page.answer}
+      image={page.heroImage}
+      ctaSecondary={page.heroCta || 'Bezpłatna wycena'}
+      showForm={page.heroForm !== false}
+      category={page.category}
+      variantKey={page.variantKey}
+      eyebrow={page.heroEyebrow}
+    />
+  ) : (
+    <section class="section">
+      <div class="container narrow">
+        <h1>{tk(page.h1)}</h1>
+        <p class="answer" set:html={tk(page.answer)} />
+      </div>
+    </section>
+  )}
+
+  <Blocks blocks={page.blocks} category={page.category} place={page.slug} />
+
+  {page.footerCta !== false && (
+    <Blocks
+      blocks={[{ type: 'callback', title: 'Zadzwoń albo zostaw numer', place: `${page.slug}-koniec` }]}
+      category={page.category}
+      place={`${page.slug}-koniec`}
+    />
+  )}
+</Base>

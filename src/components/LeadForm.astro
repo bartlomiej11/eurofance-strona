@@ -1,0 +1,348 @@
+---
+import site from '../data/site.json';
+import { tk } from '../lib/tk.js';
+
+const {
+  variant = 'full', // full (3 kroki) albo quick (kafelki + telefon)
+  mode = 'standard', // standard, front, b2b, malowanie
+  category = '',
+  product = '',
+  title = 'Bezpłatna wycena w 24 h',
+  place = 'formularz',
+  compact = false,
+  eyebrow = '',
+} = Astro.props;
+
+const formId = `lead-${place}-${mode}-${variant}`;
+const phoneHref = `tel:${site.phone.tel}`;
+
+const categories = [
+  { value: 'panelowe', label: 'Ogrodzenie panelowe', icon: 'M3 15h18v4H3zM5 4h3v10H5zM10.5 4h3v10h-3zM16 4h3v10h-3z' },
+  { value: 'palisadowe', label: 'Ogrodzenie palisadowe', icon: 'M4 4h2.5v16H4zM9 4h2.5v16H9zM14 4h2.5v16H14zM19 4h1.5v16H19z' },
+  { value: 'brama-przesuwna', label: 'Brama przesuwna', icon: 'M2 6h13v12H2zM17 6h5v3h-5z' },
+  { value: 'brama-skrzydlowa', label: 'Brama skrzydłowa', icon: 'M3 5h8v14H3zM13 5h8v14h-8z' },
+  { value: 'furtka', label: 'Furtka', icon: 'M8 3h8v18H8zM10 11h4v2h-4z' },
+  { value: 'komplet-frontowy', label: 'Komplet frontowy', icon: 'M3 12l9-7 9 7v9H3zM10 21v-6h4v6z' },
+  { value: 'malowanie', label: 'Malowanie proszkowe', icon: 'M4 4h12v6H4zM16 6h4v12h-4zM6 12h8v8H6z' },
+  { value: 'inne', label: 'Inne lub nie wiem', icon: 'M12 3a9 9 0 100 18 9 9 0 000-18zm0 14h.01M12 7a2.5 2.5 0 012.5 2.5c0 1.5-2.5 2-2.5 3.5' },
+];
+
+let steps;
+if (variant === 'quick') {
+  steps = [
+    { n: 1, label: 'Zakres', kind: 'choice' },
+    { n: 2, label: 'Kontakt', kind: 'contact' },
+  ];
+} else if (mode === 'b2b') {
+  steps = [
+    { n: 1, label: 'Zapytanie', kind: 'b2b' },
+    { n: 2, label: 'Kontakt', kind: 'contact' },
+  ];
+} else if (mode === 'malowanie') {
+  steps = [
+    { n: 1, label: 'Elementy', kind: 'malowanie' },
+    { n: 2, label: 'Kontakt', kind: 'contact' },
+  ];
+} else if (mode === 'front') {
+  steps = [
+    { n: 1, label: 'Zakres', kind: 'choice' },
+    { n: 2, label: 'Front działki', kind: 'front' },
+    { n: 3, label: 'Kontakt', kind: 'contact' },
+  ];
+} else {
+  steps = [
+    { n: 1, label: 'Zakres', kind: 'choice' },
+    { n: 2, label: 'Wymiary', kind: 'dimensions' },
+    { n: 3, label: 'Kontakt', kind: 'contact' },
+  ];
+}
+const lastStep = steps[steps.length - 1].n;
+---
+<form
+  class:list={['form', compact && 'form--compact']}
+  id={formId}
+  data-lead-form
+  data-mode={mode}
+  data-place={place}
+  data-endpoint={site.forms.endpoint}
+  data-thanks={site.forms.thanksUrl}
+  data-last-step={lastStep}
+  novalidate
+>
+  {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+  <h3>{tk(title)}</h3>
+  <ol class="form__steps" data-steps>
+    {steps.map((step, i) => (
+      <li class={i === 0 ? 'is-active' : ''} data-step-label={step.n}>{step.n}. {step.label}</li>
+    ))}
+  </ol>
+
+  <div class="form__hp" aria-hidden="true">
+    <label>Nie wypełniaj tego pola <input type="text" name="firma_x" tabindex="-1" autocomplete="off" /></label>
+  </div>
+
+  <input type="hidden" name="kategoria" value={category} data-category-input />
+  <input type="hidden" name="produkt" value={product} />
+  <input type="hidden" name="strona_wyslania" value="" data-page-input />
+  <input type="hidden" name="strona_wejscia" value="" data-landing-input />
+  <input type="hidden" name="utm_source" value="" data-utm="utm_source" />
+  <input type="hidden" name="utm_medium" value="" data-utm="utm_medium" />
+  <input type="hidden" name="utm_campaign" value="" data-utm="utm_campaign" />
+  <input type="hidden" name="utm_term" value="" data-utm="utm_term" />
+  <input type="hidden" name="gclid" value="" data-utm="gclid" />
+  <input type="hidden" name="formularz" value={`${mode}-${variant}`} />
+
+  {steps.map((step) => (
+    <fieldset data-step={step.n} hidden={step.n !== 1}>
+      <legend class="visually-hidden">Krok {step.n}: {step.label}</legend>
+
+      {step.kind === 'choice' && (
+        <>
+          <p class="field" style="margin-bottom:8px"><strong>Co chcesz ogrodzić?</strong></p>
+          <div class="choice-grid">
+            {categories.map((cat) => (
+              <label class="choice">
+                <input
+                  type="radio"
+                  name="zakres"
+                  value={cat.value}
+                  checked={category === cat.value || (category === '' && cat.value === 'panelowe')}
+                />
+                <span>
+                  <svg class="choice__icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                    <path d={cat.icon} />
+                  </svg>
+                  {cat.label}
+                </span>
+              </label>
+            ))}
+          </div>
+        </>
+      )}
+
+      {step.kind === 'dimensions' && (
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for={`${formId}-dlugosc`}>Długość ogrodzenia (mb)</label>
+            <input id={`${formId}-dlugosc`} name="dlugosc_mb" type="text" inputmode="decimal" autocomplete="off" placeholder="np. 40" data-required />
+            <span class="field__error">Podaj długość w metrach, np. 40.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-wysokosc`}>Wysokość</label>
+            <select id={`${formId}-wysokosc`} name="wysokosc_cm">
+              <option value="123">123 cm</option>
+              <option value="153" selected>153 cm</option>
+              <option value="173">173 cm</option>
+              <option value="203">203 cm</option>
+              <option value="nie-wiem">Nie wiem, doradźcie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-montaz`}>Montaż</label>
+            <select id={`${formId}-montaz`} name="montaz">
+              <option value="z-montazem" selected>Z montażem</option>
+              <option value="bez-montazu">Bez montażu</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-kod`}>Kod pocztowy lub miejscowość</label>
+            <input id={`${formId}-kod`} name="lokalizacja" type="text" autocomplete="postal-code" placeholder="np. 06-200 Maków Mazowiecki" data-required />
+            <span class="field__error">Podaj kod pocztowy albo miejscowość montażu.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-brama`}>Brama wjazdowa</label>
+            <select id={`${formId}-brama`} name="brama">
+              <option value="brak">Bez bramy</option>
+              <option value="skrzydlowa">Skrzydłowa</option>
+              <option value="przesuwna" selected>Przesuwna</option>
+              <option value="nie-wiem">Nie wiem, doradźcie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-furtka`}>Furtka</label>
+            <select id={`${formId}-furtka`} name="furtka">
+              <option value="tak" selected>Tak</option>
+              <option value="nie">Nie</option>
+            </select>
+          </div>
+        </div>
+      )}
+
+      {step.kind === 'front' && (
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for={`${formId}-front-dlugosc`}>Długość frontu (mb)</label>
+            <input id={`${formId}-front-dlugosc`} name="dlugosc_frontu_mb" type="text" inputmode="decimal" placeholder="np. 20" data-required />
+            <span class="field__error">Podaj długość frontu działki.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-system`}>System przęseł</label>
+            <select id={`${formId}-front-system`} name="system">
+              <option value="panel-3d" selected>Panel 3D</option>
+              <option value="panel-2d">Panel 2D</option>
+              <option value="palisada-pion">Palisada pionowa</option>
+              <option value="palisada-poz">Palisada pozioma</option>
+              <option value="grzebien">Grzebień</option>
+              <option value="zaluzja">Żaluzja</option>
+              <option value="nie-wiem">Nie wiem, doradźcie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-brama`}>Typ bramy</label>
+            <select id={`${formId}-front-brama`} name="typ_bramy">
+              <option value="przesuwna" selected>Przesuwna</option>
+              <option value="skrzydlowa">Skrzydłowa (dwuskrzydłowa)</option>
+              <option value="jednoskrzydlowa">Jednoskrzydłowa</option>
+              <option value="nie-wiem">Nie wiem, doradźcie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-wjazd`}>Szerokość wjazdu (m)</label>
+            <input id={`${formId}-front-wjazd`} name="szerokosc_wjazdu_m" type="text" inputmode="decimal" placeholder="np. 4" />
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-furtka`}>Furtka</label>
+            <select id={`${formId}-front-furtka`} name="furtka">
+              <option value="tak" selected>Tak</option>
+              <option value="nie">Nie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-naped`}>Napęd do bramy</label>
+            <select id={`${formId}-front-naped`} name="naped">
+              <option value="tak">Tak</option>
+              <option value="nie" selected>Nie</option>
+              <option value="nie-wiem">Nie wiem, doradźcie</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for={`${formId}-front-kod`}>Kod pocztowy</label>
+            <input id={`${formId}-front-kod`} name="lokalizacja" type="text" autocomplete="postal-code" placeholder="np. 05-120 Legionowo" data-required />
+            <span class="field__error">Podaj kod pocztowy albo miejscowość montażu.</span>
+          </div>
+        </div>
+      )}
+
+      {step.kind === 'b2b' && (
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for={`${formId}-firma`}>Firma</label>
+            <input id={`${formId}-firma`} name="firma" type="text" autocomplete="organization" data-required />
+            <span class="field__error">Podaj nazwę firmy.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-nip`}>NIP (opcjonalnie)</label>
+            <input id={`${formId}-nip`} name="nip" type="text" inputmode="numeric" />
+          </div>
+          <div class="field">
+            <label for={`${formId}-b2b-dlugosc`}>Długość ogrodzenia (mb)</label>
+            <input id={`${formId}-b2b-dlugosc`} name="dlugosc_mb" type="text" inputmode="decimal" placeholder="np. 400" data-required />
+            <span class="field__error">Podaj przybliżoną długość.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-termin`}>Termin realizacji</label>
+            <input id={`${formId}-termin`} name="termin" type="text" placeholder="np. II kwartał 2027" />
+          </div>
+          <div class="field">
+            <label for={`${formId}-b2b-lokalizacja`}>Lokalizacja inwestycji</label>
+            <input id={`${formId}-b2b-lokalizacja`} name="lokalizacja" type="text" data-required />
+            <span class="field__error">Podaj miejscowość inwestycji.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-b2b-plik`}>Projekt lub przedmiar (opcjonalnie)</label>
+            <input id={`${formId}-b2b-plik`} name="zalacznik" type="file" accept=".pdf,.dwg,.jpg,.png,.xlsx" />
+          </div>
+        </div>
+      )}
+
+      {step.kind === 'malowanie' && (
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for={`${formId}-elementy`}>Rodzaj elementów</label>
+            <input id={`${formId}-elementy`} name="elementy" type="text" placeholder="np. profile stalowe, ramy, konstrukcja" data-required />
+            <span class="field__error">Napisz, co mamy pomalować.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-wymiary`}>Wymiary elementów</label>
+            <input id={`${formId}-wymiary`} name="wymiary" type="text" placeholder="np. 2000 x 500 x 300 mm" />
+          </div>
+          <div class="field">
+            <label for={`${formId}-ilosc`}>Ilość</label>
+            <input id={`${formId}-ilosc`} name="ilosc" type="text" placeholder="np. 40 szt." />
+          </div>
+          <div class="field">
+            <label for={`${formId}-ral`}>Kolor RAL</label>
+            <input id={`${formId}-ral`} name="ral" type="text" placeholder="np. RAL 7016" />
+          </div>
+          <div class="field">
+            <label for={`${formId}-mal-plik`}>Zdjęcia elementów (opcjonalnie)</label>
+            <input id={`${formId}-mal-plik`} name="zdjecia" type="file" accept="image/*" multiple />
+          </div>
+          <div class="field">
+            <label for={`${formId}-mal-lokalizacja`}>Miejscowość</label>
+            <input id={`${formId}-mal-lokalizacja`} name="lokalizacja" type="text" />
+          </div>
+        </div>
+      )}
+
+      {step.kind === 'contact' && (
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for={`${formId}-imie`}>Imię</label>
+            <input id={`${formId}-imie`} name="imie" type="text" autocomplete="given-name" data-required />
+            <span class="field__error">Podaj imię, żebyśmy wiedzieli, jak się do Ciebie zwracać.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-telefon`}>Telefon <span aria-hidden="true">*</span></label>
+            <input id={`${formId}-telefon`} name="telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="np. 579 775 729" data-required data-phone />
+            <span class="field__error">Podaj numer telefonu, min. 9 cyfr.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-email`}>E-mail (zalecany)</label>
+            <input id={`${formId}-email`} name="email" type="email" autocomplete="email" placeholder="np. jan@example.com" data-email />
+            <span class="field__error">Sprawdź adres e-mail, brakuje znaku @.</span>
+          </div>
+          <div class="field">
+            <label for={`${formId}-wiadomosc`}>Wiadomość (opcjonalnie)</label>
+            <textarea id={`${formId}-wiadomosc`} name="wiadomosc" rows="3" placeholder="Termin, kolor RAL, nietypowy teren"></textarea>
+          </div>
+          <div class="field">
+            <label for={`${formId}-zdjecie`}>Zdjęcie lub szkic działki (opcjonalnie)</label>
+            <input id={`${formId}-zdjecie`} name="zdjecie" type="file" accept="image/*" multiple />
+          </div>
+        </div>
+      )}
+
+      <div class="form__consent">
+        <label>
+          <input type="checkbox" name="rodo" data-required-checkbox />
+          <span>
+            Zgadzam się na kontakt w sprawie wyceny i przetwarzanie moich danych przez Eurofance.
+            Szczegóły w <a href={site.forms.privacyUrl}>polityce prywatności</a>. Zgoda jest dobrowolna.
+          </span>
+        </label>
+        <span class="field__error">Bez tej zgody nie możemy oddzwonić.</span>
+      </div>
+      <div class="form__consent">
+        <label>
+          <input type="checkbox" name="marketing" />
+          <span>Chcę dostawać informacje o promocjach i nowych realizacjach (opcjonalnie).</span>
+        </label>
+      </div>
+
+      <div class="btn-row">
+        {step.n > 1 && <button type="button" class="btn btn--light" data-prev>Wstecz</button>}
+        {step.n < lastStep ? (
+          <button type="button" class="btn btn--red" data-next>Dalej</button>
+        ) : (
+          <button type="submit" class="btn btn--red" data-submit>Wyślij i odbierz wycenę</button>
+        )}
+      </div>
+      <p class="form__note">
+        Odpowiadamy w {site.stats.responseTime} w dni robocze. Bez zobowiązań. Wolisz rozmowę? <a href={phoneHref} data-cta="formularz">Zadzwoń: {site.phone.short}</a>.
+      </p>
+      <div class="form__ok" data-form-ok hidden>Dziękujemy. Wycena jest w drodze, oddzwonimy w ciągu {site.stats.responseTime} w dni robocze.</div>
+      <div class="form__err" data-form-err hidden>Nie udało się wysłać zgłoszenia. Zadzwoń: {site.phone.short} albo spróbuj ponownie.</div>
+    </fieldset>
+  ))}
+</form>

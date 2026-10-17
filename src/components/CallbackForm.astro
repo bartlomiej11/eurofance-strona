@@ -1,0 +1,37 @@
+---
+import site from '../data/site.json';
+import { tk } from '../lib/tk.js';
+import MiniCallback from './MiniCallback.astro';
+const {
+  title = 'Zadzwoń albo zostaw numer',
+  desc = 'Oddzwonimy w ciągu 2 h w dni robocze i policzymy ogrodzenie dla Twojej działki.',
+  place = 'oddzwon',
+  category = '',
+} = Astro.props;
+---
+<section class="section" aria-labelledby={`${place}-h`}>
+  <h2 id={`${place}-h`}>{tk(title)}</h2>
+  <div class="two-col">
+    <div>
+      <p>{tk(desc)}</p>
+      <p>
+        <strong>Telefon:</strong> <a href={`tel:${site.phone.tel}`} data-cta={place}>{site.phone.display}</a><br />
+        <strong>WhatsApp:</strong>
+        <a href={`${site.whatsapp.base}?text=${encodeURIComponent('Dzień dobry, proszę o wycenę ogrodzenia.')}`} rel="noopener" data-cta={place}>Napisz na WhatsApp</a><br />
+        <strong>Godziny:</strong> {site.hours.line}
+      </p>
+      <p class="muted">{site.hours.afterHours}</p>
+      <p class="trust">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span>Ocena Google {site.googleRating.value} ({site.googleRating.count} opinii)</span>
+        <span>Gwarancja {site.warranty}</span>
+        <span>Montaż w całej Polsce</span>
+      </p>
+      <p class="muted">
+        <strong>E-mail:</strong> <a href={`mailto:${site.email}`} data-cta={place}>{site.email}</a>
+        <button type="button" class="copy-btn" data-copy={site.email} style="background:#f5f6f7;border-color:#e3e5e8;color:#23282d">Kopiuj adres</button>
+      </p>
+    </div>
+    <MiniCallback title="Oddzwońcie do mnie" place={place} category={category} />
+  </div>
+</section>

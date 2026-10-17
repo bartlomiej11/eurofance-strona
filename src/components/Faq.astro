@@ -1,0 +1,21 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Najczęstsze pytania', eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section" aria-labelledby="faq-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="faq-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  <div class="faq">
+    {items.map((item) => (
+      <details>
+        <summary>{tk(item.q)}</summary>
+        <div class="faq__a">
+          <p set:html={tk(item.a)} />
+        </div>
+      </details>
+    ))}
+  </div>
+</section>

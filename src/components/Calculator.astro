@@ -1,0 +1,157 @@
+---
+import site from '../data/site.json';
+import calc from '../data/calculator.json';
+import { tk } from '../lib/tk.js';
+const {
+  title = 'Kalkulator ogrodzenia: policz koszt z montażem',
+  desc = 'Wybierz system, podaj długość i dodatki. Przedział cenowy zobaczysz od razu, bez podawania danych kontaktowych.',
+  compact = false,
+  place = 'kalkulator',
+  category = '',
+  eyebrow = '',
+} = Astro.props;
+const id = `calc-${place}`;
+const phoneHref = `tel:${site.phone.tel}`;
+---
+<section class="section" aria-labelledby={`${id}-h`}>
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id={`${id}-h`}>{tk(title)}</h2>
+  </div>
+  <p class="lead">{tk(desc)}</p>
+
+  <div class="calc">
+    <div class="calc__body" data-calculator data-config-id={`${id}-config`}>
+      <div class="form__row form__row--2">
+        <div class="field">
+          <label for={`${id}-rodzaj`}>Rodzaj ogrodzenia</label>
+          <select id={`${id}-rodzaj`} data-calc="base">
+            {Object.entries(calc.base).map(([key, item]) => (
+              <option value={key} selected={key === (category === 'palisadowe' ? 'palisada-pion' : 'panel-3d')}>
+                {item.label} ({item.price} zł/mb)
+              </option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-dlugosc`}>Długość ogrodzenia (mb)</label>
+          <input id={`${id}-dlugosc`} data-calc="length" type="text" inputmode="decimal" value="40" />
+        </div>
+        <div class="field">
+          <label for={`${id}-wysokosc`}>Wysokość</label>
+          <select id={`${id}-wysokosc`} data-calc="height">
+            {Object.entries(calc.height).map(([key, item]) => (
+              <option value={key} selected={key === '153'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-brama`}>Brama wjazdowa</label>
+          <select id={`${id}-brama`} data-calc="gate">
+            {Object.entries(calc.gate).map(([key, item]) => (
+              <option value={key} selected={key === 'przesuwna'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-furtka`}>Furtka</label>
+          <select id={`${id}-furtka`} data-calc="wicket">
+            {Object.entries(calc.wicket).map(([key, item]) => (
+              <option value={key} selected={key === 'panelowa'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-podmurowka`}>Podmurówka</label>
+          <select id={`${id}-podmurowka`} data-calc="kerb">
+            {Object.entries(calc.kerb).map(([key, item]) => (
+              <option value={key} selected={key === '250x25'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-montaz`}>Montaż</label>
+          <select id={`${id}-montaz`} data-calc="mount">
+            {Object.entries(calc.mount).map(([key, item]) => (
+              <option value={key} selected={key === 'tak'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+        <div class="field">
+          <label for={`${id}-naped`}>Napęd do bramy</label>
+          <select id={`${id}-naped`} data-calc="drive">
+            {Object.entries(calc.drive).map(([key, item]) => (
+              <option value={key} selected={key === 'brak'}>{item.label}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+      <p class="calc__hint">
+        Kalkulator liczy orientacyjnie, na podstawie cennika z {tk('{aktualizacja}')}. Dokładną wycenę robimy po pomiarze, bezpłatnie.
+      </p>
+    </div>
+
+    <div class="calc__result" data-calc-result aria-live="polite">
+      <span class="calc__hint" style="color:#d7dbdf">Szacowany koszt ogrodzenia</span>
+      <strong data-calc-range>liczymy...</strong>
+      <p data-calc-detail></p>
+      <div class="btn-row">
+        <a class="btn btn--red" href={phoneHref} data-cta={place}>Zadzwoń: {site.phone.short}</a>
+        <a class="btn btn--light" href="#wycena-kalkulator" data-cta={place}>Wyślij mi dokładną wycenę</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/json" id={`${id}-config`} set:html={JSON.stringify(calc)} />
+
+  <div id="wycena-kalkulator" style="margin-top:20px">
+    <form
+      class="form"
+      data-lead-form
+      data-mode="calculator"
+      data-place={`${place}-lead`}
+      data-endpoint={site.forms.endpoint}
+      data-thanks={site.forms.thanksUrl}
+      data-last-step="1"
+      novalidate
+    >
+      <h3 style="font-size:1.05rem">Wyślij mi dokładną wycenę</h3>
+      <div class="form__hp" aria-hidden="true">
+        <label>Nie wypełniaj tego pola <input type="text" name="firma_x" tabindex="-1" autocomplete="off" /></label>
+      </div>
+      <input type="hidden" name="formularz" value="kalkulator" />
+      <input type="hidden" name="kategoria" value={category} data-category-input />
+      <input type="hidden" name="wycena_kalkulatora" value="" data-calc-mirror />
+      <input type="hidden" name="strona_wyslania" value="" data-page-input />
+      <input type="hidden" name="strona_wejscia" value="" data-landing-input />
+      <input type="hidden" name="utm_source" value="" data-utm="utm_source" />
+      <input type="hidden" name="utm_medium" value="" data-utm="utm_medium" />
+      <input type="hidden" name="utm_campaign" value="" data-utm="utm_campaign" />
+      <input type="hidden" name="utm_term" value="" data-utm="utm_term" />
+      <input type="hidden" name="gclid" value="" data-utm="gclid" />
+      <div class="form__row form__row--2">
+        <div class="field">
+          <label for={`${id}-telefon`}>Telefon</label>
+          <input id={`${id}-telefon`} name="telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="np. 579 775 729" data-required data-phone />
+          <span class="field__error">Podaj numer telefonu, min. 9 cyfr.</span>
+        </div>
+        <div class="field">
+          <label for={`${id}-email`}>E-mail</label>
+          <input id={`${id}-email`} name="email" type="email" autocomplete="email" placeholder="np. jan@example.com" data-email />
+          <span class="field__error">Sprawdź adres e-mail.</span>
+        </div>
+      </div>
+      <div class="form__consent">
+        <label>
+          <input type="checkbox" name="rodo" data-required-checkbox />
+          <span>Zgadzam się na kontakt w sprawie wyceny. <a href={site.forms.privacyUrl}>Polityka prywatności</a>.</span>
+        </label>
+        <span class="field__error">Bez tej zgody nie możemy wysłać wyceny.</span>
+      </div>
+      <button type="submit" class="btn btn--red btn--wide" data-submit>Wyślij i odbierz wycenę</button>
+      <p class="form__note">Odpowiadamy w {site.stats.responseTime} w dni robocze. Bez zobowiązań.</p>
+      <div class="form__ok" data-form-ok hidden>Dziękujemy. Wycena jest w drodze.</div>
+      <div class="form__err" data-form-err hidden>Nie udało się wysłać zgłoszenia. Zadzwoń: {site.phone.short}.</div>
+    </form>
+  </div>
+</section>

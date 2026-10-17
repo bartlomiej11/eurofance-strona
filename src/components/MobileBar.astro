@@ -1,0 +1,11 @@
+---
+import site from '../data/site.json';
+const phoneHref = `tel:${site.phone.tel}`;
+const waText = 'Dzień dobry, proszę o wycenę ogrodzenia. Długość: __ m, wysokość: __ cm, rodzaj: __, miejscowość: __.';
+const waHref = `${site.whatsapp.base}?text=${encodeURIComponent(waText)}`;
+---
+<div class="mobile-bar" role="group" aria-label="Szybki kontakt">
+  <a class="btn btn--red" href={phoneHref} data-cta="sticky-mobile">Zadzwoń</a>
+  <a class="btn btn--wa" href={waHref} data-cta="sticky-mobile" rel="noopener">WhatsApp</a>
+  <a class="btn btn--outline" href="/bezplatna-wycena" data-cta="sticky-mobile">Wycena</a>
+</div>

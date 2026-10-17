@@ -1,0 +1,282 @@
+{
+  "slug": "przesla-ogrodzeniowe",
+  "kind": "offer",
+  "title": "Przęsła ogrodzeniowe stalowe od producenta | palisadowe i nowoczesne | Eurofance",
+  "metaDescription": "Stalowe przęsła ogrodzeniowe palisadowe, pionowe, poziome, grzebieniowe i żaluzjowe. Szerokość 250 cm, cena za sztukę od {przeslo_palisada_szt}. Przęsła na.",
+  "h1": "Przęsła ogrodzeniowe",
+  "answer": "Eurofance produkuje stalowe przęsła ogrodzeniowe o standardowej szerokości 250 cm: palisadowe pionowe i poziome, grzebieniowe oraz żaluzjowe. Przęsło palisadowe pionowe kosztuje od {przeslo_palisada_szt} za sztukę, a wszystkie warianty malujemy proszkowo na wybrany kolor RAL. Dla nietypowego rozstawu słupków wykonujemy przęsło na wymiar po potwierdzeniu pomiaru.",
+  "category": "palisadowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena przęseł na wymiar",
+  "variantKey": "hurt",
+  "crumbs": [
+    {
+      "name": "Sklep",
+      "url": "/sklep"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Materiał:</strong> profile stalowe 85 x 20 mm lub 100 x 20 mm, malowane proszkowo.",
+        "<strong>Standard:</strong> przęsło ma 250 cm szerokości i 153 cm wysokości.",
+        "<strong>Rodzaje:</strong> palisada pionowa, palisada pozioma, grzebień i żaluzja.",
+        "<strong>Cena:</strong> od {przeslo_palisada_szt} za sztukę za palisadę pionową.",
+        "<strong>Na wymiar:</strong> podaj światło między słupkami lub zadzwoń: +48 579 775 729."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Przęsła palisadowe, pionowe i poziome",
+      "intro": "Palisada z profili zamkniętych tworzy nowoczesny front posesji. Wybierz układ zgodny z bramą i furtką.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Przęsło palisadowe pionowe 153 cm",
+          "desc": "Profile 85 x 20 mm, prześwit 10 mm, szerokość 250 cm.",
+          "price": "od {przeslo_palisada_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-06.jpg",
+          "quote": "Przęsło palisadowe pionowe 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/przeslo-palisadowe-pionowe-153"
+        },
+        {
+          "name": "Przęsło palisadowe poziome 153 cm",
+          "desc": "Profile 85 x 20 mm w układzie poziomym, prześwit 12 mm.",
+          "price": "od {przeslo_palisada_poz_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-07.jpg",
+          "quote": "Przęsło palisadowe poziome 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/przeslo-palisadowe-poziome-153"
+        }
+      ],
+      "note": "Cena za pojedyncze przęsło. Słupki, mocowania, brama, furtka i montaż są wyceniane osobno.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "products",
+      "eyebrow": "Produkty",
+      "title": "Przęsła grzebieniowe i żaluzjowe",
+      "intro": "Dwa warianty o większej prywatności. Grzebień ma profile ustawione na sztorc, a żaluzja profile pod kątem.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Przęsło grzebieniowe 153 cm",
+          "desc": "Profil 85 x 20 mm na sztorc, prześwit 20 mm i regularny rytm profili.",
+          "price": "od {przeslo_grzebien_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-11.jpg",
+          "quote": "Przęsło grzebieniowe 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/przeslo-grzebieniowe-153"
+        },
+        {
+          "name": "Przęsło żaluzjowe 153 cm",
+          "desc": "Profile 100 x 20 mm pod kątem. Ograniczają wgląd z ulicy i przepuszczają powietrze.",
+          "price": "od {przeslo_palisada_poz_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/frontowe/frontowe-04.jpg",
+          "quote": "Przęsło żaluzjowe 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/przeslo-zaluzjowe-153"
+        }
+      ],
+      "note": "Wszystkie przęsła oferujemy w RAL 7016, RAL 9005 i innych kolorach z palety RAL na zamówienie."
+    },
+    {
+      "type": "priceTable",
+      "title": "Wymiary i ceny przęseł",
+      "intro": "Ceny Eurofance dotyczą jednego przęsła stalowego 250 x 153 cm. Nietypową szerokość wyceniamy po podaniu wymiaru między słupkami.",
+      "head": [
+        "Typ przęsła",
+        "Profil i prześwit",
+        "Wymiar standardowy",
+        "Cena od"
+      ],
+      "rows": [
+        [
+          "Palisadowe pionowe",
+          "85 x 20 mm, 10 mm",
+          "250 x 153 cm",
+          "od {przeslo_palisada_szt} za sztukę"
+        ],
+        [
+          "Palisadowe poziome",
+          "85 x 20 mm, 12 mm",
+          "250 x 153 cm",
+          "od {przeslo_palisada_poz_szt} za sztukę"
+        ],
+        [
+          "Grzebieniowe",
+          "85 x 20 mm na sztorc, 20 mm",
+          "250 x 153 cm",
+          "od {przeslo_grzebien_szt} za sztukę"
+        ],
+        [
+          "Żaluzjowe",
+          "100 x 20 mm pod kątem",
+          "250 x 153 cm",
+          "od {przeslo_palisada_poz_szt} za sztukę"
+        ]
+      ],
+      "note": "Wymiar 250 cm jest wymiarem przęsła. Przygotuj też wymiar światła między słupkami i informację o wysokości podmurówki.",
+      "ctaText": "Potrzebujesz przęseł do konkretnego frontu?",
+      "ctaDesc": "Prześlij szkic z liczbą przęseł, szerokością bramy i furtki. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Przęsło na wymiar",
+      "html": "<p>Standardowe przęsło ma 250 cm szerokości, ale narożnik, krótki odcinek przy furtce albo rozstaw istniejących słupków często wymaga innego wymiaru. Eurofance wykonuje przęsła stalowe na wymiar po otrzymaniu szerokości światła między słupkami, docelowej wysokości oraz informacji o kolorze RAL.</p><p>Zadzwoń pod <a href=\"tel:+48579775729\">+48 579 775 729</a> albo wyślij szkic. Przy wymiarze 237 cm nie docinaj gotowego przęsła samodzielnie, bo po cięciu trzeba zabezpieczyć każdą krawędź przed korozją.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Jak dopasować przęsło do frontu",
+      "intro": "Dobrze dobrany układ powtarza wypełnienie w przęśle, bramie i furtce.",
+      "head": [
+        "Efekt",
+        "Wariant",
+        "Prześwit",
+        "Typowy kolor"
+      ],
+      "rows": [
+        [
+          "Mocna pionowa linia",
+          "Palisada pionowa",
+          "10 mm",
+          "RAL 7016"
+        ],
+        [
+          "Szeroki, spokojny rysunek",
+          "Palisada pozioma",
+          "12 mm",
+          "RAL 7016 lub RAL 9005"
+        ],
+        [
+          "Lekki rytm profili",
+          "Grzebień",
+          "20 mm",
+          "RAL 7016"
+        ],
+        [
+          "Największa prywatność",
+          "Żaluzja",
+          "profile pod kątem",
+          "RAL 7016"
+        ]
+      ],
+      "note": "Do każdego przęsła dobieramy słupki, obejmy lub uchwyty dopasowane do konstrukcji frontu."
+    },
+    {
+      "type": "gallery",
+      "title": "Przęsła ogrodzeniowe w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/palisadowe.jpg",
+          "caption": "Legionowo, palisada pionowa 153 cm, RAL 7016",
+          "alt": "Przęsła palisadowe pionowe w Legionowie",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-06.jpg",
+          "caption": "Pułtusk, palisada pozioma 153 cm, RAL 9005",
+          "alt": "Przęsła palisadowe poziome w Pułtusku",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-10.jpg",
+          "caption": "Ciechanów, przęsła grzebieniowe 153 cm, RAL 7016",
+          "alt": "Przęsła grzebieniowe w Ciechanowie",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-13.jpg",
+          "caption": "Warszawa, przęsła żaluzjowe 153 cm, RAL 7016",
+          "alt": "Przęsła żaluzjowe w Warszawie",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Przęsła ogrodzeniowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje przęsło palisadowe 250 cm?",
+          "a": "Przęsło palisadowe pionowe o wymiarze 250 x 153 cm kosztuje od {przeslo_palisada_szt} za sztukę. Wersja pozioma kosztuje od {przeslo_palisada_poz_szt} za sztukę."
+        },
+        {
+          "q": "Jaka jest standardowa szerokość przęsła?",
+          "a": "Standardowa szerokość wynosi 250 cm. Przed zakupem zmierz światło między słupkami, bo 250 cm to wymiar samego przęsła."
+        },
+        {
+          "q": "Czy wykonujecie przęsło o szerokości 237 cm?",
+          "a": "Tak, przęsło na wymiar wykonujemy po potwierdzeniu szerokości światła, wysokości i koloru RAL. Zadzwoń pod +48 579 775 729 lub prześlij szkic."
+        },
+        {
+          "q": "Palisada pionowa czy pozioma?",
+          "a": "Palisada pionowa ma profile 85 x 20 mm z prześwitem 10 mm i wyraźnie pionowy rysunek. Pozioma używa tego samego profilu, ale ma prześwit 12 mm i optycznie poszerza front."
+        },
+        {
+          "q": "Czym różni się grzebień od żaluzji?",
+          "a": "Grzebień ma profile 85 x 20 mm ustawione na sztorc z prześwitem 20 mm. Żaluzja używa profili 100 x 20 mm pod kątem, dzięki czemu silniej ogranicza widok z ulicy."
+        },
+        {
+          "q": "Czy przęsło jest malowane proszkowo?",
+          "a": "Tak. Stal jest zabezpieczona i malowana proszkowo. Standardem jest RAL 7016, a RAL 9005 oraz inne kolory RAL przygotowujemy na zamówienie."
+        },
+        {
+          "q": "Ile trwa produkcja przęseł na wymiar?",
+          "a": "Standardowy termin produkcji wynosi {czas_produkcji} od zatwierdzenia wymiaru i koloru. Przy większym froncie potwierdzamy termin w wycenie."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o przęsłach i słupkach",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy przęsłach stalowych."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena przęseł ogrodzeniowych",
+      "category": "palisadowe",
+      "place": "przesla-ogrodzeniowe-wycena"
+    }
+  ]
+}

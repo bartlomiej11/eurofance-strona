@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CtaBar from '../../../components/CtaBar.astro';
+import { encyclopedia, wikiUrl } from '../../../lib/content.js';
+import * as LD from '../../../lib/jsonld.js';
+
+const nodes = [
+  LD.breadcrumbs([{ name: 'Blog', url: '/blog/' }, { name: 'Encyklopedia', url: '/blog/encyklopedia/' }]),
+  LD.itemList('Encyklopedia ogrodzeń', encyclopedia.map((w) => ({ name: w.title, url: wikiUrl(w.slug) }))),
+];
+---
+<Base
+  title="Encyklopedia ogrodzeń: pojęcia, wymiary, kolory | Eurofance"
+  description="Słownik pojęć z ogrodzeń: przęsło, słupek, podmurówka, brama przesuwna, RAL 7016, drut 4 mm i 5 mm. Krótkie definicje z liczbami od producenta."
+  path="/blog/encyklopedia/"
+  jsonld={nodes}
+>
+  <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }, { name: 'Encyklopedia' }]} />
+  <section class="section">
+    <div class="container">
+      <h1>Encyklopedia ogrodzeń</h1>
+      <p class="answer">
+        Krótkie definicje pojęć, które wracają w każdej wycenie. Każde hasło kończy się konkretną liczbą: wymiarem, ceną „od” albo normą.
+        Hasła prowadzą do stron, gdzie dany element kupisz albo zamówisz z montażem.
+      </p>
+      <div class="grid grid--3">
+        {encyclopedia.map((item) => (
+          <a class="tile" href={wikiUrl(item.slug)}>
+            <span>
+              <span class="tile__name">{item.title}</span>
+              <span class="tile__meta" style="display:block">{item.excerpt}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+      <CtaBar place="encyklopedia" />
+    </div>
+  </section>
+</Base>

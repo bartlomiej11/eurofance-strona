@@ -1,0 +1,147 @@
+{
+  "_opis": "Menu nawigacji. Adresy stron są płaskie (bez ukośnika na końcu) i nie zależą od grupy w menu. Grupa bez adresu jest tylko etykietą rozwijaną.",
+  "groups": [
+    {
+      "label": "Ogrodzenia",
+      "url": "/oferta",
+      "items": [
+        {
+          "label": "Ogrodzenia panelowe",
+          "url": "/ogrodzenia-panelowe"
+        },
+        {
+          "label": "Ogrodzenia frontowe",
+          "url": "/ogrodzenia-frontowe"
+        },
+        {
+          "label": "Ogrodzenia palisadowe",
+          "url": "/ogrodzenia-palisadowe"
+        },
+        {
+          "label": "Ogrodzenia grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe"
+        },
+        {
+          "label": "Ogrodzenia żaluzjowe",
+          "url": "/ogrodzenia-zaluzjowe"
+        },
+        {
+          "label": "Ogrodzenia nowoczesne",
+          "url": "/ogrodzenia-nowoczesne"
+        },
+        {
+          "label": "Ogrodzenia aluminiowe",
+          "url": "/ogrodzenia-aluminiowe"
+        },
+        {
+          "label": "Ogrodzenia metalowe",
+          "url": "/ogrodzenia-metalowe"
+        },
+        {
+          "label": "Ogrodzenia budowlane",
+          "url": "/ogrodzenia-budowlane"
+        },
+        {
+          "label": "Ogrodzenia przemysłowe",
+          "url": "/bramy-i-ogrodzenia-przemyslowe"
+        }
+      ]
+    },
+    {
+      "label": "Bramy i furtki",
+      "url": "/bramy-wjazdowe",
+      "items": [
+        {
+          "label": "Bramy wjazdowe",
+          "url": "/bramy-wjazdowe"
+        },
+        {
+          "label": "Bramy przesuwne",
+          "url": "/bramy-wjazdowe-przesuwne"
+        },
+        {
+          "label": "Bramy skrzydłowe",
+          "url": "/bramy-wjazdowe-skrzydlowe"
+        },
+        {
+          "label": "Furtki",
+          "url": "/furtki-panelowe"
+        },
+        {
+          "label": "Automatyka do bram",
+          "url": "/automatyka-do-bram"
+        }
+      ]
+    },
+    {
+      "label": "Sklep z elementami",
+      "url": null,
+      "items": [
+        {
+          "label": "Panele ogrodzeniowe",
+          "url": "/panele-ogrodzeniowe"
+        },
+        {
+          "label": "Przęsła ogrodzeniowe",
+          "url": "/przesla-ogrodzeniowe"
+        },
+        {
+          "label": "Słupki ogrodzeniowe",
+          "url": "/slupki-ogrodzeniowe"
+        },
+        {
+          "label": "Podmurówki betonowe",
+          "url": "/podmurowki-betonowe"
+        }
+      ]
+    },
+    {
+      "label": "Firma",
+      "url": null,
+      "items": [
+        {
+          "label": "Malarnia proszkowa",
+          "url": "/malarnia-proszkowa"
+        },
+        {
+          "label": "Paleta RAL",
+          "url": "/paleta-ral"
+        },
+        {
+          "label": "Konstrukcje stalowe",
+          "url": "/konstrukcje-stalowe"
+        },
+        {
+          "label": "Realizacje",
+          "url": "/realizacje"
+        },
+        {
+          "label": "Blog",
+          "url": "/blog/"
+        },
+        {
+          "label": "Kontakt",
+          "url": "/kontakt"
+        },
+        {
+          "label": "Wideo i rolki",
+          "url": "/wideo"
+        }
+      ]
+    }
+  ],
+  "topLevel": [
+    {
+      "label": "Realizacje",
+      "url": "/realizacje"
+    },
+    {
+      "label": "Kalkulator",
+      "url": "/kalkulator-ogrodzenia"
+    },
+    {
+      "label": "Kontakt",
+      "url": "/kontakt"
+    }
+  ]
+}

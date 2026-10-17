@@ -1,0 +1,302 @@
+{
+  "slug": "furtki-panelowe",
+  "kind": "offer",
+  "title": "Furtki ogrodzeniowe od {furtka_panelowa} | Eurofance",
+  "metaDescription": "Furtki ogrodzeniowe panelowe i palisadowe od producenta. Szerokość 100, 110 lub 120 cm, zamek i klamka w cenie, montaż w całej Polsce. Od {furtka_panelowa}.",
+  "h1": "Furtki ogrodzeniowe",
+  "answer": "Furtka ogrodzeniowa to przejście dla pieszych o szerokości 100, 110 albo 120 cm, osadzone między dwoma słupkami. W Eurofance furtka panelowa z zamkiem, klamką i montażem kosztuje od {furtka_panelowa}, a palisadowa od {furtka_palisadowa}. Regulowane zawiasy pozwalają ustawić skrzydło po montażu, a gwarancja wynosi {gwarancja}.",
+  "category": "furtka",
+  "heroImage": "/images/premium/bramy.jpg",
+  "heroCta": "Wycena furtki z montażem",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Bramy i furtki",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co wybierasz:</strong> furtkę panelową albo palisadową, z wypełnieniem dobranym do ogrodzenia.",
+        "<strong>Szerokość:</strong> standardowo 100 cm, na zamówienie 110 albo 120 cm w świetle przejścia.",
+        "<strong>Cena:</strong> od {furtka_panelowa} za furtkę panelową z montażem.",
+        "<strong>Osprzęt:</strong> zamek, klamka i regulowane zawiasy są w komplecie; elektrozaczep jest opcją.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę malowaną proszkowo."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Furtki ogrodzeniowe z montażem",
+      "intro": "Dobieramy wysokość, wypełnienie i kolor RAL do linii ogrodzenia. Cena obejmuje skrzydło, słupki, osprzęt i montaż.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Furtka panelowa 1 m",
+          "desc": "Rama 40 x 40 mm, panel 3D, zamek z klamką i zawiasy regulowane.",
+          "price": "od {furtka_panelowa}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "url": "/sklep/furtka-panelowa-1m",
+          "quote": "Furtka panelowa 100 cm",
+          "quoteLabel": "Wycena tej furtki"
+        },
+        {
+          "name": "Furtka palisadowa 1 m",
+          "desc": "Wypełnienie z palisady pionowej 85 x 20 mm, spójne z frontem posesji.",
+          "price": "od {furtka_palisadowa}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/realizacja-3.jpg",
+          "url": "/sklep/furtka-palisadowa-1m",
+          "quote": "Furtka palisadowa 100 cm",
+          "quoteLabel": "Wycena tej furtki"
+        },
+        {
+          "name": "Furtka z elektrozaczepem",
+          "desc": "Panelowa furtka 1 m przygotowana pod wideodomofon, z elektrozaczepem i samozamykaczem.",
+          "price": "od {furtka_panelowa}",
+          "priceNote": "furtka plus wybrany osprzęt",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "url": "/sklep/furtka-z-elektrozaczepem",
+          "quote": "Furtka z elektrozaczepem",
+          "quoteLabel": "Wycena furtki z osprzętem"
+        }
+      ],
+      "note": "Ceny „od” brutto. Kolor inny niż standardowy RAL oraz nietypowa szerokość są ustalane w bezpłatnej wycenie.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny furtek ogrodzeniowych",
+      "intro": "Wyceniamy komplet z montażem. Przy furtce w linii bramy ustalamy wspólny rozstaw słupków podczas pomiaru.",
+      "head": [
+        "Typ furtki",
+        "Szerokość",
+        "Cena od",
+        "Zakres"
+      ],
+      "rows": [
+        [
+          "Panelowa 3D",
+          "100 cm",
+          "od {furtka_panelowa}",
+          "rama, słupki, zamek, klamka, montaż"
+        ],
+        [
+          "Panelowa 3D",
+          "110 cm",
+          "od {furtka_panelowa}",
+          "wymiar ustalany na pomiarze"
+        ],
+        [
+          "Panelowa 3D",
+          "120 cm",
+          "od {furtka_panelowa}",
+          "szersze przejście dla wózka lub roweru"
+        ],
+        [
+          "Palisadowa pionowa",
+          "100 cm",
+          "od {furtka_palisadowa}",
+          "wypełnienie palisadowe, pełny osprzęt"
+        ],
+        [
+          "Elektrozaczep do furtki",
+          "do furtki 100 cm",
+          "od {elektrozaczep}",
+          "otwieranie z domofonu lub wideodomofonu"
+        ],
+        [
+          "Samozamykacz",
+          "do furtki 100 do 120 cm",
+          "od {samozamykacz}",
+          "domykanie skrzydła po przejściu"
+        ]
+      ],
+      "note": "Słupek furtkowy betonujemy na głębokość dopasowaną do gruntu i wysokości skrzydła. Kierunek otwierania ustalamy przed produkcją.",
+      "ctaText": "Policzymy furtkę razem z ogrodzeniem",
+      "ctaDesc": "Podaj szerokość przejścia, wysokość i miejscowość. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Wymiary i parametry furtek",
+      "intro": "Standardowe skrzydło ma 100 cm szerokości, ale wykonujemy furtki dopasowane do gotowych słupków albo projektu frontu.",
+      "head": [
+        "Parametr",
+        "Furtka panelowa",
+        "Furtka palisadowa"
+      ],
+      "rows": [
+        [
+          "Szerokość przejścia",
+          "100, 110 lub 120 cm",
+          "100, 110 lub 120 cm"
+        ],
+        [
+          "Wysokość skrzydła",
+          "123, 153 albo 173 cm",
+          "153 albo 173 cm"
+        ],
+        [
+          "Rama",
+          "profil 40 x 40 mm",
+          "profil 40 x 40 mm"
+        ],
+        [
+          "Wypełnienie",
+          "panel 3D",
+          "palisada pionowa 85 x 20 mm"
+        ],
+        [
+          "Zawiasy",
+          "regulowane w pionie i poziomie",
+          "regulowane w pionie i poziomie"
+        ],
+        [
+          "Zamek",
+          "wkładka i klamka",
+          "wkładka i klamka"
+        ],
+        [
+          "Kolor",
+          "RAL 7016 lub inny RAL",
+          "RAL 7016 lub inny RAL"
+        ]
+      ],
+      "note": "Wymiary podajemy przed malowaniem i montażem. Pomiar na miejscu pozwala uniknąć zbyt wąskiego przejścia."
+    },
+    {
+      "type": "text",
+      "title": "Jaka szerokość furtki sprawdza się przy domu?",
+      "html": "<p>Furtka 100 cm jest najczęściej wybierana przy domu, ponieważ mieści przejście z zakupami, rowerem i wózkiem. Szerokość 110 albo 120 cm warto wybrać, gdy furtka prowadzi do śmietnika, ogrodu lub jest jedynym dostępem dla sprzętu.</p><p>Eurofance ustala światło przejścia przed produkcją. Zawiasy regulowane pozwalają skorygować położenie skrzydła po osadzeniu słupków, a elektrozaczep od {elektrozaczep} można połączyć z domofonem lub wideodomofonem.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Jak zamawiasz furtkę",
+      "items": [
+        {
+          "name": "Wycena",
+          "desc": "Podajesz szerokość, wysokość, wypełnienie i miejscowość.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Pomiar",
+          "desc": "Sprawdzamy rozstaw słupków, kierunek otwierania i poziom terenu.",
+          "time": "{czas_pomiaru}"
+        },
+        {
+          "name": "Produkcja",
+          "desc": "Wykonujemy ramę, wypełnienie i malowanie w uzgodnionym RAL.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż",
+          "desc": "Osadzamy słupki, regulujemy zawiasy i sprawdzamy zamek.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Furtki w realizacjach Eurofance",
+      "items": [
+        {
+          "image": "/images/premium/bramy.jpg",
+          "caption": "Maków Mazowiecki, furtka panelowa 100 cm, RAL 7016, wysokość 153 cm",
+          "alt": "Furtka panelowa 100 cm w Makowie Mazowieckim, RAL 7016",
+          "tags": [
+            "furtki",
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/palisadowe.jpg",
+          "caption": "Legionowo, furtka palisadowa 100 cm, RAL 7016, wysokość 153 cm",
+          "alt": "Furtka palisadowa 100 cm w Legionowie",
+          "tags": [
+            "furtki",
+            "palisadowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Ciechanów, furtka przy bramie przesuwnej 4 m, RAL 9005",
+          "alt": "Furtka i brama przesuwna w Ciechanowie, RAL 9005",
+          "tags": [
+            "furtki",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Przasnysz, furtka palisadowa 110 cm, RAL 8017, front posesji",
+          "alt": "Furtka palisadowa 110 cm w Przasnyszu",
+          "tags": [
+            "furtki",
+            "frontowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Furtki ogrodzeniowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje furtka panelowa 1 m?",
+          "a": "Furtka panelowa o szerokości 100 cm kosztuje od {furtka_panelowa} z montażem. W cenie jest rama, panel 3D, słupki, zamek z klamką i regulowane zawiasy."
+        },
+        {
+          "q": "Jaka szerokość furtki jest najlepsza?",
+          "a": "Przy domu najczęściej wystarcza 100 cm. Przejście 110 albo 120 cm wybieramy dla roweru, wózka, wejścia gospodarczego lub gdy przez furtkę przechodzi sprzęt ogrodowy."
+        },
+        {
+          "q": "Czy furtka może mieć 153 cm wysokości?",
+          "a": "Tak. Wysokość 153 cm jest standardem dla furtki panelowej, a z podmurówką 25 cm linia ogrodzenia osiąga około 178 cm."
+        },
+        {
+          "q": "Ile kosztuje elektrozaczep do furtki?",
+          "a": "Elektrozaczep kosztuje od {elektrozaczep}. Montujemy go w furtce przygotowanej pod przewód 12 V i można go sterować z domofonu lub wideodomofonu."
+        },
+        {
+          "q": "Czy furtka otwiera się na ulicę?",
+          "a": "Kierunek otwierania ustalamy na pomiarze. Skrzydło powinno otwierać się do wnętrza działki, a potrzebne miejsce to około 100 do 120 cm za furtką."
+        },
+        {
+          "q": "Ile trwa montaż furtki?",
+          "a": "Montaż jednej furtki zwykle zamyka się w 1 dniu, zależnie od gruntu i zakresu betonowania słupków. Produkcja trwa {czas_produkcji} od zatwierdzenia wyceny."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, słupki i montaż paneli przy furtce."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena furtki ogrodzeniowej",
+      "category": "furtka",
+      "place": "furtki-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

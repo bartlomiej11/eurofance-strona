@@ -1,0 +1,21 @@
+---
+import { tk } from '../lib/tk.js';
+const { head = [], rows = [], caption = '', note = '', updated = false } = Astro.props;
+---
+<div class="table-wrap">
+  <table class="data">
+    {caption && <caption>{tk(caption)}</caption>}
+    {head.length > 0 && (
+      <thead>
+        <tr>{head.map((cell) => <th scope="col">{tk(cell)}</th>)}</tr>
+      </thead>
+    )}
+    <tbody>
+      {rows.map((row) => (
+        <tr>{row.map((cell, i) => (i === 0 ? <th scope="row" set:html={tk(cell)} /> : <td set:html={tk(cell)} />))}</tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+{note && <p class="table-note" set:html={tk(note)} />}
+{updated && <p class="table-note">Ceny orientacyjne „od”, brutto, z montażem, o ile nie napisano inaczej. Aktualizacja: {tk('{aktualizacja}')}.</p>}

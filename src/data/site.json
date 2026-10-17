@@ -1,0 +1,99 @@
+{
+  "_opis": "JEDNO MIEJSCE do zmiany telefonu, e-maila, godzin, gwarancji, danych firmy i ID narzędzi. Wszystkie strony czytają te wartości.",
+  "name": "Eurofance",
+  "legalName": "Eurofance",
+  "domain": "https://eurofance.pl",
+  "phone": {
+    "display": "+48 579 775 729",
+    "tel": "+48579775729",
+    "short": "579 775 729",
+    "label": "Zadzwoń"
+  },
+  "phoneAlt": {
+    "display": "+48 533 354 967",
+    "tel": "+48533354967"
+  },
+  "whatsapp": {
+    "number": "48533354967",
+    "display": "+48 533 354 967",
+    "base": "https://wa.me/48533354967"
+  },
+  "email": "zamowienia@eurofance.pl",
+  "hours": {
+    "weekday": "pon-pt 7:00-17:00",
+    "saturday": "sob 8:00-13:00",
+    "sunday": "ndz nieczynne",
+    "line": "pon-pt 7:00-17:00, sob 8:00-13:00",
+    "afterHours": "Teraz nie odbieramy? Zostaw numer, oddzwonimy rano w kolejnym dniu roboczym."
+  },
+  "address": {
+    "street": "ul. Młodzianowo 58",
+    "postcode": "06-200",
+    "city": "Maków Mazowiecki",
+    "region": "mazowieckie",
+    "country": "PL",
+    "lat": 52.8601,
+    "lng": 20.6106,
+    "cityLocative": "Makowie Mazowieckim",
+    "cityNote": "city = mianownik (Maków Mazowiecki), cityLocative = miejscownik (Makowie Mazowieckim), uzywany po \"w\""
+  },
+  "malarnia": {
+    "name": "Malarnia proszkowa Eurofance",
+    "street": "ul. Młodzianowo 58",
+    "postcode": "06-200",
+    "city": "Maków Mazowiecki",
+    "note": "Adres malarni i produkcji do potwierdzenia przed publikacją."
+  },
+  "warranty": "5 lat",
+  "googleRating": {
+    "value": "4,7",
+    "count": 493,
+    "ratingValue": "4.7",
+    "url": "https://www.google.com/maps/search/?api=1&query=Ogrodzenia+Palisadowe+EuroFance+Producent+Ogrodze%C5%84+Panelowych+M%C5%82odzianowo",
+    "profileName": "Ogrodzenia Palisadowe - EuroFance - Producent Ogrodzeń Panelowych"
+  },
+  "stats": {
+    "years": 12,
+    "realizacje": 3200,
+    "kmPerYear": 180,
+    "teams": 6,
+    "responseTime": "2 h",
+    "productionDays": "10 dni roboczych",
+    "montageDays": "1-2 dni",
+    "pomiarDays": "2 dni robocze",
+    "deliveryDays": "3-5 dni roboczych"
+  },
+  "clients": [
+    "Budimex",
+    "GDDKiA",
+    "Lasy Państwowe",
+    "Skanska",
+    "Strabag",
+    "Warbud"
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/eurofance",
+    "youtube": "https://www.youtube.com/@eurofance"
+  },
+  "tracking": {
+    "gtm": "GTM-XXXXXXX",
+    "note": "Wklej prawdziwe ID kontenera GTM. Zmiana tylko w tym pliku.",
+    "ga4": "",
+    "googleAdsConversion": "",
+    "callTracking": false,
+    "turnstileSiteKey": "[KLUCZ CLOUDFLARE TURNSTILE]"
+  },
+  "forms": {
+    "endpoint": "/api/wyslij.php",
+    "endpointNote": "Adres skryptu wysyłki. Można podmienić na webhook CRM albo usługę formularzy.",
+    "webhook": "[ADRES WEBHOOKA CRM]",
+    "recipients": [
+      "zamowienia@eurofance.pl"
+    ],
+    "thanksUrl": "/dziekujemy",
+    "privacyUrl": "/polityka-prywatnosci"
+  },
+  "trustLine": "Własna produkcja i malarnia proszkowa, montaż w całej Polsce",
+  "noindex": false,
+  "noindexNote": "Na wersji testowej ustaw true, przy wdrożeniu zmień na false (instrukcja: DOKUMENTACJA-WDROZENIE.md)."
+}

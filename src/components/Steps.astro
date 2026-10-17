@@ -1,0 +1,20 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Jak wygląda zamówienie', eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section" aria-labelledby="kroki-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="kroki-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  <ol class="steps">
+    {items.map((item) => (
+      <li>
+        <strong>{tk(item.name)}</strong>
+        <span>{tk(item.desc)}</span>
+        {item.time && <em style="display:block">{tk(item.time)}</em>}
+      </li>
+    ))}
+  </ol>
+</section>

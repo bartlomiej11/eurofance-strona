@@ -1,0 +1,653 @@
+{
+  "_opis": "PRZED PUBLIKACJA podmien pliki SVG na prawdziwe zdjecia w WebP/AVIF (do 200 KB), zachowujac podpisy (miasto, system, kolor, wymiar). Podpis jest jednoczesnie tekstem alt.",
+  "filters": [
+    {
+      "slug": "panelowe",
+      "name": "Panelowe"
+    },
+    {
+      "slug": "palisadowe",
+      "name": "Palisadowe"
+    },
+    {
+      "slug": "frontowe",
+      "name": "Frontowe"
+    },
+    {
+      "slug": "bramy-przesuwne",
+      "name": "Bramy przesuwne"
+    },
+    {
+      "slug": "bramy-skrzydlowe",
+      "name": "Bramy skrzydłowe"
+    },
+    {
+      "slug": "furtki",
+      "name": "Furtki"
+    },
+    {
+      "slug": "przemyslowe",
+      "name": "Przemysłowe"
+    },
+    {
+      "slug": "podmurowki",
+      "name": "Podmurówki"
+    }
+  ],
+  "items": [
+    {
+      "image": "/images/premium/realizacja-1.jpg",
+      "caption": "Legionowo, panele 3D 153 cm, brama przesuwna 4,5 m, RAL 7016",
+      "alt": "Ogrodzenie panelowe 3D 153 cm z bramą przesuwną w Legionowie, RAL 7016",
+      "tags": [
+        "panelowe",
+        "bramy-przesuwne"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-06.jpg",
+      "caption": "Warszawa Białołęka, palisada pionowa 153 cm, furtka 1 m, RAL 7016",
+      "alt": "Ogrodzenie palisadowe pionowe w Warszawie na Białołęce, RAL 7016",
+      "tags": [
+        "palisadowe",
+        "furtki"
+      ]
+    },
+    {
+      "image": "/images/premium/realizacja-3.jpg",
+      "caption": "Ciechanów, front palisadowy 22 mb z bramą przesuwną 4 m, RAL 9005",
+      "alt": "Ogrodzenie frontowe palisadowe w Ciechanowie z bramą przesuwną, RAL 9005",
+      "tags": [
+        "frontowe",
+        "palisadowe",
+        "bramy-przesuwne"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-05.jpg",
+      "caption": "Płock, brama przesuwna 5 m z napędem, panele 3D 153 cm, RAL 7016",
+      "alt": "Brama przesuwna 5 m z napędem w Płocku, panele 3D, RAL 7016",
+      "tags": [
+        "bramy-przesuwne",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/premium/bramy.jpg",
+      "caption": "Przasnysz, brama dwuskrzydłowa 4 m, panele 2D 153 cm, RAL 8017",
+      "alt": "Brama dwuskrzydłowa 4 m w Przasnyszu, panele 2D, RAL 8017",
+      "tags": [
+        "bramy-skrzydlowe",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/premium/przemyslowe.jpg",
+      "caption": "Siedlce, podmurówka 250x30 na skarpie, panele 3D 173 cm, RAL 7016",
+      "alt": "Podmurówka betonowa 250x30 na skarpie w Siedlcach, panele 3D",
+      "tags": [
+        "podmurowki",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/premium/przemyslowe.jpg",
+      "caption": "Maków Mazowiecki, panele 2D 8/6/8, 320 mb, brama przemysłowa 8 m",
+      "alt": "Ogrodzenie przemysłowe z paneli 2D 8/6/8 w Makowie Mazowieckim",
+      "tags": [
+        "przemyslowe",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-10.jpg",
+      "caption": "Włocławek, ogrodzenie grzebieniowe 22 mb, RAL 7016",
+      "alt": "Ogrodzenie grzebieniowe w Włocławku, RAL 7016",
+      "tags": [
+        "palisadowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-13.jpg",
+      "caption": "Białystok, ogrodzenie żaluzjowe 30 mb, brama przesuwna 4 m, RAL 7016",
+      "alt": "Ogrodzenie żaluzjowe w Białymstoku z bramą przesuwną, RAL 7016",
+      "tags": [
+        "palisadowe",
+        "bramy-przesuwne"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-09.jpg",
+      "caption": "Nowy Dwór Mazowiecki, palisada pozioma 153 cm, RAL 7016",
+      "alt": "Ogrodzenie palisadowe poziome w Nowym Dworze Mazowieckim, RAL 7016",
+      "tags": [
+        "palisadowe",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/premium/realizacja-3.jpg",
+      "caption": "Ostrołęka, furtka palisadowa 1 m z elektrozaczepem, RAL 7016",
+      "alt": "Furtka palisadowa 1 m z elektrozaczepem w Ostrołęce, RAL 7016",
+      "tags": [
+        "furtki",
+        "palisadowe"
+      ]
+    },
+    {
+      "image": "/images/premium/realizacja-2.jpg",
+      "caption": "Wołomin, panele 2D 153 cm, 56 mb, brama skrzydłowa 4 m, RAL 7016",
+      "alt": "Ogrodzenie panelowe 2D w Wołominie z bramą skrzydłową, RAL 7016",
+      "tags": [
+        "panelowe",
+        "bramy-skrzydlowe"
+      ]
+    },
+    {
+      "image": "/images/premium/realizacja-3.jpg",
+      "caption": "Radom, front panelowy 3D 20 mb, furtka i brama przesuwna 4 m, RAL 7016",
+      "alt": "Ogrodzenie frontowe panelowe 3D w Radomiu z bramą przesuwną",
+      "tags": [
+        "frontowe",
+        "panelowe",
+        "bramy-przesuwne"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-08.jpg",
+      "caption": "Rzeszów, palisada pionowa 173 cm, 44 mb, RAL 9005",
+      "alt": "Ogrodzenie palisadowe pionowe 173 cm w Rzeszowie, RAL 9005",
+      "tags": [
+        "palisadowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/hero-podmurowki.jpg",
+      "caption": "Kraków, podmurówka obudowana, panele 3D 153 cm, RAL 7016",
+      "alt": "Podmurówka obudowana panelami w Krakowie, RAL 7016",
+      "tags": [
+        "podmurowki",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-05.jpg",
+      "caption": "Legionowo, brama teleskopowa 4 m, ogrodzenie panelowe 2D, RAL 7016",
+      "alt": "Brama teleskopowa 4 m w Legionowie, ogrodzenie panelowe 2D",
+      "tags": [
+        "bramy-przesuwne",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/premium/przemyslowe.jpg",
+      "caption": "Ciechanów, ogrodzenie placu budowy, panele tymczasowe 120 mb",
+      "alt": "Ogrodzenie placu budowy z paneli tymczasowych w Ciechanowie",
+      "tags": [
+        "przemyslowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/hero-bramy.jpg",
+      "caption": "Siedlce, furtka panelowa 1,2 m z samozamykaczem, RAL 7016",
+      "alt": "Furtka panelowa 1,2 m z samozamykaczem w Siedlcach",
+      "tags": [
+        "furtki",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-11.jpg",
+      "caption": "Płock, ogrodzenie grzebieniowe 18 mb z furtką, RAL 7016",
+      "alt": "Ogrodzenie grzebieniowe z furtką w Płocku, RAL 7016",
+      "tags": [
+        "palisadowe",
+        "furtki"
+      ]
+    },
+    {
+      "image": "/images/premium/band-front.jpg",
+      "caption": "Białystok, panele 3D 203 cm, 88 mb, teren magazynowy, RAL 7016",
+      "alt": "Panele 3D 203 cm na terenie magazynowym w Białymstoku",
+      "tags": [
+        "przemyslowe",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/premium/palisadowe.jpg",
+      "caption": "Warszawa Wawer, palisada pozioma 30 mb, brama przesuwna 4,5 m",
+      "alt": "Palisada pozioma z bramą przesuwną w Warszawie na Wawrze",
+      "tags": [
+        "palisadowe",
+        "bramy-przesuwne",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/hero-bramy.jpg",
+      "caption": "Maków Mazowiecki, brama jednoskrzydłowa 3 m, panele 3D, RAL 7016",
+      "alt": "Brama jednoskrzydłowa 3 m w Makowie Mazowieckim, panele 3D",
+      "tags": [
+        "bramy-skrzydlowe",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-04.jpg",
+      "caption": "Przasnysz, ogrodzenie żaluzjowe 26 mb, RAL 7016",
+      "alt": "Ogrodzenie żaluzjowe w Przasnyszu, RAL 7016",
+      "tags": [
+        "palisadowe"
+      ]
+    },
+    {
+      "image": "/images/premium/przemyslowe.jpg",
+      "caption": "Włocławek, podmurówka 250x25, panele 2D 153 cm, RAL 7016",
+      "alt": "Podmurówka 250x25 z panelami 2D we Włocławku",
+      "tags": [
+        "podmurowki",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-01.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-02.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-03.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-04.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-05.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-06.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-07.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-08.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-09.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-10.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-11.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-12.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-13.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-14.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-15.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-16.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-17.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-18.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-19.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-20.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-21.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-22.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-23.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-24.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-25.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-26.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-27.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-28.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-29.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-30.jpg",
+      "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+      "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-31.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/frontowe/frontowe-32.jpg",
+      "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-01.jpg",
+      "caption": "Ogrodzenie z profili drewnopodobnych między słupkami z kamienia",
+      "alt": "Ogrodzenie z poziomych profili drewnopodobnych między kamiennymi słupkami",
+      "tags": [
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-02.jpg",
+      "caption": "Brama przesuwna z furtką i przęsłami, podjazd z kostki",
+      "alt": "Brama przesuwna z furtką i przęsłami przy podjeździe z kostki brukowej",
+      "tags": [
+        "bramy-przesuwne",
+        "furtki",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-03.jpg",
+      "caption": "Czarne przęsła żaluzjowe wzdłuż ulicy, dom jednorodzinny w tle",
+      "alt": "Czarne przęsła żaluzjowe wzdłuż ulicy przy domu jednorodzinnym",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-04.jpg",
+      "caption": "Ogrodzenie grzebieniowe z kamiennym słupkiem i żywopłotem",
+      "alt": "Ogrodzenie grzebieniowe z kamiennym słupkiem i żywopłotem od strony drogi",
+      "tags": [
+        "panelowe",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-05.jpg",
+      "caption": "Długie ogrodzenie grzebieniowe od strony drogi",
+      "alt": "Długie ogrodzenie grzebieniowe biegnące wzdłuż drogi",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-06.jpg",
+      "caption": "Jasne przęsła między słupkami z kamienia, trawnik i podjazd",
+      "alt": "Jasne przęsła między słupkami z kamienia przy trawniku i podjeździe",
+      "tags": [
+        "panelowe",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-07.jpg",
+      "caption": "Ciemne przęsła żaluzjowe wzdłuż elewacji domu",
+      "alt": "Ciemne przęsła żaluzjowe wzdłuż elewacji domu jednorodzinnego",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-08.jpg",
+      "caption": "Zbliżenie: przęsła żaluzjowe i słupki tynkowane",
+      "alt": "Zbliżenie na przęsła żaluzjowe i słupki tynkowane ogrodzenia",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-09.jpg",
+      "caption": "Mur z bloczków łupanych na podmurówce, trawnik",
+      "alt": "Mur ogrodzeniowy z bloczków łupanych na podmurówce betonowej",
+      "tags": [
+        "podmurowki"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-10.jpg",
+      "caption": "Mur z bloczków łupanych wzdłuż ogrodzenia",
+      "alt": "Mur z bloczków łupanych wzdłuż linii ogrodzenia",
+      "tags": [
+        "podmurowki"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-11.jpg",
+      "caption": "Dom z ogrodzeniem i podjazdem z kostki",
+      "alt": "Dom jednorodzinny z ogrodzeniem i podjazdem z kostki brukowej",
+      "tags": [
+        "panelowe",
+        "frontowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-12.jpg",
+      "caption": "Zestaw frontowy: brama i przęsła na skarpie",
+      "alt": "Zestaw frontowy z bramą i przęsłami na skarpie przy nowym domu",
+      "tags": [
+        "frontowe",
+        "palisadowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-13.jpg",
+      "caption": "Brama skrzydłowa z poziomych profili, widok na podjazd",
+      "alt": "Brama skrzydłowa z poziomych profili z widokiem na podjazd",
+      "tags": [
+        "bramy-skrzydlowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-14.jpg",
+      "caption": "Brama skrzydłowa i przęsła panelowe na działce",
+      "alt": "Brama skrzydłowa i przęsła panelowe na działce",
+      "tags": [
+        "bramy-skrzydlowe",
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-15.jpg",
+      "caption": "Brama skrzydłowa przy domu z podjazdem",
+      "alt": "Brama skrzydłowa przy domu z podjazdem",
+      "tags": [
+        "bramy-skrzydlowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-16.jpg",
+      "caption": "Czarne panele przy białej elewacji, podjazd",
+      "alt": "Czarne panele ogrodzeniowe przy białej elewacji domu",
+      "tags": [
+        "panelowe"
+      ]
+    },
+    {
+      "image": "/images/realizacje/foto-17.jpg",
+      "caption": "Podmurówka betonowa 250x25 pod ogrodzenie panelowe",
+      "alt": "Podmurówka betonowa 250x25 pod ogrodzenie panelowe",
+      "tags": [
+        "podmurowki"
+      ]
+    }
+  ]
+}

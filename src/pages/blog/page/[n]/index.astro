@@ -1,0 +1,45 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import CtaBar from '../../../../components/CtaBar.astro';
+import { postsPage, blogPagesCount } from '../../../../lib/content.js';
+import * as LD from '../../../../lib/jsonld.js';
+
+export function getStaticPaths() {
+  const count = blogPagesCount();
+  return Array.from({ length: Math.max(0, count - 1) }, (_, i) => i + 2).map((n) => ({
+    params: { n: String(n) },
+    props: { n },
+  }));
+}
+
+const { n } = Astro.props;
+const list = postsPage(n);
+const pagesCount = blogPagesCount();
+const nodes = [LD.breadcrumbs([{ name: 'Blog', url: '/blog/' }, { name: `Strona ${n}`, url: `/blog/page/${n}/` }])];
+---
+<Base
+  title={`Blog o ogrodzeniach, strona ${n} | Eurofance`}
+  description={`Kolejne poradniki o ogrodzeniach, bramach i montażu. Strona ${n} bloga Eurofance, producenta ogrodzeń panelowych, palisadowych i bram wjazdowych.`}
+  path={`/blog/page/${n}/`}
+  jsonld={nodes}
+>
+  <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }, { name: `Strona ${n}` }]} />
+  <section class="section">
+    <div class="container">
+      <h1>Blog o ogrodzeniach, strona {n}</h1>
+      <div class="post-list">
+        {list.map((post) => <PostCard post={post} />)}
+      </div>
+      <nav class="pagination" aria-label="Stronicowanie bloga">
+        {Array.from({ length: pagesCount }, (_, i) => i + 1).map((page) => (
+          page === n
+            ? <span class="is-current">{page}</span>
+            : <a href={page === 1 ? '/blog/' : `/blog/page/${page}/`}>{page}</a>
+        ))}
+      </nav>
+      <CtaBar place="blog-strona" />
+    </div>
+  </section>
+</Base>

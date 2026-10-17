@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import TileList from '../components/TileList.astro';
+import CallbackForm from '../components/CallbackForm.astro';
+import site from '../data/site.json';
+---
+<Base
+  title="Nie znaleziono strony (404) | Eurofance"
+  description="Ta strona nie istnieje. Skorzystaj z wyszukiwarki albo listy kategorii ogrodzeń, bram i furtek, a jeśli szukasz konkretnej ceny, zadzwoń: 579 775 729."
+  path="/404"
+  noindex={true}
+>
+  <section class="section">
+    <div class="container narrow">
+      <h1>Nie znaleźliśmy tej strony</h1>
+      <p class="answer">
+        Adres mógł się zmienić albo zawiera literówkę. Skorzystaj z wyszukiwarki, wejdź w jedną z kategorii poniżej
+        albo zadzwoń: <a href={`tel:${site.phone.tel}`} data-cta="404">{site.phone.display}</a>.
+      </p>
+
+      <form class="form" role="search" action="/szukaj" method="get">
+        <div class="field">
+          <label for="q">Czego szukasz?</label>
+          <input id="q" name="q" type="search" placeholder="np. brama przesuwna, podmurówka, RAL 7016" />
+        </div>
+        <button type="submit" class="btn btn--red">Szukaj</button>
+      </form>
+
+      <h2>Najczęściej szukane kategorie</h2>
+      <TileList
+        items={[
+          { name: 'Ogrodzenia panelowe', url: '/ogrodzenia-panelowe', meta: 'Ceny od 175 zł/mb' },
+          { name: 'Bramy przesuwne', url: '/bramy-wjazdowe-przesuwne', meta: 'Ceny od 3 200 zł' },
+          { name: 'Ogrodzenia frontowe', url: '/ogrodzenia-frontowe', meta: 'Zestawy z bramą i furtką' },
+          { name: 'Podmurówki betonowe', url: '/podmurowki-betonowe', meta: '250x20, 250x25, 250x30' },
+          { name: 'Panele ogrodzeniowe', url: '/panele-ogrodzeniowe', meta: 'Cena za sztukę' },
+          { name: 'Realizacje', url: '/realizacje', meta: 'Zdjęcia z podpisami miast' },
+        ]}
+      />
+    </div>
+  </section>
+  <div class="container">
+    <CallbackForm place="404" />
+  </div>
+</Base>

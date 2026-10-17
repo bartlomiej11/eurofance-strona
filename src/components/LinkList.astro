@@ -1,0 +1,19 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Zobacz także', columns = 2, eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section" aria-labelledby="linki-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="linki-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  <ul class={columns === 1 ? 'list-arrow' : 'list-arrow'} style={columns === 2 ? 'columns:2' : ''}>
+    {items.map((item) => (
+      <li>
+        <a href={item.url}>{tk(item.label)}</a>
+        {item.desc && <span class="muted" style="display:block;font-size:0.88rem">{tk(item.desc)}</span>}
+      </li>
+    ))}
+  </ul>
+</section>

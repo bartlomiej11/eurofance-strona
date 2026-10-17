@@ -1,0 +1,274 @@
+{
+  "slug": "ogrodzenia-aluminiowe",
+  "kind": "offer",
+  "title": "Ogrodzenia aluminiowe od producenta | ceny i montaż | Eurofance",
+  "metaDescription": "Ogrodzenia aluminiowe od producenta: profile anodowane lub malowane proszkowo, bez rdzy i konserwacji. Ceny od {aluminium_mb} za mb z montażem. Gwarancja 5 lat.",
+  "h1": "Ogrodzenia aluminiowe",
+  "answer": "Ogrodzenie aluminiowe Eurofance kosztuje od {aluminium_mb} za mb z materiałem i montażem. Profile aluminiowe są anodowane lub malowane proszkowo na dowolny kolor RAL, nie rdzewieją i nie wymagają konserwacji. Gwarancja 5 lat na konstrukcję i powłokę.",
+  "category": "aluminiowe",
+  "heroImage": "/images/premium/realizacja-1.jpg",
+  "heroCta": "Wycena ogrodzenia aluminiowego",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Materiał:</strong> profile aluminiowe malowane proszkowo lub anodowane na kolor naturalny.",
+        "<strong>Trwałość:</strong> aluminium nie rdzewieje, dlatego ogrodzenie sprawdza się nad morzem i przy drogach zimą solonych.",
+        "<strong>Wysokości:</strong> 103, 123, 153 i 173 cm, szerokość przęsła 250 cm.",
+        "<strong>Ceny:</strong> od {aluminium_mb} za mb z montażem, brama przesuwna od {brama_aluminium_przesuwna}.",
+        "<strong>Kolory:</strong> pełna paleta RAL oraz anodowane wykończenia: srebrne, szampańskie, czarne.",
+        "<strong>Termin:</strong> pomiar bezpłatny w 2 dni robocze, produkcja i montaż zwykle w 10 dni roboczych."
+      ]
+    },
+    {
+      "type": "products",
+      "eyebrow": "Produkty",
+      "title": "Przęsła i elementy aluminiowe",
+      "intro": "Przęsła aluminiowe zamawiasz na sztuki albo w komplecie z bramą, furtką i montażem.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Przęsło aluminiowe 153 cm",
+          "desc": "Profile 60 x 40 mm, szerokość 250 cm, kolor z palety RAL lub anodowany.",
+          "price": "od {przeslo_aluminium_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/panelowe.jpg"
+        },
+        {
+          "name": "Ogrodzenie aluminiowe na wzór palisady",
+          "desc": "Pionowe profile o gęstym rozstawie, wysokość 153 cm, wysoka prywatność.",
+          "price": "od {aluminium_palisada_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/palisadowe.jpg"
+        },
+        {
+          "name": "Furtka aluminiowa 1 m",
+          "desc": "Szerokość 100 cm, zamek z wkładką, zawiasy regulowane, pod napęd lub samozamykacz.",
+          "price": "od {furtka_aluminium}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg"
+        }
+      ],
+      "note": "Ceny dotyczą sprzedaży elementów. Kompletne ogrodzenie aluminiowe z montażem liczymy od {aluminium_mb} za mb."
+    },
+    {
+      "type": "priceTable",
+      "eyebrow": "Cennik 2026",
+      "title": "Ceny ogrodzeń aluminiowych",
+      "intro": "Eurofance wycenia ogrodzenie aluminiowe po długości linii. Cena zależy od wysokości, wzoru przęsła, koloru i rodzaju bramy.",
+      "head": [
+        "Zakres",
+        "Wysokość",
+        "Cena od",
+        "Co obejmuje"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie aluminiowe panelowe",
+          "153 cm",
+          "od {aluminium_mb} za mb",
+          "profile, słupki i montaż"
+        ],
+        [
+          "Ogrodzenie aluminiowe na wzór palisady",
+          "153 cm",
+          "od {aluminium_palisada_mb} za mb",
+          "gęste profile i montaż"
+        ],
+        [
+          "Przęsło aluminiowe",
+          "250 x 153 cm",
+          "od {przeslo_aluminium_szt} za sztukę",
+          "samo przęsło"
+        ],
+        [
+          "Brama przesuwna aluminiowa 4 m",
+          "153 cm",
+          "od {brama_aluminium_przesuwna}",
+          "skrzydło, prowadnica i montaż"
+        ],
+        [
+          "Brama skrzydłowa aluminiowa 4 m",
+          "153 cm",
+          "od {brama_aluminium_skrzydlowa}",
+          "dwa skrzydła i montaż"
+        ],
+        [
+          "Furtka aluminiowa 1 m",
+          "153 cm",
+          "od {furtka_aluminium}",
+          "furtka, zamek i montaż"
+        ],
+        [
+          "Anodowanie lub kolor RAL",
+          "dowolna",
+          "w cenie",
+          "wykończenie powierzchni"
+        ]
+      ],
+      "note": "Ceny orientacyjne „od”, brutto, z materiałem i montażem. Przy froncie 20 mb z bramą i furtką przygotowujemy zestaw z konkretną kwotą.",
+      "ctaText": "Wyślij zdjęcie frontu i długość ogrodzenia",
+      "ctaDesc": "Dobierzemy wzór przęsła, wysokość i kolor. Wycena wraca w {czas_odpowiedzi} w dni robocze."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Aluminium, stal czy palisada",
+      "intro": "Aluminium wybierają osoby, które nie chcą wracać do ogrodzenia przez najbliższe kilkanaście lat.",
+      "head": [
+        "System",
+        "Materiał",
+        "Konserwacja",
+        "Kiedy wybrać"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie aluminiowe",
+          "profile aluminiowe",
+          "brak",
+          "trwałość bez malowania i prac porządkowych"
+        ],
+        [
+          "Ogrodzenie panelowe",
+          "stal ocynkowana malowana proszkowo",
+          "przegląd co 2-3 lata",
+          "najlepszy stosunek ceny do metra"
+        ],
+        [
+          "Ogrodzenie palisadowe",
+          "stal ocynkowana",
+          "przegląd co 2-3 lata",
+          "prywatność i gęste, pionowe profile"
+        ],
+        [
+          "Ogrodzenie grzebieniowe",
+          "stal ocynkowana",
+          "przegląd co 2-3 lata",
+          "nowoczesny, poziomy rytm od ulicy"
+        ]
+      ],
+      "note": "Aluminium nie rdzewieje, więc nie wymaga cynkowania ani domalowywania odprysków. Wyższa cena zwraca się brakiem konserwacji."
+    },
+    {
+      "type": "text",
+      "title": "Dlaczego aluminium nie rdzewieje",
+      "html": "<p>Na powierzchni aluminium tworzy się naturalna, szczelna warstwa tlenkowa, która odcina dostęp wilgoci i tlenu. Dzięki temu profil nie koroduje nawet przy soli drogowej, dlatego ogrodzenia aluminiowe polecamy nad morzem i przy ruchliwych drogach.</p><p>Wykończenie robimy na dwa sposoby: <strong>malowanie proszkowe</strong> na dowolny kolor RAL albo <strong>anodowanie</strong>, które daje metaliczny, szampański lub czarny odcień wgłębiony w materiał, a nie nałożony na powierzchnię. W obu wariantach kolor jest odporny na zarysowania i promieniowanie UV.</p><p>Konstrukcję skręcamy nierdzewnymi łącznikami, a słupki mocujemy w podmurówce betonowej lub na kotwach stalowych. Zawiasy furtek i bram regulujemy po montażu, żeby skrzydło chodziło lekko przez lata.</p>"
+    },
+    {
+      "type": "calculator",
+      "eyebrow": "Kalkulator",
+      "title": "Kalkulator ogrodzenia aluminiowego",
+      "desc": "Wybierz długość frontu, podmurówkę, bramę i furtkę. Zobaczysz orientacyjny przedział dla ogrodzenia od {aluminium_mb} za mb."
+    },
+    {
+      "type": "gallery",
+      "eyebrow": "Realizacje",
+      "title": "Ogrodzenia aluminiowe w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/palisadowe.jpg",
+          "caption": "Maków Mazowiecki, ogrodzenie aluminiowe 153 cm, anodowane czarne",
+          "alt": "Ogrodzenie aluminiowe 153 cm w Makowie Mazowieckim",
+          "tags": [
+            "frontowe",
+            "metalowe"
+          ]
+        },
+        {
+          "image": "/images/premium/bramy.jpg",
+          "caption": "Ciechanów, brama przesuwna aluminiowa 4 m z napędem 24 V",
+          "alt": "Brama przesuwna aluminiowa 4 m w Ciechanowie",
+          "tags": [
+            "frontowe",
+            "metalowe"
+          ]
+        },
+        {
+          "image": "/images/premium/panelowe.jpg",
+          "caption": "Płońsk, przęsła aluminiowe 250 x 153 cm, kolor RAL 7016",
+          "alt": "Przęsła aluminiowe 250 x 153 cm w Płońsku",
+          "tags": [
+            "metalowe"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "eyebrow": "Pytania i odpowiedzi",
+      "title": "Ogrodzenia aluminiowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie aluminiowe?",
+          "a": "Ogrodzenie aluminiowe Eurofance kosztuje od {aluminium_mb} za mb z materiałem i montażem. W cenie są profile, słupki, wykończenie w wybranym kolorze i robocizna. Podmurówka, brama i furtka są wyceniane osobno."
+        },
+        {
+          "q": "Czy ogrodzenie aluminiowe rdzewieje?",
+          "a": "Nie. Aluminium pokrywa się naturalną warstwą tlenkową, która zabezpiecza materiał przed korozją, także przy soli drogowej. Łączniki stosujemy nierdzewne, więc całość nie rdzewieje."
+        },
+        {
+          "q": "Aluminium czy stal malowana proszkowo?",
+          "a": "Stal ocynkowana malowana proszkowo jest tańsza i kosztuje od {panel_2d_mb} za mb. Aluminium jest droższe, ale nie wymaga konserwacji i nie rdzewieje, dlatego wybierają je osoby planujące ogrodzenie na kilkanaście lat."
+        },
+        {
+          "q": "Jakie kolory są dostępne?",
+          "a": "Pełna paleta RAL, w tym najczęściej wybierane RAL 7016, 9005 i 9007, oraz anodowanie w odcieniach srebrnym, szampańskim i czarnym."
+        },
+        {
+          "q": "Czy montujecie ogrodzenia aluminiowe w całej Polsce?",
+          "a": "Tak. Mamy 6 własnych ekip montażowych i montujemy w całej Polsce. Pomiar na działce jest bezpłatny i umawiamy go w 2 dni robocze."
+        },
+        {
+          "q": "Czy bramę aluminiową można podłączyć do napędu?",
+          "a": "Tak. Brama przesuwna i skrzydłowa aluminiowa jest przygotowana pod napęd 24 V. Napęd z montażem wyceniamy od {naped_przesuwna}."
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "eyebrow": "Zobacz także",
+      "title": "Poradniki i podobne systemy",
+      "items": [
+        {
+          "label": "Ogrodzenia metalowe",
+          "url": "/ogrodzenia-metalowe",
+          "desc": "Stal ocynkowana malowana proszkowo i tańsza alternatywa dla aluminium."
+        },
+        {
+          "label": "Ogrodzenia grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe",
+          "desc": "Nowoczesny, poziomy układ profili od strony drogi."
+        },
+        {
+          "label": "Malarnia proszkowa",
+          "url": "/malarnia-proszkowa",
+          "desc": "Jak malujemy elementy i dlaczego kolor trzyma się przez lata."
+        },
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw słupków i montaż elementów przy ogrodzeniu."
+        }
+      ]
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia aluminiowego",
+      "category": "aluminiowe",
+      "place": "ogrodzenia-aluminiowe-wycena"
+    }
+  ]
+}

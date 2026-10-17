@@ -1,0 +1,13 @@
+---
+import { tk } from '../lib/tk.js';
+import { postUrl } from '../lib/content.js';
+const { post, showCategory = true } = Astro.props;
+---
+<article>
+  <h3><a href={postUrl(post.slug)}>{tk(post.title)}</a></h3>
+  <p class="meta">
+    {tk(post.datePublishedLabel || post.datePublished)}
+    {showCategory && post.categories && post.categories.length > 0 && <> | {post.categoriesLabel}</>}
+  </p>
+  <p>{tk(post.excerpt)}</p>
+</article>

@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-ciechanow",
+  "kind": "local",
+  "city": "Ciechanów",
+  "title": "Ogrodzenia panelowe Ciechanów | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Ciechanów z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 2 dni robocze. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Ciechanów",
+  "answer": "Eurofance wykonuje montaż ogrodzeń panelowych w Ciechanowie i miejscowościach powiatu ciechanowskiego. Cena systemu 2D zaczyna się od {panel_2d_mb} za mb, a pomiar na działce ustalamy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Ciechanów",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Ciechanów",
+      "items": [
+        "<strong>Dostawa do Ciechanów:</strong> zwykle 2 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 1 dzień roboczy.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Opinogóra Górna, Regimin, Sońsk, Glinojeck, Strzegowo, Gołymin-Ośrodek.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Ciechanów i okolicach",
+      "html": "<p>Bliska trasa z Makowa Mazowieckiego pozwala sprawnie zaplanować pomiar i montaż na posesjach w Ciechanowie.</p><ul><li>Ciechanów, Kargoszyn: panele 3D 153 cm, 41 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Ciechanów, Podzamcze: panele 2D 153 cm, 62 mb, brąz RAL 8017, furtka 100 cm.</li><li>Opinogóra Górna: panele 3D 173 cm, 48 mb, grafit RAL 7024, brama skrzydłowa 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Ciechanów",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Ciechanów",
+          "38 km",
+          "2 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Ciechanów montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Opinogóra Górna</li><li>Regimin</li><li>Sońsk</li><li>Glinojeck</li><li>Strzegowo</li><li>Gołymin-Ośrodek</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Ciechanów, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy dojeżdżacie na pomiar w Ciechanowie?",
+          "a": "Tak. Ciechanów jest na stałej trasie naszych ekip, a dojazd do montażu organizujemy zwykle w 1 dzień roboczy."
+        },
+        {
+          "q": "Jaki jest termin dostawy paneli do Ciechanowa?",
+          "a": "Dostawa do Ciechanowa trwa zwykle 2 dni robocze. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Jak przygotować działkę do montażu w Ciechanowie?",
+          "a": "Przed pomiarem warto wskazać granicę działki, miejsce bramy i dostęp dla samochodu z materiałem. Resztę zakresu ustalamy na miejscu."
+        },
+        {
+          "q": "Czy można montować ogrodzenie zimą w Ciechanowie?",
+          "a": "Tak, gdy warunki umożliwiają prawidłowe osadzenie słupków. Przy mrozie potwierdzamy indywidualnie bezpieczny termin prac."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Ciechanów",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-ciechanow-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Ciechanów",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Ciechanów, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 153 cm w Ciechanowie, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Opinogóra Górna, panele 3D 173 cm na podmurówce 250 x 25 cm",
+          "alt": "Ogrodzenie panelowe z podmurówką w Opinogórze Górnej",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

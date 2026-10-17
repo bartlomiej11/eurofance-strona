@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaBar from '../components/CtaBar.astro';
+import { pages, products, posts, encyclopedia } from '../lib/content.js';
+import { tk } from '../lib/tk.js';
+
+const index = [
+  ...pages.filter((p) => p.slug !== '' && !p.noindex).map((p) => ({ t: tk(p.h1), d: tk(p.metaDescription), u: `/${p.slug}`, k: 'Strona' })),
+  ...products.map((p) => ({ t: tk(p.name), d: tk(p.description), u: `/sklep/${p.slug}`, k: 'Produkt' })),
+  ...posts.map((p) => ({ t: tk(p.title), d: tk(p.excerpt), u: `/blog/${p.slug}/`, k: 'Blog' })),
+  ...encyclopedia.map((p) => ({ t: tk(p.title), d: tk(p.excerpt), u: `/blog/encyklopedia/${p.slug}/`, k: 'Encyklopedia' })),
+];
+---
+<Base
+  title="Szukaj na stronie | Eurofance"
+  description="Wyszukiwarka stron, produktów, poradników i haseł encyklopedii Eurofance. Wpisz system ogrodzenia, miasto albo nazwę elementu i przejdź do wyceny."
+  path="/szukaj"
+  noindex={true}
+>
+  <Breadcrumbs items={[{ name: 'Szukaj' }]} />
+  <section class="section">
+    <div class="container narrow">
+      <h1>Szukaj na stronie</h1>
+      <form class="form" role="search" data-search-form>
+        <div class="field">
+          <label for="q">Czego szukasz?</label>
+          <input id="q" name="q" type="search" placeholder="np. brama przesuwna, podmurówka 250x30, RAL 7016" autocomplete="off" />
+        </div>
+        <button type="submit" class="btn btn--red">Szukaj</button>
+      </form>
+      <div id="search-results" data-search-results></div>
+      <script type="application/json" id="search-index" set:html={JSON.stringify(index)} />
+      <script is:inline>
+        (function () {
+          var data = JSON.parse(document.getElementById('search-index').textContent);
+          var form = document.querySelector('[data-search-form]');
+          var out = document.querySelector('[data-search-results]');
+          var input = document.getElementById('q');
+          function norm(text) {
+            return (text || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l');
+          }
+          function render(query) {
+            if (!query || query.length < 2) { out.innerHTML = '<p class="muted">Wpisz co najmniej 2 znaki.</p>'; return; }
+            var q = norm(query);
+            var hits = data.filter(function (item) {
+              return norm(item.t + ' ' + item.d).indexOf(q) !== -1;
+            }).slice(0, 20);
+            if (!hits.length) {
+              out.innerHTML = '<p>Brak wyników. Zadzwoń: <a href="tel:+48579775729">579 775 729</a>, doradzimy od razu.</p>';
+              return;
+            }
+            out.innerHTML = '<ul class="list-arrow">' + hits.map(function (item) {
+              return '<li><a href="' + item.u + '">' + item.t + '</a> <span class="muted">(' + item.k + ')</span></li>';
+            }).join('') + '</ul>';
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ event: 'search', search_term: query, results: hits.length });
+          }
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            render(input.value.trim());
+            var url = new URL(window.location.href);
+            url.searchParams.set('q', input.value.trim());
+            window.history.replaceState({}, '', url);
+          });
+          var initial = new URLSearchParams(window.location.search).get('q');
+          if (initial) { input.value = initial; render(initial); }
+        })();
+      </script>
+      <CtaBar place="szukaj" />
+    </div>
+  </section>
+</Base>

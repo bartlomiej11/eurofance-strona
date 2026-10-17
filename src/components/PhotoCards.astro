@@ -1,0 +1,53 @@
+---
+import { tk } from '../lib/tk.js';
+
+const {
+  items = [],
+  columns = 4,
+  eyebrow = '',
+  title = '',
+  lead = '',
+  ctaText = '',
+  ctaUrl = '/oferta',
+  sectionClass = '',
+} = Astro.props;
+
+const gridClass = `photo-grid photo-grid--${columns}`;
+---
+<section class={`section ${sectionClass}`.trim()}>
+  <div class="container">
+    {(eyebrow || title || lead) && (
+      <div class="section-head section-head--split">
+        <div>
+          {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+          {title && <h2>{tk(title)}</h2>}
+          {lead && <p class="lead" set:html={tk(lead)} />}
+        </div>
+        {ctaText && (
+          <a class="head-arrow" href={ctaUrl} data-cta="sekcja">
+            {ctaText} <span aria-hidden="true">→</span>
+          </a>
+        )}
+      </div>
+    )}
+    <div class={gridClass}>
+      {items.map((item) => (
+        <a class="photo-card" href={item.url} data-cta="kafelek-foto">
+          <img
+            src={item.image}
+            alt={tk(item.alt || item.label)}
+            width="900"
+            height="700"
+            loading="lazy"
+            decoding="async"
+          />
+          <span class="photo-card__in">
+            <span class="photo-card__label">{tk(item.label)}</span>
+            {item.desc && <span class="photo-card__desc">{tk(item.desc)}</span>}
+            <span class="photo-card__meta">{tk(item.meta || 'Zobacz szczegóły')}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

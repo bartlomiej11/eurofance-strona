@@ -1,0 +1,302 @@
+{
+  "slug": "slupki-ogrodzeniowe",
+  "kind": "offer",
+  "title": "Słupki ogrodzeniowe do paneli i bram | ceny za sztukę | Eurofance",
+  "metaDescription": "Słupki ogrodzeniowe 60 x 40 mm do paneli oraz 100 x 100 mm do bram. Daszki i obejmy. Cena słupka do paneli od {slupek_panel} za sztukę. Sprawdź głębokość.",
+  "h1": "Słupki ogrodzeniowe",
+  "answer": "Eurofance oferuje słupki 60 x 40 mm z blachy 2 mm do paneli ogrodzeniowych oraz słupki bramowe 100 x 100 mm z blachy 3 mm. Słupek do panelu 153 cm ma długość 200 cm i kosztuje od {slupek_panel} za sztukę, a słupek bramowy 250 cm od {slupek_brama}. Słupki osadzamy zwykle na głębokości 50 do 100 cm, zależnie od wysokości i obciążenia.",
+  "category": "slupki",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Dobierz słupki do ogrodzenia",
+  "variantKey": "hurt",
+  "crumbs": [
+    {
+      "name": "Sklep",
+      "url": "/sklep"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Do paneli:</strong> słupek 60 x 40 mm, blacha 2 mm i długość 200 albo 250 cm.",
+        "<strong>Do bram:</strong> słupek 100 x 100 mm, blacha 3 mm i długość 250 cm.",
+        "<strong>Cena:</strong> od {slupek_panel} za słupek panelowy i od {slupek_brama} za słupek bramowy.",
+        "<strong>Akcesoria:</strong> daszek od {daszek_slupek} i obejma od {obejma} za sztukę.",
+        "<strong>Betonowanie:</strong> od 50 do 60 cm dla panelu 153 cm, od 80 do 100 cm dla słupka bramowego."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Słupki do paneli",
+      "intro": "Słupki 60 x 40 mm są dopasowane do paneli o szerokości 250 cm i mocowania obejmami stalowymi.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Słupek 60 x 40 mm do panelu 153 cm",
+          "desc": "Długość 200 cm, blacha 2 mm, osadzenie 50 do 60 cm.",
+          "price": "od {slupek_panel}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Słupek 60 x 40 mm do panelu 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/slupek-ogrodzeniowy-60x40-153"
+        },
+        {
+          "name": "Słupek 60 x 40 mm do panelu 203 cm",
+          "desc": "Długość 250 cm, blacha 2 mm, osadzenie 70 do 80 cm.",
+          "price": "od {slupek_panel}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/panelowe.jpg",
+          "quote": "Słupek 60 x 40 mm do panelu 203 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/slupek-ogrodzeniowy-60x40-203"
+        }
+      ],
+      "note": "Na odcinek 25 mb z 10 panelami potrzeba zwykle 11 słupków, wliczając oba skrajne.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "products",
+      "eyebrow": "Produkty",
+      "title": "Słupki do bram i furtek oraz akcesoria",
+      "intro": "Słupek bramowy musi przenieść obciążenie skrzydła i napędu. Daszek oraz obejmy zamykają i łączą system panelowy.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Słupek bramowy 100 x 100 mm",
+          "desc": "Długość 250 cm, blacha 3 mm, pod bramę przesuwną albo skrzydłową.",
+          "price": "od {slupek_brama}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Słupek bramowy 100 x 100 mm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/slupek-bramowy-100x100"
+        },
+        {
+          "name": "Daszek na słupek 60 x 40 mm",
+          "desc": "Zamyka słupek od góry i ogranicza dostęp wody do środka profilu.",
+          "price": "od {daszek_slupek}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/panelowe.jpg",
+          "quote": "Daszek na słupek 60 x 40 mm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/daszek-na-slupek-ogrodzeniowy"
+        },
+        {
+          "name": "Obejma do mocowania paneli",
+          "desc": "Stalowa obejma ze śrubami ocynkowanymi. Licz 2 sztuki na 1 panel.",
+          "price": "od {obejma}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Obejmy do 10 paneli",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/obejma-do-paneli-ogrodzeniowych"
+        }
+      ],
+      "note": "Przy furtce 1 m dobieramy słupki pod zawiasy i zamek. Przy bramie przesuwnej osadzenie ustalamy po rodzaju podłoża."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Wysokość słupka do wysokości panelu",
+      "intro": "Długość słupka obejmuje część widoczną i część betonowaną. W miękkim gruncie zwiększ głębokość osadzenia.",
+      "head": [
+        "Wysokość panelu",
+        "Słupek",
+        "Długość słupka",
+        "Osadzenie w gruncie"
+      ],
+      "rows": [
+        [
+          "123 cm",
+          "60 x 40 mm, blacha 2 mm",
+          "180 cm",
+          "50 do 60 cm"
+        ],
+        [
+          "153 cm",
+          "60 x 40 mm, blacha 2 mm",
+          "200 cm",
+          "50 do 60 cm"
+        ],
+        [
+          "173 cm",
+          "60 x 40 mm, blacha 2 mm",
+          "230 cm",
+          "60 do 70 cm"
+        ],
+        [
+          "203 cm",
+          "60 x 40 mm, blacha 2 mm",
+          "250 cm",
+          "70 do 80 cm"
+        ],
+        [
+          "Brama lub furtka",
+          "100 x 100 mm, blacha 3 mm",
+          "250 cm",
+          "80 do 100 cm"
+        ]
+      ],
+      "note": "Tabela podaje typowe długości. Wysoką podmurówkę 250 x 30 lub 250 x 50 cm uwzględniamy przy doborze słupka."
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny słupków, daszków i obejm",
+      "intro": "Ceny dotyczą elementów kupowanych na sztuki. Do panelu o szerokości 250 cm dolicz 2 obejmy.",
+      "head": [
+        "Element",
+        "Parametr",
+        "Cena od",
+        "Ilość orientacyjna"
+      ],
+      "rows": [
+        [
+          "Słupek panelowy",
+          "60 x 40 mm, 200 cm",
+          "od {slupek_panel} za sztukę",
+          "11 szt. na 25 mb"
+        ],
+        [
+          "Słupek panelowy wysoki",
+          "60 x 40 mm, 250 cm",
+          "od {slupek_panel} za sztukę",
+          "według projektu"
+        ],
+        [
+          "Słupek bramowy",
+          "100 x 100 mm, 250 cm",
+          "od {slupek_brama} za sztukę",
+          "2 szt. na bramę"
+        ],
+        [
+          "Daszek",
+          "na słupek 60 x 40 mm",
+          "od {daszek_slupek} za sztukę",
+          "1 szt. na słupek"
+        ],
+        [
+          "Obejma",
+          "do słupka 60 x 40 mm",
+          "od {obejma} za sztukę",
+          "2 szt. na panel"
+        ]
+      ],
+      "note": "Ceny nie obejmują betonu, transportu ani prac ziemnych. Przy większej liczbie elementów przygotowujemy indywidualną wycenę.",
+      "ctaText": "Podaj wysokość panelu i długość linii",
+      "ctaDesc": "Policzymy liczbę słupków, obejm i daszków. Odpowiedź dostaniesz w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Jak głęboko betonować słupki",
+      "html": "<p>Słupek 60 x 40 mm do panelu 153 cm osadzaj na głębokości <strong>50 do 60 cm</strong>, a do panelu 203 cm na <strong>70 do 80 cm</strong>. Otwór powinien mieć zwykle 20 do 25 cm średnicy, a beton klasy B-25 należy zagęścić, żeby nie powstały puste przestrzenie.</p><p>Słupek bramowy 100 x 100 mm betonuj na <strong>80 do 100 cm</strong>, ponieważ przenosi ciężar skrzydła oraz pracę napędu. Na skarpie, w piasku i przy wysokiej podmurówce głębokość oraz fundament warto ustalić po pomiarze.</p>"
+    },
+    {
+      "type": "gallery",
+      "title": "Słupki ogrodzeniowe w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Legionowo, słupki 60 x 40 mm i panele 3D 153 cm",
+          "alt": "Słupki 60 x 40 mm przy panelach 3D w Legionowie",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Siedlce, słupki panelowe z podmurówką 250 x 30 cm",
+          "alt": "Słupki panelowe przy podmurówce w Siedlcach",
+          "tags": [
+            "panelowe",
+            "podmurowki"
+          ]
+        },
+        {
+          "image": "/images/premium/bramy.jpg",
+          "caption": "Maków Mazowiecki, słupki 100 x 100 mm przy bramie przesuwnej",
+          "alt": "Słupki bramowe 100 x 100 mm przy bramie przesuwnej",
+          "tags": [
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Przasnysz, słupki furtkowe i furtka panelowa 1 m",
+          "alt": "Słupki przy furtce panelowej 1 m w Przasnyszu",
+          "tags": [
+            "furtki",
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Słupki ogrodzeniowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Jaki słupek do panelu 153 cm?",
+          "a": "Do panelu 153 cm dobierz słupek 60 x 40 mm o długości 200 cm i blasze 2 mm. Osadź go na głębokości 50 do 60 cm."
+        },
+        {
+          "q": "Jaki słupek do panelu 203 cm?",
+          "a": "Do panelu 203 cm stosujemy słupek 60 x 40 mm o długości 250 cm. W gruncie powinno znaleźć się 70 do 80 cm profilu."
+        },
+        {
+          "q": "Ile słupków potrzeba na 25 mb ogrodzenia?",
+          "a": "Przy panelach o szerokości 250 cm na 25 mb przypada 10 paneli i 11 słupków. Uwzględnia to słupek początkowy i końcowy."
+        },
+        {
+          "q": "Ile obejm potrzeba do jednego panelu?",
+          "a": "Do jednego panelu 250 cm liczymy 2 obejmy, po jednej przy każdym słupku. Na 10 paneli przygotuj 20 obejm."
+        },
+        {
+          "q": "Jak głęboko betonować słupek bramowy?",
+          "a": "Słupek bramowy 100 x 100 mm betonujemy na głębokości 80 do 100 cm. Głębokość zależy od gruntu, szerokości bramy i typu napędu."
+        },
+        {
+          "q": "Czy daszek na słupek jest potrzebny?",
+          "a": "Tak. Daszek za {daszek_slupek} zamyka profil 60 x 40 mm od góry, ogranicza wodę w środku słupka i pomaga chronić go przed korozją."
+        },
+        {
+          "q": "Czy słupki są ocynkowane i malowane?",
+          "a": "Słupki Eurofance są zabezpieczone i malowane proszkowo. Standardowy kolor to RAL 7016, a inne kolory RAL dobieramy do panelu lub przęsła."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o słupkach i montażu",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy słupkach ogrodzeniowych."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Dobierz słupki i akcesoria",
+      "category": "slupki",
+      "place": "slupki-ogrodzeniowe-wycena"
+    }
+  ]
+}

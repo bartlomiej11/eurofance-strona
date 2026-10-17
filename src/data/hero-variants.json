@@ -1,0 +1,29 @@
+{
+  "_opis": "Warianty naglowka hero podmieniane parametrem ?h=klucz (np. /ogrodzenia-panelowe?h=z-montazem). Bez parametru dziala wersja domyslna z JSON-a strony. Canonical zawsze bez parametrow.",
+  "variants": {
+    "frontowe": {
+      "sub": "Ogrodzenie frontowe z brama, furtka i podmurowka. Pomiar w 2 dni robocze, montaz w calej Polsce.",
+      "cta": "Wycena frontu w 24 h"
+    },
+    "brama-przesuwna": {
+      "sub": "Brama przesuwna od producenta: panelowa, palisadowa, z napedem. Montaz w 10 dni roboczych.",
+      "cta": "Wycena bramy przesuwnej"
+    },
+    "z-montazem": {
+      "sub": "Ogrodzenie z montazem od producenta. Wlasna produkcja, malarnia proszkowa, gwarancja 5 lat.",
+      "cta": "Policz z montazem"
+    },
+    "panelowe": {
+      "sub": "Ogrodzenia panelowe 2D i 3D od producenta. Cena od 175 zl/mb z montazem, gwarancja 5 lat.",
+      "cta": "Wycena ogrodzenia panelowego"
+    },
+    "hurt": {
+      "sub": "Zamowienia hurtowe i kontrakty: panele, przesla i slupki prosto z produkcji.",
+      "cta": "Zapytaj o cene hurtowa"
+    },
+    "brama-skrzydlowa": {
+      "sub": "Brama dwuskrzydlowa od producenta: panelowa i palisadowa, przygotowana pod naped.",
+      "cta": "Wycena bramy skrzydlowej"
+    }
+  }
+}

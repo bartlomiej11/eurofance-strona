@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="BRAMA SKRZYDLOWA">
+  <rect width="1200" height="900" fill="#1f2429"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#e80c0c"/>
+  <g fill="none" stroke="#2c333a" stroke-width="2">
+    <path d="M0 558 H1200"/>
+    <path d="M0 702 H1200"/>
+    <path d="M100 450 V900"/><path d="M200 450 V900"/><path d="M300 450 V900"/><path d="M400 450 V900"/><path d="M500 450 V900"/><path d="M600 450 V900"/><path d="M700 450 V900"/><path d="M800 450 V900"/><path d="M900 450 V900"/><path d="M1000 450 V900"/><path d="M1100 450 V900"/>
+  </g>
+  <text x="72" y="378" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="bold">BRAMA SKRZYDLOWA</text>
+  <text x="72" y="468" fill="#c9ced4" font-family="Arial, Helvetica, sans-serif" font-size="28">Eurofance, 1200 x 900 px</text>
+  <text x="72" y="828" fill="#8b939b" font-family="Arial, Helvetica, sans-serif" font-size="28">Obrazek zastepczy. Podmien na zdjecie WebP/AVIF.</text>
+</svg>

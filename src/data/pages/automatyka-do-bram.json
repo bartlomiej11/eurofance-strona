@@ -1,0 +1,293 @@
+{
+  "slug": "automatyka-do-bram",
+  "kind": "offer",
+  "title": "Automatyka do bram | napędy przesuwne i skrzydłowe z montażem | Eurofance",
+  "metaDescription": "Automatyka do bram: napęd przesuwny 24 V od {naped_przesuwna} oraz napęd skrzydłowy od {naped_skrzydlowa} z montażem. Piloty, fotokomórki, konfiguracja i. Wycena i montaż w całej.",
+  "h1": "Automatyka do bram",
+  "answer": "Eurofance dobiera, montuje i konfiguruje automatykę do bram przesuwnych oraz skrzydłowych. Napęd do bramy przesuwnej do 600 kg kosztuje od {naped_przesuwna} z montażem, a zestaw do bramy dwuskrzydłowej od {naped_skrzydlowa}. W zestawie montażowym są 2 piloty, fotokomórki i konfiguracja podstawowych funkcji bezpieczeństwa.",
+  "category": "automatyka",
+  "heroImage": "/images/premium/bramy.jpg",
+  "heroCta": "Dobierz napęd do bramy",
+  "variantKey": "brama-przesuwna",
+  "crumbs": [
+    {
+      "name": "Bramy i furtki",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Brama przesuwna:</strong> napęd 24 V do skrzydła do 600 kg od {naped_przesuwna} z montażem.",
+        "<strong>Brama skrzydłowa:</strong> dwa siłowniki 24 V do skrzydeł do 2,5 m od {naped_skrzydlowa}.",
+        "<strong>W zestawie:</strong> centrala, 2 piloty i fotokomórki.",
+        "<strong>Bezpieczeństwo:</strong> miękki start i zatrzymanie po wykryciu przeszkody.",
+        "<strong>Uruchomienie:</strong> montaż, ustawienie krańcówek i programowanie pilotów przez Eurofance."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Napędy do bram przesuwnych i skrzydłowych",
+      "intro": "Dobieramy napęd do masy skrzydła, szerokości wjazdu, miejsca na cofnięcie i rodzaju bramy.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Napęd do bramy przesuwnej 24 V",
+          "desc": "Do skrzydła do 600 kg. W zestawie centrala, 2 piloty i fotokomórki.",
+          "price": "od {naped_przesuwna}",
+          "priceNote": "z montażem i konfiguracją",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Napęd do bramy przesuwnej",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/naped-do-bramy-przesuwnej"
+        },
+        {
+          "name": "Napęd do bramy skrzydłowej",
+          "desc": "2 siłowniki 24 V do skrzydeł do 2,5 m, centrala, piloty i fotokomórki.",
+          "price": "od {naped_skrzydlowa}",
+          "priceNote": "z montażem i konfiguracją",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Napęd do bramy skrzydłowej",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/naped-do-bramy-skrzydlowej"
+        }
+      ],
+      "note": "Najpierw sprawdzamy stan zawiasów, rolki i odboje. Napęd nie poprawi źle działającej bramy mechanicznej.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "products",
+      "eyebrow": "Produkty",
+      "title": "Piloty i akcesoria do działania bramy",
+      "intro": "Dodatkowe elementy pozwalają obsłużyć więcej użytkowników i utrzymać sprawne skrzydło.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Pilot do bramy, dodatkowy",
+          "desc": "Pilot 433 MHz z 2 albo 4 kanałami, doprogramowanie do centrali.",
+          "price": "od {pilot}",
+          "priceNote": "za sztukę",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Dodatkowy pilot do napędu",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/pilot-do-bramy"
+        },
+        {
+          "name": "Zawias do bramy skrzydłowej",
+          "desc": "Regulacja w pionie i poziomie, 2 do 3 zawiasy na skrzydło.",
+          "price": "od {zawias}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/bramy.jpg",
+          "quote": "Regulowane zawiasy do bramy",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/zawias-do-bramy"
+        },
+        {
+          "name": "Rolka do bramy przesuwnej",
+          "desc": "Rolka z zamkniętym łożyskiem. Do bramy 4 m liczymy zwykle 4 sztuki.",
+          "price": "od {rolka}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Rolki do bramy przesuwnej",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/rolka-do-bramy-przesuwnej"
+        }
+      ],
+      "note": "Fotokomórki są w zestawach napędów. Dodatkowy pilot można doprogramować także do istniejącej centrali po sprawdzeniu zgodności."
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny automatyki do bram",
+      "intro": "Ceny obejmują urządzenia, standardowy montaż i konfigurację. Nietypowe zasilanie, duże skrzydła i prace ziemne wyceniamy po oględzinach.",
+      "head": [
+        "Zestaw",
+        "Parametr",
+        "Cena od",
+        "W zestawie"
+      ],
+      "rows": [
+        [
+          "Napęd przesuwny",
+          "do 600 kg, silnik 24 V",
+          "od {naped_przesuwna}",
+          "centrala, 2 piloty, fotokomórki, montaż"
+        ],
+        [
+          "Napęd skrzydłowy",
+          "2 skrzydła do 2,5 m",
+          "od {naped_skrzydlowa}",
+          "2 siłowniki, centrala, 2 piloty, fotokomórki"
+        ],
+        [
+          "Pilot dodatkowy",
+          "433 MHz, 2 lub 4 kanały",
+          "od {pilot} za sztukę",
+          "doprogramowanie przy zakupie"
+        ],
+        [
+          "Zawias regulowany",
+          "pion i poziom",
+          "od {zawias} za sztukę",
+          "do bramy skrzydłowej"
+        ],
+        [
+          "Rolka jezdna",
+          "łożysko zamknięte",
+          "od {rolka} za sztukę",
+          "do bramy przesuwnej"
+        ]
+      ],
+      "note": "Przed montażem weryfikujemy zasilanie 230 V i swobodną pracę bramy. Cena nie obejmuje doprowadzenia kabla przez całą działkę.",
+      "ctaText": "Chcesz automatykę do istniejącej bramy?",
+      "ctaDesc": "Podaj typ bramy, szerokość, przybliżoną wagę i zdjęcie zawiasów albo rolek. Doradzimy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Montaż i konfiguracja napędu",
+      "intro": "Po montażu sprawdzamy mechanikę bramy, bezpieczeństwo fotokomórek i reakcję na przeszkodę.",
+      "head": [
+        "Etap",
+        "Brama przesuwna",
+        "Brama skrzydłowa"
+      ],
+      "rows": [
+        [
+          "1. Kontrola bramy",
+          "szyna, rolki, prowadzenie i listwa zębata",
+          "zawiasy, odboje i miejsce otwarcia"
+        ],
+        [
+          "2. Mocowanie",
+          "napęd i listwa zębata",
+          "2 siłowniki przy słupkach"
+        ],
+        [
+          "3. Zabezpieczenia",
+          "fotokomórki i ustawienie krańcówek",
+          "fotokomórki i ograniczniki skrzydeł"
+        ],
+        [
+          "4. Uruchomienie",
+          "2 piloty i test zatrzymania",
+          "2 piloty i test każdego skrzydła"
+        ]
+      ],
+      "note": "Konfiguracja obejmuje zaprogramowanie 2 pilotów, ustawienie położeń krańcowych i test fotokomórek. Dodatkowe piloty można doprogramować później."
+    },
+    {
+      "type": "text",
+      "title": "Fotokomórki, piloty, montaż i konfiguracja",
+      "html": "<p>Fotokomórki tworzą wiązkę bezpieczeństwa przy wjeździe. Gdy wiązka zostanie przerwana, centrala nie zamknie bramy albo zatrzyma jej ruch. W zestawach Eurofance są 2 fotokomórki, 2 piloty i centrala z funkcją miękkiego startu.</p><p>Po mechanicznym montażu ustawiamy położenia krańcowe, siłę pracy napędu oraz reakcję na przeszkodę. Do bramy przesuwnej najpierw kontrolujemy listwę zębatą i rolki, a do skrzydłowej zawiasy, odboje i swobodę otwierania skrzydeł.</p>"
+    },
+    {
+      "type": "gallery",
+      "title": "Automatyka do bram w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Legionowo, napęd 24 V do bramy przesuwnej 4 m",
+          "alt": "Napęd do bramy przesuwnej 4 m w Legionowie",
+          "tags": [
+            "bramy-przesuwne",
+            "automatyka"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "caption": "Przasnysz, 2 siłowniki 24 V przy bramie skrzydłowej 4 m",
+          "alt": "Automatyka do bramy skrzydłowej 4 m w Przasnyszu",
+          "tags": [
+            "bramy-skrzydlowe",
+            "automatyka"
+          ]
+        },
+        {
+          "image": "/images/premium/hero.jpg",
+          "caption": "Siedlce, automatyczna brama przy froncie 20 mb, RAL 7016",
+          "alt": "Automatyczna brama przy ogrodzeniu frontowym w Siedlcach",
+          "tags": [
+            "frontowe",
+            "automatyka"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Maków Mazowiecki, furtka z elektrozaczepem przy bramie automatycznej",
+          "alt": "Furtka z elektrozaczepem przy automatycznej bramie",
+          "tags": [
+            "furtki",
+            "automatyka"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Automatyka do bram, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje napęd do bramy przesuwnej?",
+          "a": "Napęd 24 V do bramy przesuwnej do 600 kg kosztuje od {naped_przesuwna} z montażem i konfiguracją. Zestaw zawiera centralę, 2 piloty i fotokomórki."
+        },
+        {
+          "q": "Ile kosztuje napęd do bramy skrzydłowej?",
+          "a": "Zestaw do bramy dwuskrzydłowej kosztuje od {naped_skrzydlowa} z montażem. Ma 2 siłowniki 24 V do skrzydeł o długości do 2,5 m."
+        },
+        {
+          "q": "Czy fotokomórki są obowiązkowe?",
+          "a": "Fotokomórki są istotnym zabezpieczeniem pracy automatycznej bramy. W zestawach Eurofance są 2 fotokomórki, które wykrywają przeszkodę w świetle wjazdu."
+        },
+        {
+          "q": "Ile pilotów jest w zestawie?",
+          "a": "Standardowy zestaw napędu zawiera 2 piloty. Dodatkowy pilot 433 MHz kosztuje od {pilot} za sztukę i można go doprogramować do zgodnej centrali."
+        },
+        {
+          "q": "Czy napęd można zamontować do starej bramy?",
+          "a": "Tak, jeśli brama pracuje lekko i ma sprawne zawiasy albo rolki. Przed montażem sprawdzamy mechanikę, zasilanie 230 V i miejsce na urządzenie."
+        },
+        {
+          "q": "Jaki napęd do bramy przesuwnej 4 m?",
+          "a": "Dobieramy napęd po masie skrzydła, nie tylko po szerokości. Do typowej bramy panelowej 4 m wystarcza zestaw do 600 kg, ale cięższe wypełnienie wymaga osobnej oceny."
+        },
+        {
+          "q": "Czy automatyka działa przy braku prądu?",
+          "a": "Napęd ma odblokowanie ręczne, które pozwala otworzyć bramę kluczem podczas braku zasilania. Zasilanie awaryjne można dobrać indywidualnie."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o bramach i montażu",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy bramach automatycznych."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Dobierz automatykę do bramy",
+      "category": "automatyka",
+      "place": "automatyka-do-bram-wycena"
+    }
+  ]
+}

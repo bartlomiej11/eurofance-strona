@@ -1,0 +1,290 @@
+{
+  "slug": "ogrodzenia-palisadowe",
+  "kind": "offer",
+  "title": "Ogrodzenia palisadowe pionowe i poziome od producenta | od {palisada_pion_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia palisadowe pionowe i poziome od producenta. Profile 85 x 20 mm, prześwit 10 mm, dowolny kolor RAL, brama i furtka palisadowa. Cena od.",
+  "h1": "Ogrodzenia palisadowe",
+  "answer": "Ogrodzenie palisadowe to przęsła z zamkniętych profili stalowych, ustawionych pionowo lub poziomo. W Eurofance palisada pionowa kosztuje od {palisada_pion_mb} za mb, a pozioma od {palisada_poz_mb} za mb, z materiałem i montażem. Profile mają 85 x 20 mm i prześwit 10 mm, dzięki czemu ogrodzenie daje prywatność i wygląda lekko.",
+  "category": "palisadowe",
+  "heroImage": "/images/premium/palisadowe.jpg",
+  "heroCta": "Wycena ogrodzenia palisadowego",
+  "variantKey": "panelowe",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> przęsła z profili zamkniętych 85 x 20 mm, w układzie pionowym albo poziomym.",
+        "<strong>Prześwit:</strong> 10 mm w palisadzie pionowej i 12 mm w poziomej, wysokości 123, 153 i 173 cm.",
+        "<strong>Cena:</strong> palisada pionowa od {palisada_pion_mb} za mb, pozioma od {palisada_poz_mb} za mb z montażem.",
+        "<strong>Do kompletu:</strong> brama palisadowa od {brama_przesuwna_palisada_4m}, furtka od {furtka_palisadowa}.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę proszkową."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Ogrodzenia palisadowe z montażem",
+      "intro": "Ceny za metr bieżący z materiałem, transportem i montażem. Elementy malujemy proszkowo na dowolny kolor RAL.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Palisada pionowa 153 cm",
+          "desc": "Profile 85 x 20 mm, prześwit 10 mm, słupki 60 x 40 mm.",
+          "price": "od {palisada_pion_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-06.jpg",
+          "quote": "Ogrodzenie palisadowe pionowe 153 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Palisada pionowa 173 cm",
+          "desc": "Więcej prywatności, z podmurówką linia ogrodzenia blisko 2 m.",
+          "price": "od {palisada_pion_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-07.jpg",
+          "quote": "Ogrodzenie palisadowe pionowe 173 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Palisada pozioma 153 cm",
+          "desc": "Układ listwy poziomej, nowoczesny rysunek, prześwit 12 mm.",
+          "price": "od {palisada_poz_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-08.jpg",
+          "quote": "Ogrodzenie palisadowe poziome 153 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Brama palisadowa 4 m",
+          "desc": "Przesuwna albo skrzydłowa, wypełnienie z palisady pionowej.",
+          "price": "od {brama_przesuwna_palisada_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg",
+          "quote": "Brama palisadowa 4 m",
+          "quoteLabel": "Wycena bramy"
+        },
+        {
+          "name": "Furtka palisadowa 1 m",
+          "desc": "Rama 40 x 40 mm, wypełnienie z palisady, zamek z klamką w zestawie.",
+          "price": "od {furtka_palisadowa}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Furtka palisadowa 1 m",
+          "quoteLabel": "Wycena furtki"
+        },
+        {
+          "name": "Palisada z podmurówką",
+          "desc": "Komplet: przęsła palisadowe i podmurówka betonowa 250x25.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "podmurówka za mb, przęsła osobno",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "quote": "Palisada z podmurówką",
+          "quoteLabel": "Wycena kompletu"
+        }
+      ],
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń palisadowych",
+      "intro": "Cena za metr bieżący z materiałem i montażem. Palisada pozioma jest droższa, bo wymaga dodatkowych wzmocnień konstrukcji.",
+      "head": [
+        "System i wysokość",
+        "Cena za mb z montażem",
+        "Profil",
+        "Prześwit"
+      ],
+      "rows": [
+        [
+          "Palisada pionowa 123 cm",
+          "od {palisada_pion_mb}",
+          "85 x 20 mm",
+          "10 mm"
+        ],
+        [
+          "Palisada pionowa 153 cm",
+          "od {palisada_pion_mb}",
+          "85 x 20 mm",
+          "10 mm"
+        ],
+        [
+          "Palisada pionowa 173 cm",
+          "od {palisada_pion_mb}",
+          "85 x 20 mm",
+          "10 mm"
+        ],
+        [
+          "Palisada pozioma 153 cm",
+          "od {palisada_poz_mb}",
+          "85 x 20 mm",
+          "12 mm"
+        ],
+        [
+          "Palisada pozioma 173 cm",
+          "od {palisada_poz_mb}",
+          "85 x 20 mm",
+          "12 mm"
+        ],
+        [
+          "Brama przesuwna palisadowa 4 m",
+          "od {brama_przesuwna_palisada_4m}",
+          "85 x 20 mm",
+          "10 mm"
+        ],
+        [
+          "Furtka palisadowa 1 m",
+          "od {furtka_palisadowa}",
+          "85 x 20 mm",
+          "10 mm"
+        ]
+      ],
+      "note": "Ceny brutto z montażem, bez podmurówki. Podmurówka 250x25 od {podmurowka_250x25} za mb.",
+      "ctaText": "Policzymy palisadę dla Twojej działki",
+      "ctaDesc": "Podaj długość, wysokość i miejscowość. Wycenę z montażem wyślemy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Palisada pionowa",
+      "html": "<p>Palisada pionowa to profile ustawione pionowo, gęsto obok siebie, z prześwitem 10 mm. Taki układ daje prywatność podobną do panelu, ale wygląda lżej i bardziej dekoracyjnie. Cena od {palisada_pion_mb} za mb z montażem.</p><p>Palisada pionowa pasuje do nowoczesnych domów z płaskim dachem i do elewacji w antracycie. Najczęściej wybierane kolory to RAL 7016 i RAL 9005. Przy wysokości 173 cm z podmurówką 25 cm linia ogrodzenia ma blisko 2 m, co daje prywatność od strony ulicy.</p><p>Przęsła mają 250 cm szerokości, tak jak panele, więc rozstaw słupków i podmurówka są identyczne jak w systemie panelowym. Dzięki temu palisadę można zestawić z panelami na jednej linii ogrodzenia.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Palisada pozioma",
+      "html": "<p>W palisadzie poziomej profile leżą jeden nad drugim, tworząc układ listwy. Efekt jest bardziej nowoczesny niż w układzie pionowym, dlatego palisada pozioma pojawia się na frontach działek i w ogrodzeniach przy tarasach. Cena od {palisada_poz_mb} za mb z montażem.</p><p>Układ poziomy wymaga wzmocnionej ramy, bo profile pracują na zginanie. Dlatego przęsło ma dodatkowe żebra, a rozstaw słupków utrzymujemy na 250 cm, nie więcej.</p><p>Palisada pozioma dobrze wygląda w antracycie i w grafitowym połysku. W wersji z podmurówką obudowaną panelami daje jednolitą linię od ziemi do góry ogrodzenia.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama i furtka palisadowa",
+      "html": "<p>Brama palisadowa ma tę samą ramę co brama panelowa, tylko inne wypełnienie. Brama przesuwna 4 m w palisadzie pionowej kosztuje od {brama_przesuwna_palisada_4m}, a skrzydłowa od {brama_skrzydlowa_palisada_4m}, z montażem.</p><p>Palisada jest cięższa od panelu o około 20 procent, dlatego do bramy palisadowej stosujemy mocniejsze słupki bramowe 100 x 100 mm z blachy 3 mm i mocniejszy napęd. Furtka palisadowa 1 m kosztuje od {furtka_palisadowa} i ma w standardzie zamek z klamką oraz zawiasy regulowane.</p><p>Komplet frontowy z palisady, czyli brama 4 m, furtka 1 m i 15 mb przęseł, kosztuje od {front_zestaw_palisada} z podmurówką i montażem.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Profile i prześwity",
+      "head": [
+        "Element",
+        "Profil",
+        "Grubość blachy",
+        "Prześwit",
+        "Wysokości"
+      ],
+      "rows": [
+        [
+          "Palisada pionowa",
+          "85 x 20 mm",
+          "1,5 mm",
+          "10 mm",
+          "123, 153, 173 cm"
+        ],
+        [
+          "Palisada pozioma",
+          "85 x 20 mm",
+          "1,5 mm",
+          "12 mm",
+          "153, 173 cm"
+        ],
+        [
+          "Grzebień",
+          "85 x 20 mm na sztorc",
+          "1,5 mm",
+          "20 mm",
+          "153, 173 cm"
+        ],
+        [
+          "Żaluzja",
+          "100 x 20 mm pod kątem",
+          "1,5 mm",
+          "brak prześwitu prostego",
+          "153, 173 cm"
+        ],
+        [
+          "Rama przęsła",
+          "40 x 40 mm",
+          "2 mm",
+          "brak",
+          "wszystkie"
+        ],
+        [
+          "Słupek",
+          "60 x 40 mm",
+          "2 mm",
+          "brak",
+          "do 203 cm panelu"
+        ]
+      ],
+      "note": "Wszystkie elementy cynkowane ogniowo i malowane proszkowo we własnej malarni {miasto_produkcji_w}."
+    },
+    {
+      "type": "text",
+      "title": "Palisada czy panel",
+      "html": "<p>Panel jest tańszy: 2D od {panel_2d_mb} i 3D od {panel_3d_mb} za mb, a palisada pionowa od {palisada_pion_mb} za mb. Różnica to około 15 do 30 procent ceny materiału, przy podobnej trwałości.</p><p>Palisada wygrywa tam, gdzie liczy się wygląd: front działki, ogrodzenie przy tarasie, posesja z nowoczesnym domem. Panel wygrywa tam, gdzie liczy się koszt i szybkość montażu: boki działki, tereny firmowe, długie odcinki.</p><p>Najczęstszy wybór klientów to palisada na froncie i panele 3D na bokach i tyle, w jednym kolorze RAL. Taki układ daje efekt premium tylko tam, gdzie jest widoczny, i pozwala zaoszczędzić kilka tysięcy złotych.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia palisadowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie palisadowe 40 mb?",
+          "a": "Palisada pionowa 40 mb z montażem to zwykle od 9 600 zł, a z podmurówką 250x25 około 3 800 zł więcej. Dokładną cenę podajemy po ustaleniu wysokości, koloru i zakresu montażu."
+        },
+        {
+          "q": "Palisada pionowa czy pozioma?",
+          "a": "Pionowa daje więcej prywatności przy prześwicie 10 mm i jest tańsza. Pozioma wygląda bardziej nowoczesnie, ma prześwit 12 mm i jest droższa o około 8 procent, bo wymaga wzmocnionej ramy."
+        },
+        {
+          "q": "Czy palisada jest szczelna?",
+          "a": "Palisada pionowa ma prześwit 10 mm, więc przy linii ogrodzenia widać zarys posesji, ale nie szczegóły. Pełną szczelność daje tylko ogrodzenie pełne z blachy, którego nie oferujemy w standardzie."
+        },
+        {
+          "q": "Jaki kolor palisady wybrać?",
+          "a": "Najczęściej antracyt RAL 7016, potem czarny RAL 9005 i brąz RAL 8017. Malujemy proszkowo na dowolny kolor z palety RAL, także w wersji strukturalnej, która mniej pokazuje odciski palców."
+        },
+        {
+          "q": "Czy palisada wymaga podmurówki?",
+          "a": "Nie wymaga, ale podmurówka chroni dolną krawędź profili przed wodą i koszeniem. Przy gruncie wilgotnym i przy drodze, gdzie zimą sypie się sól, podmurówka wyraźnie wydłuża życie ogrodzenia."
+        },
+        {
+          "q": "Jak głęboko betonować słupki pod palisadę?",
+          "a": "Na 60 do 80 cm, w betonie B-25. Przy wysokości 173 cm i przy mocnym wiatrze zalecamy 80 cm oraz rozstaw słupków 250 cm bez zwiększania."
+        },
+        {
+          "q": "Czy palisada jest droższa od panelu?",
+          "a": "Tak, palisada pionowa kosztuje od {palisada_pion_mb} za mb, a panel 3D od {panel_3d_mb} za mb z montażem. Różnica wynika z większej liczby metrów profila na metr bieżący ogrodzenia."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o ogrodzeniach palisadowych",
+      "items": [
+        {
+          "label": "Ogrodzenie palisadowe pionowe czy poziome",
+          "url": "/blog/ogrodzenie-palisadowe-pionowe-czy-poziome/",
+          "desc": "Prześwity, koszty i zastosowanie"
+        },
+        {
+          "label": "Nowoczesne ogrodzenie do domu: wzory i kolory",
+          "url": "/blog/nowoczesne-ogrodzenie-do-domu-wzory-i-kolory/",
+          "desc": "Palisada, grzebień, żaluzja, panel"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia palisadowego",
+      "category": "palisadowe",
+      "place": "palisadowe-wycena"
+    }
+  ]
+}

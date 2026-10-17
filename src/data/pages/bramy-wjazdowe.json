@@ -1,0 +1,283 @@
+{
+  "slug": "bramy-wjazdowe",
+  "kind": "offer",
+  "title": "Bramy wjazdowe od producenta | przesuwne i skrzydłowe z furtką | Eurofance",
+  "metaDescription": "Bramy wjazdowe od producenta: przesuwne i skrzydłowe, panelowe i palisadowe, z furtką i napędem. Szerokości 3 do 6 m, ceny od {brama_skrzydlowa_4m}, montaż w.",
+  "h1": "Bramy wjazdowe",
+  "answer": "Brama wjazdowa to najważniejszy element ogrodzenia: od niej zależy wygoda codziennego wjazdu i pierwsze wrażenie od ulicy. W Eurofance brama dwuskrzydłowa 4 m kosztuje od {brama_skrzydlowa_4m}, a przesuwna 4 m od {brama_przesuwna_4m}, z montażem. Produkujemy je pod wymiar wjazdu, w kolorze z palety RAL i przygotowujemy pod napęd.",
+  "category": "brama-przesuwna",
+  "heroImage": "/images/premium/bramy.jpg",
+  "heroCta": "Wycena bramy wjazdowej",
+  "variantKey": "brama-przesuwna",
+  "crumbs": [
+    {
+      "name": "Bramy i furtki",
+      "url": "/bramy-wjazdowe"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Rodzaje:</strong> brama przesuwna, skrzydłowa, jednoskrzydłowa i teleskopowa.",
+        "<strong>Szerokości:</strong> 3, 3,5, 4, 4,5, 5 i 6 m, wypełnienie z paneli, palisady lub grzebienia.",
+        "<strong>Cena:</strong> dwuskrzydłowa 4 m od {brama_skrzydlowa_4m}, przesuwna 4 m od {brama_przesuwna_4m}, z montażem.",
+        "<strong>Napęd:</strong> przygotowujemy pod napęd w standardzie, napęd od {naped_przesuwna}.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę."
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "Bramy przesuwne",
+      "intro": "Brama jeździ wzdłuż ogrodzenia, nie potrzebuje miejsca na podjeździe. Najlepsza przy szerokich wjazdach i z napędem.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Brama przesuwna panelowa 4 m",
+          "url": "/bramy-wjazdowe-przesuwne",
+          "meta": "od {brama_przesuwna_4m} z montażem"
+        },
+        {
+          "name": "Brama przesuwna palisadowa 4 m",
+          "url": "/bramy-wjazdowe-przesuwne",
+          "meta": "od {brama_przesuwna_palisada_4m} z montażem"
+        },
+        {
+          "name": "Brama teleskopowa 4 m",
+          "url": "/bramy-wjazdowe-przesuwne",
+          "meta": "o połowę mniej miejsca, od {brama_teleskopowa_4m}"
+        }
+      ],
+      "eyebrow": "Oferta"
+    },
+    {
+      "type": "tiles",
+      "eyebrow": "Oferta",
+      "title": "Bramy skrzydłowe",
+      "intro": "Skrzydła otwierają się do środka działki. Najtańszy typ bramy, dobry przy krótkim froncie.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Brama dwuskrzydłowa 4 m",
+          "url": "/bramy-wjazdowe-skrzydlowe",
+          "meta": "od {brama_skrzydlowa_4m} z montażem"
+        },
+        {
+          "name": "Brama dwuskrzydłowa palisadowa",
+          "url": "/bramy-wjazdowe-skrzydlowe",
+          "meta": "od {brama_skrzydlowa_palisada_4m}"
+        },
+        {
+          "name": "Brama jednoskrzydłowa 3 m",
+          "url": "/bramy-wjazdowe-skrzydlowe",
+          "meta": "od {brama_jednoskrzydlowa_3m}"
+        }
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Brama wjazdowa z furtką: zestawy",
+      "intro": "Zestaw z bramą i furtką w tym samym kolorze i systemie. Najczęściej zamawiany komplet na front działki.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Brama przesuwna 4 m plus furtka 1 m",
+          "desc": "Panel 3D 153 cm, słupki bramowe 100 x 100 mm, podmurówka opcjonalnie.",
+          "price": "od {brama_przesuwna_4m}",
+          "priceNote": "plus furtka od {furtka_panelowa}",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Brama przesuwna 4 m z furtką",
+          "quoteLabel": "Wycena zestawu"
+        },
+        {
+          "name": "Brama dwuskrzydłowa 4 m plus furtka 1 m",
+          "desc": "Panel 2D lub 3D, skrzydła otwierane do środka, przygotowanie pod siłowniki.",
+          "price": "od {brama_skrzydlowa_4m}",
+          "priceNote": "plus furtka od {furtka_panelowa}",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Brama dwuskrzydłowa 4 m z furtką",
+          "quoteLabel": "Wycena zestawu"
+        },
+        {
+          "name": "Brama z napędem i fotokomórkami",
+          "desc": "Napęd 24 V, dwa piloty, fotokomórki, konfiguracja na miejscu.",
+          "price": "od {naped_przesuwna}",
+          "priceNote": "do bramy przesuwnej",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Brama z napędem",
+          "quoteLabel": "Wycena z napędem"
+        }
+      ],
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ile kosztuje brama wjazdowa",
+      "intro": "Ceny brutto z materiałem i montażem. Cena rośnie z szerokością skrzydła, bo rośnie masa bramy i przekrój słupków.",
+      "head": [
+        "Szerokość wjazdu",
+        "Brama przesuwna",
+        "Brama dwuskrzydłowa",
+        "Brama teleskopowa"
+      ],
+      "rows": [
+        [
+          "3,0 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_jednoskrzydlowa_3m}",
+          "wycena indywidualna"
+        ],
+        [
+          "3,5 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "wycena indywidualna"
+        ],
+        [
+          "4,0 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_teleskopowa_4m}"
+        ],
+        [
+          "4,5 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "wycena indywidualna"
+        ],
+        [
+          "5,0 m",
+          "od {brama_przesuwna_5m}",
+          "wycena indywidualna",
+          "wycena indywidualna"
+        ],
+        [
+          "6,0 m",
+          "od {brama_przesuwna_5m}",
+          "wycena indywidualna",
+          "wycena indywidualna"
+        ]
+      ],
+      "note": "Do bramy dochodzi napęd od {naped_przesuwna} (przesuwna) albo od {naped_skrzydlowa} (skrzydłowa) oraz słupki bramowe od {slupek_brama}.",
+      "ctaText": "Policzymy bramę pod Twój wjazd",
+      "ctaDesc": "Podaj szerokość wjazdu i miejscowość, wycenę z montażem wyślemy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Jaka szerokość bramy wjazdowej",
+      "intro": "Szerokość bramy dobieramy do najszerszego pojazdu, który ma wjeżdżać, plus zapas na lusterka i manewr.",
+      "head": [
+        "Pojazd",
+        "Minimalna szerokość wjazdu",
+        "Zalecana brama",
+        "Uwagi"
+      ],
+      "rows": [
+        [
+          "Samochód osobowy",
+          "3,0 m",
+          "3,0 do 3,5 m",
+          "zapas 0,5 m na lusterka"
+        ],
+        [
+          "SUV, auto z bagażnikiem dachowym",
+          "3,5 m",
+          "3,5 do 4,0 m",
+          "uwaga na wysokość 2,0 m"
+        ],
+        [
+          "Auto z przyczepą",
+          "4,5 m",
+          "5,0 m",
+          "potrzebny prosty podjazd"
+        ],
+        [
+          "Kamper, dostawczak",
+          "4,0 m",
+          "4,5 do 5,0 m",
+          "wysokość do 2,6 m"
+        ],
+        [
+          "Sprzęt budowlany",
+          "5,0 m",
+          "6,0 m",
+          "wycena indywidualna, wzmocnione słupki"
+        ]
+      ],
+      "note": "Przy bramie przesuwnej pamiętaj o miejscu na cofnięcie skrzydła: około 1,5 x szerokość wjazdu."
+    },
+    {
+      "type": "text",
+      "title": "Bramy z napędem",
+      "html": "<p>Każdą bramę przygotowujemy pod napęd już w produkcji: spawamy wzmocnienia, wiercimy otwory pod siłowniki i prowadzimy peszel na kable. Dzięki temu montaż napędu nie wymaga przeróbek bramy ani malowania poprawkowego.</p><p>Do bramy przesuwnej zakładamy napęd 24 V z listwą zębatą, do skrzydłowej dwa siłowniki. W zestawie są dwa piloty, fotokomórki i centrala z miękkim startem. Napęd do przesuwnej kosztuje od {naped_przesuwna}, do skrzydłowej od {naped_skrzydlowa}, z montażem i konfiguracją.</p><p>Dodatkowo montujemy lampę ostrzegawczą, klawiaturę kodową, moduł Wi-Fi do sterowania z telefonu i elektrozaczep w furtce. Wszystko konfigurujemy na miejscu i pokazujemy, jak używać.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Bramy wjazdowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Brama przesuwna czy skrzydłowa, co wybrać?",
+          "a": "Przesuwna jest wygodniejsza przy szerokich wjazdach i z napędem, ale potrzebuje miejsca wzdłuż ogrodzenia, około 1,5 x szerokość wjazdu. Skrzydłowa jest tańsza o kilkaset złotych i potrzebuje miejsca na podjeździe, ale otwiera się do środka działki."
+        },
+        {
+          "q": "Ile kosztuje brama wjazdowa 4 m z montażem?",
+          "a": "Brama dwuskrzydłowa 4 m to od {brama_skrzydlowa_4m}, a przesuwna 4 m od {brama_przesuwna_4m} z materiałem i montażem. Napęd to dodatkowe od {naped_przesuwna} albo od {naped_skrzydlowa}."
+        },
+        {
+          "q": "Czy brama może otwierać się na ulicę?",
+          "a": "Nie, skrzydła bramy i furtki nie mogą otwierać się na zewnątrz działki. Przy bramie skrzydłowej otwierają się do środka posesji, dlatego potrzebny jest zapas miejsca na podjeździe."
+        },
+        {
+          "q": "Czy brama jest w kolorze ogrodzenia?",
+          "a": "Tak, bramę malujemy w tym samym kolorze RAL co ogrodzenie, we własnej malarni proszkowej. Kolor jest jednolity na wszystkich elementach, także na słupkach i furtce."
+        },
+        {
+          "q": "Jak głęboko betonuje się słupki bramowe?",
+          "a": "Słupki bramowe osadzamy na 80 do 100 cm, w betonie B-25, na poduszce z betonu. Przenoszą ciężar skrzydła i napędu, dlatego betonujemy je głębiej niż słupki ogrodzenia."
+        },
+        {
+          "q": "Czy montujecie napęd na bramie kupionej gdzie indziej?",
+          "a": "Montujemy napędy także na istniejących bramach, jeśli konstrukcja jest sztywna i przygotowana pod automatykę. Przed wyceną prosimy o zdjęcie bramy i słupków."
+        },
+        {
+          "q": "Ile trwa produkcja bramy?",
+          "a": "Produkcja bramy i ogrodzenia trwa {czas_produkcji}. Montaż bramy z furtką i napędem zajmuje zwykle jeden dzień, a cały front z ogrodzeniem {czas_montazu}."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o bramach wjazdowych",
+      "items": [
+        {
+          "label": "Brama przesuwna czy skrzydłowa? Porównanie wad i zalet",
+          "url": "/blog/brama-przesuwna-czy-uchylna-wady-i-zalety/",
+          "desc": "Miejsce, koszt, napęd i wygoda"
+        },
+        {
+          "label": "Rodzaje bram wjazdowych",
+          "url": "/blog/rodzaje-bram-wjazdowych/",
+          "desc": "Przesuwne, skrzydłowe, teleskopowe"
+        },
+        {
+          "label": "Napęd do bramy przesuwnej, jaki wybrać",
+          "url": "/blog/naped-do-bramy-przesuwnej-jaki-wybrac/",
+          "desc": "Udźwig, fotokomórki, sterowanie"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena bramy wjazdowej",
+      "category": "brama-przesuwna",
+      "place": "bramy-wycena"
+    }
+  ]
+}

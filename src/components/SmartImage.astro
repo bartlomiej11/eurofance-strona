@@ -1,0 +1,29 @@
+---
+// Zdjęcia: WebP albo AVIF, zawsze z width i height, lazy poniżej pierwszego ekranu.
+// Priorytetowe zdjęcie (hero, pierwszy ekran) dostaje loading="eager" i fetchpriority="high".
+const {
+  src,
+  alt,
+  width = 1200,
+  height = 900,
+  loading = 'lazy',
+  fetchpriority = null,
+  sizes = null,
+  srcset = null,
+  class: className = '',
+  caption = null,
+} = Astro.props;
+---
+<img
+  src={src}
+  alt={alt}
+  width={width}
+  height={height}
+  loading={loading}
+  decoding={loading === 'eager' ? 'sync' : 'async'}
+  fetchpriority={fetchpriority}
+  sizes={sizes}
+  srcset={srcset}
+  class={className}
+  title={caption || undefined}
+/>

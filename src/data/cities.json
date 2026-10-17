@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "warszawa",
+    "name": "Warszawa",
+    "region": "mazowieckie",
+    "distanceKm": 82,
+    "delivery": "3 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "2 dni robocze",
+    "searchVolume": 260,
+    "nearby": [
+      "Jabłonna",
+      "Łomianki",
+      "Marki",
+      "Ząbki",
+      "Piastów",
+      "Ożarów Mazowiecki"
+    ],
+    "intro": "Montujemy ogrodzenia panelowe na działkach prywatnych i terenach firmowych w Warszawie. Pomiar ustalamy sprawnie także dla inwestycji w sąsiednich gminach."
+  },
+  {
+    "slug": "ciechanow",
+    "name": "Ciechanów",
+    "region": "mazowieckie",
+    "distanceKm": 38,
+    "delivery": "2 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "1 dzień roboczy",
+    "searchVolume": 90,
+    "nearby": [
+      "Opinogóra Górna",
+      "Regimin",
+      "Sońsk",
+      "Glinojeck",
+      "Strzegowo",
+      "Gołymin-Ośrodek"
+    ],
+    "intro": "Do Ciechanowa dojeżdżamy z produkcji w Makowie Mazowieckim krótką trasą, dlatego łatwo łączymy pomiar z przygotowaniem montażu. Obsługujemy domy, firmy i działki budowlane w mieście oraz gminach powiatu."
+  },
+  {
+    "slug": "przasnysz",
+    "name": "Przasnysz",
+    "region": "mazowieckie",
+    "distanceKm": 28,
+    "delivery": "2 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "1 dzień roboczy",
+    "searchVolume": 70,
+    "nearby": [
+      "Chorzele",
+      "Czernice Borowe",
+      "Krasne",
+      "Krzynowłoga Mała",
+      "Jednorożec",
+      "Baranowo"
+    ],
+    "intro": "W Przasnyszu montujemy panele na nowych osiedlach, przy domach jednorodzinnych i na większych działkach poza miastem. Bliskość produkcji pozwala szybko ustalić pomiar oraz termin ekipy."
+  },
+  {
+    "slug": "legionowo",
+    "name": "Legionowo",
+    "region": "mazowieckie",
+    "distanceKm": 86,
+    "delivery": "3 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "2 dni robocze",
+    "searchVolume": 90,
+    "nearby": [
+      "Jabłonna",
+      "Wieliszew",
+      "Nieporęt",
+      "Serock",
+      "Łajski",
+      "Chotomów"
+    ],
+    "intro": "Dla Legionowa przygotowujemy kompletne ogrodzenia panelowe z podmurówką, furtką lub bramą. Przed montażem sprawdzamy dostęp do działki i poziomy terenu, co ułatwia pracę na gęstej zabudowie."
+  },
+  {
+    "slug": "plock",
+    "name": "Płock",
+    "region": "mazowieckie",
+    "distanceKm": 130,
+    "delivery": "4 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "3 dni robocze",
+    "searchVolume": 110,
+    "nearby": [
+      "Słupno",
+      "Gąbin",
+      "Bodzanów",
+      "Stara Biała",
+      "Łąck",
+      "Wyszogród"
+    ],
+    "intro": "W Płocku realizujemy ogrodzenia panelowe przy domach, magazynach i terenach usługowych. Termin pomiaru ustalamy przed wysyłką materiału, aby ekipa mogła rozpocząć montaż bez zbędnego postoju."
+  },
+  {
+    "slug": "siedlce",
+    "name": "Siedlce",
+    "region": "mazowieckie",
+    "distanceKm": 153,
+    "delivery": "4 dni robocze",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "3 dni robocze",
+    "searchVolume": 110,
+    "nearby": [
+      "Zbuczyn",
+      "Mordy",
+      "Kotuń",
+      "Suchożebry",
+      "Mokobody",
+      "Skórzec"
+    ],
+    "intro": "Do Siedlec przywozimy panele, słupki i podmurówki jako jeden przygotowany zakres montażowy. Przy dłuższych odcinkach najpierw uzgadniamy przebieg linii i lokalizację bramy na pomiarze."
+  },
+  {
+    "slug": "bialystok",
+    "name": "Białystok",
+    "region": "podlaskie",
+    "distanceKm": 180,
+    "delivery": "5 dni roboczych",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "4 dni robocze",
+    "searchVolume": 210,
+    "nearby": [
+      "Wasilków",
+      "Choroszcz",
+      "Supraśl",
+      "Łapy",
+      "Czarna Białostocka",
+      "Juchnowiec Kościelny"
+    ],
+    "intro": "W Białymstoku planujemy dostawę i montaż ogrodzeń panelowych w jednym harmonogramie dla domu lub firmy. Zespół dobiera termin do dojazdu oraz przygotowania gruntu na działce."
+  },
+  {
+    "slug": "wloclawek",
+    "name": "Włocławek",
+    "region": "kujawsko-pomorskie",
+    "distanceKm": 221,
+    "delivery": "5 dni roboczych",
+    "deliveryCost": "w cenie zamówienia",
+    "teamEta": "4 dni robocze",
+    "searchVolume": 80,
+    "nearby": [
+      "Brześć Kujawski",
+      "Lubraniec",
+      "Kowal",
+      "Choceń",
+      "Fabianki",
+      "Lubień Kujawski"
+    ],
+    "intro": "We Włocławku montujemy ogrodzenia panelowe od krótkich boków działki po długie ogrodzenia posesji i firm. Przed wyjazdem ekipy potwierdzamy wymiary, dojazd oraz miejsce rozładunku materiału."
+  }
+]

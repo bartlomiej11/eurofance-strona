@@ -1,0 +1,380 @@
+{
+  "slug": "ogrodzenia-panelowe",
+  "kind": "offer",
+  "title": "Ogrodzenia panelowe 2D i 3D od producenta | od {panel_2d_mb} za mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe 2D i 3D od producenta. Panele 123, 153, 173 i 203 cm, drut 4 i 5 mm, podmurówka betonowa, montaż w całej Polsce. Cena od {panel_2d_mb} za.",
+  "h1": "Ogrodzenia panelowe",
+  "answer": "Ogrodzenie panelowe to stalowe przęsła o szerokości 250 cm, mocowane do słupków obejmami, najczęściej na podmurówce betonowej. W Eurofance kosztuje od {panel_2d_mb} za mb w wersji 2D i od {panel_3d_mb} za mb w wersji 3D, z materiałem i montażem. Gwarancja {gwarancja}, produkcja własna {miasto_produkcji_w}.",
+  "category": "panelowe",
+  "heroImage": "/images/realizacje/hero-panelowe.jpg",
+  "heroCta": "Wycena ogrodzenia panelowego",
+  "variantKey": "panelowe",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> stalowe panele 250 x 123 do 203 cm, słupki 60 x 40 mm, mocowanie obejmami.",
+        "<strong>Dla kogo:</strong> działki mieszkaniowe, firmy, place, szkoły i obiekty publiczne.",
+        "<strong>Cena:</strong> od {panel_2d_mb} za mb (2D) i od {panel_3d_mb} za mb (3D) z montażem.",
+        "<strong>Czas realizacji:</strong> produkcja {czas_produkcji}, montaż {czas_montazu}.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę proszkową."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Ogrodzenia panelowe z montażem",
+      "intro": "Ceny za metr bieżący ogrodzenia, z materiałem, transportem i montażem. Podmurówka liczona osobno.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Panelowe 2D, wysokość 153 cm",
+          "desc": "Drut 4 mm, słupki 60 x 40 mm, obejmy i śruby ocynkowane.",
+          "price": "od {panel_2d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/realizacja-1.jpg",
+          "quote": "Ogrodzenie panelowe 2D 153 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Panelowe 3D, wysokość 153 cm",
+          "desc": "Drut 5 mm, przetłoczenia w pionie, najczęściej wybierany system.",
+          "price": "od {panel_3d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/realizacja-2.jpg",
+          "quote": "Ogrodzenie panelowe 3D 153 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Panelowe 3D, wysokość 173 cm",
+          "desc": "Więcej prywatności, z podmurówką linia ogrodzenia blisko 2 m.",
+          "price": "od {panel_3d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Ogrodzenie panelowe 3D 173 cm",
+          "quoteLabel": "Wycena tego ogrodzenia"
+        },
+        {
+          "name": "Panelowe 3D 203 cm do firm",
+          "desc": "Wzmocnione panele do terenów przemysłowych i składów.",
+          "price": "od {panel_2d_8_6_8_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Ogrodzenie panelowe 203 cm dla firmy",
+          "quoteLabel": "Wycena dla firmy"
+        },
+        {
+          "name": "Ogrodzenie panelowe z podmurówką",
+          "desc": "Panele plus podmurówka betonowa 250x25, kompletny front i boki.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "podmurówka za mb, panele osobno",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "quote": "Ogrodzenie panelowe z podmurówką",
+          "quoteLabel": "Wycena kompletu"
+        },
+        {
+          "name": "Płot panelowy na wymiar",
+          "desc": "Nietypowe długości, skosy i narożniki docinamy na miejscu.",
+          "price": "od {panel_2d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/realizacja-1.jpg",
+          "quote": "Płot panelowy na wymiar",
+          "quoteLabel": "Wycena na wymiar"
+        }
+      ],
+      "note": "Ceny „od” brutto. Transport w cenie na terenie stałych tras montażowych, poza trasami według odległości.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń panelowych 2026",
+      "intro": "Cena za metr bieżący z materiałem i montażem, bez podmurówki. Przy długościach powyżej 100 mb stosujemy ceny hurtowe.",
+      "head": [
+        "System i wysokość",
+        "Cena za mb z montażem",
+        "Waga przęsła",
+        "Zastosowanie"
+      ],
+      "rows": [
+        [
+          "Panel 2D, 123 cm, drut 4 mm",
+          "od {panel_2d_mb}",
+          "ok. 9 kg",
+          "boki i tył działki"
+        ],
+        [
+          "Panel 2D, 153 cm, drut 4 mm",
+          "od {panel_2d_mb}",
+          "ok. 12 kg",
+          "działki mieszkaniowe"
+        ],
+        [
+          "Panel 2D, 173 cm, drut 4 mm",
+          "od {panel_2d_mb}",
+          "ok. 14 kg",
+          "działki przy ulicy"
+        ],
+        [
+          "Panel 3D, 123 cm, drut 5 mm",
+          "od {panel_3d_mb}",
+          "ok. 11 kg",
+          "tanie ogrodzenie frontowe"
+        ],
+        [
+          "Panel 3D, 153 cm, drut 5 mm",
+          "od {panel_3d_mb}",
+          "ok. 14 kg",
+          "najczęstszy wybór"
+        ],
+        [
+          "Panel 3D, 173 cm, drut 5 mm",
+          "od {panel_3d_mb}",
+          "ok. 16 kg",
+          "prywatność od ulicy"
+        ],
+        [
+          "Panel 3D, 203 cm, drut 5 mm",
+          "od {panel_3d_mb}",
+          "ok. 18 kg",
+          "obiekty i firmy"
+        ],
+        [
+          "Panel 8/6/8, 173 cm, drut 8 mm",
+          "od {panel_2d_8_6_8_mb}",
+          "ok. 24 kg",
+          "tereny przemysłowe"
+        ]
+      ],
+      "note": "Do każdego metra ogrodzenia potrzebne są: przęsło 250 cm, dwa słupki liczone co 2,5 m i cztery obejmy. Podmurówka to dodatkowe od {podmurowka_250x20} za mb.",
+      "ctaText": "Policzymy dokładnie dla Twojej działki",
+      "ctaDesc": "Podaj długość ogrodzenia i miejscowość, wycenę z montażem wyślemy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Ogrodzenie panelowe z podmurówką: komplet",
+      "intro": "Komplet to przęsła, słupki, obejmy, podmurówka betonowa i montaż. Poniżej ceny kompletów dla najczęstszych długości.",
+      "head": [
+        "Zakres kompletu",
+        "Długość",
+        "Cena od",
+        "Co zawiera"
+      ],
+      "rows": [
+        [
+          "Panele 2D 153 cm z podmurówką 250x25",
+          "20 mb",
+          "od {dzialka_20m}",
+          "10 przęseł, 11 słupków, podmurówka, montaż"
+        ],
+        [
+          "Panele 3D 153 cm z podmurówką 250x25",
+          "20 mb",
+          "od {dzialka_20m}",
+          "10 przęseł, 11 słupków, podmurówka, montaż"
+        ],
+        [
+          "Panele 3D 153 cm z podmurówką i bramą przesuwną 4 m",
+          "20 mb",
+          "od {front_zestaw_3d}",
+          "przęsła, podmurówka, brama, furtka, montaż"
+        ],
+        [
+          "Panele 3D 153 cm z podmurówką",
+          "50 mb",
+          "od {dzialka_50m}",
+          "20 przęseł, 21 słupków, podmurówka, montaż"
+        ],
+        [
+          "Panele 3D 153 cm z podmurówką",
+          "100 mb",
+          "od {dzialka_100m}",
+          "40 przęseł, 41 słupków, podmurówka, montaż"
+        ]
+      ],
+      "note": "Przy skarpach i dużych różnicach terenu dochodzi ława betonowa i podmurówka wyższa, 250x30 lub 250x50."
+    },
+    {
+      "type": "text",
+      "title": "Ogrodzenia systemowe i modułowe",
+      "html": "<p>Ogrodzenie panelowe jest ogrodzeniem systemowym: przęsła mają stałą szerokość 250 cm, słupki stały rozstaw 2,5 m, a wszystkie elementy pasują do siebie bez spawania na budowie. Dzięki temu ogrodzenie modułowe można rozbudować, skrócić albo przenieść w inne miejsce.</p><p>W praktyce oznacza to trzy korzyści. Pierwsza: wymiana jednego uszkodzonego przęsła zajmuje 15 minut. Druga: bramę i furtkę dopasowujemy do tego samego modułu, więc linia ogrodzenia jest równa. Trzecia: elementy zamawiane po latach mają ten sam wymiar, bo produkujemy je z tej samej matrycy.</p><p>Systemowe ogrodzenia panelowe występują w wysokościach 123, 153, 173 i 203 cm. Każdy moduł można zestawić z podmurówką 250x20, 250x25, 250x30 albo 250x50.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Płot panelowy z montażem",
+      "html": "<p>Płot panelowy to potoczne określenie ogrodzenia panelowego. Jeśli szukasz płotu panelowego z montażem, w Eurofance kupujesz jeden zakres: materiał, transport, wytyczenie, betonowanie słupków, montaż przęseł i uprzątnięcie terenu.</p><p>Montaż liczymy od {montaz_mb} za mb, a przy zamówieniu ogrodzenia z materiałem montaż jest już w cenie za metr bieżący. Ekipa pracuje zwykle jeden dzień przy 40 mb, dwa dni przy 40 mb z bramą i furtką.</p><p>Płoty panelowe 3D 153 cm i 173 cm w kolorze RAL 7016 to dwa najczęściej zamawiane warianty. Trzeci to panel 2D w czerni RAL 9005 przy jasnej elewacji.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Wymiary i parametry paneli",
+      "head": [
+        "Parametr",
+        "Panel 2D",
+        "Panel 3D"
+      ],
+      "rows": [
+        [
+          "Szerokość przęsła",
+          "250 cm",
+          "250 cm"
+        ],
+        [
+          "Wysokości",
+          "123, 153, 173, 203 cm",
+          "123, 153, 173, 203 cm"
+        ],
+        [
+          "Grubość drutu",
+          "4 mm",
+          "5 mm"
+        ],
+        [
+          "Wielkość oczka",
+          "50 x 200 mm",
+          "50 x 200 mm"
+        ],
+        [
+          "Ocynkowanie",
+          "ogniowe, potem malowanie proszkowe",
+          "ogniowe, potem malowanie proszkowe"
+        ],
+        [
+          "Kolory",
+          "dowolny RAL",
+          "dowolny RAL"
+        ],
+        [
+          "Słupek",
+          "60 x 40 mm, blacha 2 mm",
+          "60 x 40 mm, blacha 2 mm"
+        ],
+        [
+          "Mocowanie",
+          "obejmy stalowe, śruby ocynkowane",
+          "obejmy stalowe, śruby ocynkowane"
+        ]
+      ],
+      "note": "Prawdziwe tabele HTML, widoczne także bez JavaScriptu. Wymiary zgodne z naszą produkcją."
+    },
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia panelowego",
+      "desc": "Wybierz wysokość, długość, podmurówkę i bramę. Przedział cenowy zobaczysz od razu.",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "gallery",
+      "title": "Realizacje ogrodzeń panelowych",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Legionowo, panele 3D 153 cm, brama przesuwna 4,5 m, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 153 cm w Legionowie, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "caption": "Przasnysz, panele 2D 153 cm, brama dwuskrzydłowa 4 m, RAL 8017",
+          "alt": "Ogrodzenie panelowe 2D w Przasnyszu z bramą dwuskrzydłową",
+          "tags": [
+            "panelowe",
+            "bramy-skrzydlowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Siedlce, panele 3D 173 cm, podmurówka 250x30, RAL 7016",
+          "alt": "Panele 3D 173 cm na podmurówce 250x30 w Siedlcach",
+          "tags": [
+            "panelowe",
+            "podmurowki"
+          ]
+        },
+        {
+          "image": "/images/premium/hero.jpg",
+          "caption": "Maków Mazowiecki, panele 8/6/8 173 cm, 320 mb, RAL 7016",
+          "alt": "Ogrodzenie przemysłowe z paneli 8/6/8 w Makowie Mazowieckim",
+          "tags": [
+            "przemyslowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie panelowe 40 mb?",
+          "a": "Ogrodzenie panelowe 40 mb w wersji 3D 153 cm z podmurówką i montażem to zwykle od 9 400 zł. Bez podmurówki około 2 000 zł mniej. Dokładną cenę podajemy po ustaleniu gruntu i długości linii."
+        },
+        {
+          "q": "Panel 2D czy 3D, co wybrać?",
+          "a": "Panel 3D ma przetłoczenia i drut 5 mm, jest sztywniejszy i lepiej wygląda od ulicy. Panel 2D jest tańszy i lżejszy, dobry na boki i tył działki. Częsty wybór to 3D od frontu i 2D na pozostałych bokach."
+        },
+        {
+          "q": "Jaką wysokość ogrodzenia panelowego wybrać?",
+          "a": "Najczęściej 153 cm, a z podmurówką 25 cm linia ogrodzenia ma 178 cm. Przy ruchliwej ulicy wybierają Państwo 173 cm, a przy terenach firmowych 203 cm."
+        },
+        {
+          "q": "Czy panele ogrodzeniowe są ocynkowane?",
+          "a": "Tak, drut jest cynkowany ogniowo, a potem malowany proszkowo. Dzięki temu powłoka trzyma się dłużej niż przy malowaniu na zimno i nie rdzewieje na cięciach."
+        },
+        {
+          "q": "Ile przęseł i słupków potrzebuję?",
+          "a": "Na 25 mb przypada 10 przęseł i 11 słupków. Na 100 mb to 40 przęseł i 41 słupków plus 82 obejmy. Dokładne liczby podajemy w wycenie razem z rysunkiem rozstawu."
+        },
+        {
+          "q": "Czy można zamontować ogrodzenie panelowe na skarpie?",
+          "a": "Tak, na skarpie stosujemy stopniowanie słupków albo podmurówkę 250x30 i 250x50. Różnicę terenu wyrównujemy na etapie pomiaru, żeby panele nie były cięte po skosie."
+        },
+        {
+          "q": "Ile trwa montaż ogrodzenia panelowego?",
+          "a": "Montaż 40 mb zajmuje ekipie jeden dzień, a z bramą i furtką dwa dni. Produkcja elementów trwa {czas_produkcji} od zatwierdzenia wyceny."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o ogrodzeniach panelowych",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie, betonowanie słupków, montaż przęseł"
+        },
+        {
+          "label": "Przęsła panelowe 2D i 3D, jakie są różnice",
+          "url": "/blog/przesla-panelowe-2d-i-3d-jakie-sa-roznice/",
+          "desc": "Drut, przetłoczenia i sztywność przęsła"
+        },
+        {
+          "label": "Podmurówka pod ogrodzenie panelowe, gotowa czy wylewana",
+          "url": "/blog/podmurowka-pod-ogrodzenie-panelowe-gotowa-czy-wylewana-samemu/",
+          "desc": "Koszty i trwałość obu rozwiązań"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego",
+      "category": "panelowe",
+      "place": "panelowe-wycena"
+    }
+  ]
+}

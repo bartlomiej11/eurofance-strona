@@ -1,0 +1,174 @@
+{
+  "slug": "kalkulator-ogrodzenia",
+  "kind": "offer",
+  "title": "Kalkulator ogrodzenia: policz koszt z montażem | Eurofance",
+  "metaDescription": "Kalkulator ogrodzenia Eurofance: wybierz system, długość, wysokość, bramę, furtkę, podmurówkę i montaż. Wynik to orientacyjny przedział kosztów.",
+  "h1": "Kalkulator ogrodzenia: policz koszt ogrodzenia z montażem",
+  "answer": "Kalkulator Eurofance liczy orientacyjny koszt ogrodzenia na podstawie systemu, długości, wysokości, bramy, furtki, podmurówki, napędu i montażu. Wynik opiera się na cenniku z {aktualizacja}. Pokazujemy przedział, ponieważ dokładna cena zależy jeszcze od gruntu, miejscowości i pomiaru.",
+  "category": "panelowe",
+  "heroCta": "Oblicz koszt ogrodzenia",
+  "heroForm": false,
+  "blocks": [
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia",
+      "desc": "Wybierz system, podaj długość i dodatki. Zobaczysz orientacyjny przedział kosztów z montażem bez podawania danych kontaktowych.",
+      "place": "kalkulator",
+      "category": "panelowe",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Z czego składa się cena",
+      "intro": "Kalkulator zbiera najważniejsze składniki kompletnego ogrodzenia. Wynik nie zastępuje pomiaru, szczególnie na skarpie, przy nietypowym gruncie lub wjeździe.",
+      "head": [
+        "Składnik",
+        "Jak liczymy",
+        "Przykład"
+      ],
+      "rows": [
+        [
+          "System ogrodzenia",
+          "Długość w mb mnożymy przez cenę wybranego systemu.",
+          "Panel 3D od {panel_3d_mb} za mb"
+        ],
+        [
+          "Wysokość",
+          "Zmienia cenę systemu, słupków i zakres materiału.",
+          "Panele dostępne od 123 do 203 cm"
+        ],
+        [
+          "Podmurówka",
+          "Doliczamy wybrany element podmurówki do długości ogrodzenia.",
+          "Podmurówka 250x25 od {podmurowka_250x25} za mb"
+        ],
+        [
+          "Brama",
+          "Doliczamy wybrany typ bramy do kosztu ogrodzenia.",
+          "Brama przesuwna 4 m od {brama_przesuwna_4m}"
+        ],
+        [
+          "Furtka",
+          "Doliczamy furtkę, jeśli jest potrzebne osobne wejście.",
+          "Furtka panelowa od {furtka_panelowa}"
+        ],
+        [
+          "Montaż",
+          "Uwzględniamy go według długości i wybranego wariantu.",
+          "Montaż od {montaz_mb} za mb"
+        ],
+        [
+          "Napęd",
+          "Doliczamy tylko przy bramie wymagającej automatyki.",
+          "Napęd do bramy przesuwnej od {naped_przesuwna}"
+        ]
+      ],
+      "note": "Ceny od są aktualne na {aktualizacja}. Dokładną kwotę i zakres potwierdzamy po pomiarze."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Przykładowe wyceny",
+      "intro": "Poniższe zestawienia pokazują punkt startowy dla działek o trzech długościach. Każdy wiersz rozdziela materiał, podmurówkę i montaż.",
+      "head": [
+        "Działka",
+        "Wycena od",
+        "Materiał",
+        "Podmurówka",
+        "Montaż"
+      ],
+      "rows": [
+        [
+          "20 mb",
+          "od {dzialka_20m}",
+          "Panele 3D, brama i furtka",
+          "250x25, od {podmurowka_250x25} za mb",
+          "od {montaz_mb} za mb"
+        ],
+        [
+          "50 mb",
+          "od {dzialka_50m}",
+          "Panele 3D oraz słupki",
+          "250x25, od {podmurowka_250x25} za mb",
+          "od {montaz_mb} za mb"
+        ],
+        [
+          "100 mb",
+          "od {dzialka_100m}",
+          "Panele 3D oraz słupki",
+          "250x25, od {podmurowka_250x25} za mb",
+          "od {montaz_mb} za mb"
+        ]
+      ],
+      "note": "Przykłady są orientacyjne. Wybór innego systemu, bramy, furtki, napędu lub podmurówki zmienia wynik."
+    },
+    {
+      "type": "faq",
+      "title": "Kalkulator ogrodzenia, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Co liczy kalkulator ogrodzenia?",
+          "a": "Kalkulator łączy wybrany system, długość, wysokość, bramę, furtkę, podmurówkę, montaż i napęd. Pokazuje orientacyjny przedział dla kompletnego zakresu."
+        },
+        {
+          "q": "Czy wynik kalkulatora jest dokładną ofertą?",
+          "a": "Nie. Wynik jest punktem wyjścia, bo dokładna cena zależy od gruntu, skarpy, długości odcinków, transportu, miejscowości i pomiaru."
+        },
+        {
+          "q": "Dlaczego kalkulator pokazuje przedział?",
+          "a": "Przedział uwzględnia zmienne zakresu, których nie da się wiarygodnie ocenić bez oględzin działki. Po pomiarze przygotowujemy dokładną wycenę."
+        },
+        {
+          "q": "Czy kalkulator uwzględnia montaż?",
+          "a": "Tak. Możesz wybrać montaż w formularzu kalkulatora. Stawka montażu zaczyna się od {montaz_mb} za mb, a ostateczny zakres zależy od warunków na miejscu."
+        },
+        {
+          "q": "Czy mogę dodać bramę, furtkę i napęd?",
+          "a": "Tak. Kalkulator pozwala dobrać bramę, furtkę i napęd. Przykładowo brama przesuwna 4 m zaczyna się od {brama_przesuwna_4m}, a napęd od {naped_przesuwna}."
+        },
+        {
+          "q": "Jak otrzymać dokładną wycenę po obliczeniu?",
+          "a": "Pod wynikiem zostaw telefon i e-mail albo przejdź do formularza. Prześlemy dokładną wycenę w {czas_odpowiedzi} w dni robocze i w razie potrzeby umówimy pomiar."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "text",
+      "title": "Jak liczymy dokładną wycenę",
+      "html": "<p>Najpierw potwierdzamy długość każdej linii, wysokość systemu, liczbę narożników, bram i furtek. Sprawdzamy też rodzaj gruntu, różnice poziomów oraz miejsce potrzebne dla bramy przesuwnej albo skrzydłowej.</p><p>Na pomiarze ustalamy podmurówkę, kolor RAL, kierunek otwierania bramy i zakres montażu. Następnie przygotowujemy ofertę z materiałem, transportem i pracą ekipy, zamiast podawać jedną kwotę bez szczegółów.</p>"
+    },
+    {
+      "type": "links",
+      "title": "Sprawdź przed wysłaniem zapytania",
+      "items": [
+        {
+          "label": "Bezpłatna wycena ogrodzenia",
+          "url": "/bezplatna-wycena",
+          "desc": "Prześlij wymiary i miejscowość, aby otrzymać dokładny zakres."
+        },
+        {
+          "label": "Ogrodzenia panelowe",
+          "url": "/ogrodzenia-panelowe",
+          "desc": "Porównaj panele 2D i 3D, wysokości oraz podmurówki."
+        },
+        {
+          "label": "Realizacje ogrodzeń",
+          "url": "/realizacje",
+          "desc": "Zobacz systemy, bramy i kolory RAL na gotowych realizacjach."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Poproś o dokładną wycenę kalkulatora",
+      "category": "panelowe",
+      "place": "kalkulator"
+    }
+  ]
+}

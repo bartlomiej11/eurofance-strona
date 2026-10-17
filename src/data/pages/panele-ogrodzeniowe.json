@@ -1,0 +1,324 @@
+{
+  "slug": "panele-ogrodzeniowe",
+  "kind": "offer",
+  "title": "Panele ogrodzeniowe 3D i 2D | cena za sztukę od {panel_2d_szt} | Eurofance",
+  "metaDescription": "Panele ogrodzeniowe 3D i 2D prosto od producenta. Szerokość 250 cm, wysokości 123 do 203 cm, drut 4 lub 5 mm. Cena za sztukę od {panel_2d_szt}. Rabat hurtowy.",
+  "h1": "Panele ogrodzeniowe",
+  "answer": "Eurofance sprzedaje same panele ogrodzeniowe 2D i 3D na sztuki, bez obowiązkowego montażu. Panel ma szerokość 250 cm, wysokość od 123 do 203 cm i kosztuje od {panel_2d_szt} za sztukę w wersji 2D lub od {panel_3d_szt} za sztukę w wersji 3D. Do zamówień od 50 sztuk przygotowujemy indywidualną cenę hurtową.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Sprawdź cenę paneli",
+  "variantKey": "hurt",
+  "crumbs": [
+    {
+      "name": "Sklep",
+      "url": "/sklep"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co kupujesz:</strong> sam panel o szerokości 250 cm, bez słupków, obejm i montażu.",
+        "<strong>Warianty:</strong> panel 2D z drutu 4 mm albo panel 3D z drutu 4 lub 5 mm.",
+        "<strong>Cena:</strong> od {panel_2d_szt} za sztukę za panel 2D i od {panel_3d_szt} za sztukę za panel 3D.",
+        "<strong>Wymiary:</strong> wysokość 123, 153, 173 albo 203 cm, oczko 50 x 200 mm.",
+        "<strong>Hurt:</strong> przy zamówieniu od 50 sztuk zadzwoń: +48 579 775 729 po cenę hurtową."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Panele 3D",
+      "intro": "Panele 3D mają przetłoczenia usztywniające. Każdy panel ma 250 cm szerokości i pasuje do słupków 60 x 40 mm.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Panel 3D 123 cm, RAL 7016",
+          "desc": "Najniższy wariant na boki działki, drut 4 mm i około 11 kg.",
+          "price": "od {panel_3d_123_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/hero-panelowe.jpg",
+          "quote": "Panel 3D 123 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-3d-123-7016"
+        },
+        {
+          "name": "Panel 3D 153 cm, RAL 7016",
+          "desc": "Najczęstszy wybór, drut 5 mm, przetłoczenia i około 14 kg.",
+          "price": "od {panel_3d_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-01.jpg",
+          "quote": "Panel 3D 153 cm antracyt",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-3d-153-7016"
+        },
+        {
+          "name": "Panel 3D 153 cm, RAL 9005",
+          "desc": "Ten sam wymiar i drut 5 mm w czerni do jasnych elewacji.",
+          "price": "od {panel_3d_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-02.jpg",
+          "quote": "Panel 3D 153 cm czarny",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-3d-153-9005"
+        },
+        {
+          "name": "Panel 3D 203 cm, RAL 7016",
+          "desc": "Wysoki panel z drutu 5 mm do firm i miejsc wymagających osłony.",
+          "price": "od {panel_3d_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-03.jpg",
+          "quote": "Panel 3D 203 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-3d-203-7016"
+        }
+      ],
+      "note": "Ceny dotyczą jednego panelu. Słupek, obejmy, podmurówka, transport i montaż są liczone oddzielnie.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "products",
+      "eyebrow": "Produkty",
+      "title": "Panele 2D",
+      "intro": "Panele 2D są płaskie, bez przetłoczeń. Drut 4 mm daje ekonomiczny system na boki, tył działki i dłuższe odcinki.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Panel 2D 153 cm, RAL 7016",
+          "desc": "Płaskie przęsło 250 cm, drut 4 mm i waga około 12 kg.",
+          "price": "od {panel_2d_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-04.jpg",
+          "quote": "Panel 2D 153 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-2d-153-7016"
+        },
+        {
+          "name": "Panel 2D 173 cm, RAL 7016",
+          "desc": "Wysokość 173 cm, drut 4 mm. Z podmurówką 25 cm tworzy linię około 198 cm.",
+          "price": "od {panel_2d_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/realizacje/foto-05.jpg",
+          "quote": "Panel 2D 173 cm",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-2d-173-7016"
+        }
+      ],
+      "note": "Potrzebujesz co najmniej 50 paneli? Zadzwoń pod +48 579 775 729, przygotujemy cenę hurtową i termin odbioru."
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Wymiary paneli ogrodzeniowych",
+      "intro": "Eurofance produkuje panele o stałej szerokości 250 cm. Na 25 mb ogrodzenia potrzeba zwykle 10 paneli i 11 słupków.",
+      "head": [
+        "Typ panelu",
+        "Wysokość",
+        "Szerokość",
+        "Drut",
+        "Waga"
+      ],
+      "rows": [
+        [
+          "3D",
+          "123 cm",
+          "250 cm",
+          "4 mm",
+          "ok. 11 kg"
+        ],
+        [
+          "3D",
+          "153 cm",
+          "250 cm",
+          "5 mm",
+          "ok. 14 kg"
+        ],
+        [
+          "3D",
+          "203 cm",
+          "250 cm",
+          "5 mm",
+          "ok. 18 kg"
+        ],
+        [
+          "2D",
+          "153 cm",
+          "250 cm",
+          "4 mm",
+          "ok. 12 kg"
+        ],
+        [
+          "2D",
+          "173 cm",
+          "250 cm",
+          "4 mm",
+          "ok. 14 kg"
+        ]
+      ],
+      "note": "Wielkość oczka wynosi 50 x 200 mm. Powłoka to ocynk i malowanie proszkowe w RAL 7016, RAL 9005 lub wybranym kolorze RAL."
+    },
+    {
+      "type": "text",
+      "title": "Drut 4 mm czy 5 mm",
+      "html": "<p><strong>Drut 4 mm</strong> wybieraj na boki i tył działki, gdy priorytetem jest cena. Panel 2D 153 cm z drutu 4 mm waży około 12 kg i jest wystarczający przy standardowym rozstawie słupków 250 cm.</p><p><strong>Drut 5 mm</strong> sprawdza się od ulicy, przy większym wietrze i tam, gdzie panel może być narażony na nacisk. Panel 3D 153 cm z drutu 5 mm waży około 14 kg, a trzy przetłoczenia dodatkowo ograniczają ugięcie. Do obiektu firmowego wybierz panel 2D 8/6/8.</p>"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny paneli za sztukę",
+      "intro": "Poniżej ceny samych paneli, bez montażu. Przy 50, 100 i większej liczbie sztuk Eurofance przygotowuje wycenę hurtową.",
+      "head": [
+        "Panel",
+        "Cena od",
+        "Jednostka",
+        "Dla kogo"
+      ],
+      "rows": [
+        [
+          "3D 123 cm, drut 4 mm",
+          "od {panel_3d_123_szt}",
+          "za sztukę",
+          "boki i tył działki"
+        ],
+        [
+          "2D 153 cm, drut 4 mm",
+          "od {panel_2d_szt}",
+          "za sztukę",
+          "dłuższe odcinki"
+        ],
+        [
+          "3D 153 cm, drut 5 mm",
+          "od {panel_3d_szt}",
+          "za sztukę",
+          "najczęstszy wybór"
+        ],
+        [
+          "2D 173 cm, drut 4 mm",
+          "od {panel_2d_szt}",
+          "za sztukę",
+          "wyższa linia ogrodzenia"
+        ],
+        [
+          "3D 203 cm, drut 5 mm",
+          "od {panel_3d_szt}",
+          "za sztukę",
+          "firmy i składy"
+        ]
+      ],
+      "note": "Cena transportu zależy od liczby paneli i miejscowości. Odbiór z produkcji w Makowie Mazowieckim ustalamy telefonicznie.",
+      "ctaText": "Masz listę materiałów lub liczbę paneli?",
+      "ctaDesc": "Podaj wysokość, kolor i ilość. Przy zamówieniu od 50 sztuk sprawdzimy cenę hurtową w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Kompletne ogrodzenie z paneli",
+      "html": "<p>Ta strona dotyczy sprzedaży samego panelu na sztuki. Jeśli potrzebujesz słupków, obejm, podmurówki, transportu i montażu w jednym zakresie, zobacz <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>. Kompletny system Eurofance kosztuje od {panel_2d_mb} za mb z montażem, a cena zależy od wysokości, gruntu i długości linii.</p>"
+    },
+    {
+      "type": "gallery",
+      "title": "Panele ogrodzeniowe w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Legionowo, panele 3D 153 cm, RAL 7016, odcinek 42 mb",
+          "alt": "Panele ogrodzeniowe 3D 153 cm w Legionowie",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Siedlce, panele 3D 173 cm na podmurówce 250 x 30 cm",
+          "alt": "Panele 3D 173 cm z podmurówką w Siedlcach",
+          "tags": [
+            "panelowe",
+            "podmurowki"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Przasnysz, panele 2D 153 cm i brama skrzydłowa 4 m",
+          "alt": "Panele 2D 153 cm przy bramie skrzydłowej w Przasnyszu",
+          "tags": [
+            "panelowe",
+            "bramy-skrzydlowe"
+          ]
+        },
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Maków Mazowiecki, panel 2D 8/6/8 173 cm, 320 mb",
+          "alt": "Panel przemysłowy 2D 8/6/8 w Makowie Mazowieckim",
+          "tags": [
+            "panelowe",
+            "przemyslowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Panele ogrodzeniowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje panel ogrodzeniowy 3D 153 cm?",
+          "a": "Panel 3D 153 cm w RAL 7016 kosztuje od {panel_3d_szt} za sztukę. Ma szerokość 250 cm, drut 5 mm i waży około 14 kg."
+        },
+        {
+          "q": "Ile paneli potrzebuję na 25 mb ogrodzenia?",
+          "a": "Na 25 mb potrzeba standardowo 10 paneli o szerokości 250 cm. Do tego dolicz 11 słupków i 20 obejm, po 2 obejmy na panel."
+        },
+        {
+          "q": "Czym różni się panel 2D od 3D?",
+          "a": "Panel 2D jest płaski i w wariancie 153 cm ma drut 4 mm. Panel 3D ma przetłoczenia oraz najczęściej drut 5 mm, dzięki czemu jest sztywniejszy."
+        },
+        {
+          "q": "Czy panel 123 cm ma drut 4 mm?",
+          "a": "Tak. Panel 3D 123 cm ma drut 4 mm, szerokość 250 cm i waży około 11 kg. To ekonomiczny wariant na boki działki."
+        },
+        {
+          "q": "Ile kosztuje transport 50 paneli?",
+          "a": "Transport wyceniamy po podaniu miejscowości i liczby sztuk. Przy 50 panelach liczą się też warunki rozładunku, dlatego podaj adres i dogodny termin."
+        },
+        {
+          "q": "Czy można kupić 1 panel na wymianę?",
+          "a": "Tak, sprzedajemy pojedyncze sztuki. Przed zamówieniem sprawdź wysokość 123, 153, 173 albo 203 cm, kolor RAL i grubość drutu."
+        },
+        {
+          "q": "Od jakiej ilości jest cena hurtowa?",
+          "a": "Indywidualną cenę hurtową przygotowujemy od 50 sztuk. Przy 100 panelach sprawdzamy także transport i dostępność w wybranym kolorze RAL."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o panelach i montażu",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy panelach ogrodzeniowych."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Zapytaj o panele ogrodzeniowe",
+      "category": "panelowe",
+      "place": "panele-ogrodzeniowe-wycena"
+    }
+  ]
+}

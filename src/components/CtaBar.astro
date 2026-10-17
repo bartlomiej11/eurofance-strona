@@ -1,0 +1,21 @@
+---
+import site from '../data/site.json';
+import { tk } from '../lib/tk.js';
+const {
+  text = 'Policzymy dokładnie dla Twojej działki',
+  desc = 'Podaj długość i miejscowość, wycenę z montażem wyślemy w ciągu 24 godzin w dni robocze.',
+  place = 'pod-cennikiem',
+  category = '',
+} = Astro.props;
+const phoneHref = `tel:${site.phone.tel}`;
+---
+<div class="cta-bar">
+  <div>
+    <strong>{tk(text)}</strong>
+    <p>{tk(desc)}</p>
+  </div>
+  <div class="btn-row">
+    <a class="btn btn--red" href={phoneHref} data-cta={place}>Zadzwoń: {site.phone.short}</a>
+    <a class="btn btn--light" href={`/bezplatna-wycena${category ? `?kategoria=${category}` : ''}`} data-cta={place}>Bezpłatna wycena</a>
+  </div>
+</div>

@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "poradniki",
+    "name": "Poradniki zakupowe",
+    "title": "Poradniki zakupowe: jak wybrać ogrodzenie",
+    "description": "Jak wybrać ogrodzenie, bramę i furtkę. Konkretne porównania, liczby i ceny od producenta Eurofance. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "ceny",
+    "name": "Ceny i koszty",
+    "title": "Ceny ogrodzeń i bram",
+    "description": "Ile kosztuje ogrodzenie panelowe, palisadowe i brama wjazdowa. Cenniki, koszt montażu i przykładowe wyceny działek. Zobacz poradniki, konkretne liczby i ceny."
+  },
+  {
+    "slug": "montaz",
+    "name": "Montaż i pomiar",
+    "title": "Montaż ogrodzeń krok po kroku",
+    "description": "Jak wygląda montaż ogrodzenia panelowego i palisadowego: kolejność prac, betonowanie słupków, czas montażu. Zobacz poradniki, konkretne liczby i ceny od."
+  },
+  {
+    "slug": "ogrodzenia-panelowe",
+    "name": "Ogrodzenia panelowe",
+    "title": "Ogrodzenia panelowe: wiedza praktyczna",
+    "description": "Panele 2D i 3D, drut 4 mm i 5 mm, wysokości 123, 153, 173 i 203 cm, podmurówki i montaż. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "ogrodzenia-palisadowe",
+    "name": "Ogrodzenia palisadowe",
+    "title": "Ogrodzenia palisadowe: palisada pionowa i pozioma",
+    "description": "Palisada pionowa i pozioma: profile, prześwity, ceny, zastosowanie przy froncie działki i przy elewacji. Zobacz poradniki, konkretne liczby i ceny od."
+  },
+  {
+    "slug": "ogrodzenia-frontowe",
+    "name": "Ogrodzenia frontowe",
+    "title": "Ogrodzenia frontowe i zestawy z bramą",
+    "description": "Jak zaplanować ogrodzenie frontowe: zestawy z bramą i furtką, dobór koloru do elewacji, koszty. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "bramy-wjazdowe",
+    "name": "Bramy wjazdowe",
+    "title": "Bramy wjazdowe: przesuwne i skrzydłowe",
+    "description": "Bramy przesuwne, skrzydłowe i teleskopowe. Szerokości, ceny, napędy, przygotowanie podjazdu. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "furtki",
+    "name": "Furtki",
+    "title": "Furtki ogrodzeniowe",
+    "description": "Furtki panelowe i palisadowe, szerokości 100, 110 i 120 cm, zamki, klamki i elektrozaczepy. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "podmurowki",
+    "name": "Podmurówki i fundamenty",
+    "title": "Podmurówki betonowe i fundamenty",
+    "description": "Podmurówki 250x20, 250x25, 250x30 i 250x50, ceowniki, beton B-25, montaż i alternatywy. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "kolory-ral",
+    "name": "Kolory i wykończenia",
+    "title": "Kolory RAL i wykończenia",
+    "description": "RAL 7016, 9005, 6005, 8017 i 7035 w praktyce. Struktura i połysk, dobór koloru do elewacji. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "przepisy",
+    "name": "Przepisy i formalności",
+    "title": "Przepisy dotyczące ogrodzeń",
+    "description": "Wysokość ogrodzenia bez zgłoszenia, otwieranie bramy na ulicę, plan miejscowy, zgłoszenie i pozwolenie. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "ogrodzenia-nowoczesne",
+    "name": "Nowoczesne wzory",
+    "title": "Nowoczesne ogrodzenia: wzory i inspiracje",
+    "description": "Grzebień, żaluzja, palisada pionowa i panel 2D w antracycie. Wzory, które pasują do nowoczesnych domów. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "ogrodzenia-budowlane",
+    "name": "Ogrodzenia budowlane",
+    "title": "Ogrodzenia budowlane i tymczasowe",
+    "description": "Ogrodzenie placu budowy i działki budowlanej: panele tymczasowe, przepisy, koszt najmu i zakupu. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "ogrodzenia-przemyslowe",
+    "name": "Ogrodzenia przemysłowe",
+    "title": "Ogrodzenia i bramy przemysłowe",
+    "description": "Panele 2D 8/6/8, bramy przemysłowe 6 do 12 m, realizacje dla firm i wyceny przetargowe. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "malowanie-proszkowe",
+    "name": "Malowanie proszkowe",
+    "title": "Malowanie proszkowe i lakiernia",
+    "description": "Cennik malowania proszkowego, piaskowanie, maksymalne wymiary elementów, przygotowanie do malowania. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  },
+  {
+    "slug": "konstrukcje-stalowe",
+    "name": "Konstrukcje stalowe",
+    "title": "Konstrukcje stalowe, hale i wiaty",
+    "description": "Hale i wiaty stalowe, norma EN 1090, znak CE, wycena konstrukcji na podstawie projektu. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "akcesoria",
+    "name": "Akcesoria i automatyka",
+    "title": "Akcesoria do bram i automatyka",
+    "description": "Napędy, piloty, zawiasy, rolki, zamki i elektrozaczepy. Co dokupić do bramy i furtki. Zobacz poradniki, konkretne liczby i ceny od producenta Eurofance."
+  },
+  {
+    "slug": "realizacje",
+    "name": "Relacje z realizacji",
+    "title": "Relacje z realizacji",
+    "description": "Zdjęcia i opisy montaży: miasto, system, kolor RAL i wymiary. Zobacz, jak wygląda efekt na działce. Zobacz poradniki, konkretne liczby i ceny od producenta."
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "slug": "ogrodzenia-nowoczesne",
+  "kind": "offer",
+  "title": "Nowoczesne ogrodzenia: wzory, galeria i ceny od producenta | Eurofance",
+  "metaDescription": "Nowoczesne ogrodzenia: palisada pionowa i pozioma, grzebień, żaluzja i panel 2D. Galeria realizacji, wzory i ceny od {panel_2d_mb} za mb z montażem. Produkcja.",
+  "h1": "Nowoczesne ogrodzenia",
+  "answer": "Nowoczesne ogrodzenie poznaje się po trzech cechach: gęste pionowe lub poziome profile, jednolity kolor i brak ozdób. W Eurofance ceny zaczynają się od {panel_2d_mb} za mb za panel 2D i sięgają od {zaluzja_mb} za mb za żaluzję, z montażem. Wszystkie systemy malujemy proszkowo na dowolny kolor RAL, najczęściej antracyt RAL 7016.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena nowoczesnego ogrodzenia",
+  "variantKey": "panelowe",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Wzory:</strong> palisada pionowa, palisada pozioma, grzebień, żaluzja, panel 2D i 3D.",
+        "<strong>Ceny:</strong> od {panel_2d_mb} za mb za panel 2D do {zaluzja_mb} za mb za żaluzję, z montażem.",
+        "<strong>Kolory:</strong> antracyt RAL 7016, czerń RAL 9005, grafit RAL 7024, brąz RAL 8017, dowolny RAL.",
+        "<strong>Galeria:</strong> ponad 20 zdjęć realizacji z podpisami miast i wymiarów.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę proszkową."
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "Wzory nowoczesnych ogrodzeń",
+      "intro": "Każdy wzór z ceną „od” i linkiem do strony, gdzie kupisz go z montażem. Kolejność od najtańszego.",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Panel 2D, wysokość 153 cm",
+          "url": "/ogrodzenia-panelowe",
+          "meta": "Prosta, spokojna linia, od {panel_2d_mb} za mb z montażem"
+        },
+        {
+          "name": "Panel 3D, wysokość 153 cm",
+          "url": "/ogrodzenia-panelowe",
+          "meta": "Przetłoczenia w pionie, drut 5 mm, od {panel_3d_mb} za mb"
+        },
+        {
+          "name": "Palisada pionowa",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Gęste profile, prześwit 10 mm, od {palisada_pion_mb} za mb"
+        },
+        {
+          "name": "Palisada pozioma",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Układ listwy, prześwit 12 mm, od {palisada_poz_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenie grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe",
+          "meta": "Profil na sztorc, rytmiczny rysunek, od {grzebien_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenie żaluzjowe",
+          "url": "/ogrodzenia-zaluzjowe",
+          "meta": "Profile pod kątem, zasłaniają i przepuszczają powietrze, od {zaluzja_mb} za mb"
+        }
+      ],
+      "eyebrow": "Oferta"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji",
+      "intro": "Ponad 20 zdjęć z podpisami: miasto, system, kolor i wymiar. Kliknij filtr, żeby zawęzić do jednego systemu.",
+      "items": [
+        {
+          "image": "/images/realizacje/foto-06.jpg",
+          "caption": "Warszawa Białołęka, palisada pionowa 153 cm, furtka 1 m, RAL 7016",
+          "alt": "Nowoczesne ogrodzenie z palisady pionowej w Warszawie, RAL 7016",
+          "tags": [
+            "palisadowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-07.jpg",
+          "caption": "Nowy Dwór Mazowiecki, palisada pozioma 153 cm, RAL 7016",
+          "alt": "Nowoczesne ogrodzenie z palisady poziomej, RAL 7016",
+          "tags": [
+            "palisadowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-11.jpg",
+          "caption": "Włocławek, ogrodzenie grzebieniowe 22 mb, RAL 7016",
+          "alt": "Ogrodzenie grzebieniowe we Włocławku, RAL 7016",
+          "tags": [
+            "palisadowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-04.jpg",
+          "caption": "Białystok, ogrodzenie żaluzjowe 30 mb, brama przesuwna 4 m, RAL 7016",
+          "alt": "Ogrodzenie żaluzjowe w Białymstoku z bramą przesuwną",
+          "tags": [
+            "palisadowe",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-1.jpg",
+          "caption": "Wołomin, panele 2D 153 cm, 56 mb, brama skrzydłowa 4 m, RAL 7016",
+          "alt": "Nowoczesne ogrodzenie panelowe 2D w Wołominie",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Radom, front panelowy 3D 20 mb, brama przesuwna 4 m, RAL 7016",
+          "alt": "Nowoczesny front panelowy 3D w Radomiu",
+          "tags": [
+            "frontowe",
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "caption": "Legionowo, brama teleskopowa 4 m, panele 2D, RAL 7016",
+          "alt": "Brama teleskopowa 4 m w Legionowie",
+          "tags": [
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Kraków, podmurówka obudowana, panele 3D 153 cm, RAL 7016",
+          "alt": "Podmurówka obudowana panelami w Krakowie",
+          "tags": [
+            "podmurowki"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "text",
+      "title": "Nowoczesne ogrodzenie pionowe",
+      "html": "<p>Nowoczesne ogrodzenie pionowe to najczęstszy wybór przy domach z płaskim dachem i przy elewacjach w ciemnym tynku. Trzy warianty pionowe, które mamy w produkcji:</p><ul class=\"list-check\"><li><strong>Panel 3D 153 cm</strong> od {panel_3d_mb} za mb: przetłoczenia w pionie dają rytm i sztywność.</li><li><strong>Palisada pionowa 153 cm</strong> od {palisada_pion_mb} za mb: gęste profile, prześwit 10 mm, najwięcej prywatności.</li><li><strong>Grzebień 153 cm</strong> od {grzebien_mb} za mb: profil na sztorc, mocny rysunek pionowy, efekt dekoracyjny.</li></ul><p>Wysokość dobieramy do odległości od ulicy. Przy ruchliwej drodze polecamy 173 cm, na spokojnym osiedlu wystarczy 153 cm.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Kolory",
+      "html": "<p>Nowoczesne ogrodzenie prawie zawsze jest jednokolorowe, bez łączenia kolorów ramy i wypełnienia. Najczęściej wybierane kolory na naszych realizacjach:</p><ul><li>antracyt RAL 7016: około 60 procent zamówień,</li><li>czarny RAL 9005: około 20 procent, szczególnie przy jasnych elewacjach,</li><li>grafit RAL 7024 i brąz RAL 8017: po kilka procent, do dachówki i drewna na elewacji,</li><li>szary RAL 7035 i RAL 9006: do ogrodzeń przemysłowych.</li></ul><p>Malujemy proszkowo na dowolny kolor z palety RAL, w wersji gładkiej lub strukturalnej. Wersja strukturalna jest mniej podatna na odciski palców i drobne zarysowania. Pełna paleta z przykładami jest na stronie <a href=\"/paleta-ral\">paleta RAL</a>.</p>"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny nowoczesnych ogrodzeń",
+      "intro": "Ceny za metr bieżący z materiałem i montażem, bez podmurówki. Kolejność od najtańszego systemu.",
+      "head": [
+        "Wzór",
+        "Cena za mb z montażem",
+        "Wysokości",
+        "Charakter"
+      ],
+      "rows": [
+        [
+          "Panel 2D",
+          "od {panel_2d_mb}",
+          "123, 153, 173 cm",
+          "minimalistyczny, najtańszy"
+        ],
+        [
+          "Panel 3D",
+          "od {panel_3d_mb}",
+          "123, 153, 173, 203 cm",
+          "klasyka nowoczesna"
+        ],
+        [
+          "Palisada pionowa",
+          "od {palisada_pion_mb}",
+          "123, 153, 173 cm",
+          "prywatność i gęsty rytm"
+        ],
+        [
+          "Palisada pozioma",
+          "od {palisada_poz_mb}",
+          "153, 173 cm",
+          "efekt listwy"
+        ],
+        [
+          "Grzebień",
+          "od {grzebien_mb}",
+          "153, 173 cm",
+          "mocny rysunek pionowy"
+        ],
+        [
+          "Żaluzja",
+          "od {zaluzja_mb}",
+          "153, 173 cm",
+          "zasłania, przepuszcza powietrze"
+        ],
+        [
+          "Podmurówka 250x25",
+          "od {podmurowka_250x25}",
+          "25 cm",
+          "cokół pod każdy wzór"
+        ]
+      ],
+      "note": "Ceny brutto z montażem. Bramę i furtkę w tym samym wzorze wyceniamy osobno: brama przesuwna od {brama_przesuwna_4m}, furtka od {furtka_panelowa}.",
+      "ctaText": "Nie wiesz, który wzór wybrać?",
+      "ctaDesc": "Zadzwoń: {telefon_short}. Powiemy w 5 minut, co pasuje do Twojej elewacji i ile to kosztuje.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "faq",
+      "title": "Nowoczesne ogrodzenia, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Jakie ogrodzenie jest nowoczesne?",
+          "a": "Nowoczesne ogrodzenie ma gęste pionowe albo poziome profile, jednolity ciemny kolor i brak ozdób. Najczęściej wybierane wzory to panel 3D, palisada pionowa i grzebień w antracycie RAL 7016."
+        },
+        {
+          "q": "Ile kosztuje nowoczesne ogrodzenie 40 mb?",
+          "a": "Panel 3D 153 cm 40 mb z montażem to około 9 000 zł, palisada pionowa około 10 000 zł, a żaluzja około 13 000 zł. Ceny zależą od wysokości, koloru i tego, czy jest podmurówka."
+        },
+        {
+          "q": "Jaki kolor ogrodzenia jest najbardziej nowoczesny?",
+          "a": "Antracyt RAL 7016, na drugim miejscu czerń RAL 9005. Antracyt pasuje do jasnych i ciemnych elewacji, a czerń najlepiej wygląda przy jasnym tynku, klinkierze i drewnie."
+        },
+        {
+          "q": "Palisada czy panel na nowoczesny dom?",
+          "a": "Palisada pionowa daje gęstszy, bardziej dekoracyjny rysunek i lepszą prywatność, panel jest tańszy i szybszy w montażu. Przy budżecie ograniczonym polecamy palisadę na froncie i panele 3D na bokach."
+        },
+        {
+          "q": "Czy nowoczesne ogrodzenie może być niskie?",
+          "a": "Tak, przy nowoczesnych domach często wybierają Państwo 123 cm, żeby ogrodzenie nie przesłaniało bryły budynku. Przy ulicy lepiej sprawdza się 153 lub 173 cm."
+        },
+        {
+          "q": "Czy montujecie ogrodzenie bez podmurówki?",
+          "a": "Tak, słupki betonujemy wtedy bezpośrednio w gruncie na 60 do 80 cm. Podmurówka jest zalecana przy gruncie wilgotnym i przy drodze, gdzie zimą stosuje się sól."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o nowoczesnych ogrodzeniach",
+      "items": [
+        {
+          "label": "Nowoczesne ogrodzenie do domu: wzory i kolory",
+          "url": "/blog/nowoczesne-ogrodzenie-do-domu-wzory-i-kolory/",
+          "desc": "Co wybrać do płaskiego dachu i ciemnej elewacji"
+        },
+        {
+          "label": "Ogrodzenie palisadowe pionowe czy poziome",
+          "url": "/blog/ogrodzenie-palisadowe-pionowe-czy-poziome/",
+          "desc": "Prześwity i różnice w cenie"
+        },
+        {
+          "label": "Ogrodzenie grzebieniowe: co to jest i kiedy się opłaca",
+          "url": "/blog/ogrodzenie-grzebieniowe-co-to-jest-i-kiedy-sie-oplaca/",
+          "desc": "Wzór, cena i zastosowanie"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena nowoczesnego ogrodzenia",
+      "category": "panelowe",
+      "place": "nowoczesne-wycena"
+    }
+  ]
+}

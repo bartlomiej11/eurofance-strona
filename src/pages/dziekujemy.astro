@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { posts, postUrl } from '../lib/content.js';
+
+const guides = posts.slice(0, 3);
+---
+<Base
+  title="Dziękujemy za zgłoszenie | Eurofance"
+  description="Zgłoszenie przyjęte. Odpowiadamy w ciągu 2 h w dni robocze. Sprawdź, co dzieje się dalej, i pobierz poradniki o montażu ogrodzeń Eurofance."
+  path="/dziekujemy"
+  noindex={true}
+>
+  <section class="section">
+    <div class="container narrow">
+      <h1>Dziękujemy, zgłoszenie przyjęte</h1>
+      <p class="answer">
+        Wycena jest w drodze. Odpowiadamy w ciągu {site.stats.responseTime} w dni robocze, a jeśli zgłoszenie przyszło po godzinach,
+        zadzwonimy rano w kolejnym dniu roboczym.
+      </p>
+      <div class="keyfacts">
+        <h3>Co dalej</h3>
+        <ul class="list-check">
+          <li>Sprawdzamy Twoje wymiary i dobieramy system oraz kolor RAL.</li>
+          <li>Dzwonimy z ceną i terminem, bez zobowiązań.</li>
+          <li>Jeśli chcesz, umawiamy bezpłatny pomiar na działce w ciągu {site.stats.pomiarDays}.</li>
+        </ul>
+      </div>
+      <p>
+        <strong>Telefon:</strong> <a href={`tel:${site.phone.tel}`} data-cta="dziekujemy">{site.phone.display}</a><br />
+        <strong>Godziny:</strong> {site.hours.line}
+      </p>
+      <div class="btn-row">
+        <a class="btn btn--red" href={`tel:${site.phone.tel}`} data-cta="dziekujemy">Zadzwoń teraz</a>
+        <a class="btn btn--outline" href="/realizacje">Zobacz realizacje</a>
+      </div>
+      <h2>Zobacz też</h2>
+      <ul class="list-arrow">
+        <li><a href="/realizacje">Galeria realizacji z podpisami miast</a></li>
+        <li><a href="/kalkulator-ogrodzenia">Kalkulator ogrodzenia</a></li>
+        {guides.map((post) => (
+          <li><a href={postUrl(post.slug)}>{post.title}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'form_submit_success', page: 'dziekujemy' });
+    // Zdarzenie konwersji. Podłącz je w Google Ads i GA4 jako konwersję formularza.
+    window.dataLayer.push({
+      event: 'conversion',
+      conversion_type: 'formularz',
+      value: 0,
+      currency: 'PLN',
+      page: 'dziekujemy',
+    });
+  </script>
+</Base>

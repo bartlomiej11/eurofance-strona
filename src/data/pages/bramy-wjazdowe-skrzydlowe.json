@@ -1,0 +1,247 @@
+{
+  "slug": "bramy-wjazdowe-skrzydlowe",
+  "kind": "offer",
+  "title": "Brama dwuskrzydłowa od producenta | panelowa i palisadowa | Eurofance",
+  "metaDescription": "Bramy dwuskrzydłowe i jednoskrzydłowe od producenta: panelowe i palisadowe, przygotowane pod siłowniki. Ceny od {brama_skrzydlowa_4m} z montażem, szerokości 3.",
+  "h1": "Bramy wjazdowe dwuskrzydłowe",
+  "answer": "Brama dwuskrzydłowa to najtańszy typ bramy wjazdowej i najczęstszy wybór przy krótkim froncie działki. W Eurofance brama dwuskrzydłowa 4 m z paneli kosztuje od {brama_skrzydlowa_4m}, a w wersji palisadowej od {brama_skrzydlowa_palisada_4m}, z materiałem i montażem. Skrzydła otwierają się do środka działki, a bramę przygotowujemy pod siłowniki 24 V.",
+  "category": "brama-skrzydlowa",
+  "heroImage": "/images/premium/bramy.jpg",
+  "heroCta": "Wycena bramy skrzydłowej",
+  "variantKey": "brama-skrzydlowa",
+  "crumbs": [
+    {
+      "name": "Bramy i furtki",
+      "url": "/bramy-wjazdowe"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> jedno lub dwa skrzydła osadzone na słupkach bramowych, otwierane do środka działki.",
+        "<strong>Szerokości:</strong> 3, 3,5, 4 i 4,5 m, wypełnienie z paneli 2D i 3D albo palisady.",
+        "<strong>Cena:</strong> dwuskrzydłowa 4 m od {brama_skrzydlowa_4m}, jednoskrzydłowa 3 m od {brama_jednoskrzydlowa_3m}.",
+        "<strong>Napęd:</strong> przygotowana pod siłowniki 24 V, zestaw od {naped_skrzydlowa}.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę proszkową."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Bramy skrzydłowe z montażem",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Brama dwuskrzydłowa panelowa 4 m",
+          "desc": "Dwa skrzydła po 2 m, panele 3D, słupki bramowe 100 x 100 mm.",
+          "price": "od {brama_skrzydlowa_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Brama dwuskrzydłowa panelowa 4 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama dwuskrzydłowa palisadowa 4 m",
+          "desc": "Palisada pionowa, wzmocnione zawiasy regulowane, przygotowanie pod siłowniki.",
+          "price": "od {brama_skrzydlowa_palisada_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Brama dwuskrzydłowa palisadowa 4 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Brama jednoskrzydłowa 3 m",
+          "desc": "Jedno skrzydło do 3 m, do wąskich wjazdów i działek bez miejsca na dwa skrzydła.",
+          "price": "od {brama_jednoskrzydlowa_3m}",
+          "priceNote": "z montażem",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Brama jednoskrzydłowa 3 m",
+          "quoteLabel": "Wycena tej bramy"
+        },
+        {
+          "name": "Zestaw siłowników do bramy dwuskrzydłowej",
+          "desc": "Dwa siłowniki 24 V, centrala, dwa piloty, fotokomórki, montaż i konfiguracja.",
+          "price": "od {naped_skrzydlowa}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg",
+          "quote": "Napęd do bramy dwuskrzydłowej",
+          "quoteLabel": "Wycena z napędem"
+        },
+        {
+          "name": "Brama skrzydłowa z furtką",
+          "desc": "Brama 4 m plus furtka 1 m w tym samym kolorze i systemie.",
+          "price": "od {brama_skrzydlowa_4m}",
+          "priceNote": "plus furtka od {furtka_panelowa}",
+          "image": "/images/premium/realizacja-1.jpg",
+          "quote": "Brama skrzydłowa z furtką",
+          "quoteLabel": "Wycena kompletu"
+        },
+        {
+          "name": "Osprzęt: zawiasy, zasuwa, elektrozaczep",
+          "desc": "Zawiasy regulowane, zasuwa do skrzydła biernego, elektrozaczep w furtce.",
+          "price": "od {zawias}",
+          "priceNote": "za element",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Osprzęt do bramy skrzydłowej",
+          "quoteLabel": "Wycena osprzętu"
+        }
+      ],
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny bram dwuskrzydłowych",
+      "intro": "Ceny brutto z materiałem i montażem. Cena rośnie z szerokością skrzydła, bo zwiększa się masa i przekrój słupków.",
+      "head": [
+        "Szerokość",
+        "Panel 3D",
+        "Panel 2D",
+        "Palisada pionowa"
+      ],
+      "rows": [
+        [
+          "3,0 m",
+          "od {brama_jednoskrzydlowa_3m}",
+          "od {brama_jednoskrzydlowa_3m}",
+          "wycena indywidualna"
+        ],
+        [
+          "3,5 m",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_palisada_4m}"
+        ],
+        [
+          "4,0 m",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_palisada_4m}"
+        ],
+        [
+          "4,5 m",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "wycena indywidualna"
+        ]
+      ],
+      "note": "Do bramy dochodzi zestaw siłowników od {naped_skrzydlowa}, zasuwa od {zasuwa} i zawiasy regulowane od {zawias} za sztukę.",
+      "ctaText": "Policzymy bramę skrzydłową pod Twój wjazd",
+      "ctaDesc": "Podaj szerokość wjazdu i miejscowość, wycenę z montażem wyślemy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Brama jednoskrzydłowa czy dwuskrzydłowa",
+      "html": "<p>Brama jednoskrzydłowa ma jedno skrzydło o szerokości do 3 m. Stosujemy ją przy wąskich wjazdach i przy działkach, gdzie po obu stronach wjazdu są budynki i nie ma miejsca na dwa skrzydła. Cena zaczyna się od {brama_jednoskrzydlowa_3m}.</p><p>Brama dwuskrzydłowa dzieli światło wjazdu na dwa krótsze skrzydła, dzięki czemu otwiera się szybciej i potrzebuje mniej głębokości na podjeździe. Przy wjeździe 4 m każde skrzydło ma 2 m, więc wystarczy około 2,2 m głębokości podjazdu. Cena od {brama_skrzydlowa_4m}.</p><p>Praktyczna zasada: do 3 m światła wjazdu bierzemy jednoskrzydłową, powyżej 3,5 m dwuskrzydłową. Powyżej 4,5 m lepsza jest brama przesuwna, bo skrzydła byłyby zbyt ciężkie dla siłowników.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Brama skrzydłowa z napędem",
+      "html": "<p>Do bramy skrzydłowej zakładamy dwa siłowniki 24 V, centralę z miękkim startem, dwa piloty i fotokomórki. Zestaw z montażem i konfiguracją kosztuje od {naped_skrzydlowa}. Siłowniki montujemy do słupków bramowych, dlatego słupki muszą być betonowane na 80 do 100 cm i mieć przekrój 100 x 100 mm.</p><p>Do bramy dwuskrzydłowej dokładamy zasuwę automatyczną albo elektrozaczep, żeby skrzydło bierne ryglowało się po zamknięciu. Bez tego napęd pracuje pod obciążeniem i szybciej się zużywa.</p><p>Na życzenie montujemy lampę ostrzegawczą, klawiaturę kodową i moduł Wi-Fi do sterowania z telefonu. Wszystko konfigurujemy na miejscu i pokazujemy, jak korzystać z trybu ręcznego przy braku prądu.</p>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Wymiary i słupy bramowe",
+      "head": [
+        "Szerokość wjazdu",
+        "Szerokość skrzydła",
+        "Słupek bramowy",
+        "Osadzenie słupka",
+        "Miejsce na podjeździe"
+      ],
+      "rows": [
+        [
+          "3,0 m",
+          "1 x 3,0 m",
+          "100 x 100 x 3 mm",
+          "80 do 100 cm",
+          "ok. 3,3 m"
+        ],
+        [
+          "3,5 m",
+          "2 x 1,75 m",
+          "100 x 100 x 3 mm",
+          "80 do 100 cm",
+          "ok. 2,0 m"
+        ],
+        [
+          "4,0 m",
+          "2 x 2,0 m",
+          "100 x 100 x 3 mm",
+          "80 do 100 cm",
+          "ok. 2,2 m"
+        ],
+        [
+          "4,5 m",
+          "2 x 2,25 m",
+          "120 x 120 x 3 mm",
+          "90 do 100 cm",
+          "ok. 2,5 m"
+        ]
+      ],
+      "note": "Miejsce na podjeździe to głębokość, jakiej potrzebują otwarte skrzydła, żeby nie zahaczyć o samochód stojący na podjeździe."
+    },
+    {
+      "type": "faq",
+      "title": "Bramy skrzydłowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje brama dwuskrzydłowa 4 m z montażem?",
+          "a": "Brama dwuskrzydłowa 4 m w wersji panelowej kosztuje od {brama_skrzydlowa_4m}, a w palisadowej od {brama_skrzydlowa_palisada_4m} z materiałem i montażem. Zestaw siłowników 24 V z fotokomórkami to dodatkowe od {naped_skrzydlowa}."
+        },
+        {
+          "q": "Czy skrzydła mogą otwierać się na ulicę?",
+          "a": "Nie, brama i furtka nie mogą otwierać się na zewnątrz działki. Skrzydła otwierają się do środka posesji, dlatego trzeba zaplanować na podjeździe miejsce równe szerokości skrzydła plus zapas."
+        },
+        {
+          "q": "Jaka maksymalna szerokość bramy skrzydłowej?",
+          "a": "Praktyczna granica to 4,5 m światła wjazdu, czyli skrzydła po 2,25 m. Przy szerszych wjazdach skrzydła są zbyt ciężkie dla siłowników i lepszym rozwiązaniem jest brama przesuwna."
+        },
+        {
+          "q": "Jakie słupki do bramy dwuskrzydłowej?",
+          "a": "Do bramy 4 m stosujemy słupki 100 x 100 mm z blachy 3 mm, osadzone na 80 do 100 cm w betonie B-25. Do bramy 4,5 m stosujemy przekrój 120 x 120 mm."
+        },
+        {
+          "q": "Czy brama skrzydłowa wymaga napędu?",
+          "a": "Nie, brama może działać ręcznie. Napęd wybierają Państwo zwykle razem z bramą, bo późniejszy montaż wymaga wiercenia w pomalowanych elementach. Zestaw od {naped_skrzydlowa}."
+        },
+        {
+          "q": "Co z bramą przy braku prądu?",
+          "a": "Każdy napęd ma odblokowanie awaryjne kluczem. Po odblokowaniu brama otwiera się ręcznie. Opcjonalnie montujemy zasilanie awaryjne z akumulatorem, które obsługuje kilkanaście cykli."
+        },
+        {
+          "q": "Ile trwa montaż bramy skrzydłowej?",
+          "a": "Montaż bramy z furtką zajmuje jeden dzień, a z napędem i konfiguracją pilotów drugi dzień. Produkcja bramy trwa {czas_produkcji}."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o bramach",
+      "items": [
+        {
+          "label": "Brama przesuwna czy skrzydłowa? Porównanie wad i zalet",
+          "url": "/blog/brama-przesuwna-czy-uchylna-wady-i-zalety/",
+          "desc": "Miejsce, koszt i wygoda"
+        },
+        {
+          "label": "Rodzaje bram wjazdowych",
+          "url": "/blog/rodzaje-bram-wjazdowych/",
+          "desc": "Przesuwne, skrzydłowe, teleskopowe"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena bramy skrzydłowej",
+      "category": "brama-skrzydlowa",
+      "place": "skrzydlowe-wycena"
+    }
+  ]
+}

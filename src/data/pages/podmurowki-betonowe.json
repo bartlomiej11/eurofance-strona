@@ -1,0 +1,231 @@
+{
+  "slug": "podmurowki-betonowe",
+  "kind": "offer",
+  "title": "Podmurówka betonowa pod ogrodzenie | 250x20, 250x25, 250x30 | Eurofance",
+  "metaDescription": "Podmurówka betonowa pod ogrodzenie: 250x20, 250x25, 250x30 i 250x50, beton B-25, wersje gładkie, frezowane i obudowane. Cena od {podmurowka_250x20} za mb z.",
+  "h1": "Podmurówki betonowe pod ogrodzenie",
+  "answer": "Podmurówka betonowa to betonowy cokół pod ogrodzeniem, który odcina panele od gruntu i wody. W Eurofance podmurówka 250x25 kosztuje od {podmurowka_250x25} za mb, a najwyższa 250x50 od {podmurowka_250x50} za mb, z materiałem i montażem. Wykonujemy je z betonu B-25, w wersji gładkiej, frezowanej albo obudowanej panelami w kolorze ogrodzenia.",
+  "category": "podmurowka",
+  "heroImage": "/images/realizacje/hero-podmurowki.jpg",
+  "heroCta": "Wycena podmurówki",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> betonowy cokół 20, 25, 30 lub 50 cm wysokości, pod panele, palisadę i przęsła.",
+        "<strong>Dla kogo:</strong> działki przy ulicy, na skarpie i tam, gdzie grunt jest wilgotny albo pracuje.",
+        "<strong>Cena:</strong> 250x25 od {podmurowka_250x25} za mb, 250x30 od {podmurowka_250x30} za mb, z montażem.",
+        "<strong>Beton:</strong> B-25, czyli klasa C20/25, elementy po 250 cm.",
+        "<strong>Wersje:</strong> gładka, frezowana i obudowana panelami stalowymi w kolorze RAL."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Podmurówki betonowe na wymiar",
+      "intro": "Cena za metr bieżący gotowej podmurówki z montażem. Elementy mają 250 cm długości, więc docinamy je na narożnikach i przy bramie.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Podmurówka 250x20",
+          "desc": "Najniższy cokół, dobry pod panele 2D i 3D na stabilnym gruncie.",
+          "price": "od {podmurowka_250x20}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x20",
+          "quote": "Podmurówka 250x20",
+          "quoteLabel": "Wycena z montażem"
+        },
+        {
+          "name": "Podmurówka 250x25",
+          "desc": "Najczęściej zamawiany wymiar, wysokość 25 cm.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/przemyslowe.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x25",
+          "quote": "Podmurówka 250x25",
+          "quoteLabel": "Wycena z montażem"
+        },
+        {
+          "name": "Podmurówka 250x30",
+          "desc": "Wysoki cokół do skarp i gruntów, które pracują.",
+          "price": "od {podmurowka_250x30}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x30",
+          "quote": "Podmurówka 250x30",
+          "quoteLabel": "Wycena z montażem"
+        },
+        {
+          "name": "Podmurówka 250x50",
+          "desc": "Do dużych różnic terenu, wymaga ławy betonowej.",
+          "price": "od {podmurowka_250x50}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/przemyslowe.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x50",
+          "quote": "Podmurówka 250x50",
+          "quoteLabel": "Wycena z montażem"
+        },
+        {
+          "name": "Podmurówka obudowana",
+          "desc": "Beton obudowany panelami stalowymi w kolorze ogrodzenia, jednolita linia od ulicy.",
+          "price": "od {podmurowka_obudowana}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "url": "/sklep/podmurowka-obudowana",
+          "quote": "Podmurówka obudowana",
+          "quoteLabel": "Wycena z montażem"
+        },
+        {
+          "name": "Ceownik do podmurówki",
+          "desc": "Zamyka górną krawędź i łączy elementy, chroni beton przed wykruszaniem.",
+          "price": "od {ceownik}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/przemyslowe.jpg",
+          "url": "/sklep/ceownik-do-podmurowki",
+          "quote": "Ceownik do podmurówki",
+          "quoteLabel": "Zapytaj o wycenę"
+        }
+      ],
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Wymiary i ceny podmurówek",
+      "intro": "Ceny brutto za metr bieżący z materiałem i montażem, na przygotowanym gruncie. Przy skarpie dochodzi ława betonowa.",
+      "head": [
+        "Wymiar",
+        "Wysokość",
+        "Gładka",
+        "Frezowana",
+        "Obudowana panelami"
+      ],
+      "rows": [
+        [
+          "250x20",
+          "20 cm",
+          "od {podmurowka_250x20}",
+          "od {podmurowka_250x20}",
+          "od {podmurowka_obudowana}"
+        ],
+        [
+          "250x25",
+          "25 cm",
+          "od {podmurowka_250x25}",
+          "od {podmurowka_250x25}",
+          "od {podmurowka_obudowana}"
+        ],
+        [
+          "250x30",
+          "30 cm",
+          "od {podmurowka_250x30}",
+          "od {podmurowka_250x30}",
+          "wycena indywidualna"
+        ],
+        [
+          "250x50",
+          "50 cm",
+          "od {podmurowka_250x50}",
+          "wycena indywidualna",
+          "wycena indywidualna"
+        ]
+      ],
+      "note": "Do podmurówki dochodzi ceownik od {ceownik} za sztukę oraz ława betonowa przy skarpie. Ceny aktualne na {aktualizacja}.",
+      "ctaText": "Policzymy podmurówkę dla Twojej działki",
+      "ctaDesc": "Podaj długość ogrodzenia i informację o skarpie. Wycenę wyślemy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Łączniki i ceowniki",
+      "html": "<p>Elementy podmurówki łączymy na zaprawie cementowej i dodatkowo zamykamy górną krawędź ceownikiem stalowym. Ceownik ma dwa zadania: łączy sąsiednie elementy i chroni krawędź betonu przed wykruszaniem przy koszeniu i odśnieżaniu.</p><p>Ceownik wykonujemy z blachy ocynkowanej i malujemy proszkowo w kolorze ogrodzenia, dzięki czemu nie widać stalowej listwy na tle betonu. Cena od {ceownik} za sztukę, długość 250 cm, czyli dokładnie tyle, ile ma element podmurówki.</p><p>Przy narożnikach stosujemy gotowe elementy narożne albo docięcie na 45 stopni. W obu przypadkach krawędź zabezpieczamy zaprawą i ceownikiem, żeby woda nie wchodziła w szczelinę.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Podmurówka pod ogrodzenie panelowe",
+      "html": "<p>Podmurówka pod ogrodzenie panelowe ma dwie funkcje. Pierwsza to ochrona dolnej krawędzi panelu przed wodą i koszeniem. Druga to wyrównanie terenu, jeśli linia ogrodzenia nie jest idealnie pozioma.</p><p>Pod panele 2D i 3D o wysokości 153 cm stosujemy najczęściej podmurówkę 250x25. Pod panele 173 cm i 203 cm, szczególnie na terenach przemysłowych, sprawdza się 250x30. Przy skarpach i dużych różnicach terenu wybierają Państwo 250x50 z ławą betonową.</p><p>Podmurówka jest też elementem, który można pomalować albo obudować panelami w kolorze ogrodzenia. Obudowana podmurówka kosztuje od {podmurowka_obudowana} za mb, ale daje jednolitą linię ogrodzenia bez szarego cokołu.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Beton B-25: z czego robimy",
+      "html": "<p>Podmurówki wykonujemy z betonu B-25, czyli klasy wytrzymałości C20/25. Taki beton wytrzymuje 25 MPa po 28 dniach i jest odporny na cykle zamarzania i rozmarzania, co w polskim klimacie ma znaczenie przy cokole stykającym się z gruntem.</p><p>Elementy wibrujemy w formach, żeby nie zostały pustki powietrzne, i sezonujemy je przed wysyłką. Dzięki sezonowaniu beton nie pęka przy transporcie i montażu, a krawędzie są równe.</p><p>Element standardowy ma 250 cm długości i przekrój dopasowany do wysokości. Przy zamówieniu nietypowych długości docinamy elementy na budowie i zabezpieczamy krawędź zaprawą.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Montaż podmurówki",
+      "html": "<p>Montaż podmurówki zaczynamy od wykopu i podsypki z piasku zagęszczanej warstwami po 10 cm. Następnie wylewamy ławę betonową, a na niej układamy elementy na zaprawie cementowej, sprawdzając poziom łatą i niwelatorem.</p><p>Na końcu zakładamy ceowniki i prowadzimy słupki ogrodzenia przez otwory w podmurówce albo kotwimy je do cokołu. Montaż 40 mb podmurówki zajmuje ekipie jeden dzień, a przy skarpie dwa dni.</p><p>Podmurówkę wykonujemy razem z ogrodzeniem albo osobno, jako przebudowę istniejącego ogrodzenia. W drugim przypadku demontujemy panele, wykonujemy cokół i montujemy panele z powrotem.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Co zamiast podmurówki",
+      "html": "<p>Jeśli budżet jest ograniczony, zamiast podmurówki można zastosować trzy rozwiązania. Pierwsze: słupki betonowane bezpośrednio w gruncie, bez cokołu, tańsze o od {podmurowka_250x25} na każdym metrze, ale panel dotyka trawy. Drugie: obrzeże betonowe 8 x 30 cm, które chroni tylko dolną krawędź. Trzecie: korytko z kostki brukowej wzdłuż ogrodzenia.</p><p>W praktyce najczęstszy kompromis to podmurówka tylko na froncie działki, gdzie ogrodzenie jest widoczne, a na bokach i tyle słupki w gruncie. Przy 20 mb frontu i 60 mb boków oszczędność wynosi kilka tysięcy złotych.</p><p>Nie polecamy rezygnacji z podmurówki na gruntach wilgotnych i przy drogach, gdzie zimą sypie się sól. Wtedy dolna krawędź panelu koroduje najszybciej.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Podmurówki betonowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje podmurówka betonowa pod ogrodzenie?",
+          "a": "Podmurówka 250x20 kosztuje od {podmurowka_250x20} za mb, 250x25 od {podmurowka_250x25}, a 250x30 od {podmurowka_250x30} za mb z materiałem i montażem. Wersja obudowana panelami to od {podmurowka_obudowana} za mb."
+        },
+        {
+          "q": "Jaki wymiar podmurówki wybrać?",
+          "a": "Do paneli 153 cm najczęściej 250x25, do paneli 173 cm i 203 cm 250x30. Na skarpach i przy dużych różnicach terenu 250x50 z ławą betonową. Wymiar 250x20 wystarcza na stabilnym gruncie pod lekkie panele."
+        },
+        {
+          "q": "Podmurówka gotowa czy wylewana na miejscu?",
+          "a": "Gotowe elementy są szybsze w montażu, mają powtarzalny wymiar i równą krawędź. Wylewana podmurówka jest tańsza przy bardzo długich odcinkach, ale wymaga czasu na wiązanie betonu i szalunków. Przy 40 do 100 mb zwykle wygrywają gotowe elementy."
+        },
+        {
+          "q": "Czy podmurówka wymaga ławy betonowej?",
+          "a": "Przy podmurówce 250x20 i 250x25 wystarczy podsypka z piasku zagęszczana warstwami. Przy 250x30 i 250x50 oraz na gruntach słabych zalecamy ławę betonową zbrojoną prętami."
+        },
+        {
+          "q": "Czy podmurówkę można pomalować?",
+          "a": "Tak, beton można malować farbami elewacyjnymi albo obudować panelami stalowymi w kolorze ogrodzenia. Obudowa z paneli daje jednolitą linię i nie wymaga odświeżania co kilka lat."
+        },
+        {
+          "q": "Jaki beton stosujecie na podmurówki?",
+          "a": "Beton B-25, czyli klasa C20/25, wibrowany w formach i sezonowany. Jest odporny na cykle zamarzania i rozmarzania, co ma znaczenie przy cokole stykającym się z gruntem."
+        },
+        {
+          "q": "Ile trwa montaż podmurówki?",
+          "a": "Montaż 40 mb podmurówki zajmuje ekipie jeden dzień, a na skarpie dwa dni. Produkcja elementów trwa {czas_produkcji} od zatwierdzenia zamówienia."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o podmurówkach",
+      "items": [
+        {
+          "label": "Podmurówka pod ogrodzenie panelowe: gotowa czy wylewana samemu",
+          "url": "/blog/podmurowka-pod-ogrodzenie-panelowe-gotowa-czy-wylewana-samemu/",
+          "desc": "Koszty, trwałość i czas montażu"
+        },
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Kolejność prac i betonowanie"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena podmurówki z montażem",
+      "category": "podmurowka",
+      "place": "podmurowki-wycena"
+    }
+  ]
+}

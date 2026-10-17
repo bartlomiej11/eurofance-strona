@@ -1,0 +1,39 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/Breadcrumbs.astro';
+import PostCard from '../../../../components/PostCard.astro';
+import CtaBar from '../../../../components/CtaBar.astro';
+import { blogCategories, getPostsByCategory } from '../../../../lib/content.js';
+import * as LD from '../../../../lib/jsonld.js';
+import { tk } from '../../../../lib/tk.js';
+
+export function getStaticPaths() {
+  return blogCategories.map((cat) => ({ params: { kat: cat.slug }, props: { cat } }));
+}
+
+const { cat } = Astro.props;
+const list = getPostsByCategory(cat.slug);
+const nodes = [
+  LD.breadcrumbs([{ name: 'Blog', url: '/blog/' }, { name: cat.name, url: `/blog/kategoria/${cat.slug}/` }]),
+  LD.itemList(cat.name, list.map((p) => ({ name: p.title, url: `/blog/${p.slug}/` }))),
+];
+---
+<Base
+  title={`${tk(cat.title || cat.name)} | Blog Eurofance`}
+  description={tk(cat.description)}
+  path={`/blog/kategoria/${cat.slug}/`}
+  jsonld={nodes}
+>
+  <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }, { name: cat.name }]} />
+  <section class="section">
+    <div class="container">
+      <h1>{tk(cat.name)}</h1>
+      <p class="answer">{tk(cat.description)}</p>
+      <div class="post-list">
+        {list.map((post) => <PostCard post={post} showCategory={false} />)}
+      </div>
+      <p><a href="/blog/">Wszystkie wpisy na blogu</a></p>
+      <CtaBar place="blog-kategoria" />
+    </div>
+  </section>
+</Base>

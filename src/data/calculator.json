@@ -1,0 +1,47 @@
+{
+  "_opis": "Ceny LICZBOWE dla kalkulatora ogrodzenia. Teksty cen dla stron sa w prices.json. Przy zmianie ceny zaktualizuj oba pliki, zeby kalkulator i cenniki pokazywaly te same kwoty.",
+  "updated": "październik 2026",
+  "currency": "PLN",
+  "rangePercent": 15,
+  "minValue": 1500,
+  "base": {
+    "panel-2d": { "label": "Panel 2D", "price": 175 },
+    "panel-3d": { "label": "Panel 3D", "price": 210 },
+    "palisada-pion": { "label": "Palisada pionowa", "price": 240 },
+    "palisada-poz": { "label": "Palisada pozioma", "price": 260 },
+    "grzebien": { "label": "Grzebień", "price": 290 },
+    "zaluzja": { "label": "Żaluzja", "price": 310 }
+  },
+  "height": {
+    "123": { "label": "123 cm", "factor": 0.92 },
+    "153": { "label": "153 cm", "factor": 1 },
+    "173": { "label": "173 cm", "factor": 1.12 },
+    "203": { "label": "203 cm", "factor": 1.28 }
+  },
+  "gate": {
+    "brak": { "label": "Bez bramy", "price": 0 },
+    "skrzydlowa": { "label": "Brama skrzydłowa 4 m", "price": 2700 },
+    "przesuwna": { "label": "Brama przesuwna 4 m", "price": 3200 },
+    "przesuwna-palisada": { "label": "Brama przesuwna palisadowa 4 m", "price": 4100 }
+  },
+  "wicket": {
+    "brak": { "label": "Bez furtki", "price": 0 },
+    "panelowa": { "label": "Furtka panelowa 1 m", "price": 850 },
+    "palisadowa": { "label": "Furtka palisadowa 1 m", "price": 1050 }
+  },
+  "kerb": {
+    "brak": { "label": "Bez podmurówki", "price": 0 },
+    "250x20": { "label": "Podmurówka 250x20", "price": 85 },
+    "250x25": { "label": "Podmurówka 250x25", "price": 95 },
+    "250x30": { "label": "Podmurówka 250x30", "price": 115 }
+  },
+  "mount": {
+    "tak": { "label": "Z montażem", "price": 45 },
+    "nie": { "label": "Bez montażu (sam montaż własny)", "price": 0 }
+  },
+  "drive": {
+    "brak": { "label": "Bez napędu", "price": 0 },
+    "przesuwna": { "label": "Napęd do bramy przesuwnej", "price": 1900 },
+    "skrzydlowa": { "label": "Napęd do bramy skrzydłowej", "price": 2400 }
+  }
+}

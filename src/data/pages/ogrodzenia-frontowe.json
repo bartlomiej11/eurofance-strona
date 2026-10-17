@@ -1,0 +1,587 @@
+{
+  "slug": "ogrodzenia-frontowe",
+  "kind": "offer",
+  "title": "Ogrodzenia frontowe od producenta | zestawy z bramą i furtką | Eurofance",
+  "metaDescription": "Ogrodzenia frontowe: panelowe, palisadowe i nowoczesne. Gotowe zestawy z bramą, furtką i podmurówką od {front_zestaw_3d}. Malowanie na dowolny kolor RAL.",
+  "h1": "Ogrodzenia frontowe",
+  "answer": "Ogrodzenie frontowe to część ogrodzenia od strony ulicy: przęsła, brama wjazdowa, furtka, słupki i podmurówka. W Eurofance zestaw frontowy (brama przesuwna 4 m, furtka 1 m i 15 mb przęseł panelowych 3D z podmurówką) kosztuje od {front_zestaw_3d}, a w wersji palisadowej od {front_zestaw_palisada}. Wszystkie elementy produkujemy sami i malujemy proszkowo na jeden kolor RAL.",
+  "category": "komplet-frontowy",
+  "heroImage": "/images/frontowe/hero-frontowe.jpg",
+  "heroCta": "Bezpłatna wycena frontu",
+  "variantKey": "frontowe",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> front działki od ulicy: przęsła, brama wjazdowa, furtka, słupki i podmurówka.",
+        "<strong>Dla kogo:</strong> domy jednorodzinne, bliźniaki i działki, gdzie front jest wizytówką posesji.",
+        "<strong>Cena:</strong> zestaw frontowy panelowy 3D od {front_zestaw_3d}, palisadowy od {front_zestaw_palisada}.",
+        "<strong>Czas realizacji:</strong> produkcja {czas_produkcji}, montaż frontu 20 m z bramą {czas_montazu}.",
+        "<strong>Gwarancja:</strong> {gwarancja} na konstrukcję i powłokę proszkową."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Gotowe zestawy ogrodzenia frontowego",
+      "intro": "Zestawy liczone dla frontu działki 20 m: brama 4 m, furtka 1 m i 15 mb przęseł z podmurówką. Inną długość policzymy w bezpłatnej wycenie.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Frontowy panelowy 3D",
+          "desc": "Brama przesuwna 4 m, furtka 1 m, 15 mb paneli 3D 153 cm, podmurówka 250x25.",
+          "price": "od {front_zestaw_3d}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/realizacja-1.jpg",
+          "quote": "Zestaw frontowy panelowy 3D",
+          "quoteLabel": "Wycena tego zestawu"
+        },
+        {
+          "name": "Frontowy panelowy 2D",
+          "desc": "Brama dwuskrzydłowa 4 m, furtka 1 m, 15 mb paneli 2D 153 cm, podmurówka.",
+          "price": "od {front_zestaw_2d}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/realizacja-2.jpg",
+          "quote": "Zestaw frontowy panelowy 2D",
+          "quoteLabel": "Wycena tego zestawu"
+        },
+        {
+          "name": "Frontowy palisadowy pionowy",
+          "desc": "Brama przesuwna 4 m, furtka 1 m, 15 mb palisady pionowej 153 cm.",
+          "price": "od {front_zestaw_palisada}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/foto-07.jpg",
+          "quote": "Zestaw frontowy palisadowy pionowy",
+          "quoteLabel": "Wycena tego zestawu"
+        },
+        {
+          "name": "Frontowy palisadowy poziomy",
+          "desc": "Brama przesuwna 4 m, furtka 1 m, 15 mb palisady poziomej 153 cm.",
+          "price": "od {front_zestaw_palisada_poz}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/foto-08.jpg",
+          "quote": "Zestaw frontowy palisadowy poziomy",
+          "quoteLabel": "Wycena tego zestawu"
+        },
+        {
+          "name": "Frontowy grzebieniowy",
+          "desc": "Brama przesuwna 4 m, furtka 1 m, 15 mb przęseł grzebieniowych.",
+          "price": "od {front_zestaw_grzebien}",
+          "priceNote": "z montażem",
+          "image": "/images/realizacje/foto-12.jpg",
+          "quote": "Zestaw frontowy grzebieniowy",
+          "quoteLabel": "Wycena tego zestawu"
+        },
+        {
+          "name": "Front z napędem do bramy",
+          "desc": "Dowolny zestaw frontowy plus napęd 24 V z pilotami i fotokomórkami.",
+          "price": "od {naped_przesuwna}",
+          "priceNote": "dodatek do zestawu",
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "quote": "Zestaw frontowy z napędem",
+          "quoteLabel": "Wycena z napędem"
+        }
+      ],
+      "note": "Ceny dla frontu działki 20 m. Inną długość policzysz w kalkulatorze albo w bezpłatnej wycenie. Ceny brutto, z materiałem i montażem.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "ctaBar",
+      "text": "Front działki to 20 m, policzymy dokładnie",
+      "desc": "Podaj długość frontu, typ bramy i miejscowość. Wycenę z montażem wyślemy w {czas_odpowiedzi} w dni robocze."
+    },
+    {
+      "type": "priceTable",
+      "title": "Ile kosztuje ogrodzenie frontowe?",
+      "intro": "Koszt ogrodzenia frontowego zależy od trzech rzeczy: rodzaju przęseł, typu bramy i tego, czy jest automatyka. Najtańszy front to panel 3D z bramą skrzydłową, najdroższy to palisada lub grzebień z bramą przesuwną i napędem.",
+      "head": [
+        "Element",
+        "Panel 3D",
+        "Panel 2D",
+        "Palisada pionowa"
+      ],
+      "rows": [
+        [
+          "Przęsła z montażem",
+          "od {panel_3d_mb} za mb",
+          "od {panel_2d_mb} za mb",
+          "od {palisada_pion_mb} za mb"
+        ],
+        [
+          "Brama przesuwna 4 m",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_4m}",
+          "od {brama_przesuwna_palisada_4m}"
+        ],
+        [
+          "Brama dwuskrzydłowa 4 m",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_4m}",
+          "od {brama_skrzydlowa_palisada_4m}"
+        ],
+        [
+          "Furtka 1 m",
+          "od {furtka_panelowa}",
+          "od {furtka_panelowa}",
+          "od {furtka_palisadowa}"
+        ],
+        [
+          "Podmurówka 250x25",
+          "od {podmurowka_250x25} za mb",
+          "od {podmurowka_250x25} za mb",
+          "od {podmurowka_250x25} za mb"
+        ],
+        [
+          "Napęd do bramy",
+          "od {naped_przesuwna}",
+          "od {naped_przesuwna}",
+          "od {naped_przesuwna}"
+        ],
+        [
+          "Zestaw frontowy 20 m z bramą i furtką",
+          "od {front_zestaw_3d}",
+          "od {front_zestaw_2d}",
+          "od {front_zestaw_palisada}"
+        ]
+      ],
+      "note": "Ceny brutto, z materiałem i montażem, bez napędu i bez podmurówki wyższej niż 25 cm.",
+      "ctaText": "Front z bramą i furtką w jednej cenie",
+      "ctaDesc": "Zadzwoń: {telefon_short} albo wyślij wymiary, wycenę przygotujemy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "text",
+      "title": "Pomysł na tanie ogrodzenie frontowe",
+      "html": "<p>Tanie ogrodzenie frontowe nie oznacza najtańszych elementów na całej działce. Trzy rozwiązania, które realnie obniżają koszt, a nie psują wyglądu:</p><ul class=\"list-check\"><li><strong>Panel 3D 123 cm w antracycie z bramą skrzydłową.</strong> To najtańszy kompletny front. Krótszy panel kosztuje mniej, a brama skrzydłowa jest tańsza od przesuwnej o około 500 zł i nie wymaga miejsca na cofnięcie.</li><li><strong>Front z palisady, boki i tył z paneli 3D.</strong> Wygląd premium tylko tam, gdzie go widać. Przy 20 mb frontu i 60 mb boków oszczędność sięga kilku tysięcy złotych, bo palisada kosztuje od {palisada_pion_mb} za mb, a panel 3D od {panel_3d_mb} za mb.</li><li><strong>Podmurówka tylko na froncie.</strong> Na bokach słupki można betonować bez cokołu, co oszczędza od {podmurowka_250x25} na każdym metrze tyłu działki.</li></ul><p>Więcej pomysłów z cenami jest w poradniku <a href=\"/blog/tanie-ogrodzenie-domu-4-sprawdzone-pomysly/\">tanie ogrodzenie domu: 4 sprawdzone pomysły</a>.</p>"
+    },
+    {
+      "type": "tiles",
+      "title": "Nowoczesne ogrodzenia frontowe",
+      "intro": "Cztery rozwiązania, które najczęściej wybierają Państwo do nowoczesnych domów. Każde z ceną „od” i linkiem do szczegółów.",
+      "columns": 2,
+      "items": [
+        {
+          "name": "Palisada pionowa",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Gęste pionowe profile, prywatność od ulicy, od {palisada_pion_mb} za mb"
+        },
+        {
+          "name": "Palisada pozioma",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Układ listwy poziomej, nowoczesny rysunek, od {palisada_poz_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenie grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe",
+          "meta": "Profil na sztorc, rytmiczny wzór, od {grzebien_mb} za mb"
+        },
+        {
+          "name": "Panel 2D w antracycie",
+          "url": "/ogrodzenia-panelowe",
+          "meta": "Spokojna, prosta linia, od {panel_2d_mb} za mb z montażem"
+        }
+      ],
+      "eyebrow": "Oferta"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Jak dobrać ogrodzenie frontowe do domu",
+      "intro": "Kolor ogrodzenia zestawiamy z elewacją i dachem. Poniżej najczęstsze pary, które sprawdzają się na realizacjach.",
+      "head": [
+        "Elewacja lub dom",
+        "Co pasuje",
+        "Kolor"
+      ],
+      "rows": [
+        [
+          "Nowoczesna stodoła, płaski dach",
+          "palisada pionowa, grzebień",
+          "antracyt RAL 7016, czarny RAL 9005"
+        ],
+        [
+          "Klasyczny dom z dwuspadowym dachem",
+          "panel 2D, palisada pozioma",
+          "antracyt RAL 7016, brąz RAL 8017"
+        ],
+        [
+          "Klinkier, cegła",
+          "panel 2D, palisada z podmurówką",
+          "czarny RAL 9005, antracyt RAL 7016"
+        ],
+        [
+          "Jasna elewacja",
+          "palisada pionowa",
+          "antracyt RAL 7016"
+        ],
+        [
+          "Dachówka grafitowa",
+          "palisada pozioma, grzebień",
+          "antracyt RAL 7016"
+        ],
+        [
+          "Budynek z drewnem na elewacji",
+          "panel 3D, palisada pionowa",
+          "brąz RAL 8017, antracyt RAL 7016"
+        ]
+      ],
+      "note": "Pełna paleta kolorów z przykładami realizacji jest na stronie <a href=\"/paleta-ral\">paleta RAL</a>."
+    },
+    {
+      "type": "ctaBar",
+      "text": "Wyślij zdjęcie domu, dobierzemy ogrodzenie",
+      "desc": "Do formularza możesz dodać zdjęcie elewacji albo szkic działki. Kolor i system zaproponujemy w wycenie.",
+      "place": "front-dobor"
+    },
+    {
+      "type": "text",
+      "title": "Brama przesuwna czy skrzydłowa we froncie?",
+      "html": "<p>Brama przesuwna potrzebuje miejsca wzdłuż ogrodzenia na cofnięcie skrzydła: około 1,5 x szerokość wjazdu. Przy wjeździe 4 m potrzebujesz więc 6 m wolnej linii ogrodzenia. Brama skrzydłowa otwiera się do środka działki i potrzebuje tyle miejsca na podjeździe, ile wynosi szerokość skrzydła, czyli przy 4 m wjazdu około 2,2 m głębokości.</p><p>Wniosek praktyczny: jeśli front jest krótki i nie ma gdzie cofnąć skrzydła, wybierz bramę skrzydłową. Jeśli wjazd jest szeroki, a wzdłuż ogrodzenia jest miejsce, brama przesuwna jest wygodniejsza, szczególnie z napędem.</p><p>Szczegóły i ceny: <a href=\"/bramy-wjazdowe-przesuwne\">bramy przesuwne</a> oraz <a href=\"/bramy-wjazdowe-skrzydlowe\">bramy skrzydłowe</a>.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Ogrodzenie frontowe a przepisy",
+      "html": "<p>Trzy zasady, które warto sprawdzić przed zamówieniem:</p><ul><li>Ogrodzenie do 2,20 m wysokości nie wymaga pozwolenia ani zgłoszenia. Wyższe wymaga uzgodnień. Potwierdź z aktualnym Prawem budowlanym.</li><li>Brama i furtka nie mogą otwierać się na zewnątrz działki, czyli na ulicę. Sprawdź warunki techniczne dla swojej działki.</li><li>Plan miejscowy może wymagać ogrodzenia ażurowego, na przykład minimum 60 procent prześwitu, i określać maksymalną wysokość od strony drogi.</li></ul><p>Nie udzielamy porad prawnych. Przed montażem sprawdzamy plan miejscowy i sposób zagospodarowania terenu dla Twojej działki.</p>",
+      "note": "Wymagane potwierdzenie treści przez obsługę przed publikacją."
+    },
+    {
+      "type": "gallery",
+      "title": "Ogrodzenia frontowe: nasze realizacje",
+      "items": [
+        {
+          "image": "/images/frontowe/frontowe-01.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-02.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-03.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-04.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-06.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-07.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-08.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-09.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-10.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-11.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-12.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-13.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-14.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-15.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-16.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-17.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-18.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-19.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-20.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-21.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-22.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-23.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-24.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-25.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-26.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-27.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-28.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-29.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-30.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-31.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-32.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje",
+      "intro": "Zdjęcia z naszych realizacji ogrodzeń frontowych: słupki z kamienia lub tynkowane, przęsła żaluzjowe i grzebieniowe, bramy i furtki."
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia frontowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie frontowe?",
+          "a": "Front działki 20 m z bramą przesuwną 4 m, furtką i przęsłami panelowymi 3D z podmurówką kosztuje w Eurofance od {front_zestaw_3d} z montażem. Wersja palisadowa kosztuje od {front_zestaw_palisada}, a panelowa 2D od {front_zestaw_2d}."
+        },
+        {
+          "q": "Jaka wysokość ogrodzenia frontowego?",
+          "a": "Najczęściej 150 do 170 cm razem z podmurówką, czyli panel 153 cm na cokole 25 cm daje 178 cm. Ogrodzenie do 2,20 m nie wymaga pozwolenia ani zgłoszenia, ale plan miejscowy może ustalać niższą wysokość od strony ulicy."
+        },
+        {
+          "q": "Czy brama może otwierać się na ulicę?",
+          "a": "Nie. Brama i furtka nie mogą otwierać się na zewnątrz działki. Przy bramie skrzydłowej skrzydła otwierają się do środka posesji, a przy braku miejsca na podjeździe lepsza jest brama przesuwna."
+        },
+        {
+          "q": "Czy front może być z innego systemu niż boki działki?",
+          "a": "Tak, to częsty sposób na obniżenie kosztów: front z palisady, boki i tył z paneli 3D w tym samym kolorze RAL. Oszczędność przy 20 mb frontu i 60 mb boków to zwykle kilka tysięcy złotych."
+        },
+        {
+          "q": "Jaki kolor ogrodzenia frontowego wybrać?",
+          "a": "Najczęściej wybierany jest antracyt RAL 7016, potem czarny RAL 9005. Do jasnych elewacji pasuje antracyt, do klinkieru czerń, a do drewna na elewacji brąz RAL 8017. Malujemy proszkowo na dowolny kolor z palety RAL."
+        },
+        {
+          "q": "Ile trwa wykonanie ogrodzenia frontowego?",
+          "a": "Produkcja trwa {czas_produkcji}, a montaż frontu 20 m z bramą i furtką zwykle {czas_montazu}. Termin liczymy od zatwierdzenia wyceny i pomiaru."
+        },
+        {
+          "q": "Czy brama we froncie może mieć napęd?",
+          "a": "Tak. Bramy przesuwne i skrzydłowe przygotowujemy pod napęd już na etapie produkcji. Napęd do bramy przesuwnej kosztuje od {naped_przesuwna}, do skrzydłowej od {naped_skrzydlowa}, z montażem i konfiguracją pilotów."
+        },
+        {
+          "q": "Co zawiera zestaw frontowy?",
+          "a": "Przęsła, bramę wjazdową, furtkę, słupki, obejmy, podmurówkę betonową, transport i montaż. Napęd, elektrozaczep i samozamykacz są dodatkiem, który wyceniamy osobno."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o ogrodzeniach frontowych",
+      "items": [
+        {
+          "label": "3 pomysły na ogrodzenia frontowe pasujące do płotu panelowego",
+          "url": "/blog/3-pomysly-na-ogrodzenia-frontowe-pasujace-do-plotu-panelowego/",
+          "desc": "Zestawienia systemów na froncie działki"
+        },
+        {
+          "label": "Ogrodzenie domu: jakie wybrać, by pasowało do budynku",
+          "url": "/blog/ogrodzenie-domu-jakie-wybrac-by-pasowalo-do-budynku/",
+          "desc": "Dobór koloru i systemu do elewacji"
+        },
+        {
+          "label": "Tanie ogrodzenie domu: 4 sprawdzone pomysły",
+          "url": "/blog/tanie-ogrodzenie-domu-4-sprawdzone-pomysly/",
+          "desc": "Jak obniżyć koszt bez utraty wyglądu"
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "front",
+      "variant": "full",
+      "title": "Wycena ogrodzenia frontowego",
+      "category": "komplet-frontowy",
+      "place": "front-wycena"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "bezplatna-wycena",
+  "kind": "offer",
+  "title": "Bezpłatna wycena ogrodzenia w 24 h | Eurofance",
+  "metaDescription": "Bezpłatna wycena ogrodzenia Eurofance. Otrzymasz zakres materiału, montażu i termin. Odpowiadamy w {czas_odpowiedzi} w dni robocze, bez zobowiązań. Wycena i montaż w całej.",
+  "h1": "Bezpłatna wycena ogrodzenia",
+  "answer": "W bezpłatnej wycenie Eurofance dostajesz zakres materiału, podmurówki, bramy, furtki i montażu dla swojej działki. Na kompletne zgłoszenie odpowiadamy w {czas_odpowiedzi} w dni robocze, bez zobowiązań. Ogrodzenie panelowe z montażem kosztuje od {panel_2d_mb} za mb.",
+  "heroCta": "Wyślij zgłoszenie",
+  "heroForm": false,
+  "blocks": [
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Opisz ogrodzenie do wyceny",
+      "category": "panelowe",
+      "place": "wycena"
+    },
+    {
+      "type": "text",
+      "title": "Co dostaniesz w wycenie",
+      "html": "<ul class=\"list-check\"><li><strong>Zakres materiału.</strong> Wycena wskazuje system, długość, wysokość, słupki, podmurówkę, bramę i furtkę zgodnie z podanymi informacjami.</li><li><strong>Koszt montażu i logistyki.</strong> Uwzględniamy miejscowość, zakres prac oraz warunki, które trzeba potwierdzić na pomiarze.</li><li><strong>Termin i kolejne kroki.</strong> Dostajesz informację, co doprecyzować przed pomiarem, produkcją i montażem.</li></ul>"
+    },
+    {
+      "type": "steps",
+      "title": "Co dzieje się po wysłaniu zgłoszenia",
+      "items": [
+        {
+          "name": "Analizujemy zgłoszenie",
+          "desc": "Sprawdzamy długość, system, miejscowość, bramę, furtkę i podmurówkę. W razie braku danych kontaktujemy się z Tobą.",
+          "time": "od razu po wysłaniu"
+        },
+        {
+          "name": "Wysyłamy wycenę",
+          "desc": "Przekazujemy orientacyjny zakres i cenę od wraz z pytaniami, które wpływają na dokładną kwotę.",
+          "time": "{czas_odpowiedzi} w dni robocze"
+        },
+        {
+          "name": "Ustalamy pomiar i termin",
+          "desc": "Po akceptacji kierunku wyceny umawiamy bezpłatny pomiar, następnie produkcję i montaż.",
+          "time": "pomiar w {czas_pomiaru}, produkcja {czas_produkcji}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "keyfacts",
+      "title": "Dlaczego warto wysłać zgłoszenie",
+      "items": [
+        "<strong>Bezpłatnie:</strong> pomiar kosztuje od {pomiar}.",
+        "<strong>Szybka odpowiedź:</strong> wycena w {czas_odpowiedzi} w dni robocze.",
+        "<strong>Jedna oferta:</strong> materiał, podmurówka, brama, furtka i montaż w jednym zakresie.",
+        "<strong>Cena startowa:</strong> ogrodzenie panelowe z montażem od {panel_2d_mb} za mb.",
+        "<strong>Bez zobowiązań:</strong> decyzję o pomiarze i zamówieniu podejmujesz po otrzymaniu informacji."
+      ]
+    },
+    {
+      "type": "faq",
+      "title": "Bezpłatna wycena, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy wycena ogrodzenia jest bezpłatna?",
+          "a": "Tak. Wycena i pomiar są bezpłatne. Pomiar w cenniku kosztuje od {pomiar}, a jego termin ustalamy po analizie zgłoszenia."
+        },
+        {
+          "q": "Jak szybko otrzymam wycenę?",
+          "a": "Na kompletne zgłoszenie odpowiadamy w {czas_odpowiedzi} w dni robocze. Najszybciej liczymy zapytania z długością, systemem, miejscowością i informacją o bramie lub furtce."
+        },
+        {
+          "q": "Jakie dane podać do wyceny?",
+          "a": "Podaj długość ogrodzenia, preferowaną wysokość i system, miejscowość oraz informację o podmurówce, bramie, furtce i montażu. Zdjęcie lub szkic działki pomaga przy nietypowym terenie."
+        },
+        {
+          "q": "Czy wycena obejmuje montaż?",
+          "a": "Tak, jeśli zaznaczysz montaż. Wtedy uwzględniamy wytyczenie, osadzenie słupków, montaż przęseł i uporządkowanie terenu w uzgodnionym zakresie."
+        },
+        {
+          "q": "Czy wycena zobowiązuje do zamówienia?",
+          "a": "Nie. Wycena jest bez zobowiązań. Po jej otrzymaniu możesz zadać pytania, zmienić zakres albo umówić bezpłatny pomiar."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "trust",
+      "showLogos": true
+    }
+  ]
+}

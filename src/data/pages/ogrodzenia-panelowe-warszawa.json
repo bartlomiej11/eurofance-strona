@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-warszawa",
+  "kind": "local",
+  "city": "Warszawa",
+  "title": "Ogrodzenia panelowe Warszawa | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Warszawa z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 3 dni robocze. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Warszawa",
+  "answer": "Eurofance montuje ogrodzenia panelowe w Warszawie, od Białołęki po Wawer, oraz w pobliskich miejscowościach. Cena systemu 2D zaczyna się od {panel_2d_mb} za mb, a pomiar proponujemy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Warszawa",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Warszawa",
+      "items": [
+        "<strong>Dostawa do Warszawa:</strong> zwykle 3 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 2 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Jabłonna, Łomianki, Marki, Ząbki, Piastów, Ożarów Mazowiecki.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Warszawa i okolicach",
+      "html": "<p>W Warszawie często łączymy ogrodzenie panelowe z bramą i podmurówką, aby zamknąć front oraz boki działki w jednym terminie.</p><ul><li>Warszawa, Białołęka: panele 3D 153 cm, 46 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Warszawa, Wawer: panele 2D 173 cm, 58 mb, czarny RAL 9005, furtka 100 cm.</li><li>Warszawa, Ursus: panele 3D 153 cm, 34 mb, brąz RAL 8017, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Warszawa",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Warszawa",
+          "82 km",
+          "3 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Warszawa montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Jabłonna</li><li>Łomianki</li><li>Marki</li><li>Ząbki</li><li>Piastów</li><li>Ożarów Mazowiecki</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Warszawa, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy ekipa dojeżdża na montaż ogrodzenia w Warszawie?",
+          "a": "Tak. Obsługujemy Warszawę i wskazane okolice, a termin dojazdu ekipy to zwykle 2 dni robocze od potwierdzenia zakresu."
+        },
+        {
+          "q": "Kiedy możliwy jest pomiar działki w Warszawie?",
+          "a": "Pomiar w Warszawie ustalamy w {czas_pomiaru}. Warto przygotować orientacyjną długość ogrodzenia i informację o planowanej bramie."
+        },
+        {
+          "q": "Ile trwa montaż paneli w Warszawie?",
+          "a": "Montaż standardowego odcinka ogrodzenia trwa zwykle {czas_montazu}. Przy bramie, skarpie lub podmurówce termin potwierdzamy po pomiarze."
+        },
+        {
+          "q": "Czy montujecie ogrodzenia zimą w Warszawie?",
+          "a": "Tak, jeśli grunt i warunki do betonowania słupków są odpowiednie. Gdy temperatura utrzymuje się poniżej zera, proponujemy bezpieczny termin technologiczny."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Warszawa",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-warszawa-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Warszawa",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Warszawa, Białołęka, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 153 cm w Warszawie na Białołęce, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Warszawa, Ursus, panele 3D i brama przesuwna 4 m, RAL 8017",
+          "alt": "Panele 3D z bramą przesuwną 4 m w Warszawie, Ursus",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

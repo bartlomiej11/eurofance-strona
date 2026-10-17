@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960" role="img" aria-label="ROLKA 4">
+  <rect width="540" height="960" fill="#1f2429"/>
+  <rect x="0" y="0" width="540" height="11" fill="#e80c0c"/>
+  <g fill="none" stroke="#2c333a" stroke-width="2">
+    <path d="M0 595 H540"/>
+    <path d="M0 748 H540"/>
+    <path d="M45 480 V960"/><path d="M90 480 V960"/><path d="M135 480 V960"/><path d="M180 480 V960"/><path d="M225 480 V960"/><path d="M270 480 V960"/><path d="M315 480 V960"/><path d="M360 480 V960"/><path d="M405 480 V960"/><path d="M450 480 V960"/><path d="M495 480 V960"/>
+  </g>
+  <text x="32" y="403" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold">ROLKA 4</text>
+  <text x="32" y="499" fill="#c9ced4" font-family="Arial, Helvetica, sans-serif" font-size="30">Eurofance, 540 x 960 px</text>
+  <text x="32" y="883" fill="#8b939b" font-family="Arial, Helvetica, sans-serif" font-size="30">Obrazek zastepczy. Podmien na zdjecie WebP/AVIF.</text>
+</svg>

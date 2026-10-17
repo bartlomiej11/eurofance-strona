@@ -1,0 +1,56 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import MiniCallback from '../../../components/MiniCallback.astro';
+import CtaBar from '../../../components/CtaBar.astro';
+import { encyclopedia, wikiUrl } from '../../../lib/content.js';
+import site from '../../../data/site.json';
+import * as LD from '../../../lib/jsonld.js';
+import { tk } from '../../../lib/tk.js';
+
+export function getStaticPaths() {
+  return encyclopedia.map((item) => ({ params: { haslo: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const url = wikiUrl(item.slug);
+const nodes = [
+  LD.breadcrumbs([{ name: 'Blog', url: '/blog/' }, { name: 'Encyklopedia', url: '/blog/encyklopedia/' }, { name: item.title, url }]),
+  {
+    '@type': 'DefinedTerm',
+    name: tk(item.title),
+    description: tk(item.metaDescription),
+    inDefinedTermSet: { '@type': 'DefinedTermSet', name: 'Encyklopedia ogrodzeń Eurofance', url: 'https://eurofance.pl/blog/encyklopedia/' },
+  },
+];
+---
+<Base
+  title={tk(item.title)}
+  description={tk(item.metaDescription)}
+  path={url}
+  jsonld={nodes}
+>
+  <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }, { name: 'Encyklopedia', url: '/blog/encyklopedia/' }, { name: item.title }]} />
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <article>
+          <h1>{tk(item.title)}</h1>
+          <p class="answer" set:html={tk(item.answer)} />
+          <div class="article-body" set:html={tk(item.contentHtml)} />
+          <CtaBar place="encyklopedia-haslo" />
+        </article>
+        <aside>
+          <div class="sidebar-cta" style="position:sticky;top:90px">
+            <h2 style="font-size:1.05rem">Zadzwoń albo zostaw numer</h2>
+            <p>
+              <a href={`tel:${site.phone.tel}`} data-cta="haslo-sidebar"><strong>{site.phone.display}</strong></a><br />
+              <span class="muted">{site.hours.line}</span>
+            </p>
+            <MiniCallback place="haslo-sidebar" />
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Base>

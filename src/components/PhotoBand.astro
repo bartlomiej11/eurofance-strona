@@ -1,0 +1,32 @@
+---
+import { tk } from '../lib/tk.js';
+import site from '../data/site.json';
+
+const {
+  image = '/images/premium/band-front.jpg',
+  eyebrow = '',
+  title = '',
+  html = '',
+  ctaText = 'Bezpłatna wycena',
+  ctaUrl = '/bezplatna-wycena',
+  showPhone = true,
+} = Astro.props;
+---
+<section class="band">
+  <div class="band__media" aria-hidden="true">
+    <img src={image} alt="" width="2000" height="860" loading="lazy" decoding="async" />
+  </div>
+  <div class="container band__in">
+    <div class="band__box">
+      {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+      {title && <h2>{tk(title)}</h2>}
+      {html && <div set:html={tk(html)} />}
+      <div class="btn-row">
+        {showPhone && (
+          <a class="btn btn--red" href={`tel:${site.phone.tel}`} data-cta="band">Zadzwoń: {site.phone.short}</a>
+        )}
+        <a class="btn btn--outline-light" href={ctaUrl} data-cta="band">{ctaText}</a>
+      </div>
+    </div>
+  </div>
+</section>

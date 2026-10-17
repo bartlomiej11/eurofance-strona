@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-wloclawek",
+  "kind": "local",
+  "city": "Włocławek",
+  "title": "Ogrodzenia panelowe Włocławek | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Włocławek z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 5 dni roboczych. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Włocławek",
+  "answer": "Eurofance realizuje montaż ogrodzeń panelowych we Włocławku i w miejscowościach po obu stronach miasta. Cena systemu 2D zaczyna się od {panel_2d_mb} za mb, a termin pomiaru wynosi {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Włocławek",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Włocławek",
+      "items": [
+        "<strong>Dostawa do Włocławek:</strong> zwykle 5 dni roboczych.",
+        "<strong>Dojazd ekipy:</strong> zwykle 4 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Brześć Kujawski, Lubraniec, Kowal, Choceń, Fabianki, Lubień Kujawski.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Włocławek i okolicach",
+      "html": "<p>Przy dalszej trasie do Włocławka najpierw potwierdzamy pomiar i warunki rozładunku, a potem łączymy dostawę materiału z montażem.</p><ul><li>Włocławek, Zazamcze: panele 3D 153 cm, 45 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Włocławek, Michelin: panele 2D 153 cm, 59 mb, brąz RAL 8017, furtka 100 cm.</li><li>Brześć Kujawski: panele 3D 173 cm, 63 mb, czarny RAL 9005, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Włocławek",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Włocławek",
+          "221 km",
+          "5 dni roboczych",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Włocławek montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Brześć Kujawski</li><li>Lubraniec</li><li>Kowal</li><li>Choceń</li><li>Fabianki</li><li>Lubień Kujawski</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Włocławek, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy dojeżdżacie na montaż ogrodzenia do Włocławka?",
+          "a": "Tak. Montujemy we Włocławku i okolicznych gminach, a dojazd ekipy organizujemy zwykle w 4 dni robocze."
+        },
+        {
+          "q": "Ile trwa dostawa ogrodzenia do Włocławka?",
+          "a": "Dostawa do Włocławka trwa zwykle 5 dni roboczych. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Kiedy odbędzie się pomiar we Włocławku?",
+          "a": "Pomiar ustalamy w {czas_pomiaru}. Na spotkaniu weryfikujemy przebieg ogrodzenia, różnice poziomu i miejsce bramy."
+        },
+        {
+          "q": "Czy montujecie panele zimą we Włocławku?",
+          "a": "Tak, gdy pozwala na to temperatura i stan gruntu. Nie podejmujemy betonowania w warunkach, które mogłyby osłabić fundament słupków."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Włocławek",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-wloclawek-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Włocławek",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Włocławek, Zazamcze, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D na Zazamczu we Włocławku, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Brześć Kujawski, panele 3D z bramą, RAL 9005",
+          "alt": "Ogrodzenie panelowe z bramą w Brześciu Kujawskim, RAL 9005",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

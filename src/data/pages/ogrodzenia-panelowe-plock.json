@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-plock",
+  "kind": "local",
+  "city": "Płock",
+  "title": "Ogrodzenia panelowe Płock | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Płock z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 4 dni robocze. Bezpłatny pomiar i montaż w okolicy.",
+  "h1": "Ogrodzenia panelowe Płock",
+  "answer": "W Płocku Eurofance realizuje montaż ogrodzeń panelowych dla domów, firm i działek budowlanych w okolicy. Cena systemu 2D to od {panel_2d_mb} za mb, a pomiar umawiamy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Płock",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Płock",
+      "items": [
+        "<strong>Dostawa do Płock:</strong> zwykle 4 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 3 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Słupno, Gąbin, Bodzanów, Stara Biała, Łąck, Wyszogród.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Płock i okolicach",
+      "html": "<p>Przy realizacjach w Płocku ustalamy termin pomiaru przed dostawą, aby materiał i ekipa dotarły na przygotowaną działkę.</p><ul><li>Płock, Podolszyce: panele 3D 153 cm, 47 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Płock, Radziwie: panele 2D 153 cm, 68 mb, zielony RAL 6005, furtka 100 cm.</li><li>Słupno: panele 3D 173 cm, 54 mb, czarny RAL 9005, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Płock",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Płock",
+          "130 km",
+          "4 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Płock montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Słupno</li><li>Gąbin</li><li>Bodzanów</li><li>Stara Biała</li><li>Łąck</li><li>Wyszogród</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Płock, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy ekipa Eurofance dojeżdża do Płocka?",
+          "a": "Tak. Do Płocka i pobliskich gmin dojeżdżamy na montaż zwykle w 3 dni robocze od ustalenia harmonogramu."
+        },
+        {
+          "q": "W jakim czasie dostarczacie panele do Płocka?",
+          "a": "Dostawa do Płocka trwa zwykle 4 dni robocze. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Kiedy można zrobić pomiar działki w Płocku?",
+          "a": "Pomiar proponujemy w {czas_pomiaru}. Na spotkaniu określamy długość linii, teren i zakres podmurówki."
+        },
+        {
+          "q": "Czy ogrodzenie panelowe można montować zimą w Płocku?",
+          "a": "Tak, przy właściwych warunkach gruntu i betonowania. Jeżeli występuje silny mróz, uzgadniamy najbliższy bezpieczny termin."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Płock",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-plock-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Płock",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Płock, Podolszyce, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D na Podolszycach w Płocku, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Słupno, panele 3D 173 cm na podmurówce, RAL 9005",
+          "alt": "Ogrodzenie panelowe z podmurówką w Słupnie, RAL 9005",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

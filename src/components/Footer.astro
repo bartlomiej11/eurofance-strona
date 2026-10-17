@@ -1,0 +1,99 @@
+---
+import site from '../data/site.json';
+import nav from '../data/nav.json';
+import cities from '../data/cities.json';
+import { tk } from '../lib/tk.js';
+const phoneHref = `tel:${site.phone.tel}`;
+const waHref = `${site.whatsapp.base}?text=${encodeURIComponent('Dzień dobry, proszę o wycenę ogrodzenia. Długość: __ m, wysokość: __ cm, rodzaj: __, miejscowość: __.')}`;
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div class="site-footer__brand">
+        <img src="/images/logo.png" alt="Eurofance, producent ogrodzeń" width="300" height="113" style="margin-bottom:18px" />
+        <h3>Producent ogrodzeń</h3>
+        <p>
+          Produkujemy ogrodzenia panelowe 2D i 3D, palisadowe, bramy przesuwne i skrzydłowe, furtki oraz podmurówki betonowe.
+          Mamy własną malarnię proszkową i {site.stats.teams} ekip montażowych.
+        </p>
+        <ul>
+          <li><a class="footer-contact" href={phoneHref} data-cta="stopka">{site.phone.display}</a></li>
+          <li><strong>WhatsApp:</strong> <a href={waHref} data-cta="stopka" rel="noopener">Napisz na WhatsApp</a></li>
+          <li>
+            <strong>E-mail:</strong> <a href={`mailto:${site.email}`} data-cta="stopka-email" data-email={site.email}>{site.email}</a>
+            <button type="button" class="copy-btn" data-copy={site.email}>Kopiuj adres</button>
+          </li>
+          <li><strong>Godziny:</strong> {site.hours.line}</li>
+          <li>
+            <strong>Produkcja i malarnia:</strong><br />
+            {site.address.street}, {site.address.postcode} {site.address.city}
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Ogrodzenia</h3>
+        <ul>
+          {nav.groups[0].items.slice(0, 8).map((item) => (
+            <li><a href={item.url}>{item.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3>Bramy, furtki, sklep</h3>
+        <ul>
+          {nav.groups[1].items.map((item) => (
+            <li><a href={item.url}>{item.label}</a></li>
+          ))}
+          {nav.groups[2].items.map((item) => (
+            <li><a href={item.url}>{item.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h3>Firma i pomoc</h3>
+        <ul>
+          <li><a href="/realizacje">Realizacje</a></li>
+          <li><a href="/kalkulator-ogrodzenia">Kalkulator ogrodzenia</a></li>
+          <li><a href="/bezplatna-wycena">Bezpłatna wycena</a></li>
+          <li><a href="/kontakt">Kontakt</a></li>
+          <li><a href="/blog/">Blog i poradniki</a></li>
+          <li><a href="/blog/encyklopedia/">Encyklopedia ogrodzeń</a></li>
+          <li><a href="/paleta-ral">Paleta RAL</a></li>
+          <li><a href="/polityka-prywatnosci">Polityka prywatności</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__grid" style="margin-top:24px">
+      <div>
+        <h3>Montaż w miastach</h3>
+        <ul style="columns:2">
+          {cities.map((city) => (
+            <li><a href={`/ogrodzenia-panelowe-${city.slug}`}>Ogrodzenia panelowe {city.name}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h3>Zaufanie</h3>
+        <p>
+          Ocena Google <strong>{site.googleRating.value}</strong> na podstawie {site.googleRating.count} opinii.
+          Gwarancja {site.warranty}. {tk('Aktualizacja: {aktualizacja}')}.
+        </p>
+        <p class="logos">
+          {site.clients.map((client) => <span>{client}</span>)}
+        </p>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>© {new Date().getFullYear()} Eurofance. Wszystkie prawa zastrzeżone.</span>
+      <span>
+        Ceny podane w serwisie są cenami orientacyjnymi „od” i nie stanowią oferty w rozumieniu art. 66 § 1 Kodeksu cywilnego.
+        Ostateczna cena zależy od pomiaru, długości ogrodzenia i zakresu montażu.
+      </span>
+    </div>
+  </div>
+</footer>

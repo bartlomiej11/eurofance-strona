@@ -1,0 +1,73 @@
+---
+import site from '../data/site.json';
+const {
+  title = 'Formularz kontaktowy',
+  desc = 'Napisz, czego potrzebujesz. Odpowiemy w ciągu 2 h w dni robocze.',
+  place = 'kontakt',
+  category = '',
+  compact = false,
+} = Astro.props;
+const id = `contact-${place}`;
+---
+<form
+  class:list={['form', 'lead-form--contact', compact && 'lead-form--compact']}
+  id={id}
+  data-lead-form
+  data-mode="kontakt"
+  data-place={place}
+  data-endpoint={site.forms.endpoint}
+  data-thanks={site.forms.thanksUrl}
+  data-last-step="1"
+  novalidate
+>
+  {title && <h3 class="form__title">{title}</h3>}
+  {!compact && desc && <p class="form__intro">{desc}</p>}
+
+  <div class="form__hp" aria-hidden="true">
+    <label>Nie wypełniaj tego pola <input type="text" name="firma_x" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <input type="hidden" name="formularz" value={`kontakt-${place}`} />
+  <input type="hidden" name="kategoria" value={category} data-category-input />
+  <input type="hidden" name="produkt" value="" />
+  <input type="hidden" name="strona_wyslania" value="" data-page-input />
+  <input type="hidden" name="strona_wejscia" value="" data-landing-input />
+  <input type="hidden" name="utm_source" value="" data-utm="utm_source" />
+  <input type="hidden" name="utm_medium" value="" data-utm="utm_medium" />
+  <input type="hidden" name="utm_campaign" value="" data-utm="utm_campaign" />
+  <input type="hidden" name="utm_term" value="" data-utm="utm_term" />
+  <input type="hidden" name="gclid" value="" data-utm="gclid" />
+
+  <div class="field">
+    <label for={`${id}-imie`}>Imię</label>
+    <input id={`${id}-imie`} name="imie" type="text" autocomplete="given-name" placeholder="np. Anna" />
+  </div>
+
+  <div class="field">
+    <label for={`${id}-telefon`}>Telefon</label>
+    <input id={`${id}-telefon`} name="telefon" type="tel" inputmode="tel" autocomplete="tel" placeholder="np. 579 775 729" data-required data-phone />
+    <span class="field__error">Podaj numer telefonu, min. 9 cyfr.</span>
+  </div>
+
+  <div class="field">
+    <label for={`${id}-email`}>E-mail</label>
+    <input id={`${id}-email`} name="email" type="email" inputmode="email" autocomplete="email" placeholder="np. anna@example.com" />
+  </div>
+
+  <div class="field">
+    <label for={`${id}-wiadomosc`}>Wiadomość</label>
+    <textarea id={`${id}-wiadomosc`} name="wiadomosc" rows={compact ? 2 : 4} placeholder="Np. ogrodzenie panelowe 3D, 40 mb, brama przesuwna, woj. mazowieckie"></textarea>
+  </div>
+
+  <div class="form__consent">
+    <label>
+      <input type="checkbox" name="rodo" data-required-checkbox />
+      <span>Zgadzam się na kontakt w sprawie mojego zapytania. <a href={site.forms.privacyUrl}>Polityka prywatności</a>.</span>
+    </label>
+    <span class="field__error">Bez tej zgody nie możemy odpowiedzieć.</span>
+  </div>
+
+  <button type="submit" class="btn btn--red btn--wide" data-submit>Wyślij wiadomość</button>
+  {!compact && <p class="form__note">Odpowiadamy w {site.stats.responseTime} w dni robocze. Bez zobowiązań.</p>}
+  <div class="form__ok" data-form-ok hidden>Dziękujemy, wiadomość wysłana. Odpowiemy w ciągu {site.stats.responseTime} w dni robocze.</div>
+  <div class="form__err" data-form-err hidden>Nie udało się wysłać. Zadzwoń: {site.phone.short}.</div>
+</form>

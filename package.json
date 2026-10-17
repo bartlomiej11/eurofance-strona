@@ -1,0 +1,18 @@
+{
+  "name": "eurofance-pl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strona i sklep producenta ogrodzen Eurofance (eurofance.pl). Astro, output statyczny.",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/postbuild.mjs",
+    "preview": "astro preview",
+    "sprawdz": "node scripts/sprawdz.mjs",
+    "fonty": "python3 scripts/pobierz-fonty.py",
+    "obrazki": "python3 scripts/generuj-obrazki.py"
+  },
+  "devDependencies": {
+    "astro": "^7.3.8"
+  }
+}

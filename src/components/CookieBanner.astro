@@ -1,0 +1,34 @@
+---
+import site from '../data/site.json';
+---
+<div class="cookies" data-cookies hidden>
+  <p style="margin:0 0 6px">
+    <strong>Pliki cookies.</strong> Używamy ich, żeby strona działała poprawnie i żeby mierzyć skuteczność reklam.
+    Szczegóły w <a href="/polityka-prywatnosci">polityce prywatności</a>.
+  </p>
+  <div class="btn-row">
+    <button type="button" class="btn btn--red" data-cookies-accept>Akceptuję wszystkie</button>
+    <button type="button" class="btn btn--light" data-cookies-necessary>Tylko niezbędne</button>
+  </div>
+</div>
+<script is:inline>
+  (function () {
+    var box = document.querySelector('[data-cookies]');
+    if (!box) return;
+    try {
+      if (!localStorage.getItem('ef_cookies')) box.hidden = false;
+    } catch (e) {
+      box.hidden = false;
+    }
+    function close(value) {
+      try { localStorage.setItem('ef_cookies', value); } catch (e) {}
+      box.hidden = true;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'cookie_consent', consent_type: value });
+    }
+    var a = box.querySelector('[data-cookies-accept]');
+    var b = box.querySelector('[data-cookies-necessary]');
+    if (a) a.addEventListener('click', function () { close('all'); });
+    if (b) b.addEventListener('click', function () { close('necessary'); });
+  })();
+</script>

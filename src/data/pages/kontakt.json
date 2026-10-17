@@ -1,0 +1,99 @@
+{
+  "slug": "kontakt",
+  "kind": "contact",
+  "title": "Kontakt: telefon, WhatsApp, e-mail, adres produkcji | Eurofance",
+  "metaDescription": "Kontakt z Eurofance: telefon {telefon}, WhatsApp i e-mail. Produkcja i malarnia w Makowie Mazowieckim, godziny {godziny}.",
+  "h1": "Kontakt",
+  "answer": "Główny telefon Eurofance to {telefon}, a WhatsApp działa pod numerem {whatsapp}. Napisz na {email} lub odwiedź produkcję {miasto_produkcji_w}. Biuro jest czynne w godzinach {godziny}.",
+  "heroCta": "Napisz do Eurofance",
+  "heroForm": false,
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Szybki kontakt",
+      "items": [
+        "<strong>Telefon główny:</strong> {telefon}",
+        "<strong>WhatsApp:</strong> {whatsapp}",
+        "<strong>E-mail:</strong> {email}",
+        "<strong>Adres produkcji:</strong> ul. Młodzianowo 58, 06-200 Maków Mazowiecki.",
+        "<strong>Godziny:</strong> {godziny}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Dane firmy i adres produkcji",
+      "html": "<p><strong>Eurofance</strong><br>ul. Młodzianowo 58<br>06-200 Maków Mazowiecki<br>e-mail: {email}<br>telefon: {telefon}</p><p>Produkcja i malarnia proszkowa Eurofance działają pod tym samym adresem. Jeśli chcesz obejrzeć rozwiązanie, omówić pomiar albo dostarczyć elementy do malowania, skontaktuj się z nami przed przyjazdem.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Jak do nas trafić",
+      "html": "<p>Adres produkcji to ul. Młodzianowo 58, 06-200 Maków Mazowiecki. Mapę na stronie ładujemy dopiero po kliknięciu, aby nie spowalniać jej otwierania.</p><p>Do nawigacji wpisz pełny adres wraz z kodem pocztowym. Przy odbiorze elementów lub wizycie dotyczącej malarni potwierdź wcześniej telefonicznie godzinę i zakres wizyty.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Co się dzieje po kontakcie",
+      "items": [
+        {
+          "name": "Odbieramy zgłoszenie",
+          "desc": "Telefon, WhatsApp, e-mail i formularz trafiają do zespołu Eurofance.",
+          "time": "w godzinach {godziny}"
+        },
+        {
+          "name": "Ustalamy zakres",
+          "desc": "Dopytujemy o długość, system, bramę, furtkę, podmurówkę i miejscowość montażu.",
+          "time": "{czas_odpowiedzi} w dni robocze"
+        },
+        {
+          "name": "Wysyłamy kolejne kroki",
+          "desc": "Przekazujemy wycenę, pytania uzupełniające albo propozycję bezpłatnego pomiaru.",
+          "time": "pomiar w {czas_pomiaru}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "faq",
+      "title": "Kontakt z Eurofance, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Jaki jest główny numer telefonu?",
+          "a": "Główny numer Eurofance to {telefon}. W godzinach {godziny} możesz zadzwonić w sprawie wyceny, pomiaru, produkcji lub montażu."
+        },
+        {
+          "q": "Czy mogę napisać przez WhatsApp?",
+          "a": "Tak. WhatsApp Eurofance działa pod numerem {whatsapp}. Wyślij zdjęcie działki, szkic albo wymiary, aby szybciej przygotować zakres wyceny."
+        },
+        {
+          "q": "Na jaki adres e-mail wysłać zapytanie?",
+          "a": "Zapytanie wyślij na {email}. W wiadomości podaj miejscowość, długość ogrodzenia, system, wysokość i informację o bramie, furtce lub podmurówce."
+        },
+        {
+          "q": "Gdzie znajduje się produkcja i malarnia?",
+          "a": "Produkcja oraz malarnia proszkowa Eurofance znajdują się przy ul. Młodzianowo 58, 06-200 Maków Mazowiecki."
+        },
+        {
+          "q": "Czy można przyjechać do siedziby?",
+          "a": "Tak, ale przed wizytą skontaktuj się z nami telefonicznie lub e-mailowo. Potwierdzimy godzinę, zakres spotkania i dostępność osoby, która obsługuje dane zlecenie."
+        },
+        {
+          "q": "Kiedy otrzymam odpowiedź na formularz?",
+          "a": "Na zgłoszenia odpowiadamy w {czas_odpowiedzi} w dni robocze. Jeśli potrzebujemy doprecyzować wymiary albo warunki gruntu, skontaktujemy się telefonicznie."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Napisz lub poproś o kontakt",
+      "category": "",
+      "place": "kontakt"
+    },
+    {
+      "type": "note",
+      "html": "<strong>RODO:</strong> Dane z formularza wykorzystujemy wyłącznie do kontaktu w sprawie zgłoszenia i przygotowania wyceny. Szczegóły przetwarzania danych znajdziesz w polityce prywatności."
+    }
+  ]
+}

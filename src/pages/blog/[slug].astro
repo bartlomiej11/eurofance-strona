@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MiniCallback from '../../components/MiniCallback.astro';
+import CtaBar from '../../components/CtaBar.astro';
+import Faq from '../../components/Faq.astro';
+import { posts, postUrl, getPostsByCategory } from '../../lib/content.js';
+import site from '../../data/site.json';
+import * as LD from '../../lib/jsonld.js';
+import { tk } from '../../lib/tk.js';
+
+export function getStaticPaths() {
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const url = postUrl(post.slug);
+const html = tk(post.contentHtml || '');
+const parts = html.split('</p>');
+const intro = parts.length > 2 ? `${parts.slice(0, 2).join('</p>')}</p>` : html;
+const rest = parts.length > 2 ? parts.slice(2).join('</p>') : '';
+
+const related = posts
+  .filter((p) => p.slug !== post.slug && (p.categories || []).some((c) => (post.categories || []).includes(c)))
+  .slice(0, 3);
+
+const nodes = [
+  LD.breadcrumbs([{ name: 'Blog', url: '/blog/' }, { name: post.title, url }]),
+  LD.article(post, url),
+];
+if (post.faq && post.faq.length > 0) nodes.push(LD.faq(post.faq));
+---
+<Base
+  title={tk(post.title)}
+  description={tk(post.metaDescription)}
+  path={url}
+  jsonld={nodes}
+  ogImage={post.image}
+>
+  <Breadcrumbs items={[{ name: 'Blog', url: '/blog/' }, { name: post.title }]} />
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <article>
+          <h1>{tk(post.title)}</h1>
+          <p class="meta muted">
+            {post.datePublishedLabel} | Autor: Eurofance | Aktualizacja: {tk('{aktualizacja}')}
+          </p>
+          <div class="article-body" set:html={intro} />
+
+          <CtaBar
+            text={post.cta ? post.cta.text : 'Policzymy to dla Twojej działki'}
+            desc={post.cta ? post.cta.desc : 'Podaj długość i miejscowość, wycenę z montażem wyślemy w 24 h w dni robocze.'}
+            place="wpis-srodek"
+          />
+
+          <div class="article-body" set:html={rest} />
+
+          {post.faq && post.faq.length > 0 && <Faq items={post.faq} title="Pytania z tego tematu" />}
+
+          <CtaBar
+            text={post.ctaEnd ? post.ctaEnd.text : 'Zadzwoń albo zostaw numer'}
+            desc={post.ctaEnd ? post.ctaEnd.desc : 'Odpowiadamy w 2 h w dni robocze. Bez zobowiązań.'}
+            place="wpis-koniec"
+          />
+
+          {related.length > 0 && (
+            <section class="section">
+              <h2>Czytaj dalej</h2>
+              <ul class="list-arrow">
+                {related.map((item) => (
+                  <li><a href={postUrl(item.slug)}>{tk(item.title)}</a></li>
+                ))}
+              </ul>
+            </section>
+          )}
+        </article>
+
+        <aside>
+          <div class="sidebar-cta" style="position:sticky;top:90px">
+            <h2 style="font-size:1.05rem">Zadzwoń albo zostaw numer</h2>
+            <p>
+              <a href={`tel:${site.phone.tel}`} data-cta="wpis-sidebar"><strong>{site.phone.display}</strong></a><br />
+              <span class="muted">{site.hours.line}</span>
+            </p>
+            <MiniCallback title="Oddzwońcie do mnie" place="wpis-sidebar" />
+            {post.relatedOffer && (
+              <p style="margin-top:12px">
+                Sprawdź też: <a href={post.relatedOffer.url}>{post.relatedOffer.label}</a>
+              </p>
+            )}
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Base>

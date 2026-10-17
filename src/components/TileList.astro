@@ -1,0 +1,39 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], columns = 2 } = Astro.props;
+const gridClass = columns === 3 ? 'grid grid--3' : columns === 1 ? 'grid' : 'grid grid--2';
+
+// Ikony kafelkow: proste obrysy 24x24, kolor dziedziczony z kafelka.
+const ikony = {
+  'brama-wjazdowa': '<path d="M4 3v18M20 3v18M4 12h16M13 7l5 5-5 5"/>',
+  'brama-przesuwna': '<path d="M2 8h10M2 12h10M2 16h10M15 4v16M15 12h6M18 8l4 4-4 4"/>',
+  'brama-skrzydlowa': '<path d="M4 4h7v16H4zM13 4h7v16h-7zM8 12h3M13 12h3"/>',
+  furtka: '<path d="M8 3h8v18H8zM10.5 11h3v2h-3zM6 21h12"/>',
+  automatyka: '<path d="M9 2h6v9H9zM12 6.5h.01M12 11v3M8.5 17a5 5 0 017 0M5 20.5a10 10 0 0114 0"/>',
+  podmurowka: '<path d="M2 14h20v5H2zM6 14V9M12 14V9M18 14V9M2 14l3-5h14l3 5"/>',
+  'ogrodzenie-panelowe': '<path d="M3 17V7M7 17V7M11 17V7M15 17V7M19 17V7M2 11h20"/>',
+  'ogrodzenie-palisadowe': '<path d="M5 20V6M9 20V4M13 20V5M17 20V7M2 12h20M3 20h18"/>',
+  'ogrodzenie-lamele': '<path d="M3 6h18M3 10h18M3 14h18M3 18h18"/>',
+};
+const ikona = (klucz) => (klucz && ikony[klucz] ? ikony[klucz] : '');
+---
+<div class={gridClass}>
+  {items.map((item) => (
+    <a class:list={['tile', ikona(item.icon) && 'tile--icon']} href={item.url}>
+      {item.image && (
+        <span class="tile__media">
+          <img src={item.image} alt="" width="144" height="112" loading="lazy" decoding="async" />
+        </span>
+      )}
+      {ikona(item.icon) && (
+        <span class="tile__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" set:html={ikona(item.icon)} />
+        </span>
+      )}
+      <span class="tile__text">
+        <span class="tile__name">{tk(item.name)}</span>
+        {item.meta && <span class="tile__meta" style="display:block">{tk(item.meta)}</span>}
+      </span>
+    </a>
+  ))}
+</div>

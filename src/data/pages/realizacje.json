@@ -1,0 +1,119 @@
+{
+  "slug": "realizacje",
+  "kind": "gallery",
+  "title": "Realizacje ogrodzeń i bram | zdjęcia z podpisami | Eurofance",
+  "metaDescription": "26 realizacji ogrodzeń, bram, furtek i podmurówek Eurofance. Zdjęcia z podpisami: miasto, system, kolor RAL i wymiar. Montaż w całej Polsce.",
+  "h1": "Realizacje ogrodzeń",
+  "answer": "Galeria Eurofance zawiera 26 opisanych realizacji ogrodzeń, bram, furtek i podmurówek z miast w całej Polsce. Montujemy na terenie całego kraju. Każdy podpis zdjęcia wskazuje miasto i system, a tam, gdzie ma zastosowanie, także kolor RAL oraz wymiar ogrodzenia, bramy lub furtki.",
+  "heroImage": "/images/frontowe/hero-realizacje.jpg",
+  "heroCta": "Wycena podobnego ogrodzenia",
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje o realizacjach",
+      "items": [
+        "<strong>Galeria:</strong> 26 realizacji ogrodzeń, bram, furtek i podmurówek.",
+        "<strong>Zasięg:</strong> montaż w całej Polsce, od Mazowsza po Podlasie, Kujawy i większe miasta.",
+        "<strong>Systemy:</strong> panele 2D i 3D, palisady, fronty, bramy przesuwne i skrzydłowe.",
+        "<strong>Podpis zdjęcia:</strong> miasto, system, kolor RAL oraz wymiar, jeśli dotyczy realizacji.",
+        "<strong>Wycena podobnego zakresu:</strong> bezpłatnie, odpowiedź w {czas_odpowiedzi} w dni robocze."
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Wszystkie realizacje Eurofance",
+      "intro": "Filtruj zdjęcia według systemu, bramy, furtki albo podmurówki. Pod każdym zdjęciem znajdziesz konkretne dane o realizacji.",
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "text",
+      "title": "Jak czytamy podpisy zdjęć",
+      "html": "<p>Każdy podpis zaczyna się od miejscowości, aby łatwo sprawdzić, gdzie wykonaliśmy podobny zakres. Dalej podajemy system, na przykład panel 3D, palisadę pionową albo bramę przesuwną.</p><p>W podpisie zapisujemy też wysokość panelu, długość frontu, szerokość bramy lub furtki i kolor RAL, gdy te informacje dotyczą realizacji. Dzięki temu możesz porównać zdjęcie z własną działką, a w formularzu poprosić o wycenę podobnego zestawu.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Jak wygląda nasz montaż",
+      "items": [
+        {
+          "name": "Wybierasz inspirację",
+          "desc": "Wyślij link do realizacji albo opisz długość, system i miejscowość. Porównamy zakres ze zdjęcia z Twoją działką.",
+          "time": "od razu"
+        },
+        {
+          "name": "Dostajesz wycenę",
+          "desc": "Podajemy zakres materiału, podmurówki, bramy, furtki i montażu wraz z cenami od.",
+          "time": "{czas_odpowiedzi} w dni robocze"
+        },
+        {
+          "name": "Pomiar i produkcja",
+          "desc": "Sprawdzamy linię ogrodzenia, grunt i wjazd, a następnie produkujemy oraz malujemy elementy w wybranym kolorze RAL.",
+          "time": "pomiar w {czas_pomiaru}, produkcja {czas_produkcji}"
+        },
+        {
+          "name": "Montaż i odbiór",
+          "desc": "Ekipa montuje ogrodzenie, bramę i furtkę, sprawdza działanie elementów oraz porządkuje teren.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "faq",
+      "title": "Realizacje ogrodzeń, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile realizacji pokazuje galeria?",
+          "a": "Galeria zawiera 26 realizacji. Możesz zawęzić widok filtrami do paneli, palisad, frontów, bram, furtek, ogrodzeń przemysłowych albo podmurówek."
+        },
+        {
+          "q": "Czy Eurofance montuje ogrodzenia w całej Polsce?",
+          "a": "Tak, Eurofance montuje w całej Polsce. W zgłoszeniu podaj miejscowość i kod pocztowy, abyśmy uwzględnili trasę, transport i termin ekipy."
+        },
+        {
+          "q": "Co zawiera podpis zdjęcia realizacji?",
+          "a": "Podpis wskazuje miasto i zastosowany system. Tam, gdzie dane są istotne dla porównania, dodajemy kolor RAL oraz wysokość panelu, długość frontu albo szerokość bramy i furtki."
+        },
+        {
+          "q": "Czy mogę wycenić ogrodzenie ze zdjęcia?",
+          "a": "Tak. Wyślij zdjęcie lub link do realizacji, podaj długość ogrodzenia i miejscowość. Przygotujemy wycenę podobnego systemu z montażem w {czas_odpowiedzi} w dni robocze."
+        },
+        {
+          "q": "Czy kolor ze zdjęcia można zmienić?",
+          "a": "Tak. Elementy produkujemy i malujemy proszkowo we własnej malarni. W wycenie ustalimy dostępność wybranego koloru RAL dla całego zestawu."
+        },
+        {
+          "q": "Ile trwa realizacja podobnego ogrodzenia?",
+          "a": "Po zaakceptowaniu wyceny produkcja trwa {czas_produkcji}, a montaż standardowego ogrodzenia {czas_montazu}. Dokładny termin zależy od długości, gruntu i zakresu bramy lub furtki."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradnik przed montażem",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków, podmurówka i montaż przęseł."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "ctaBar",
+      "text": "Chcesz ogrodzenie podobne do realizacji?",
+      "desc": "Wyślij zdjęcie, długość ogrodzenia i miejscowość. Wycena z montażem jest bezpłatna.",
+      "place": "realizacje-cta"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia podobnego do realizacji",
+      "category": "",
+      "place": "realizacje"
+    }
+  ]
+}

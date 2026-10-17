@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="HERO KONSTRUKCJE STALOWE">
+  <rect width="1600" height="900" fill="#1f2429"/>
+  <rect x="0" y="0" width="1600" height="10" fill="#e80c0c"/>
+  <g fill="none" stroke="#2c333a" stroke-width="2">
+    <path d="M0 558 H1600"/>
+    <path d="M0 702 H1600"/>
+    <path d="M133 450 V900"/><path d="M266 450 V900"/><path d="M400 450 V900"/><path d="M533 450 V900"/><path d="M666 450 V900"/><path d="M800 450 V900"/><path d="M933 450 V900"/><path d="M1066 450 V900"/><path d="M1200 450 V900"/><path d="M1333 450 V900"/><path d="M1466 450 V900"/>
+  </g>
+  <text x="96" y="378" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="bold">HERO KONSTRUKCJE STALOWE</text>
+  <text x="96" y="468" fill="#c9ced4" font-family="Arial, Helvetica, sans-serif" font-size="28">Eurofance, 1600 x 900 px</text>
+  <text x="96" y="828" fill="#8b939b" font-family="Arial, Helvetica, sans-serif" font-size="28">Obrazek zastepczy. Podmien na zdjecie WebP/AVIF.</text>
+</svg>

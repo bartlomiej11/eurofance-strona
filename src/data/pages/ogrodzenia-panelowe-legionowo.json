@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-legionowo",
+  "kind": "local",
+  "city": "Legionowo",
+  "title": "Ogrodzenia panelowe Legionowo | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Legionowo z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 3 dni robocze. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Legionowo",
+  "answer": "Eurofance montuje ogrodzenia panelowe w Legionowie oraz na działkach w gminach sąsiednich. Cena paneli 2D zaczyna się od {panel_2d_mb} za mb, a wolny termin pomiaru podajemy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Legionowo",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Legionowo",
+      "items": [
+        "<strong>Dostawa do Legionowo:</strong> zwykle 3 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 2 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Jabłonna, Wieliszew, Nieporęt, Serock, Łajski, Chotomów.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Legionowo i okolicach",
+      "html": "<p>W Legionowie sprawdzamy na pomiarze szerokość wjazdu, przebieg granicy i poziomy gruntu przed przygotowaniem paneli.</p><ul><li>Legionowo, Piaski: panele 3D 153 cm, 44 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Legionowo, Bukowiec: panele 2D 173 cm, 57 mb, czarny RAL 9005, furtka 100 cm.</li><li>Jabłonna: panele 3D 153 cm, 36 mb, grafit RAL 7024, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Legionowo",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Legionowo",
+          "86 km",
+          "3 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Legionowo montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Jabłonna</li><li>Wieliszew</li><li>Nieporęt</li><li>Serock</li><li>Łajski</li><li>Chotomów</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Legionowo, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy montujecie ogrodzenia w Legionowie i Jabłonnie?",
+          "a": "Tak. Montujemy w Legionowie, Jabłonnie i całej wskazanej okolicy. Dojazd ekipy planujemy zwykle w 2 dni robocze."
+        },
+        {
+          "q": "Jak szybko robicie pomiar w Legionowie?",
+          "a": "Pomiar ustalamy w {czas_pomiaru}. Przygotuj informacje o długości ogrodzenia oraz ewentualnej bramie i furtce."
+        },
+        {
+          "q": "Jaki jest czas dostawy do Legionowa?",
+          "a": "Dostawa paneli do Legionowa trwa zwykle 3 dni robocze. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Czy montaż paneli w Legionowie jest możliwy zimą?",
+          "a": "Tak, o ile można bezpiecznie wykonać betonowanie słupków. Warunki gruntu weryfikujemy przed potwierdzeniem terminu."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Legionowo",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-legionowo-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Legionowo",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Legionowo, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 153 cm w Legionowie, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Jabłonna, panele 3D i brama przesuwna 4 m, RAL 7024",
+          "alt": "Panele 3D z bramą przesuwną w Jabłonnie, RAL 7024",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

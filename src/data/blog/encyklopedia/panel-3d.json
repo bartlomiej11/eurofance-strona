@@ -1,0 +1,13 @@
+{
+  "slug": "panel-3d",
+  "title": "Panel 3D: wymiary, drut i cena",
+  "metaDescription": "Panel 3D ma przetłoczenia zwiększające sztywność. Sprawdź wysokości 123-203 cm, drut 4 mm, montaż i cenę od {panel_3d_szt} za sztukę. Wycena i montaż w całej Polsce.",
+  "excerpt": "Panel 3D to zgrzewane przęsło z pionowymi przetłoczeniami, najczęściej o szerokości 250 cm i drucie 4 mm.",
+  "answer": "Panel 3D to stalowe przęsło z pionowymi przetłoczeniami, które usztywniają siatkę bez zwiększania masy. Standardowy panel ma 250 cm szerokości i drut 4 mm, a jego cena zaczyna się od {panel_3d_szt} za sztukę.",
+  "contentHtml": "<p>Panel 3D jest zgrzewanym przęsłem stalowym z charakterystycznymi przetłoczeniami w kształcie litery V. Przetłoczenia zwiększają sztywność pola, dlatego panel dobrze znosi codzienne użytkowanie przy relatywnie małej masie. To częsty wybór do domu, ogrodu, firmy oraz na dłuższe odcinki granicy działki.</p>\n<p>Typowa szerokość wynosi 250 cm. Wysokość dobiera się do funkcji ogrodzenia, na przykład 123 cm przy niskiej granicy działki, 153 cm przy domu lub 203 cm, gdy potrzebne jest wyższe zabezpieczenie. Do panelu trzeba dobrać słupki, obejmy i ewentualnie płytę podmurówki o tym samym module.</p>\n<h2>Najważniejsze parametry</h2>\n<table class=\"data\"><thead><tr><th>Wysokość panelu</th><th>Typowe użycie</th><th>Cena od</th></tr></thead><tbody><tr><td>123 cm</td><td>Niska granica działki</td><td>{panel_3d_123_szt}</td></tr><tr><td>153 cm</td><td>Ogród i posesja</td><td>{panel_3d_szt}</td></tr><tr><td>203 cm</td><td>Wyższe zabezpieczenie</td><td>{panel_3d_szt}</td></tr></tbody></table>\n<h2>Drut i wykończenie</h2>\n<p>Popularny wariant wykonuje się z drutu 4 mm. Siatka ma oczka zbliżone do 50 x 200 mm, lecz przed zamówieniem warto potwierdzić konkretny układ producenta. Stal jest zwykle zabezpieczana cynkiem oraz powłoką proszkową w kolorach takich jak RAL 7016, RAL 6005 lub RAL 9005.</p>\n<ul>\n<li>przetłoczenia ustawiaj w jednakowym kierunku na całej linii,</li>\n<li>obejmy dopasuj do profilu słupka 60 x 40 mm,</li>\n<li>sprawdź liczbę mocowań zależnie od wysokości panelu,</li>\n<li>przy nierównym gruncie stosuj stopniowanie, nie wyginaj panelu.</li>\n</ul>\n<h2>Kiedy panel 3D będzie dobrym wyborem</h2>\n<p>Model 3D sprawdza się tam, gdzie liczy się przewiewność i szybki montaż. Nie daje jednak pełnego osłonięcia przed wzrokiem, dlatego można go uzupełnić roślinami albo dopasowaną osłoną. Zobacz <a href=\"/panele-ogrodzeniowe\">panele ogrodzeniowe 3D</a>, jeśli szukasz systemu z przęsłami i słupkami. Cena materiału w przeliczeniu na metr bieżący zaczyna się od {panel_3d_mb}.</p>",
+  "relatedOffer": {
+    "label": "panele ogrodzeniowe",
+    "url": "/panele-ogrodzeniowe"
+  },
+  "updated": "październik 2026"
+}

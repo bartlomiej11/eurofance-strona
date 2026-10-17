@@ -1,0 +1,57 @@
+---
+import { tk } from '../lib/tk.js';
+import SmartImage from './SmartImage.astro';
+const { items = [], columns = 3, place = 'produkty', id = '' } = Astro.props;
+const gridClass = columns === 4 ? 'grid grid--4' : columns === 2 ? 'grid grid--2' : 'grid grid--3';
+---
+<div class={gridClass} id={id || undefined}>
+  {items.map((item) => (
+    <article
+      class="card"
+      data-card
+      data-name={tk(item.name).toLowerCase()}
+      data-category={item.category || ''}
+      data-price={item.priceValue ?? ''}
+    >
+      {item.image && (
+        <div class="card__media">
+          <SmartImage src={item.image} alt={tk(item.imageAlt || item.name)} width={600} height={450} />
+        </div>
+      )}
+      <div class="card__body">
+        <h3 class="card__title">
+          {item.url ? <a href={item.url}>{tk(item.name)}</a> : tk(item.name)}
+        </h3>
+        {item.desc && <p class="card__desc">{tk(item.desc)}</p>}
+        {item.list && (
+          <ul class="card__list">
+            {item.list.map((li) => <li>{tk(li)}</li>)}
+          </ul>
+        )}
+        {item.price && (
+          <p class="card__price">
+            {tk(item.price)} {item.priceNote && <span>{tk(item.priceNote)}</span>}
+          </p>
+        )}
+        <div class="card__actions">
+          {item.addToCart && (
+            <button
+              type="button"
+              class="btn btn--red"
+              data-add-to-cart={tk(item.name)}
+              data-price={item.priceValue ?? ''}
+              data-slug={item.slug || ''}
+              data-unit={tk(item.priceNote || '')}
+            >
+              Dodaj do koszyka
+            </button>
+          )}
+          <a class={`btn ${item.addToCart ? 'btn--outline' : 'btn--red'}`} href={`/bezplatna-wycena?produkt=${encodeURIComponent(item.quote || item.name)}`} data-cta={`karta-${place}`}>
+            {item.quoteLabel || 'Wycena tego zestawu'}
+          </a>
+          {item.url && <a class="btn btn--outline" href={item.url} data-cta={`karta-${place}`}>Szczegóły i ceny</a>}
+        </div>
+      </div>
+    </article>
+  ))}
+</div>

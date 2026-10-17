@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import site from '../data/site.json';
+---
+<Base
+  title="Polityka prywatności i pliki cookies | Eurofance"
+  description="Jak Eurofance przetwarza dane z formularzy wyceny, telefonu i WhatsApp. Zakres danych, cele, podstawy prawne, okres przechowywania i prawa klienta."
+  path="/polityka-prywatnosci"
+>
+  <Breadcrumbs items={[{ name: 'Polityka prywatności' }]} />
+  <section class="section">
+    <div class="container narrow article-body">
+      <h1>Polityka prywatności i pliki cookies</h1>
+      <p class="kalend">Dokument do potwierdzenia przez obsługę prawną przed publikacją. Aktualizacja: październik 2026.</p>
+
+      <h2>Kto przetwarza dane</h2>
+      <p>
+        Administratorem danych jest Eurofance, {site.address.street}, {site.address.postcode} {site.address.city}.
+        Kontakt w sprawach danych: <a href={`mailto:${site.email}`}>{site.email}</a>, tel. {site.phone.display}.
+      </p>
+
+      <h2>Jakie dane zbieramy</h2>
+      <ul>
+        <li>dane z formularza wyceny: imię, telefon, e-mail, długość ogrodzenia, wysokość, miejscowość, wiadomość, opcjonalnie zdjęcie lub szkic działki,</li>
+        <li>dane z formularza B2B: nazwa firmy, NIP, długość, termin, lokalizacja, opcjonalnie projekt lub przedmiar,</li>
+        <li>dane techniczne: adres strony, z której wysłano zgłoszenie, parametry UTM i gclid, data i godzina,</li>
+        <li>dane z czatu i rozmów telefonicznych, jeśli kontaktujesz się w ten sposób.</li>
+      </ul>
+
+      <h2>Po co i na jakiej podstawie</h2>
+      <ul>
+        <li>przygotowanie i przesłanie wyceny oraz kontakt w tej sprawie, art. 6 ust. 1 lit. b i f RODO,</li>
+        <li>marketing własny, tylko po Twojej zgodzie, art. 6 ust. 1 lit. a RODO,</li>
+        <li>pomiar skuteczności reklam i statystyka, na podstawie Twojej zgody na pliki cookies.</li>
+      </ul>
+
+      <h2>Jak długo przechowujemy dane</h2>
+      <p>
+        Dane z zapytań przechowujemy przez 24 miesiące od ostatniego kontaktu, dane umów przez okres wymagany przepisami,
+        a dane marketingowe do wycofania zgody.
+      </p>
+
+      <h2>Komu przekazujemy dane</h2>
+      <p>
+        Dostawcom narzędzi, które obsługują formularze, pocztę, hosting, system CRM i reklamę (Google, Meta), wyłącznie w zakresie
+        potrzebnym do realizacji usługi. Dane nie są sprzedawane.
+      </p>
+
+      <h2>Twoje prawa</h2>
+      <p>
+        Masz prawo dostępu do danych, ich poprawiania, usunięcia, ograniczenia przetwarzania, przenoszenia, wniesienia sprzeciwu
+        oraz wycofania zgody w dowolnym momencie. Możesz też złożyć skargę do Prezesa UODO.
+      </p>
+
+      <h2>Pliki cookies</h2>
+      <p>
+        Używamy plików niezbędnych do działania strony oraz, po Twojej zgodzie, plików analitycznych i reklamowych
+        (Google Tag Manager, Google Ads, Meta). Baner cookies pojawia się na dole ekranu, nie zasłania przycisków kontaktu,
+        a po akceptacji znika. Zgodę możesz wycofać, czyszcząc dane strony w przeglądarce.
+      </p>
+
+      <h2>Formularze i bezpieczeństwo</h2>
+      <p>
+        Formularze są chronione honeypotem i niewidoczną weryfikacją. Wysyłka odbywa się po zaszyfrowanym połączeniu HTTPS.
+      </p>
+    </div>
+  </section>
+</Base>

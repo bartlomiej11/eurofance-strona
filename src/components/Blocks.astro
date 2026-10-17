@@ -1,0 +1,272 @@
+---
+import { tk } from '../lib/tk.js';
+import site from '../data/site.json';
+import DataTable from './DataTable.astro';
+import Faq from './Faq.astro';
+import KeyFacts from './KeyFacts.astro';
+import ProductGrid from './ProductGrid.astro';
+import TileList from './TileList.astro';
+import PhotoCards from './PhotoCards.astro';
+import PhotoBand from './PhotoBand.astro';
+import StatsBar from './StatsBar.astro';
+import Gallery from './Gallery.astro';
+import Reels from './Reels.astro';
+import Reviews from './Reviews.astro';
+import Steps from './Steps.astro';
+import LinkList from './LinkList.astro';
+import CtaBar from './CtaBar.astro';
+import Calculator from './Calculator.astro';
+import LeadForm from './LeadForm.astro';
+import CallbackForm from './CallbackForm.astro';
+import TrustBar from './TrustBar.astro';
+import SmartImage from './SmartImage.astro';
+import galleryData from '../data/gallery.json';
+import reviewsData from '../data/reviews.json';
+
+const { blocks = [], category = '', place = 'tresc' } = Astro.props;
+
+// Sekcja z opcjonalna klasa tla (section--dark, section--soft, section--paper).
+const sekcja = (block, extra = '') => ['section', block.sectionClass || '', extra].filter(Boolean).join(' ');
+---
+{blocks.map((block) => (
+  <>
+    {block.type === 'answer' && (
+      <section class={sekcja(block)} style="padding-bottom:0">
+        <div class="container narrow">
+          <p class="answer" set:html={tk(block.html)} />
+          {block.updated !== false && (
+            <p class="kalend">Aktualizacja: {tk('{aktualizacja}')}. Ceny orientacyjne „od”, brutto, z montażem, o ile nie napisano inaczej.</p>
+          )}
+        </div>
+      </section>
+    )}
+
+    {block.type === 'keyfacts' && <div class="container"><KeyFacts items={block.items} title={block.title} /></div>}
+
+    {block.type === 'text' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+          </div>
+          <div class="article-body" set:html={tk(block.html)} />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'note' && (
+      <section class={sekcja(block)} style="padding-top:0">
+        <div class="container">
+          <div class="note-box" set:html={tk(block.html)} />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'photoCards' && (
+      <PhotoCards
+        items={block.items}
+        columns={block.columns || 4}
+        eyebrow={block.eyebrow}
+        title={block.title}
+        lead={block.intro}
+        ctaText={block.ctaText}
+        ctaUrl={block.ctaUrl}
+        sectionClass={block.sectionClass}
+      />
+    )}
+
+    {block.type === 'band' && (
+      <PhotoBand
+        image={block.image}
+        eyebrow={block.eyebrow}
+        title={block.title}
+        html={block.html}
+        ctaText={block.ctaText}
+        ctaUrl={block.ctaUrl}
+        showPhone={block.showPhone !== false}
+      />
+    )}
+
+    {block.type === 'stats' && (
+      <StatsBar
+        items={block.items || []}
+        eyebrow={block.eyebrow}
+        title={block.title}
+        lead={block.intro}
+        sectionClass={block.sectionClass || 'section--dark'}
+      />
+    )}
+
+    {block.type === 'products' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+            {block.intro && <p class="lead" set:html={tk(block.intro)} />}
+          </div>
+          <ProductGrid items={block.items} columns={block.columns || 3} place={place} />
+          {block.note && <p class="table-note" set:html={tk(block.note)} />}
+        </div>
+      </section>
+    )}
+
+    {block.type === 'tiles' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+            {block.intro && <p class="lead" set:html={tk(block.intro)} />}
+          </div>
+          {block.variant === 'photo' ? (
+            <div class={`photo-grid photo-grid--${block.columns === 2 ? 2 : 4}`}>
+              {block.items.map((item) => (
+                <a class="photo-card" href={item.url} data-cta="kafelek-foto">
+                  <img src={item.image} alt={tk(item.alt || item.name)} width="900" height="700" loading="lazy" decoding="async" />
+                  <span class="photo-card__in">
+                    <span class="photo-card__label">{tk(item.name)}</span>
+                    {item.meta && <span class="photo-card__desc">{tk(item.meta)}</span>}
+                    <span class="photo-card__meta">{tk(item.cta || 'Zobacz szczegóły')}</span>
+                  </span>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <TileList items={block.items} columns={block.columns || 2} />
+          )}
+        </div>
+      </section>
+    )}
+
+    {block.type === 'priceTable' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+            {block.intro && <p class="lead" set:html={tk(block.intro)} />}
+          </div>
+          <DataTable head={block.head} rows={block.rows} caption={block.caption} note={block.note} updated={block.updated !== false} />
+          <CtaBar text={block.ctaText} desc={block.ctaDesc} place={block.ctaPlace || 'pod-cennikiem'} category={category} />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'table' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+            {block.intro && <p class="lead" set:html={tk(block.intro)} />}
+          </div>
+          <DataTable head={block.head} rows={block.rows} caption={block.caption} note={block.note} updated={block.updated === true} />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'faq' && <div class="container"><Faq items={block.items} title={block.title} eyebrow={block.eyebrow} /></div>}
+
+    {block.type === 'gallery' && (
+      <div class="container">
+      <Gallery
+        items={block.items || galleryData.items}
+        title={block.title}
+        eyebrow={block.eyebrow}
+        intro={block.intro}
+        filters={block.filters || galleryData.filters}
+        showQuote={block.showQuote !== false}
+      />
+      </div>
+    )}
+
+    {block.type === 'reels' && <div class="container"><Reels items={block.items} title={block.title} eyebrow={block.eyebrow} intro={block.intro} ctaText={block.ctaText} /></div>}
+
+    {block.type === 'reviews' && <div class="container"><Reviews items={block.items || reviewsData.items} title={block.title} eyebrow={block.eyebrow} /></div>}
+
+    {block.type === 'steps' && <div class="container"><Steps items={block.items} title={block.title} eyebrow={block.eyebrow} intro={block.intro} /></div>}
+
+    {block.type === 'links' && <div class="container"><LinkList items={block.items} title={block.title} eyebrow={block.eyebrow} columns={block.columns || 2} /></div>}
+
+    {block.type === 'trust' && (
+      <section class={sekcja(block)} style="padding-top:0">
+        <div class="container">
+          <TrustBar showLogos={block.showLogos !== false} />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'ctaBar' && (
+      <div class="container">
+        <CtaBar text={block.text} desc={block.desc} place={block.place || 'sekcja'} category={category} />
+      </div>
+    )}
+
+    {block.type === 'calculator' && (
+      <div class="container">
+        <Calculator title={block.title} desc={block.desc} eyebrow={block.eyebrow} compact={block.compact} place={place} category={category} />
+      </div>
+    )}
+
+    {block.type === 'form' && (
+      <section class={sekcja(block)}>
+        <div class="container narrow">
+          <LeadForm
+            variant={block.variant || 'full'}
+            mode={block.mode || 'standard'}
+            title={block.title}
+            eyebrow={block.eyebrow}
+            category={block.category || category}
+            product={block.product || ''}
+            place={block.place || place}
+            compact={block.compact}
+          />
+        </div>
+      </section>
+    )}
+
+    {block.type === 'callback' && <div class="container"><CallbackForm title={block.title} desc={block.desc} place={block.place || place} category={category} /></div>}
+
+    {block.type === 'video' && (
+      <section class={sekcja(block)}>
+        <div class="container">
+          <div class="section-head">
+            {block.eyebrow && <span class="eyebrow">{tk(block.eyebrow)}</span>}
+            {block.title && <h2>{tk(block.title)}</h2>}
+          </div>
+          <div class="two-col" data-video={block.name}>
+            <div style="position:relative;border-radius:18px;overflow:hidden;background:#14181b">
+              <SmartImage src={block.poster} alt={tk(block.alt || block.name)} width={1280} height={720} />
+              {block.url ? (
+                <div class="reel__play">
+                  <button type="button" class="btn btn--red" data-video-play>Odtwórz film</button>
+                </div>
+              ) : (
+                <div class="reel__play"><span class="badge">Film w przygotowaniu</span></div>
+              )}
+              {block.url && (
+                <video controls playsinline preload="none" poster={block.poster} data-src={block.url} width="1280" height="720" hidden />
+              )}
+            </div>
+            <div>
+              <h3>{tk(block.name)}</h3>
+              <p set:html={tk(block.description)} />
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
+
+    {block.type === 'hours' && (
+      <section class={sekcja(block)} style="padding-top:0">
+        <div class="container">
+          <p class="kalend">
+            Godziny pracy: {site.hours.weekday}, {site.hours.saturday}, {site.hours.sunday}. {site.hours.afterHours}
+          </p>
+        </div>
+      </section>
+    )}
+  </>
+))}

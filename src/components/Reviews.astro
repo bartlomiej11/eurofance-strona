@@ -1,0 +1,25 @@
+---
+import site from '../data/site.json';
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Opinie klientów', eyebrow = '', intro = '' } = Astro.props;
+---
+<section class="section" aria-labelledby="opinie-h">
+  <div class="section-head">
+    {eyebrow && <span class="eyebrow">{tk(eyebrow)}</span>}
+    <h2 id="opinie-h">{tk(title)}</h2>
+    {intro && <p class="lead" set:html={tk(intro)} />}
+  </div>
+  <p>
+    Ocena <strong>{site.googleRating.value}</strong> w Google na podstawie {site.googleRating.count} opinii.
+    <a class="rating-btn rating-btn--inline" href={site.googleRating.url} rel="noopener nofollow" target="_blank" data-cta="opinie-google"><span class="rating-btn__stars" aria-hidden="true">★★★★★</span><span class="rating-btn__value">{site.googleRating.value}/5</span><span class="rating-btn__count">{site.googleRating.count} opinii w Google</span></a>.
+  </p>
+  <div class="grid grid--3">
+    {items.map((item) => (
+      <article class="review">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <blockquote>{tk(item.text)}</blockquote>
+        <p class="review__meta">{tk(item.author)}, {tk(item.city)}, {tk(item.date)}</p>
+      </article>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,322 @@
+{
+  "slug": "paleta-ral",
+  "kind": "offer",
+  "title": "Paleta RAL: kolory ogrodzeń i malowanie | Eurofance",
+  "metaDescription": "Paleta RAL do ogrodzeń: 7016 antracyt, 9005 czarny, 8017 brąz i inne kolory. Malowanie proszkowe od {malowanie_m2}, próbki i wycena w Eurofance. Wycena i montaż w całej.",
+  "h1": "Paleta kolorów RAL",
+  "answer": "Paleta RAL pozwala dobrać jeden kolor dla przęseł, bramy, furtki i słupków. W Eurofance najczęściej wybierany jest RAL 7016, a malowanie proszkowe elementu kosztuje od {malowanie_m2} za m². Do wyboru podaj kod RAL, stopień połysku i liczbę 1, 2 albo więcej elementów.",
+  "category": "malowanie",
+  "heroImage": "/images/premium/malarnia.jpg",
+  "heroCta": "Wycena malowania w kolorze RAL",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Firma",
+      "url": null
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Najczęstszy kolor:</strong> RAL 7016 antracyt do paneli, palisady, bram i furtek.",
+        "<strong>Inne wybory:</strong> RAL 9005 czarny, RAL 8017 brąz, RAL 6005 zieleń, RAL 7035 szary i RAL 9006 aluminium.",
+        "<strong>Cena:</strong> malowanie proszkowe od {malowanie_m2} za m², minimum od {malowanie_min}.",
+        "<strong>Wykończenie:</strong> do ustalenia mat, półmat, połysk albo struktura.",
+        "<strong>Spójność:</strong> ten sam kod RAL możemy zastosować do przęseł, bramy, furtki i słupków."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Popularne kolory ogrodzeń RAL",
+      "intro": "Każdy kolor wyceniamy według powierzchni elementów. W formularzu wpisz kod RAL i liczbę sztuk, a potwierdzimy dostępność i termin.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "RAL 7016 antracyt",
+          "desc": "Grafitowy kolor do nowoczesnych domów, paneli 3D, palisady i bram.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/realizacje/foto-06.jpg",
+          "quote": "Malowanie RAL 7016",
+          "quoteLabel": "Wycena w tym kolorze"
+        },
+        {
+          "name": "RAL 9005 czarny",
+          "desc": "Głęboka czerń, często łączona z jasną elewacją albo klinkierem.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Malowanie RAL 9005",
+          "quoteLabel": "Wycena w tym kolorze"
+        },
+        {
+          "name": "RAL 8017 brąz",
+          "desc": "Brązowy odcień do domów z drewnem, cegłą oraz klasycznym dachem.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Malowanie RAL 8017",
+          "quoteLabel": "Wycena w tym kolorze"
+        },
+        {
+          "name": "RAL 6005 zieleń",
+          "desc": "Zieleń stosowana przy ogrodzeniach działek, firm i terenów zielonych.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/premium/przemyslowe.jpg",
+          "quote": "Malowanie RAL 6005",
+          "quoteLabel": "Wycena w tym kolorze"
+        },
+        {
+          "name": "RAL 7035 szary",
+          "desc": "Jasny szary do lekkich wizualnie konstrukcji i ogrodzeń technicznych.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/premium/realizacja-1.jpg",
+          "quote": "Malowanie RAL 7035",
+          "quoteLabel": "Wycena w tym kolorze"
+        },
+        {
+          "name": "RAL 9006 aluminium",
+          "desc": "Metaliczny szary odcień do konstrukcji stalowych i elementów użytkowych.",
+          "price": "od {malowanie_m2}",
+          "priceNote": "za m² malowania",
+          "image": "/images/premium/przemyslowe.jpg",
+          "quote": "Malowanie RAL 9006",
+          "quoteLabel": "Wycena w tym kolorze"
+        }
+      ],
+      "note": "Odcień na ekranie ma charakter orientacyjny. Przed dużym zamówieniem warto potwierdzić kod RAL, rodzaj powierzchni i połysk.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Cennik malowania proszkowego",
+      "intro": "Cena zależy od powierzchni, przygotowania stali, liczby elementów oraz wybranego koloru i struktury.",
+      "head": [
+        "Usługa",
+        "Jednostka",
+        "Cena od",
+        "Kiedy wybrać"
+      ],
+      "rows": [
+        [
+          "Malowanie proszkowe",
+          "1 m²",
+          "od {malowanie_m2}",
+          "nowe elementy stalowe przygotowane do malowania"
+        ],
+        [
+          "Malowanie profili",
+          "1 kg",
+          "od {malowanie_kg}",
+          "serie profili i drobne konstrukcje"
+        ],
+        [
+          "Minimalne zlecenie",
+          "1 zlecenie",
+          "od {malowanie_min}",
+          "pojedyncze małe elementy"
+        ],
+        [
+          "Piaskowanie przed malowaniem",
+          "1 m²",
+          "od {piaskowanie_m2}",
+          "rdza, stara farba albo zanieczyszczona stal"
+        ],
+        [
+          "Ogrodzenie w jednym RAL",
+          "1 m²",
+          "od {malowanie_m2}",
+          "przęsła, brama i furtka w spójnym kolorze"
+        ]
+      ],
+      "note": "Wycena końcowa zależy od powierzchni czynnej i tego, czy element wymaga piaskowania. Kod RAL oraz rodzaj wykończenia wpisujemy do zlecenia.",
+      "ctaText": "Podaj kolor RAL i wymiary elementów",
+      "ctaDesc": "Wyślij zdjęcie albo wymiary i liczbę sztuk. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Najpopularniejsze kolory RAL do ogrodzeń",
+      "intro": "Poniższe zestawienie pomaga dobrać kolor do elewacji, dachu i charakteru ogrodzenia.",
+      "head": [
+        "Kod RAL",
+        "Nazwa",
+        "Efekt",
+        "Typowe zastosowanie"
+      ],
+      "rows": [
+        [
+          "RAL 7016",
+          "antracyt",
+          "ciemny grafit",
+          "panele 3D, palisada, bramy"
+        ],
+        [
+          "RAL 9005",
+          "czarny",
+          "głęboka czerń",
+          "fronty przy jasnej elewacji"
+        ],
+        [
+          "RAL 8017",
+          "brąz",
+          "ciepły ciemny brąz",
+          "domy klasyczne i dachy brązowe"
+        ],
+        [
+          "RAL 6005",
+          "zieleń",
+          "ciemna zieleń",
+          "działki, firmy, tereny zielone"
+        ],
+        [
+          "RAL 7035",
+          "jasny szary",
+          "neutralna szarość",
+          "ogrodzenia techniczne i konstrukcje"
+        ],
+        [
+          "RAL 9006",
+          "aluminium",
+          "metaliczny szary",
+          "konstrukcje i elementy użytkowe"
+        ]
+      ],
+      "note": "Kod RAL identyfikuje odcień, ale odbiór wpływa też na połysk, strukturę i oświetlenie."
+    },
+    {
+      "type": "text",
+      "title": "RAL 7016 antracyt: jaki to kolor?",
+      "html": "<p>RAL 7016 to ciemny szary określany jako antracyt. Jest najczęściej wybierany do ogrodzeń, ponieważ pasuje do białej elewacji, betonu, drewna i stolarki w kolorze grafitowym.</p><p>W Eurofance tym samym RAL 7016 można pomalować panel, palisadę, bramę, furtkę i słupki. Malowanie proszkowe od {malowanie_m2} za m² ułatwia utrzymanie jednolitego frontu bez mieszania odcieni.</p><ul><li>mat łagodnie odbija światło;</li><li>struktura ogranicza widoczność drobnych zarysowań;</li><li>połysk lepiej podkreśla krawędzie profili.</li></ul>"
+    },
+    {
+      "type": "steps",
+      "title": "Jak zamówić malowanie w wybranym RAL",
+      "items": [
+        {
+          "name": "Kod i zdjęcie",
+          "desc": "Wysyłasz kod RAL, zdjęcie elementu, wymiary oraz liczbę sztuk.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Wycena",
+          "desc": "Oceniamy powierzchnię i konieczność piaskowania.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Przygotowanie",
+          "desc": "Element oczyszczamy, jeśli wymaga usunięcia rdzy albo starej powłoki.",
+          "time": "ustalane w wycenie"
+        },
+        {
+          "name": "Malowanie",
+          "desc": "Nakładamy uzgodnioną powłokę i przekazujemy gotowe elementy.",
+          "time": "{czas_produkcji}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Kolory RAL na realizacjach",
+      "items": [
+        {
+          "image": "/images/realizacje/foto-07.jpg",
+          "caption": "Legionowo, palisada pionowa, RAL 7016, wysokość 153 cm",
+          "alt": "Palisada pionowa RAL 7016 w Legionowie",
+          "tags": [
+            "palisadowe",
+            "ral-7016"
+          ]
+        },
+        {
+          "image": "/images/premium/hero.jpg",
+          "caption": "Przasnysz, front palisadowy, RAL 9005, brama 4 m",
+          "alt": "Ogrodzenie frontowe RAL 9005 w Przasnyszu",
+          "tags": [
+            "frontowe",
+            "ral-9005"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Ciechanów, brama skrzydłowa, RAL 8017, szerokość 4 m",
+          "alt": "Brama skrzydłowa RAL 8017 w Ciechanowie",
+          "tags": [
+            "bramy-skrzydlowe",
+            "ral-8017"
+          ]
+        },
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Maków Mazowiecki, ogrodzenie firmowe, RAL 6005, 180 mb",
+          "alt": "Ogrodzenie przemysłowe RAL 6005 w Makowie Mazowieckim",
+          "tags": [
+            "przemyslowe",
+            "ral-6005"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Paleta RAL i malowanie, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Jaki kolor RAL jest najpopularniejszy do ogrodzenia?",
+          "a": "Najczęściej wybierany jest RAL 7016, czyli antracyt. Ten kolor stosujemy do paneli 3D, palisady, bram i furtek o wysokości od 123 do 203 cm."
+        },
+        {
+          "q": "Ile kosztuje malowanie proszkowe?",
+          "a": "Malowanie proszkowe kosztuje od {malowanie_m2} za m², a minimalne zlecenie od {malowanie_min}. Jeżeli stal wymaga oczyszczenia, piaskowanie kosztuje od {piaskowanie_m2} za m²."
+        },
+        {
+          "q": "Czy RAL 7016 i antracyt to to samo?",
+          "a": "RAL 7016 to konkretny kod ciemnego szarego koloru, powszechnie nazywanego antracytem. W zamówieniu warto podać pełny kod 7016, nie samo określenie antracyt."
+        },
+        {
+          "q": "Czy mogę wybrać RAL 9005 do panelu 153 cm?",
+          "a": "Tak. Panel 3D o wysokości 153 cm można zamówić w RAL 9005, a ten sam kod zastosować na słupkach, furtce i bramie."
+        },
+        {
+          "q": "Mat czy struktura do ogrodzenia?",
+          "a": "Mat daje spokojny efekt, a struktura maskuje drobne ślady użytkowania. Przy bramie 4 m i furtce 100 cm wybór warto uzgodnić z kolorem elewacji i poziomem ekspozycji na słońce."
+        },
+        {
+          "q": "Ile trwa malowanie elementów?",
+          "a": "Termin potwierdzamy po ocenie liczby i wymiarów elementów. Standardowa produkcja Eurofance trwa {czas_produkcji}, a wycenę wysyłamy w {czas_odpowiedzi} w dni robocze."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Zobacz, jak kolor paneli, słupków i obejm tworzy spójną linię ogrodzenia."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena malowania proszkowego",
+      "category": "malowanie",
+      "place": "paleta-ral-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "slug": "bramy-i-ogrodzenia-przemyslowe",
+  "kind": "offer",
+  "title": "Bramy i ogrodzenia przemysłowe | panele 2D 8/6/8 dla firm | Eurofance",
+  "metaDescription": "Ogrodzenia przemysłowe dla firm: panele 2D 8/6/8, bramy przesuwne 6 do 12 m, słupki i montaż. Realizacje od 180 do 620 mb. Wycena przetargowa z NIP i.",
+  "h1": "Bramy i ogrodzenia przemysłowe",
+  "answer": "Eurofance realizuje ogrodzenia przemysłowe dla firm, magazynów, placów i inwestycji publicznych z paneli 2D 8/6/8 oraz bram przesuwnych o świetle 6 do 12 m. Wzmocniony panel 2D 8/6/8 kosztuje od {panel_2d_8_6_8_mb} za mb z montażem, a zakres bramy wyceniamy po szerokości, projekcie i terminie inwestycji. Formularz B2B zbiera dane firmy, NIP, długość ogrodzenia, termin oraz załącznik z przedmiarem.",
+  "category": "przemyslowe",
+  "heroImage": "/images/premium/bramy.jpg",
+  "heroCta": "Zamów wycenę przetargową",
+  "variantKey": "hurt",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>System:</strong> panel 2D 8/6/8 o wysokości 173 cm, z drutem 8 mm w pionie i 6 mm w poziomie.",
+        "<strong>Dla kogo:</strong> zakłady, magazyny, składy, samorządy, deweloperzy i generalni wykonawcy.",
+        "<strong>Cena paneli:</strong> od {panel_2d_8_6_8_mb} za mb z materiałem i montażem.",
+        "<strong>Bramy:</strong> przesuwne przemysłowe o świetle 6 do 12 m, dobierane do ruchu i projektu.",
+        "<strong>Wycena B2B:</strong> firma, NIP, długość, termin i plik PDF, DWG, JPG, PNG lub XLSX."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Systemy dla firm i inwestycji",
+      "intro": "Poniżej elementy, od których zaczynamy wycenę inwestycji. Dla bram 6 do 12 m przygotowujemy projekt i ofertę po analizie obciążenia oraz terenu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Panel 2D 8/6/8 173 cm",
+          "desc": "Wzmocniony drut 8 mm w pionie i 6 mm w poziomie. Do magazynów, placów i firm.",
+          "price": "od {panel_2d_8_6_8_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/hero-panelowe.jpg",
+          "quote": "Panel 2D 8/6/8 dla inwestycji",
+          "quoteLabel": "Zapytaj o wycenę",
+          "url": "/sklep/panel-ogrodzeniowy-2d-8-6-8-173"
+        },
+        {
+          "name": "Brama przemysłowa przesuwna 6 do 8 m",
+          "desc": "Konstrukcja dobierana do światła wjazdu, ruchu pojazdów, wypełnienia i automatyki.",
+          "price": "wycena przetargowa",
+          "priceNote": "po analizie projektu",
+          "image": "/images/premium/realizacja-3.jpg",
+          "quote": "Brama przemysłowa 6 do 8 m",
+          "quoteLabel": "Zapytaj o wycenę przetargową"
+        },
+        {
+          "name": "Brama przemysłowa przesuwna 9 do 12 m",
+          "desc": "Szeroki wjazd dla dostaw, sprzętu i pojazdów ciężarowych. Wymaga pomiaru i projektu fundamentów.",
+          "price": "wycena przetargowa",
+          "priceNote": "po analizie projektu",
+          "image": "/images/frontowe/frontowe-05.jpg",
+          "quote": "Brama przemysłowa 9 do 12 m",
+          "quoteLabel": "Zapytaj o wycenę przetargową"
+        }
+      ],
+      "note": "Karty bram przemysłowych nie prowadzą do sklepu, ponieważ ich wymiary, fundament i automatyka są każdorazowo projektowane pod inwestycję.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny i zakres ogrodzeń przemysłowych",
+      "intro": "Cena zależy od długości, liczby bram, wysokości, rodzaju gruntu oraz terminu realizacji. Panele 2D 8/6/8 stosujemy tam, gdzie standardowy drut 4 lub 5 mm byłby zbyt lekki.",
+      "head": [
+        "Zakres",
+        "Parametr",
+        "Cena od",
+        "Uwagi"
+      ],
+      "rows": [
+        [
+          "Panel 2D przemysłowy",
+          "8/6/8, wysokość 173 cm",
+          "od {panel_2d_8_6_8_mb} za mb",
+          "materiał i montaż"
+        ],
+        [
+          "Ogrodzenie 2D z podmurówką",
+          "panel 173 cm, podmurówka 250 x 25 cm",
+          "od {panel_2d_8_6_8_mb} plus {podmurowka_250x25} za mb",
+          "zakres zależy od gruntu"
+        ],
+        [
+          "Brama przemysłowa",
+          "światło 6 do 8 m",
+          "wycena przetargowa",
+          "projekt, konstrukcja i napęd"
+        ],
+        [
+          "Brama przemysłowa",
+          "światło 9 do 12 m",
+          "wycena przetargowa",
+          "fundament i obciążenie do uzgodnienia"
+        ],
+        [
+          "Słupek bramowy",
+          "100 x 100 mm, 250 cm",
+          "od {slupek_brama} za sztukę",
+          "typowe rozwiązanie, projekt może wymagać wzmocnienia"
+        ]
+      ],
+      "note": "W ofercie przetargowej rozpisujemy ilości paneli, słupków, bram, automatyki, podmurówki, transport i montaż oddzielnie.",
+      "ctaText": "Prześlij przedmiar albo rysunek inwestycji",
+      "ctaDesc": "Dołącz PDF, DWG, JPG, PNG lub XLSX. Dział ofertowy wróci z zakresem i terminem w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Dobór systemu do obiektu",
+      "intro": "Wspólnie ustalamy wysokość, klasę panelu, rodzaj bramy i logistykę montażu przed złożeniem oferty.",
+      "head": [
+        "Obiekt",
+        "Rekomendowany system",
+        "Typowa długość bramy",
+        "Co sprawdzamy"
+      ],
+      "rows": [
+        [
+          "Magazyn i plac składowy",
+          "panel 2D 8/6/8, wysokość 173 cm",
+          "6 do 8 m",
+          "ruch dostaw i miejsce na cofnięcie"
+        ],
+        [
+          "Zakład produkcyjny",
+          "panel 2D 8/6/8, słupki wzmocnione",
+          "8 do 10 m",
+          "przepustowość i automatyka"
+        ],
+        [
+          "Baza transportowa",
+          "panel 2D 8/6/8, brama przesuwna",
+          "10 do 12 m",
+          "pojazdy ciężarowe i fundament"
+        ],
+        [
+          "Obiekt publiczny",
+          "panel 2D 8/6/8, furtka kontrolowana",
+          "6 do 8 m",
+          "wymagania inwestora i harmonogram"
+        ]
+      ],
+      "note": "Wysokość 173 cm jest częstym punktem wyjścia. Dla innych wymogów inwestora dobieramy system po dokumentacji."
+    },
+    {
+      "type": "text",
+      "title": "Bramy przemysłowe 6 do 12 m",
+      "html": "<p>Brama przemysłowa o świetle od 6 do 12 m nie jest gotowym produktem magazynowym. Projektujemy ją po sprawdzeniu szerokości wjazdu, miejsca na cofnięcie, rodzaju podłoża, oczekiwanej liczby cykli i rodzaju pojazdów. Przy bramie 8 m potrzebna jest zwykle wolna linia cofnięcia około 12 m, jeśli konstrukcja jest klasycznie przesuwna.</p><p>W zapytaniu podaj długość całego ogrodzenia, światło bramy, lokalizację inwestycji, oczekiwany termin oraz czy napęd i kontrola dostępu są w zakresie. Załącz przedmiar albo rysunek, a Eurofance przygotuje wycenę przetargową z podziałem na materiał, montaż i logistykę.</p>"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Wycena B2B bez brakujących danych:</strong> formularz przetargowy zawiera pole firmy, NIP, długość ogrodzenia w mb, termin realizacji, lokalizację i załącznik. Przyjmujemy PDF, DWG, JPG, PNG oraz XLSX.</p>"
+    },
+    {
+      "type": "gallery",
+      "title": "Realizacje ogrodzeń przemysłowych",
+      "items": [
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Maków Mazowiecki, panele 2D 8/6/8 173 cm, 320 mb",
+          "alt": "Ogrodzenie przemysłowe 320 mb z paneli 2D 8/6/8",
+          "tags": [
+            "przemyslowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Ciechanów, brama przesuwna przemysłowa 8 m przy magazynie",
+          "alt": "Brama przesuwna przemysłowa 8 m w Ciechanowie",
+          "tags": [
+            "przemyslowe",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Płock, ogrodzenie terenu firmy z paneli 2D 8/6/8, 180 mb",
+          "alt": "Ogrodzenie firmy 180 mb z paneli 2D 8/6/8 w Płocku",
+          "tags": [
+            "przemyslowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Warszawa, teren inwestycji 620 mb z bramą 10 m",
+          "alt": "Ogrodzenie przemysłowe 620 mb z bramą 10 m w Warszawie",
+          "tags": [
+            "przemyslowe",
+            "bramy-przesuwne"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Bramy i ogrodzenia przemysłowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie przemysłowe 2D 8/6/8?",
+          "a": "Panel 2D 8/6/8 o wysokości 173 cm kosztuje od {panel_2d_8_6_8_mb} za mb z montażem. Cena inwestycji zależy od długości, liczby bram, podłoża i podmurówki."
+        },
+        {
+          "q": "Co oznacza panel 8/6/8?",
+          "a": "Oznaczenie 8/6/8 mówi o grubości drutów: 8 mm w pionie, 6 mm w środku i 8 mm w drugim kierunku. To system sztywniejszy niż standardowe panele 4 lub 5 mm."
+        },
+        {
+          "q": "Jaką bramę wybrać dla wjazdu 8 m?",
+          "a": "Dla światła 8 m najczęściej projektujemy bramę przesuwną przemysłową. Klasyczna konstrukcja wymaga zwykle około 12 m wolnej linii na cofnięcie, dlatego sprawdzamy układ działki."
+        },
+        {
+          "q": "Czy wykonujecie bramy o szerokości 12 m?",
+          "a": "Tak, wyceniamy bramy przemysłowe o świetle 6 do 12 m po analizie projektu. Przy 12 m kluczowe są fundament, ciężar konstrukcji, automatyka i ruch pojazdów ciężarowych."
+        },
+        {
+          "q": "Jakie dane są potrzebne do wyceny przetargowej?",
+          "a": "Podaj firmę, NIP, długość ogrodzenia w mb, lokalizację, termin i liczbę bram. Dołącz przedmiar lub rysunek w PDF, DWG, JPG, PNG albo XLSX."
+        },
+        {
+          "q": "Ile trwa montaż ogrodzenia przemysłowego 320 mb?",
+          "a": "Czas montażu zależy od gruntu, bram i logistyki. Dla odcinka 320 mb ustalamy harmonogram po pomiarze, a elementy produkujemy zwykle w {czas_produkcji} od zatwierdzenia zakresu."
+        },
+        {
+          "q": "Czy można zamówić automatykę i kontrolę dostępu?",
+          "a": "Tak. Dobieramy napęd do bramy przesuwnej, fotokomórki i elementy sterowania. Zakres kontroli dostępu wpisujemy do wyceny po wymaganiach inwestora."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki o montażu ogrodzeń dla firm",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, rozstaw 2,5 m i montaż elementów przy ogrodzeniach przemysłowych."
+        },
+        {
+          "label": "Betonowanie słupków i montaż przęseł",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Głębokość 60 do 100 cm, beton B-25 i kontrola pionu na budowie."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "trust"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "b2b",
+      "variant": "full",
+      "title": "Wycena przetargowa",
+      "category": "przemyslowe",
+      "place": "przemyslowe-wycena"
+    }
+  ]
+}

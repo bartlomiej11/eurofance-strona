@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CtaBar from '../components/CtaBar.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import site from '../data/site.json';
+import { products } from '../lib/content.js';
+import { tk } from '../lib/tk.js';
+
+const polecane = [...products]
+  .sort((a, b) => a.priceValue - b.priceValue)
+  .slice(0, 3)
+  .map((product) => ({
+    name: tk(product.name),
+    desc: tk(product.description),
+    price: tk(product.price),
+    priceNote: product.unit,
+    image: product.image,
+    imageAlt: tk(product.imageAlt || product.name),
+    url: `/sklep/${product.slug}`,
+    quote: tk(product.name),
+    quoteLabel: 'Zapytaj o wycenę',
+    slug: product.slug,
+    priceValue: product.priceValue,
+    addToCart: true,
+  }));
+---
+<Base
+  title="Koszyk | Eurofance"
+  description="Koszyk sklepu Eurofance. Elementy ogrodzeń: panele 2D i 3D, przęsła palisadowe, słupki, podmurówki i automatyka. Wyślij zapytanie i odbierz wycenę z montażem."
+  path="/koszyk"
+  noindex={true}
+>
+  <Breadcrumbs items={[{ name: 'Koszyk' }]} />
+  <section class="section">
+    <div class="container">
+      <h1>Koszyk</h1>
+      <p class="muted">Elementy wysyłamy w {site.delivery ? site.delivery : '3-5 dni roboczych'}. Transport liczymy według odległości, montaż wyceniamy osobno.</p>
+      <div id="cart-list" data-cart-list>
+        <div class="cart-empty">
+          <p class="cart-empty__lead">Koszyk jest pusty. Wybierz elementy w sklepie albo zamów wycenę z montażem.</p>
+          <div class="btn-row">
+            <a class="btn btn--red" href="/sklep" data-cta="koszyk-pusty">Przejdź do sklepu</a>
+            <a class="btn btn--outline" href="/bezplatna-wycena" data-cta="koszyk-pusty">Zamów wycenę z montażem</a>
+          </div>
+        </div>
+      </div>
+      <div id="cart-summary" hidden>
+        <div class="cart-summary__box">
+          <p class="cart-summary__total">Suma elementów: <span data-cart-total>0 zł</span></p>
+          <p class="muted">Cena nie zawiera transportu ani montażu. Montaż wyceniamy osobno po pomiarze.</p>
+          <div class="btn-row">
+            <a class="btn btn--red" href={`tel:${site.phone.tel}`} data-cta="koszyk">Zadzwoń i zamów: {site.phone.short}</a>
+            <a class="btn btn--outline" href="/bezplatna-wycena" data-cta="koszyk">Zamów z montażem</a>
+          </div>
+          <p class="muted">Wolisz wysłać listę e-mailem? Napisz na <a href={`mailto:${site.email}`}>{site.email}</a>  - odpowiadamy w 2 h w dni robocze.</p>
+        </div>
+      </div>
+      <CtaBar place="koszyk" />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2>Popularne elementy</h2>
+      <p class="muted">Najczęściej zamawiane pozycje z naszego sklepu. Ceny za sztukę, bez transportu.</p>
+      <ProductGrid items={polecane} columns={3} place="koszyk" />
+    </div>
+  </section>
+</Base>

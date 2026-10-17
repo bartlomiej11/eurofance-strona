@@ -1,0 +1,320 @@
+{
+  "slug": "ogrodzenia-grzebieniowe",
+  "kind": "offer",
+  "title": "Ogrodzenia grzebieniowe od {grzebien_mb} | Eurofance",
+  "metaDescription": "Ogrodzenia grzebieniowe od producenta: profile 85 x 20 mm na sztorc, wysokość 153 cm i malowanie RAL. Cena od {grzebien_mb} za mb z montażem. Wycena i montaż w całej.",
+  "h1": "Ogrodzenia grzebieniowe",
+  "answer": "Ogrodzenie grzebieniowe ma profile 85 x 20 mm ustawione na sztorc w gęstym, pionowym rytmie. W Eurofance system o wysokości 153 cm kosztuje od {grzebien_mb} za mb z montażem, a jedno przęsło 250 cm od {przeslo_grzebien_szt}. Jako producent z malarnią proszkową możemy pomalować przęsła, bramę i furtkę tym samym kolorem RAL.",
+  "category": "grzebien",
+  "heroImage": "/images/frontowe/frontowe-01.jpg",
+  "heroCta": "Wycena ogrodzenia grzebieniowego",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Co to jest:</strong> przęsło z profili 85 x 20 mm ustawionych na sztorc.",
+        "<strong>Wymiar:</strong> standardowe przęsło ma 250 cm szerokości i 153 cm wysokości.",
+        "<strong>Cena:</strong> od {grzebien_mb} za mb z montażem, przęsło od {przeslo_grzebien_szt}.",
+        "<strong>Prześwit:</strong> około 20 mm daje prywatność, ale zachowuje lekkość pionowego wzoru.",
+        "<strong>Powłoka:</strong> własna produkcja i malarnia proszkowa, RAL 7016 albo inny kod RAL."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "System ogrodzenia grzebieniowego",
+      "intro": "Budujemy spójny front z przęseł, bramy, furtki i podmurówki. Wycena obejmuje dobranie elementów do długości oraz wjazdu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Przęsło grzebieniowe 153 cm",
+          "desc": "Profil 85 x 20 mm na sztorc, szerokość przęsła 250 cm i prześwit około 20 mm.",
+          "price": "od {przeslo_grzebien_szt}",
+          "priceNote": "za sztukę",
+          "image": "/images/frontowe/frontowe-02.jpg",
+          "url": "/sklep/przeslo-grzebieniowe-153",
+          "quote": "Przęsło grzebieniowe 153 cm",
+          "quoteLabel": "Wycena przęsła"
+        },
+        {
+          "name": "Ogrodzenie grzebieniowe z montażem",
+          "desc": "Kompletny odcinek z przęsłami, słupkami, mocowaniem i montażem w wybranym RAL.",
+          "price": "od {grzebien_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-10.jpg",
+          "quote": "Ogrodzenie grzebieniowe z montażem",
+          "quoteLabel": "Wycena ogrodzenia"
+        },
+        {
+          "name": "Front grzebieniowy z bramą",
+          "desc": "Przęsła grzebieniowe, brama, furtka i wspólny kolor RAL dla całego frontu.",
+          "price": "od {front_zestaw_grzebien}",
+          "priceNote": "za zestaw frontowy",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Front grzebieniowy z bramą",
+          "quoteLabel": "Wycena frontu"
+        },
+        {
+          "name": "Brama przesuwna do frontu",
+          "desc": "Brama 4 m przygotowana pod napęd, dobierana do układu wjazdu i wypełnienia frontu.",
+          "price": "od {brama_przesuwna_palisada_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg",
+          "url": "/sklep/brama-przesuwna-palisadowa-4m",
+          "quote": "Brama przesuwna do ogrodzenia grzebieniowego",
+          "quoteLabel": "Wycena bramy"
+        },
+        {
+          "name": "Podmurówka 250 x 25",
+          "desc": "Betonowy cokół pod przęsło grzebieniowe, który porządkuje linię przy gruncie.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "za mb",
+          "image": "/images/premium/przemyslowe.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x25",
+          "quote": "Podmurówka pod grzebień",
+          "quoteLabel": "Wycena podmurówki"
+        }
+      ],
+      "note": "Ceny „od” brutto. Wypełnienie bramy grzebieniowe oraz nietypowe wysokości wyceniamy po ustaleniu wymiarów frontu.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń grzebieniowych",
+      "intro": "Cena zależy od długości frontu, liczby słupków, podmurówki, bramy i furtki. Poniżej znajdują się punkty odniesienia do planowania budżetu.",
+      "head": [
+        "Element",
+        "Wymiar",
+        "Cena od",
+        "Zakres"
+      ],
+      "rows": [
+        [
+          "Przęsło grzebieniowe",
+          "250 x 153 cm",
+          "od {przeslo_grzebien_szt}",
+          "profil 85 x 20 mm na sztorc"
+        ],
+        [
+          "Ogrodzenie grzebieniowe",
+          "153 cm wysokości",
+          "od {grzebien_mb}",
+          "za mb z montażem"
+        ],
+        [
+          "Podmurówka",
+          "250 x 25 cm",
+          "od {podmurowka_250x25}",
+          "za mb pod ogrodzenie"
+        ],
+        [
+          "Brama przesuwna",
+          "4 m",
+          "od {brama_przesuwna_palisada_4m}",
+          "z montażem, przygotowana pod napęd"
+        ],
+        [
+          "Furtka frontowa",
+          "100 cm",
+          "od {furtka_palisadowa}",
+          "z montażem i osprzętem"
+        ],
+        [
+          "Zestaw frontowy",
+          "brama, furtka i przęsła",
+          "od {front_zestaw_grzebien}",
+          "punkt wyjścia do wyceny frontu"
+        ]
+      ],
+      "note": "Przy bramie przesuwnej 4 m potrzebujesz około 6 m wolnej linii na cofnięcie skrzydła. Układ sprawdzamy podczas pomiaru.",
+      "ctaText": "Wycenimy front grzebieniowy",
+      "ctaDesc": "Wyślij długość frontu, szerokość wjazdu i zdjęcie działki. Odpowiadamy w {czas_odpowiedzi}.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Parametry ogrodzenia grzebieniowego",
+      "intro": "System grzebieniowy tworzy pionową, równą linię, dlatego istotne są szerokość przęsła, prześwit i rozstaw słupków.",
+      "head": [
+        "Parametr",
+        "Wartość",
+        "Znaczenie"
+      ],
+      "rows": [
+        [
+          "Szerokość przęsła",
+          "250 cm",
+          "moduł do liczenia długości frontu"
+        ],
+        [
+          "Wysokość przęsła",
+          "153 cm",
+          "standardowy wymiar systemu"
+        ],
+        [
+          "Profil",
+          "85 x 20 mm na sztorc",
+          "pionowy rysunek ogrodzenia"
+        ],
+        [
+          "Prześwit",
+          "około 20 mm",
+          "prywatność i przepływ powietrza"
+        ],
+        [
+          "Słupki",
+          "dobierane do wysokości i podłoża",
+          "stabilne osadzenie przęseł"
+        ],
+        [
+          "Kolor",
+          "RAL 7016 lub inny RAL",
+          "spójny z bramą i furtką"
+        ],
+        [
+          "Podmurówka",
+          "250 x 20, 25, 30 albo 50 cm",
+          "ochrona dolnej linii ogrodzenia"
+        ]
+      ],
+      "note": "Profil, prześwit i kolor mogą być potwierdzone na wizualizacji albo w szczegółowej wycenie frontu."
+    },
+    {
+      "type": "text",
+      "title": "Dlaczego grzebień jest elementem oferty producenta z malarnią?",
+      "html": "<p>Ogrodzenie grzebieniowe powstaje z powtarzalnych profili ustawionych pionowo, dlatego liczą się równe rozstawy, sztywność ramy i spójna powłoka. Eurofance produkuje przęsła i korzysta z własnej malarni proszkowej, aby połączyć w jednym kolorze RAL ogrodzenie, furtkę, bramę i słupki.</p><p>Wysokość 153 cm i moduł 250 cm ułatwiają planowanie frontu. System z montażem kosztuje od {grzebien_mb} za mb, a przy działce ze spadkiem dobieramy podmurówkę od {podmurowka_250x25} za mb.</p>"
+    },
+    {
+      "type": "steps",
+      "title": "Jak powstaje ogrodzenie grzebieniowe",
+      "items": [
+        {
+          "name": "Wycena frontu",
+          "desc": "Podajesz długość, szerokość bramy, furtkę, wysokość i miejscowość.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Pomiar",
+          "desc": "Sprawdzamy spadek terenu, rozstaw słupków i miejsce na cofnięcie bramy.",
+          "time": "{czas_pomiaru}"
+        },
+        {
+          "name": "Produkcja i malowanie",
+          "desc": "Wykonujemy profile, ramy i powłokę w wybranym RAL.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż",
+          "desc": "Osadzamy słupy, montujemy przęsła i ustawiamy furtkę oraz bramę.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Realizacje ogrodzeń grzebieniowych",
+      "items": [
+        {
+          "image": "/images/frontowe/frontowe-02.jpg",
+          "caption": "Legionowo, ogrodzenie grzebieniowe 153 cm, RAL 7016, front 22 mb",
+          "alt": "Ogrodzenie grzebieniowe 153 cm w Legionowie",
+          "tags": [
+            "grzebien",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Przasnysz, front grzebieniowy, RAL 9005, brama przesuwna 4 m",
+          "alt": "Front grzebieniowy z bramą 4 m w Przasnyszu",
+          "tags": [
+            "grzebien",
+            "bramy-przesuwne"
+          ]
+        },
+        {
+          "image": "/images/premium/bramy.jpg",
+          "caption": "Ciechanów, furtka 100 cm przy grzebieniu, RAL 7016, wysokość 153 cm",
+          "alt": "Furtka 100 cm przy ogrodzeniu grzebieniowym w Ciechanowie",
+          "tags": [
+            "grzebien",
+            "furtki"
+          ]
+        },
+        {
+          "image": "/images/premium/przemyslowe.jpg",
+          "caption": "Siedlce, grzebień 153 cm, podmurówka 250 x 25 cm, RAL 7016",
+          "alt": "Ogrodzenie grzebieniowe na podmurówce w Siedlcach",
+          "tags": [
+            "grzebien",
+            "podmurowki"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia grzebieniowe, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie grzebieniowe?",
+          "a": "Ogrodzenie grzebieniowe o wysokości 153 cm kosztuje od {grzebien_mb} za mb z montażem. W cenie końcowej uwzględniamy długość, słupki, podmurówkę, bramę i furtkę."
+        },
+        {
+          "q": "Ile kosztuje przęsło grzebieniowe?",
+          "a": "Przęsło o szerokości 250 cm i wysokości 153 cm kosztuje od {przeslo_grzebien_szt}. Profil 85 x 20 mm jest ustawiony na sztorc, a prześwit wynosi około 20 mm."
+        },
+        {
+          "q": "Jaka jest wysokość ogrodzenia grzebieniowego?",
+          "a": "Standardowe przęsło ma 153 cm wysokości. Z podmurówką 25 cm linia ogrodzenia osiąga około 178 cm, a wysokość dostosowujemy do projektu frontu."
+        },
+        {
+          "q": "Czy grzebień daje prywatność?",
+          "a": "Prześwit około 20 mm ogranicza widok z ulicy, ale nie tworzy pełnej ściany. Gęsty pionowy układ profili daje więcej osłony niż panel 3D z oczkami 50 x 200 mm."
+        },
+        {
+          "q": "Czy można dobrać bramę do grzebienia?",
+          "a": "Tak. Front może mieć bramę przesuwną 4 m od {brama_przesuwna_palisada_4m} i furtkę 100 cm od {furtka_palisadowa}. Wypełnienie oraz RAL potwierdzamy w wycenie."
+        },
+        {
+          "q": "Ile trwa realizacja ogrodzenia grzebieniowego?",
+          "a": "Produkcja i malowanie standardowo trwają {czas_produkcji}. Montaż frontu z bramą i furtką zwykle zajmuje {czas_montazu}, po wykonaniu pomiaru w {czas_pomiaru}."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Zobacz planowanie linii, słupków i montażu systemowego ogrodzenia."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia grzebieniowego",
+      "category": "grzebien",
+      "place": "ogrodzenia-grzebieniowe-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+# Konfiguracja Apache dla strony statycznej Eurofance.
+# Plik trafia do katalogu public/ i jest kopiowany do dist/ podczas budowania.
+
+Options -Indexes
+DirectoryIndex index.html
+DirectorySlash Off
+
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Wymuszenie HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+  RewriteRule ^(.*)$ https://eurofance.pl/$1 [R=301,L]
+
+  # 2. Wymuszenie adresu bez www
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  # 3. Blog zawsze z ukosnikiem na koncu adresu
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(blog/.+)$ /$1/ [R=301,L]
+
+  # 4. Strony ofertowe, sklep i strony lokalne bez ukosnika na koncu
+  RewriteCond %{REQUEST_URI} !^/blog(/|$)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^([^/]+)/$ /$1 [R=301,L]
+
+  # 5. Adres z rozszerzeniem .html przekierowujemy na wersje bez rozszerzenia
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteCond %{REQUEST_URI} !^/_astro/
+  RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+  # 6. Pliki plaskie: /ogrodzenia-panelowe obsluguje ogrodzenia-panelowe.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+  # 6a. Katalog bez index.html, ale z plikiem plaskim obok, np. /sklep obsluguje sklep.html
+  #     (katalog /sklep zawiera karty produktow i nie ma wlasnego index.html)
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html !-f
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+
+  # 7. Katalogi: /blog/ obsluguje blog/index.html
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)$ $1/index.html [L]
+</IfModule>
+
+# --- Przekierowania 301 ze starej strony -------------------------------------
+# UWAGA: uzupelnij ponizsza liste adresami z pliku klienta (lista URL z GSC lub sitemapy).
+# Wzorce dla poradnikow przenoszonych na strony ofertowe:
+Redirect 301 /blog/ile-kosztuje-ogrodzenie-panelowe /ogrodzenia-panelowe
+Redirect 301 /blog/ogrodzenie-panelowe-cena /ogrodzenia-panelowe
+Redirect 301 /blog/brama-przesuwna-cena /bramy-wjazdowe-przesuwne
+Redirect 301 /blog/podmurowka-cena /podmurowki-betonowe
+Redirect 301 /blog/malowanie-proszkowe-cena /malarnia-proszkowa
+Redirect 301 /ogrodzenia-panelowe-3d /ogrodzenia-panelowe
+Redirect 301 /ogrodzenia-panelowe-2d /ogrodzenia-panelowe
+Redirect 301 /ploty-panelowe /ogrodzenia-panelowe
+Redirect 301 /bramy-przesuwne /bramy-wjazdowe-przesuwne
+Redirect 301 /bramy-skrzydlowe /bramy-wjazdowe-skrzydlowe
+Redirect 301 /ogrodzenia /oferta
+
+ErrorDocument 404 /404.html
+
+# --- Naglowki bezpieczenstwa --------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# --- Kompresja ---------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# --- Cache -------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType font/woff2 .woff2
+  AddType image/webp .webp
+  AddType image/avif .avif
+</IfModule>
+
+# Pliki wideo i napisy: dlugi cache, obsluga zakresow (przewijanie) po stronie serwera.
+<IfModule mod_expires.c>
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/webm "access plus 1 year"
+  ExpiresByType text/vtt "access plus 1 year"
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(mp4|webm|vtt)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+    Header set Accept-Ranges "bytes"
+  </FilesMatch>
+</IfModule>

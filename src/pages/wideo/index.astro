@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import VideoPlayer from '../../components/VideoPlayer.astro';
+import CtaBar from '../../components/CtaBar.astro';
+import { videos, reels, mediaUrl, hasMedia, czytajCzas } from '../../lib/media.js';
+import * as LD from '../../lib/jsonld.js';
+import site from '../../data/site.json';
+import { tk } from '../../lib/tk.js';
+
+const tytul = 'Wideo i rolki z realizacji ogrodzeń';
+const opis =
+  'Filmy i rolki z montażu ogrodzeń panelowych, palisadowych i bram wjazdowych. Zobacz jakość spawów, malowanie proszkowe i pracę ekip Eurofance na budowie.';
+
+const nodes = [];
+if (videos.length) nodes.push(LD.videoList(videos, 'Filmy z realizacji ogrodzeń'));
+if (reels.length) nodes.push(LD.videoList(reels, 'Rolki z realizacji ogrodzeń', (item) => mediaUrl(item)));
+
+const crumbs = [{ name: 'Wideo i rolki' }];
+---
+<Base
+  title={`${tytul} | ${site.name}`}
+  description={opis}
+  path="/wideo"
+  jsonld={nodes}
+  ogImage={videos[0]?.poster || '/images/premium/hero.jpg'}
+  noindex={!hasMedia}
+>
+  <Breadcrumbs items={crumbs} />
+
+  <section class="section section--dark" style="padding-top:36px">
+    <div class="container">
+      <span class="eyebrow">Wideo</span>
+      <h1>{tytul}</h1>
+      <p class="lead" style="color:rgba(255,255,255,.72);max-width:70ch">
+        Pokazujemy montaż od pierwszego słupka do odbioru: pomiar, montaż przęseł, bramy z napędem
+        i malowanie proszkowe w naszej hali. Każdy film ma podany system, kolor i wymiary,
+        żebyś mógł porównać go z własną działką.
+      </p>
+    </div>
+  </section>
+
+  {videos.length > 0 ? (
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Filmy</span>
+          <h2>Filmy z montażu i produkcji</h2>
+        </div>
+        <div class="video-grid">
+          {videos.map((item) => (
+            <div class="video-card" id={item.slug}>
+              <VideoPlayer item={item} aspect="16:9" showKeyMoments showTranscript label="Odtwórz film" />
+              <div class="video-card__head">
+                <div>
+                  <h3 style="margin:0 0 6px"><a href={mediaUrl(item)}>{tk(item.name)}</a></h3>
+                  <p class="video-card__meta" style="margin:0">
+                    {[item.city, item.system, item.color, item.dimensions].filter(Boolean).join(' · ')}
+                    {item.duration ? ` · ${czytajCzas(item.duration)}` : ''}
+                  </p>
+                </div>
+                <a class="head-arrow" href={mediaUrl(item)}>Strona filmu <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="section">
+      <div class="container narrow">
+        <div class="note-box">
+          <p><strong>Materiały w przygotowaniu.</strong> Filmy i rolki z realizacji dodamy zaraz po otrzymaniu
+          plików od klienta. Chcesz zobaczyć konkretną realizację? Zadzwoń: <a href={`tel:${site.phone.tel}`}>{site.phone.display}</a>.</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {reels.length > 0 && (
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Rolki</span>
+          <h2>Krótkie rolki z placu budowy</h2>
+        </div>
+        <div class="reels">
+          {reels.map((item) => (
+            <figure class="reel">
+              <VideoPlayer item={item} aspect="9:16" label="Odtwórz rolkę" />
+              <figcaption>
+                <strong>{tk(item.name)}</strong>
+                {item.description && <span style="display:block">{tk(item.description)}</span>}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <div class="container">
+    <CtaBar
+      text="Chcesz ogrodzenie jak na filmie?"
+      desc="Podaj długość, wysokość i miejscowość. Wycenę z montażem wyślemy w {czas_odpowiedzi} w dni robocze."
+      place="wideo"
+    />
+  </div>
+</Base>

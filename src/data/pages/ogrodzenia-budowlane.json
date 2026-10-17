@@ -1,0 +1,339 @@
+{
+  "slug": "ogrodzenia-budowlane",
+  "kind": "offer",
+  "title": "Ogrodzenia budowlane od {ogrodzenie_budowlane_mb} | Eurofance",
+  "metaDescription": "Ogrodzenia budowlane i tymczasowe do działki oraz placu budowy. Panele 2D i 3D, słupki, bramy i montaż. Cena od {ogrodzenie_budowlane_mb} za mb. Wycena i montaż w całej Polsce.",
+  "h1": "Ogrodzenia budowlane i tymczasowe",
+  "answer": "Ogrodzenie budowlane zabezpiecza działkę lub plac budowy na czas prac, a po zakończeniu może stać się ogrodzeniem docelowym. W Eurofance podstawowy odcinek ogrodzenia budowlanego kosztuje od {ogrodzenie_budowlane_mb} za mb, a panel przemysłowy 8/6/8 od {panel_2d_8_6_8_mb} za mb z montażem. Dla placu o długości 100 mb wyceniamy 40 przęseł po 250 cm i 41 słupków.",
+  "category": "budowlane",
+  "heroImage": "/images/premium/przemyslowe.jpg",
+  "heroCta": "Wycena ogrodzenia placu budowy",
+  "variantKey": "z-montazem",
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "items": [
+        "<strong>Zastosowanie:</strong> działki budowlane, place budowy, magazyny materiałów i tymczasowe wydzielenia.",
+        "<strong>Moduł:</strong> panel ma 250 cm szerokości, więc 100 mb to zwykle 40 przęseł.",
+        "<strong>Cena:</strong> od {ogrodzenie_budowlane_mb} za mb podstawowego ogrodzenia budowlanego.",
+        "<strong>Wzmocnienie:</strong> panel 2D 8/6/8 o wysokości 173 cm do firm, placów i składów.",
+        "<strong>Przyszły użytek:</strong> system panelowy można rozbudować albo wykorzystać jako ogrodzenie docelowe."
+      ]
+    },
+    {
+      "type": "products",
+      "title": "Ogrodzenia na działkę i plac budowy",
+      "intro": "Dobieramy rozwiązanie do czasu budowy, potrzebnej wysokości oraz tego, czy ogrodzenie ma zostać na działce po zakończeniu robót.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Ogrodzenie budowlane podstawowe",
+          "desc": "System panelowy do szybkiego wyznaczenia granicy działki i zabezpieczenia placu.",
+          "price": "od {ogrodzenie_budowlane_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/premium/hero.jpg",
+          "quote": "Ogrodzenie działki budowlanej",
+          "quoteLabel": "Wycena ogrodzenia"
+        },
+        {
+          "name": "Panel 2D 8/6/8 173 cm",
+          "desc": "Wzmocniony panel stalowy do firm, magazynów i placów składowych.",
+          "price": "od {panel_2d_8_6_8_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-01.jpg",
+          "url": "/sklep/panel-ogrodzeniowy-2d-8-6-8-173",
+          "quote": "Ogrodzenie budowlane 8/6/8",
+          "quoteLabel": "Wycena paneli 8/6/8"
+        },
+        {
+          "name": "Panel 3D 153 cm",
+          "desc": "Docelowy panel, który po budowie zostaje na bokach albo tyle działki.",
+          "price": "od {panel_3d_mb}",
+          "priceNote": "za mb z montażem",
+          "image": "/images/realizacje/foto-02.jpg",
+          "url": "/sklep/panel-ogrodzeniowy-3d-153-7016",
+          "quote": "Ogrodzenie działki panelami 3D",
+          "quoteLabel": "Wycena paneli 3D"
+        },
+        {
+          "name": "Brama budowlana 4 m",
+          "desc": "Wjazd dla dostaw i sprzętu, z panelem 3D oraz słupkami bramowymi.",
+          "price": "od {brama_skrzydlowa_4m}",
+          "priceNote": "z montażem",
+          "image": "/images/premium/bramy.jpg",
+          "url": "/sklep/brama-dwuskrzydlowa-panelowa-4m",
+          "quote": "Brama na plac budowy 4 m",
+          "quoteLabel": "Wycena bramy"
+        },
+        {
+          "name": "Słupek 60 x 40 mm",
+          "desc": "Słupek do paneli 153 cm, osadzany w gruncie na około 50 do 60 cm.",
+          "price": "od {slupek_panel}",
+          "priceNote": "za sztukę",
+          "image": "/images/premium/hero.jpg",
+          "url": "/sklep/slupek-ogrodzeniowy-60x40-153",
+          "quote": "Słupki do ogrodzenia budowlanego",
+          "quoteLabel": "Wycena słupków"
+        },
+        {
+          "name": "Podmurówka 250 x 25",
+          "desc": "Opcja do ogrodzenia, które ma pozostać jako trwałe po zakończeniu budowy.",
+          "price": "od {podmurowka_250x25}",
+          "priceNote": "za mb",
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "url": "/sklep/podmurowka-betonowa-250x25",
+          "quote": "Podmurówka pod ogrodzenie działki",
+          "quoteLabel": "Wycena podmurówki"
+        }
+      ],
+      "note": "Ceny „od” brutto. Wycena uwzględnia długość linii, bramy, warunki gruntu i to, czy ogrodzenie ma być tymczasowe czy docelowe.",
+      "eyebrow": "Produkty"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ceny ogrodzeń budowlanych",
+      "intro": "Poniższe stawki ułatwiają zaplanowanie zabezpieczenia działki przed rozpoczęciem robót.",
+      "head": [
+        "System",
+        "Wysokość",
+        "Cena od",
+        "Zastosowanie"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie budowlane podstawowe",
+          "do ustalenia",
+          "od {ogrodzenie_budowlane_mb}",
+          "tymczasowe zabezpieczenie działki"
+        ],
+        [
+          "Panel 3D",
+          "153 cm",
+          "od {panel_3d_mb}",
+          "ogrodzenie, które pozostaje po budowie"
+        ],
+        [
+          "Panel 2D 8/6/8",
+          "173 cm",
+          "od {panel_2d_8_6_8_mb}",
+          "firma, skład, plac budowy"
+        ],
+        [
+          "Brama skrzydłowa",
+          "4 m",
+          "od {brama_skrzydlowa_4m}",
+          "wjazd dla dostaw i sprzętu"
+        ],
+        [
+          "Słupek do panelu",
+          "200 cm",
+          "od {slupek_panel}",
+          "odstęp co 250 cm"
+        ],
+        [
+          "Podmurówka",
+          "250 x 25 cm",
+          "od {podmurowka_250x25}",
+          "wariant docelowy na stabilnym gruncie"
+        ]
+      ],
+      "note": "Dla 100 mb paneli potrzeba zwykle 40 przęseł, 41 słupków i po 1 bramie na każdy zaplanowany wjazd. Wycena potwierdza finalne ilości.",
+      "ctaText": "Policzymy ogrodzenie Twojego placu",
+      "ctaDesc": "Podaj długość w mb, liczbę wjazdów i miejscowość. Odpowiadamy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Parametry ogrodzenia placu budowy",
+      "intro": "Systemowe moduły pozwalają szybko policzyć materiał i po zakończeniu prac użyć go na kolejnej części posesji.",
+      "head": [
+        "Parametr",
+        "Panel 3D",
+        "Panel 2D 8/6/8",
+        "Ogrodzenie budowlane"
+      ],
+      "rows": [
+        [
+          "Szerokość modułu",
+          "250 cm",
+          "250 cm",
+          "zależna od wybranego systemu"
+        ],
+        [
+          "Wysokość",
+          "153 cm",
+          "173 cm",
+          "ustalana w wycenie"
+        ],
+        [
+          "Element nośny",
+          "drut 5 mm",
+          "drut 8/6/8 mm",
+          "system paneli i słupków"
+        ],
+        [
+          "Słupek",
+          "60 x 40 mm",
+          "60 x 40 mm lub mocniejszy",
+          "dobrany do wysokości"
+        ],
+        [
+          "Rozstaw",
+          "co 250 cm",
+          "co 250 cm",
+          "zgodny z modułem"
+        ],
+        [
+          "Po budowie",
+          "może zostać docelowo",
+          "może zostać docelowo",
+          "zakres ustalany przed montażem"
+        ]
+      ],
+      "note": "Dobór wysokości i typu panelu powinien odpowiadać ryzyku wejścia osób postronnych, warunkom terenu i wymogom inwestora."
+    },
+    {
+      "type": "text",
+      "title": "Ogrodzenie działki budowlanej: tymczasowo czy docelowo?",
+      "html": "<p>Jeżeli układ domu i wjazdu jest już ustalony, panel 3D może być od razu ogrodzeniem docelowym. Po budowie nie płacisz drugi raz za demontaż, a podmurówkę i furtkę można dodać w kolejnym etapie.</p><p>Gdy granice robót będą się zmieniać, wybierz modułowe ogrodzenie budowlane. Eurofance planuje odcinki po 250 cm, bramę 4 m dla dostaw i wysokość dopasowaną do placu. Cena podstawowego odcinka zaczyna się od {ogrodzenie_budowlane_mb} za mb.</p><p>Przepisy oraz warunki inwestora dotyczące zabezpieczenia budowy trzeba sprawdzić dla konkretnej inwestycji i miejscowego planu.</p>"
+    },
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia działki budowlanej",
+      "desc": "Wpisz długość granic, wysokość, liczbę bram i furtkę. Wynik pokaże orientacyjny zakres materiału oraz montażu.",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "steps",
+      "title": "Montaż ogrodzenia budowlanego w 4 krokach",
+      "items": [
+        {
+          "name": "Zakres",
+          "desc": "Podajesz długość, wysokość, bramy i informację, czy ogrodzenie ma zostać po budowie.",
+          "time": "{czas_odpowiedzi}"
+        },
+        {
+          "name": "Wytyczenie",
+          "desc": "Ustalamy linię granic, narożniki i miejsca wjazdów.",
+          "time": "{czas_pomiaru}"
+        },
+        {
+          "name": "Przygotowanie",
+          "desc": "Dostarczamy panele, słupki, obejmy i bramę według uzgodnionej listy.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż",
+          "desc": "Osadzamy słupki, montujemy przęsła i regulujemy bramę.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Ogrodzenia budowlane w realizacjach",
+      "items": [
+        {
+          "image": "/images/premium/hero.jpg",
+          "caption": "Maków Mazowiecki, panel 2D 8/6/8 173 cm, RAL 7016, plac 120 mb",
+          "alt": "Ogrodzenie placu budowy panelami 8/6/8 w Makowie Mazowieckim",
+          "tags": [
+            "budowlane",
+            "przemyslowe"
+          ]
+        },
+        {
+          "image": "/images/premium/hero.jpg",
+          "caption": "Siedlce, panele 3D 153 cm, RAL 7016, działka budowlana 50 mb",
+          "alt": "Ogrodzenie działki budowlanej panelami 3D w Siedlcach",
+          "tags": [
+            "budowlane",
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-bramy.jpg",
+          "caption": "Ciechanów, brama skrzydłowa 4 m, RAL 7016, wjazd na budowę",
+          "alt": "Brama skrzydłowa 4 m na plac budowy w Ciechanowie",
+          "tags": [
+            "budowlane",
+            "bramy-skrzydlowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/hero-podmurowki.jpg",
+          "caption": "Legionowo, podmurówka 250 x 25 cm, panel docelowy 153 cm",
+          "alt": "Docelowe ogrodzenie działki z podmurówką w Legionowie",
+          "tags": [
+            "budowlane",
+            "podmurowki"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia budowlane, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie budowlane?",
+          "a": "Podstawowe ogrodzenie budowlane kosztuje od {ogrodzenie_budowlane_mb} za mb. Ostateczna cena zależy od wysokości, długości, liczby bram, gruntu i montażu."
+        },
+        {
+          "q": "Ile paneli potrzeba na 100 mb działki?",
+          "a": "Przy panelach o szerokości 250 cm potrzeba zwykle 40 przęseł. Do prostej linii 100 mb dobieramy także 41 słupków oraz obejmy."
+        },
+        {
+          "q": "Jaka wysokość paneli jest dobra na plac budowy?",
+          "a": "Na działce budowlanej wystarcza często 153 cm. Dla magazynu materiałów albo firmy wybierany jest panel 2D 8/6/8 o wysokości 173 cm."
+        },
+        {
+          "q": "Czy ogrodzenie tymczasowe można zostawić po budowie?",
+          "a": "Tak, jeżeli od początku wybierzesz panel 3D lub 2D na słupkach systemowych. Można potem dodać podmurówkę 250 x 25 cm od {podmurowka_250x25} za mb."
+        },
+        {
+          "q": "Jaka brama sprawdza się na budowie?",
+          "a": "Dla typowego wjazdu wybieramy bramę skrzydłową 4 m od {brama_skrzydlowa_4m}. Wjazd 5 m ułatwia ruch auta z przyczepą albo sprzętu."
+        },
+        {
+          "q": "Ile trwa montaż ogrodzenia budowlanego?",
+          "a": "Montaż 40 mb paneli może zająć 1 dzień, a z bramą i trudnym gruntem do 2 dni. Termin produkcji standardowo wynosi {czas_produkcji}."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Zobacz kolejność wytyczenia, betonowania słupków i montażu paneli."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia budowlanego",
+      "category": "budowlane",
+      "place": "ogrodzenia-budowlane-wycena"
+    },
+    {
+      "type": "trust"
+    }
+  ]
+}

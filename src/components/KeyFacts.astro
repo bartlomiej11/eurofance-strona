@@ -1,0 +1,10 @@
+---
+import { tk } from '../lib/tk.js';
+const { items = [], title = 'Najważniejsze informacje' } = Astro.props;
+---
+<aside class="keyfacts" aria-label={title}>
+  <h3>{tk(title)}</h3>
+  <ul class="list-check">
+    {items.map((item) => <li set:html={tk(item)} />)}
+  </ul>
+</aside>

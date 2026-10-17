@@ -1,0 +1,129 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import VideoPlayer from '../../components/VideoPlayer.astro';
+import CtaBar from '../../components/CtaBar.astro';
+import LinkList from '../../components/LinkList.astro';
+import { allMedia, mediaUrl, mediaFacts, czytajCzas, primarySource } from '../../lib/media.js';
+import * as LD from '../../lib/jsonld.js';
+import site from '../../data/site.json';
+import { tk } from '../../lib/tk.js';
+
+export function getStaticPaths() {
+  return allMedia.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const url = mediaUrl(item);
+const tytul = item.seoTitle ? tk(item.seoTitle) : `${tk(item.name)} | wideo z realizacji ${site.name}`;
+const opisBazowy = tk(item.description);
+const konkret = [item.system, item.color, item.dimensions, item.city].filter(Boolean).join(', ');
+const dopelnienie = konkret
+  ? ` Zobacz realizację: ${konkret}. Wycena z montażem w {czas_odpowiedzi} w dni robocze.`
+  : ' Zobacz realizację i zamów bezpłatną wycenę z montażem w całej Polsce.';
+let opis = `${opisBazowy}${dopelnienie}`;
+if (opis.length > 160) opis = `${opis.slice(0, 157).replace(/[,.;\s]+$/, '')}...`;
+if (opis.length < 140) opis = `${opis} Sprawdź szczegóły realizacji i zamów wycenę z montażem.`;
+opis = tk(opis).slice(0, 160);
+
+const powiazane = allMedia.filter((other) => other.slug !== item.slug && (other.system === item.system || other.kind === item.kind)).slice(0, 6);
+
+const nodes = [LD.videoPage(item, url, tytul, opis)];
+const crumbs = [{ name: 'Wideo i rolki', url: '/wideo' }, { name: item.name }];
+const fakty = mediaFacts(item);
+---
+<Base
+  title={tytul}
+  description={opis}
+  path={url}
+  jsonld={nodes}
+  ogImage={item.poster}
+  ogType="video.other"
+>
+  <Breadcrumbs items={crumbs} />
+
+  <section class="section section--dark" style="padding-top:36px">
+    <div class="container">
+      <span class="eyebrow">{item.kind === 'rolka' ? 'Rolka' : 'Wideo'}{item.city ? ` · ${item.city}` : ''}</span>
+      <h1>{tk(item.name)}</h1>
+      <p class="lead" style="color:rgba(255,255,255,.72);max-width:70ch">{opis}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <VideoPlayer item={item} aspect={item.kind === 'rolka' ? '9:16' : '16:9'} showKeyMoments showTranscript eager />
+
+          {item.keyMoments && item.keyMoments.length > 0 && (
+            <div style="margin-top:32px">
+              <h2>Co zobaczysz w filmie</h2>
+              <ol class="steps">
+                {item.keyMoments.map((moment) => (
+                  <li>
+                    <strong>{tk(moment.label)}</strong>
+                    <em>{czytajCzas(`PT${Math.floor(Number(moment.startOffset) / 60)}M${Number(moment.startOffset) % 60}S`)}</em>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
+          {item.transcript && (
+            <div class="article-body" style="margin-top:32px">
+              <h2>Transkrypcja</h2>
+              <div set:html={tk(item.transcript)} />
+            </div>
+          )}
+        </div>
+
+        <aside>
+          <div class="keyfacts">
+            <h3>Szczegóły realizacji</h3>
+            <ul class="list-arrow">
+              {fakty.map((fakt) => (
+                <li><strong>{fakt.label}:</strong> {fakt.value}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="keyfacts">
+            <h3>Plik filmu</h3>
+            <ul class="list-arrow">
+              {primarySource(item) && (
+                <li><a href={primarySource(item)} download={false}>Pobierz plik MP4</a></li>
+              )}
+              {item.captions && <li><a href={item.captions}>Napisy do filmu (VTT)</a></li>}
+              {item.youtube && (
+                <li>
+                  <a href={`https://www.youtube.com/watch?v=${item.youtube}`} rel="noopener">Ten film na YouTube</a>
+                </li>
+              )}
+            </ul>
+            <p class="kalend" style="margin:12px 0 0">
+              Film opublikowany {item.uploadDate}. Długość {czytajCzas(item.duration) || 'nie podano'}.
+            </p>
+          </div>
+
+          <CtaBar
+            text="Chcę wycenę takiego ogrodzenia"
+            desc="Napisz, gdzie i jaki system Cię interesuje. Wycenę z montażem wyślemy w {czas_odpowiedzi} w dni robocze."
+            place={`wideo-${item.slug}`}
+          />
+        </aside>
+      </div>
+
+      {powiazane.length > 0 && (
+        <div style="margin-top:48px">
+          <LinkList
+            items={powiazane.map((other) => ({ label: other.name, url: mediaUrl(other), desc: other.description }))}
+            title="Zobacz też inne filmy i rolki"
+            eyebrow="Wideo"
+            columns={2}
+          />
+        </div>
+      )}
+    </div>
+  </section>
+</Base>

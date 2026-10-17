@@ -1,0 +1,71 @@
+---
+import { tk } from '../lib/tk.js';
+import { czytajCzas, embedUrlPlayer } from '../lib/media.js';
+
+const {
+  item,
+  aspect = '16:9',
+  showKeyMoments = false,
+  showTranscript = false,
+  eager = false,
+  label = 'Odtwórz film',
+} = Astro.props;
+
+const mp4 = item.sources?.find((s) => s.type === 'video/mp4')?.src || item.sources?.[0]?.src || '';
+const webm = item.sources?.find((s) => s.type === 'video/webm')?.src || '';
+const embed = embedUrlPlayer(item);
+const czas = czytajCzas(item.duration);
+
+const sekundy = (n) => {
+  const s = Number(n) || 0;
+  const min = Math.floor(s / 60);
+  return `${min}:${String(s % 60).padStart(2, '0')}`;
+};
+---
+<figure
+  class="video"
+  data-video
+  data-src={mp4}
+  data-webm={webm}
+  data-embed={embed}
+  data-captions={item.captions || ''}
+  data-poster={item.poster}
+  data-name={tk(item.name)}
+>
+  <div class={`video__frame video__frame--${aspect === '9:16' ? 'pion' : 'poziom'}`}>
+    <img
+      class="video__poster"
+      src={item.poster}
+      alt={tk(item.posterAlt || item.name)}
+      width={item.width || 1920}
+      height={item.height || 1080}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+    />
+    <button class="video__play" type="button" data-video-trigger>
+      <span class="video__badge" aria-hidden="true">▶</span>
+      <span class="video__label">{label}{czas ? ` (${czas})` : ''}</span>
+    </button>
+    {czas && <span class="video__time" aria-hidden="true">{czas}</span>}
+  </div>
+
+  {showKeyMoments && item.keyMoments && item.keyMoments.length > 0 && (
+    <ul class="video__moments">
+      {item.keyMoments.map((moment) => (
+        <li>
+          <button type="button" class="video__moment" data-seek={moment.startOffset}>
+            <span class="video__moment-time">{sekundy(moment.startOffset)}</span>
+            {tk(moment.label)}
+          </button>
+        </li>
+      ))}
+    </ul>
+  )}
+
+  {showTranscript && item.transcript && (
+    <details class="video__transcript">
+      <summary>Transkrypcja filmu</summary>
+      <div class="video__transcript-body" set:html={tk(item.transcript)} />
+    </details>
+  )}
+</figure>

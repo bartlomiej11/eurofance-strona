@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-siedlce",
+  "kind": "local",
+  "city": "Siedlce",
+  "title": "Ogrodzenia panelowe Siedlce | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Siedlce z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 4 dni robocze. Bezpłatny pomiar i montaż w okolicy.",
+  "h1": "Ogrodzenia panelowe Siedlce",
+  "answer": "Eurofance przyjeżdża na montaż ogrodzeń panelowych do Siedlec i pobliskich miejscowości powiatu siedleckiego. Cena wariantu 2D zaczyna się od {panel_2d_mb} za mb, a pomiar realizujemy w {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Siedlce",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Siedlce",
+      "items": [
+        "<strong>Dostawa do Siedlce:</strong> zwykle 4 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 3 dni robocze.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Zbuczyn, Mordy, Kotuń, Suchożebry, Mokobody, Skórzec.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Siedlce i okolicach",
+      "html": "<p>Dla Siedlec przygotowujemy logistykę dostawy z wyprzedzeniem, a na pomiarze ustalamy dokładny przebieg ogrodzenia i wjazdu.</p><ul><li>Siedlce, Nowe Siedlce: panele 3D 173 cm, 51 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Siedlce, ul. Warszawska: panele 2D 153 cm, 43 mb, brąz RAL 8017, furtka 100 cm.</li><li>Zbuczyn: panele 3D 153 cm, 72 mb, grafit RAL 7024, brama skrzydłowa 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Siedlce",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Siedlce",
+          "153 km",
+          "4 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Siedlce montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Zbuczyn</li><li>Mordy</li><li>Kotuń</li><li>Suchożebry</li><li>Mokobody</li><li>Skórzec</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Siedlce, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy montujecie panele w Siedlcach oraz Zbuczynie?",
+          "a": "Tak. Obsługujemy Siedlce i okoliczne miejscowości, a dojazd ekipy planujemy zwykle w 3 dni robocze."
+        },
+        {
+          "q": "Ile trwa dostawa ogrodzenia do Siedlec?",
+          "a": "Dostawa materiału do Siedlec trwa zwykle 4 dni robocze. Transport jest w cenie zamówienia."
+        },
+        {
+          "q": "Jak długo czeka się na pomiar w Siedlcach?",
+          "a": "Termin pomiaru podajemy w {czas_pomiaru}. W czasie wizyty ustalamy też lokalizację słupków bramowych."
+        },
+        {
+          "q": "Czy montaż zimą w Siedlcach jest możliwy?",
+          "a": "Tak, jeśli warunki pozwalają prawidłowo osadzić słupki. W razie mrozu wybieramy termin, który nie obniży trwałości montażu."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Siedlce",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-siedlce-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Siedlce",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Siedlce, panele 3D 173 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 173 cm w Siedlcach, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Zbuczyn, panele 3D z bramą skrzydłową 4 m, RAL 7024",
+          "alt": "Ogrodzenie panelowe z bramą skrzydłową w Zbuczynie, RAL 7024",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

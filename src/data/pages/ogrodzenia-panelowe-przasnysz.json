@@ -1,0 +1,134 @@
+{
+  "slug": "ogrodzenia-panelowe-przasnysz",
+  "kind": "local",
+  "city": "Przasnysz",
+  "title": "Ogrodzenia panelowe Przasnysz | montaż i cena od {panel_2d_mb}/mb | Eurofance",
+  "metaDescription": "Ogrodzenia panelowe Przasnysz z montażem. Cena od {panel_2d_mb} za mb, pomiar w {czas_pomiaru}, dostawa zwykle 2 dni robocze. Bezpłatny pomiar i montaż w.",
+  "h1": "Ogrodzenia panelowe Przasnysz",
+  "answer": "Montujemy ogrodzenia panelowe w Przasnyszu, na osiedlach domów jednorodzinnych i na działkach w okolicy. Cena paneli 2D startuje od {panel_2d_mb} za mb, a termin pomiaru wynosi {czas_pomiaru}.",
+  "category": "panelowe",
+  "heroImage": "/images/premium/panelowe.jpg",
+  "heroCta": "Wycena w Przasnysz",
+  "variantKey": null,
+  "crumbs": [
+    {
+      "name": "Ogrodzenia",
+      "url": "/oferta"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "keyfacts",
+      "title": "Najważniejsze informacje dla Przasnysz",
+      "items": [
+        "<strong>Dostawa do Przasnysz:</strong> zwykle 2 dni robocze.",
+        "<strong>Dojazd ekipy:</strong> zwykle 1 dzień roboczy.",
+        "<strong>Transport:</strong> w cenie zamówienia.",
+        "<strong>Okolica:</strong> Chorzele, Czernice Borowe, Krasne, Krzynowłoga Mała, Jednorożec, Baranowo.",
+        "<strong>Pomiar:</strong> termin w {czas_pomiaru}."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Realizacje w Przasnysz i okolicach",
+      "html": "<p>Na inwestycjach w Przasnyszu możemy najpierw wyznaczyć linię ogrodzenia, a następnie przywieźć przygotowany komplet paneli i słupków.</p><ul><li>Przasnysz, Zawodzie: panele 3D 153 cm, 39 mb, antracyt RAL 7016, podmurówka 250 x 25 cm.</li><li>Przasnysz, centrum: panele 2D 153 cm, 52 mb, zielony RAL 6005, furtka 100 cm.</li><li>Chorzele: panele 3D 173 cm, 66 mb, czarny RAL 9005, brama przesuwna 4 m.</li></ul>"
+    },
+    {
+      "type": "table",
+      "eyebrow": "Porównanie",
+      "title": "Koszt i czas dostawy do Przasnysz",
+      "head": [
+        "Miasto",
+        "Odległość od produkcji",
+        "Czas dostawy",
+        "Koszt transportu"
+      ],
+      "rows": [
+        [
+          "Przasnysz",
+          "28 km",
+          "2 dni robocze",
+          "w cenie zamówienia"
+        ]
+      ],
+      "note": "Termin dostawy potwierdzamy przy zamówieniu, po uzgodnieniu zakresu montażu."
+    },
+    {
+      "type": "text",
+      "title": "Okolice, w których montujemy",
+      "html": "<p>Oprócz Przasnysz montujemy ogrodzenia na działkach w miejscowościach wokół miasta.</p><ul><li>Chorzele</li><li>Czernice Borowe</li><li>Krasne</li><li>Krzynowłoga Mała</li><li>Jednorożec</li><li>Baranowo</li></ul><p>Sprawdź także pełną ofertę <a href=\"/ogrodzenia-panelowe\">ogrodzenia panelowe</a>, aby dobrać wysokość paneli, podmurówkę i bramę.</p>"
+    },
+    {
+      "type": "faq",
+      "title": "Ogrodzenia panelowe Przasnysz, pytania i odpowiedzi",
+      "items": [
+        {
+          "q": "Czy ekipa montuje ogrodzenia panelowe w Przasnyszu?",
+          "a": "Tak. Przasnysz obsługuje ekipa dojeżdżająca zwykle w 1 dzień roboczy po ustaleniu zakresu prac."
+        },
+        {
+          "q": "Kiedy odbędzie się pomiar w Przasnyszu?",
+          "a": "Pomiar proponujemy w {czas_pomiaru}. Na miejscu sprawdzamy długość, narożniki, spadki i miejsce wjazdu."
+        },
+        {
+          "q": "Ile czeka się na dostawę do Przasnysza?",
+          "a": "Dostawa materiału trwa zwykle 2 dni robocze i jest w cenie zamówienia."
+        },
+        {
+          "q": "Czy zimą można zmontować panele w Przasnyszu?",
+          "a": "Można, jeśli podłoże nie jest zmarznięte i warunki pozwalają osadzić słupki stabilnie. Termin potwierdzamy przed wyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Pytania i odpowiedzi"
+    },
+    {
+      "type": "links",
+      "title": "Poradniki",
+      "items": [
+        {
+          "label": "Montaż ogrodzenia panelowego krok po kroku",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Wytyczenie linii, betonowanie słupków i montaż przęseł."
+        },
+        {
+          "label": "Jak przygotować działkę do montażu paneli",
+          "url": "/blog/montaz-ogrodzenia-panelowego-przewodnik-krok-po-kroku/",
+          "desc": "Najważniejsze informacje przed pomiarem i przyjazdem ekipy."
+        }
+      ],
+      "eyebrow": "Zobacz także"
+    },
+    {
+      "type": "form",
+      "eyebrow": "Wycena",
+      "mode": "standard",
+      "variant": "full",
+      "title": "Wycena ogrodzenia panelowego w Przasnysz",
+      "category": "panelowe",
+      "place": "ogrodzenia-panelowe-przasnysz-wycena"
+    },
+    {
+      "type": "gallery",
+      "title": "Galeria realizacji, Przasnysz",
+      "items": [
+        {
+          "image": "/images/premium/realizacja-2.jpg",
+          "caption": "Przasnysz, panele 3D 153 cm, RAL 7016",
+          "alt": "Ogrodzenie panelowe 3D 153 cm w Przasnyszu, RAL 7016",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/premium/realizacja-3.jpg",
+          "caption": "Chorzele, panele 3D 173 cm z bramą, RAL 9005",
+          "alt": "Ogrodzenie panelowe z bramą w Chorzelach, RAL 9005",
+          "tags": [
+            "panelowe"
+          ]
+        }
+      ],
+      "eyebrow": "Realizacje"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "slug": "",
+  "kind": "home",
+  "title": "Ogrodzenia i bramy od producenta | panelowe, palisadowe, frontowe | Eurofance",
+  "metaDescription": "Producent ogrodzeń panelowych, palisadowych i bram wjazdowych. Własna produkcja i malarnia proszkowa, montaż w całej Polsce. Ceny od {panel_2d_mb} za mb z.",
+  "h1": "Ogrodzenia i bramy od producenta",
+  "answer": "Eurofance produkuje ogrodzenia panelowe 2D i 3D, palisadowe, bramy wjazdowe przesuwne i skrzydłowe, furtki oraz podmurówki betonowe. Mamy własną malarnię proszkową i {ekipy} ekip montażowych w całej Polsce. Ogrodzenie panelowe kosztuje od {panel_2d_mb} za mb z montażem, gwarancja {gwarancja}.",
+  "heroImage": "/images/frontowe/hero-glowna.jpg",
+  "heroCta": "Zobacz ofertę i ceny",
+  "variantKey": "panelowe",
+  "blocks": [
+    {
+      "type": "photoCards",
+      "eyebrow": "Oferta",
+      "title": "Nasze systemy ogrodzeń i bram",
+      "intro": "Produkujemy i montujemy cztery główne grupy: ogrodzenia panelowe, palisadowe, bramy wjazdowe oraz ogrodzenia przemysłowe. Każdy element powstaje i jest malowany proszkowo w naszej hali.",
+      "ctaText": "Zobacz pełną ofertę",
+      "ctaUrl": "/oferta",
+      "columns": 4,
+      "items": [
+        {
+          "label": "Ogrodzenia panelowe",
+          "desc": "Panele 2D i 3D, wysokości 123 do 203 cm, drut 4 i 5 mm.",
+          "image": "/images/premium/panelowe.jpg",
+          "url": "/ogrodzenia-panelowe",
+          "alt": "Ogrodzenie panelowe 3D w antracycie przy nowoczesnym domu",
+          "meta": "Ceny od {panel_2d_mb} za mb"
+        },
+        {
+          "label": "Ogrodzenia palisadowe",
+          "desc": "Palisada pionowa i pozioma, gęste profile, wysoki poziom prywatności.",
+          "image": "/images/premium/palisadowe.jpg",
+          "url": "/ogrodzenia-palisadowe",
+          "alt": "Ogrodzenie palisadowe pionowe RAL 7016 przed nowoczesnym domem",
+          "meta": "Ceny od {palisada_pion_mb} za mb"
+        },
+        {
+          "label": "Bramy wjazdowe",
+          "desc": "Przesuwne i skrzydłowe, przygotowane pod napęd 24 V.",
+          "image": "/images/premium/bramy.jpg",
+          "url": "/bramy-wjazdowe",
+          "alt": "Nowoczesna brama przesuwna z napędem w antracycie",
+          "meta": "Ceny od {brama_przesuwna_4m} z montażem"
+        },
+        {
+          "label": "Ogrodzenia przemysłowe",
+          "desc": "Panele 8/6/8 i bramy od 6 do 12 m dla firm i hal.",
+          "image": "/images/premium/przemyslowe.jpg",
+          "url": "/bramy-i-ogrodzenia-przemyslowe",
+          "alt": "Ogrodzenie przemysłowe z paneli 2D wokół hali produkcyjnej",
+          "meta": "Wycena dla firm w 24 h"
+        }
+      ]
+    },
+    {
+      "type": "tiles",
+      "title": "Bramy, furtki, automatyka i podmurówki",
+      "intro": "Bramy przygotowujemy pod napęd już na etapie produkcji, żeby nie dopłacać za przeróbki po montażu.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Bramy wjazdowe",
+          "url": "/bramy-wjazdowe",
+          "meta": "Przesuwne i skrzydłowe, od {brama_skrzydlowa_4m}",
+          "icon": "brama-wjazdowa"
+        },
+        {
+          "name": "Bramy przesuwne",
+          "url": "/bramy-wjazdowe-przesuwne",
+          "meta": "3,5 do 6 m, od {brama_przesuwna_4m} z montażem",
+          "icon": "brama-przesuwna"
+        },
+        {
+          "name": "Bramy skrzydłowe",
+          "url": "/bramy-wjazdowe-skrzydlowe",
+          "meta": "Jedno i dwuskrzydłowe, od {brama_jednoskrzydlowa_3m}",
+          "icon": "brama-skrzydlowa"
+        },
+        {
+          "name": "Furtki ogrodzeniowe",
+          "url": "/furtki-panelowe",
+          "meta": "100, 110 i 120 cm, od {furtka_panelowa} z montażem",
+          "icon": "furtka"
+        },
+        {
+          "name": "Automatyka do bram",
+          "url": "/automatyka-do-bram",
+          "meta": "Napędy 24 V z montażem, od {naped_przesuwna}",
+          "icon": "automatyka"
+        },
+        {
+          "name": "Podmurówki betonowe",
+          "url": "/podmurowki-betonowe",
+          "meta": "250x20, 250x25, 250x30, od {podmurowka_250x20} za mb",
+          "icon": "podmurowka"
+        }
+      ],
+      "eyebrow": "Bramy, furtki i akcesoria"
+    },
+    {
+      "type": "priceTable",
+      "title": "Ile kosztuje ogrodzenie",
+      "intro": "Ceny orientacyjne „od” za metr bieżący z materiałem i montażem. Ostateczna cena zależy od długości, gruntu i zakresu prac.",
+      "head": [
+        "System ogrodzenia",
+        "Cena od, za mb z montażem",
+        "Wysokości"
+      ],
+      "rows": [
+        [
+          "Ogrodzenie panelowe 2D",
+          "od {panel_2d_mb}",
+          "123, 153, 173 cm"
+        ],
+        [
+          "Ogrodzenie panelowe 3D",
+          "od {panel_3d_mb}",
+          "123, 153, 173, 203 cm"
+        ],
+        [
+          "Ogrodzenie palisadowe pionowe",
+          "od {palisada_pion_mb}",
+          "123, 153, 173 cm"
+        ],
+        [
+          "Ogrodzenie palisadowe poziome",
+          "od {palisada_poz_mb}",
+          "153, 173 cm"
+        ],
+        [
+          "Ogrodzenie grzebieniowe",
+          "od {grzebien_mb}",
+          "153, 173 cm"
+        ],
+        [
+          "Ogrodzenie żaluzjowe",
+          "od {zaluzja_mb}",
+          "153, 173 cm"
+        ],
+        [
+          "Podmurówka betonowa 250x25",
+          "od {podmurowka_250x25}",
+          "25 cm wysokości"
+        ],
+        [
+          "Brama przesuwna 4 m",
+          "od {brama_przesuwna_4m}",
+          "153 cm, pod napęd"
+        ],
+        [
+          "Brama dwuskrzydłowa 4 m",
+          "od {brama_skrzydlowa_4m}",
+          "153 cm, pod napęd"
+        ],
+        [
+          "Furtka panelowa 1 m",
+          "od {furtka_panelowa}",
+          "153 cm, zamek w zestawie"
+        ]
+      ],
+      "note": "Przykładowe wyceny z montażem: działka 20 mb z bramą i furtką od {dzialka_20m}, 50 mb od {dzialka_50m}, 100 mb od {dzialka_100m}.",
+      "ctaText": "Policzymy dokładnie dla Twojej działki",
+      "ctaDesc": "Podaj długość i miejscowość, wycenę z montażem wyślemy w {czas_odpowiedzi} w dni robocze.",
+      "eyebrow": "Cennik 2026"
+    },
+    {
+      "type": "tiles",
+      "title": "Ogrodzenia",
+      "intro": "Ceny „od” za metr bieżący z materiałem i montażem. Każdy system produkujemy i malujemy u siebie.",
+      "columns": 3,
+      "items": [
+        {
+          "name": "Ogrodzenia panelowe",
+          "url": "/ogrodzenia-panelowe",
+          "meta": "2D i 3D, od {panel_2d_mb} za mb z montażem"
+        },
+        {
+          "name": "Ogrodzenia frontowe",
+          "url": "/ogrodzenia-frontowe",
+          "meta": "Zestawy z bramą i furtką, od {front_zestaw_3d}"
+        },
+        {
+          "name": "Ogrodzenia palisadowe",
+          "url": "/ogrodzenia-palisadowe",
+          "meta": "Pionowe i poziome, od {palisada_pion_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia grzebieniowe",
+          "url": "/ogrodzenia-grzebieniowe",
+          "meta": "Profil na sztorc, od {grzebien_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia żaluzjowe",
+          "url": "/ogrodzenia-zaluzjowe",
+          "meta": "Profile pod kątem, od {zaluzja_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia nowoczesne",
+          "url": "/ogrodzenia-nowoczesne",
+          "meta": "Wzory i galeria, od {panel_2d_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia metalowe",
+          "url": "/ogrodzenia-metalowe",
+          "meta": "Stal ocynkowana malowana proszkowo"
+        },
+        {
+          "name": "Ogrodzenia aluminiowe",
+          "url": "/ogrodzenia-aluminiowe",
+          "meta": "Bez rdzy i konserwacji, od {aluminium_mb} za mb",
+          "icon": "ogrodzenie-panelowe"
+        },
+        {
+          "name": "Ogrodzenia budowlane",
+          "url": "/ogrodzenia-budowlane",
+          "meta": "Tymczasowe i docelowe, od {ogrodzenie_budowlane_mb} za mb"
+        },
+        {
+          "name": "Ogrodzenia przemysłowe",
+          "url": "/bramy-i-ogrodzenia-przemyslowe",
+          "meta": "Panele 8/6/8, bramy 6 do 12 m"
+        }
+      ],
+      "eyebrow": "Wszystkie systemy"
+    },
+    {
+      "type": "calculator",
+      "title": "Kalkulator ogrodzenia",
+      "desc": "Wybierz system, długość i dodatki. Przedział cenowy zobaczysz od razu, bez podawania danych kontaktowych.",
+      "eyebrow": "Kalkulator"
+    },
+    {
+      "type": "band",
+      "image": "/images/premium/band-front.jpg",
+      "eyebrow": "Własna produkcja i malarnia",
+      "title": "Robimy to sami, od stalowej rury do gotowego ogrodzenia",
+      "html": "<p>Nie jesteśmy pośrednikiem. Cięcie, spawanie, cynkowanie i malowanie proszkowe wykonujemy w naszej hali {miasto_produkcji_w}, dlatego kolor dobieramy z pełnej palety RAL, a termin produkcji zamyka się w {czas_produkcji}.</p><ul class=\"list-check\"><li>Własna malarnia proszkowa i piaskowanie elementów stalowych.</li><li>{ekipy} ekip montażowych, bez podwykonawców.</li><li>Gwarancja {gwarancja} na konstrukcję i powłokę.</li></ul>",
+      "ctaText": "Zobacz malarnię i realizacje",
+      "ctaUrl": "/malarnia-proszkowa"
+    },
+    {
+      "type": "stats",
+      "sectionClass": "section--dark",
+      "eyebrow": "Eurofance w liczbach",
+      "title": "Producent, który montuje własnymi ekipami",
+      "items": [
+        {
+          "value": "{lata}",
+          "label": "lat na rynku ogrodzeń"
+        },
+        {
+          "value": "{realizacje}",
+          "label": "zrealizowanych ogrodzeń"
+        },
+        {
+          "value": "{ekipy}",
+          "label": "własnych ekip montażowych"
+        },
+        {
+          "value": "{km_rocznie} km",
+          "label": "ogrodzeń montowanych rocznie"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Dlaczego producent, a nie pośrednik",
+      "html": "<ul class=\"list-check\"><li><strong>Własna produkcja {miasto_produkcji_w}.</strong> Panele, przęsła, bramy i furtki powstają u nas, więc nie ma marży pośrednika ani czekania na dostawę z importu.</li><li><strong>Własna malarnia proszkowa.</strong> Malujemy na dowolny kolor RAL. Nie musisz wybierać z trzech gotowych kolorów.</li><li><strong>{ekipy} ekip montażowych.</strong> Montujemy w całej Polsce, bez podwykonawców przypadkowych firm.</li><li><strong>Gwarancja {gwarancja}.</strong> Jedna wartość na całą konstrukcję, nie osobno na powłokę i osobno na stal.</li><li><strong>{realizacje} realizacji i {lata} lat na rynku.</strong> Rocznie montujemy około {km_rocznie} km ogrodzeń.</li><li><strong>Pomiar bezpłatny w {czas_pomiaru}.</strong> Wycena bez zobowiązań, z konkretnym terminem montażu.</li></ul>",
+      "eyebrow": "Dlaczego producent"
+    },
+    {
+      "type": "steps",
+      "title": "Jak wygląda zamówienie",
+      "items": [
+        {
+          "name": "Wycena",
+          "desc": "Podaj długość, wysokość, miejscowość i rodzaj bramy. Wycenę z montażem wysyłamy w {czas_odpowiedzi} w dni robocze.",
+          "time": "{czas_odpowiedzi} od zgłoszenia"
+        },
+        {
+          "name": "Bezpłatny pomiar",
+          "desc": "Przyjeżdżamy na działkę, mierzymy linię ogrodzenia, sprawdzamy grunt i ustalamy szczegóły montażu.",
+          "time": "umawiamy w {czas_pomiaru}"
+        },
+        {
+          "name": "Produkcja",
+          "desc": "Produkujemy elementy i malujemy je proszkowo w wybranym kolorze RAL.",
+          "time": "{czas_produkcji}"
+        },
+        {
+          "name": "Montaż i odbiór",
+          "desc": "Ekipa montuje ogrodzenie, bramę i furtkę, podłącza napęd i sprząta teren. Odbiór z Tobą na miejscu.",
+          "time": "{czas_montazu}"
+        }
+      ],
+      "eyebrow": "Jak zamawiamy"
+    },
+    {
+      "type": "gallery",
+      "title": "Realizacje z ostatnich miesięcy",
+      "intro": "Zdjęcia z naszych realizacji: system, kolor i szczegóły montażu. Pełna galeria jest na stronie realizacji.",
+      "items": [
+        {
+          "image": "/images/realizacje/foto-04.jpg",
+          "caption": "Ogrodzenie grzebieniowe z kamiennym słupkiem i żywopłotem",
+          "alt": "Ogrodzenie grzebieniowe z kamiennym słupkiem i żywopłotem od strony drogi",
+          "tags": [
+            "panelowe",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-02.jpg",
+          "caption": "Brama przesuwna z furtką i przęsłami, podjazd z kostki",
+          "alt": "Brama przesuwna z furtką i przęsłami przy podjeździe z kostki brukowej",
+          "tags": [
+            "bramy-przesuwne",
+            "furtki",
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-05.jpg",
+          "caption": "Długie ogrodzenie grzebieniowe od strony drogi",
+          "alt": "Długie ogrodzenie grzebieniowe biegnące wzdłuż drogi",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/realizacje/foto-07.jpg",
+          "caption": "Ciemne przęsła żaluzjowe wzdłuż elewacji domu",
+          "alt": "Ciemne przęsła żaluzjowe wzdłuż elewacji domu jednorodzinnego",
+          "tags": [
+            "panelowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-18.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-25.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-30.jpg",
+          "caption": "Ogrodzenie frontowe: słupki z kamienia łupanego, przęsła żaluzjowe w antracycie",
+          "alt": "Ogrodzenie frontowe ze słupkami z kamienia łupanego i przęsłami żaluzjowymi w antracycie",
+          "tags": [
+            "frontowe"
+          ]
+        },
+        {
+          "image": "/images/frontowe/frontowe-32.jpg",
+          "caption": "Ogrodzenie frontowe grzebieniowe: kamienne słupki i poziome profile",
+          "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i poziomymi profilami",
+          "tags": [
+            "frontowe"
+          ]
+        }
+      ],
+      "showQuote": true,
+      "eyebrow": "Realizacje"
+    },
+    {
+      "type": "video",
+      "eyebrow": "Wideo z realizacji",
+      "title": "Zobacz gotowy front w ruchu",
+      "name": "Ogrodzenie frontowe grzebieniowe z bramą wjazdową",
+      "poster": "/media/wideo/ogrodzenie-frontowe-grzebieniowe.jpg",
+      "alt": "Ogrodzenie frontowe grzebieniowe z kamiennymi słupkami i bramą wjazdową",
+      "url": "/media/wideo/ogrodzenie-frontowe-grzebieniowe.mp4",
+      "description": "Front z przęsłami grzebieniowymi: profil ustawiony na sztorc tworzy gęste, poziome linie, dzięki czemu od strony drogi ogrodzenie wygląda jak jedna, spokojna płaszczyzna. Słupki obłożone kamieniem naturalnym, a brama przesuwna w antracycie RAL 7016 zamyka wjazd bez widocznych prowadnic na podjeździe. Całość jest nowoczesna i mocno zasłania podwórze, a przy tym nie przytłacza bryły domu.",
+      "bullets": []
+    },
+    {
+      "type": "reels",
+      "eyebrow": "Rolki",
+      "title": "Zobacz nas w krótkich materiałach",
+      "intro": "Krótkie rolki z budowy i z naszej codziennej pracy. Kliknij, żeby obejrzeć z dźwiękiem na stronie materiału.",
+      "ctaText": "Chcę wycenę takiego ogrodzenia",
+      "items": [
+        {
+          "name": "Arkadiusz Wrzosek, inspektor ds. ogrodzeń, o realizacji na budowie",
+          "description": "Nasz inspektor ds. ogrodzeń pokazuje na budowie, jak wygląda realizacja ogrodzenia i na co zwracamy uwagę przy montażu.",
+          "poster": "/media/rolki/inspektor-ogrodzen-o-realizacji.jpg",
+          "url": "/wideo/inspektor-ogrodzen-o-realizacji",
+          "video": "/media/rolki/inspektor-ogrodzen-o-realizacji.mp4"
+        },
+        {
+          "name": "Cena i jakość ogrodzeń: o czym warto pamiętać",
+          "description": "Krótko o tym, jak wygląda nasza oferta i co składa się na jakość ogrodzenia poza samą ceną.",
+          "poster": "/media/rolki/cena-i-jakosc-ogrodzen.jpg",
+          "url": "/wideo/cena-i-jakosc-ogrodzen",
+          "video": "/media/rolki/cena-i-jakosc-ogrodzen.mp4"
+        },
+        {
+          "name": "Kompleksowa realizacja ogrodzeń w Eurofance",
+          "description": "Ogrodzenia, bramy, furtki i montaż w jednym miejscu, z własnej produkcji i własną malarnią proszkową.",
+          "poster": "/media/rolki/kompleksowa-realizacja-ogrodzen.jpg",
+          "url": "/wideo/kompleksowa-realizacja-ogrodzen",
+          "video": "/media/rolki/kompleksowa-realizacja-ogrodzen.mp4"
+        },
+        {
+          "name": "Szybka wycena i dostępne terminy montażu",
+          "description": "Jak szybko dostajesz wycenę z montażem i na kiedy możemy zaplanować realizację.",
+          "poster": "/media/rolki/szybka-wycena-i-terminy.jpg",
+          "url": "/wideo/szybka-wycena-i-terminy",
+          "video": "/media/rolki/szybka-wycena-i-terminy.mp4"
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "title": "Opinie klientów",
+      "eyebrow": "Opinie"
+    },
+    {
+      "type": "links",
+      "title": "Gdzie montujemy",
+      "intro": "Mamy stałe trasy montażowe w województwach mazowieckim, podlaskim, kujawsko-pomorskim, warmińsko-mazurskim i łódzkim. Strony lokalne pokazują realizacje z danego miasta.",
+      "columns": 2,
+      "items": [
+        {
+          "label": "Ogrodzenia panelowe Warszawa",
+          "url": "/ogrodzenia-panelowe-warszawa",
+          "desc": "Montaż w Warszawie i okolicach, dostawa w 3 dni"
+        },
+        {
+          "label": "Ogrodzenia panelowe Ciechanów",
+          "url": "/ogrodzenia-panelowe-ciechanow",
+          "desc": "Nasz rejon, dojazd ekipy w 1 dzień"
+        },
+        {
+          "label": "Ogrodzenia panelowe Przasnysz",
+          "url": "/ogrodzenia-panelowe-przasnysz",
+          "desc": "Montaż w Przasnyszu i powiecie przasnyskim"
+        },
+        {
+          "label": "Ogrodzenia panelowe Legionowo",
+          "url": "/ogrodzenia-panelowe-legionowo",
+          "desc": "Legionowo, Jabłonna, Nieporęt, Serock"
+        },
+        {
+          "label": "Ogrodzenia panelowe Płock",
+          "url": "/ogrodzenia-panelowe-plock",
+          "desc": "Płock i powiat płocki, dostawa w 2 dni"
+        },
+        {
+          "label": "Ogrodzenia panelowe Siedlce",
+          "url": "/ogrodzenia-panelowe-siedlce",
+          "desc": "Siedlce, Mińsk Mazowiecki, Sokołów Podlaski"
+        },
+        {
+          "label": "Ogrodzenia panelowe Białystok",
+          "url": "/ogrodzenia-panelowe-bialystok",
+          "desc": "Białystok i okolice, montaż w 3 dni"
+        },
+        {
+          "label": "Ogrodzenia panelowe Włocławek",
+          "url": "/ogrodzenia-panelowe-wloclawek",
+          "desc": "Włocławek, Lipno, Aleksandrów Kujawski"
+        }
+      ],
+      "eyebrow": "Zasięg montażu"
+    },
+    {
+      "type": "faq",
+      "title": "Najczęstsze pytania",
+      "items": [
+        {
+          "q": "Ile kosztuje ogrodzenie panelowe?",
+          "a": "Ogrodzenie panelowe 2D kosztuje od {panel_2d_mb} za mb, a 3D od {panel_3d_mb} za mb, z materiałem i montażem. Działka 20 mb z bramą i furtką to wydatek od {dzialka_20m}."
+        },
+        {
+          "q": "Jak długo czeka się na ogrodzenie?",
+          "a": "Produkcja trwa {czas_produkcji}, a sam montaż {czas_montazu}. Termin liczymy od zatwierdzenia wyceny i pomiaru, zwykle zamykamy się w dwóch do trzech tygodni."
+        },
+        {
+          "q": "Jaka jest gwarancja na ogrodzenie?",
+          "a": "Gwarancja wynosi {gwarancja} na konstrukcję i powłokę. Malujemy proszkowo we własnej malarni, co pozwala nam dawać jedną wartość gwarancji na cały wyrób."
+        },
+        {
+          "q": "Czy montujecie w całej Polsce?",
+          "a": "Tak, mamy {ekipy} ekip montażowych i montujemy w całej Polsce. Najszybciej realizujemy województwa mazowieckie, podlaskie, kujawsko-pomorskie, warmińsko-mazurskie i łódzkie."
+        },
+        {
+          "q": "Ile kosztuje dostawa i czy jest bezpłatna?",
+          "a": "Transport liczymy według odległości od produkcji {miasto_produkcji_w}. Przy zamówieniu ogrodzenia z montażem transport jest w cenie na terenie naszych stałych tras."
+        },
+        {
+          "q": "Czy ogrodzenie wymaga zgłoszenia?",
+          "a": "Ogrodzenie do 2,20 m wysokości nie wymaga pozwolenia ani zgłoszenia. Wyższe ogrodzenie oraz ogrodzenie od strony drogi mogą wymagać uzgodnień, dlatego przed montażem sprawdzamy plan miejscowy."
+        }
+      ],
+      "eyebrow": "Pytania"
+    }
+  ],
+  "heroEyebrow": "Producent ogrodzeń, Maków Mazowiecki"
+}
